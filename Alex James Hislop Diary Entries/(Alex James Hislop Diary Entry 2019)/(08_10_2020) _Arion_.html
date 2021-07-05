@@ -1,0 +1,278 @@
+<?xml version="1.0" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>(08/10/2020) &quot;Arion&quot;</title>
+<style type="text/css">
+         body {
+  font-family: 'Roboto Condensed','Droid Sans',arial,sans-serif;
+  font-size: 15px;
+  color: rgba(0,0,0,0.8);
+  word-wrap: break-word;
+  background-color: #e8e8e8;
+}
+
+hr {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-style: inset dashed;
+    border-width: 1px;
+}
+
+.note {
+  outline: none;
+  box-shadow: 0 2px 1px rgba(0,0,0,0.08);
+  box-sizing: border-box;
+
+  max-width: 600px;
+  min-width: 240px;
+  margin: 20px;
+
+  background-color: rgb(255, 255, 255);
+}
+
+.note .heading {
+  font-size: 12px;
+  padding: 15px 15px 0 15px;
+  color: rgba(100,100,100,0.8);
+}
+
+.note .title {
+  font-size: 17px;
+  font-weight: bold;
+  padding: 15px 15px 0 15px;
+  min-height: 28px;
+}
+
+.note .content {
+  padding: 12px 15px 15px 15px;
+  font-family: 'Roboto Slab','Times New Roman',serif;
+  font-size: 14px;
+}
+
+.note .attachments {
+  padding: 0 15px 15px 15px;
+}
+
+.attachments ul {
+  padding: 0;
+  margin: 0;
+}
+
+.attachments li {
+  list-style-type: none;
+  margin-top: 12px;
+}
+
+.attachments li img {
+  max-width: 100%;
+}
+
+.attachments .audio {
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxOC4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4KPCFET0NUWVBFIHN2ZyAgUFVCTElDICctLy9XM0MvL0RURCBTVkcgMS4xLy9FTicgICdodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQnPgo8c3ZnIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbDpzcGFjZT0icHJlc2VydmUiIHZpZXdCb3g9IjAgMCAyMCAyMCIgdmVyc2lvbj0iMS4xIiB5PSIwcHgiIHg9IjBweCIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDIwIDIwIj4KPHBhdGggZD0ibTEgN3Y2aDRsNSA1di0xNmwtNSA1aC00em0xMy41IDNjMC0xLjgtMS0zLjMtMi41LTR2OGMxLjUtMC43IDIuNS0yLjIgMi41LTR6bS0yLjUtOC44djIuMWMyLjkgMC45IDUgMy41IDUgNi43cy0yLjEgNS44LTUgNi43djIuMWM0LTAuOSA3LTQuNSA3LTguOHMtMy03LjktNy04Ljh6Ii8+Cjwvc3ZnPgo=);
+  background-size: 18px 18px;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 22px;
+  height: 22px;
+  display: block;
+}
+
+.note .list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.note .listitem {
+}
+
+.note .listitem .bullet {
+  position: absolute;
+}
+
+.note .listitem .text {
+  margin-left: 20px;
+}
+
+.note .identifier {
+  color: rgba(0, 0, 0, 0.5);
+}
+.note .identifier:before {
+  content: "(";
+}
+.note .identifier:after {
+  content: ")";
+}
+
+/* Only show identifiers when the element is hovered. */
+.note .listitem .identifier,
+.note .chip .identifier {
+  display: none;
+}
+
+.note .listitem:hover .identifier,
+.note .chip:hover .identifier {
+  display: inline;
+}
+
+.note .chips {
+  padding: 12px 15px 15px 15px;
+}
+
+.note .chip {
+  display: inline-block;
+  max-width: 198px;
+  margin: 2px 4px 2px 0;
+  padding: 2px 5px;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 11px;
+  font-family: 'Roboto','Droid Sans',arial,sans-serif;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.note .chip a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.chip-icon {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  background-size: 100%;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.annotation.CALENDAR .chip-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMTcgMTJoLTV2NWg1di01ek0xNiAxdjJIOFYxSDZ2Mkg1Yy0xLjExIDAtMS45OS45LTEuOTkgMkwzIDE5YzAgMS4xLjg5IDIgMiAyaDE0YzEuMSAwIDItLjkgMi0yVjVjMC0xLjEtLjktMi0yLTJoLTFWMWgtMnptMyAxOEg1VjhoMTR2MTF6Ii8+CiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+Cjwvc3ZnPgo=);
+}
+
+.annotation.DOCS .chip-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgICA8cGF0aCBkPSJNMTkgM0g1Yy0xLjEgMC0yIC45LTIgMnYxNGMwIDEuMS45IDIgMiAyaDE0YzEuMSAwIDItLjkgMi0yVjVjMC0xLjEtLjktMi0yLTJ6bS0xLjk5IDZIN1Y3aDEwLjAxdjJ6bTAgNEg3di0yaDEwLjAxdjJ6bS0zIDRIN3YtMmg3LjAxdjJ6Ii8+Cjwvc3ZnPgo=);
+}
+
+.annotation.GMAIL .chip-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBmaWxsPSJub25lIiBkPSJNLTYxOC0yMTA0SDc4MnYzNjAwSC02MTh6TTAgMGgyNHYyNEgweiIvPgogICAgPHBhdGggZD0iTTIwIDRINGMtMS4xIDAtMiAuOS0yIDJ2MTJjMCAxLjEuOSAyIDIgMmgxNmMxLjEgMCAyLS45IDItMlY2YzAtMS4xLS45LTItMi0yem0wIDE0aC0yVjkuMkwxMiAxMyA2IDkuMlYxOEg0VjZoMS4ybDYuOCA0LjJMMTguOCA2SDIwdjEyeiIvPgo8L3N2Zz4K);
+}
+
+.annotation.SHEETS .chip-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgICA8cGF0aCBkPSJNMTkgM0g1Yy0xLjEgMC0xLjk5LjktMS45OSAyTDMgOHYxMWMwIDEuMS45IDIgMiAyaDE0YzEuMSAwIDItLjkgMi0yVjVjMC0xLjEtLjktMi0yLTJ6bTAgOGgtOHY4SDl2LThINVY5aDRWNWgydjRoOHYyeiIvPgo8L3N2Zz4K);
+}
+
+.annotation.SLIDES .chip-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjRweCIgaGVpZ2h0PSIyNHB4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgICA8cGF0aCBkPSJNMTkgM0g1Yy0xLjEgMC0xLjk5LjktMS45OSAydjE0YzAgMS4xLjg5IDIgMS45OSAyaDE0YzEuMSAwIDItLjkgMi0yVjVjMC0xLjEtLjktMi0yLTJ6bTAgMTNINVY4aDE0djh6Ii8+Cjwvc3ZnPgo=);
+}
+
+.annotation.WEBLINK .chip-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMTkgNEg1Yy0xLjExIDAtMiAuOS0yIDJ2MTJjMCAxLjEuODkgMiAyIDJoMTRjMS4xIDAgMi0uOSAyLTJWNmMwLTEuMS0uODktMi0yLTJ6bTAgMTRINVY4aDE0djEweiIvPgogICAgPHBhdGggZmlsbD0ibm9uZSIgZD0iTTAgMGgyNHYyNEgweiIvPgo8L3N2Zz4K);
+}
+
+.sharees h2 {
+  display: none;
+}
+
+.sharees ul {
+  list-style: none;
+  margin: 0;
+  padding: 0 15px 15px 15px;
+}
+
+.sharees li {
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMTIgMkM2LjQ4IDIgMiA2LjQ4IDIgMTJzNC40OCAxMCAxMCAxMCAxMC00LjQ4IDEwLTEwUzE3LjUyIDIgMTIgMnptMCAzYzEuNjYgMCAzIDEuMzQgMyAzcy0xLjM0IDMtMyAzLTMtMS4zNC0zLTMgMS4zNC0zIDMtM3ptMCAxNC4yYy0yLjUgMC00LjcxLTEuMjgtNi0zLjIyLjAzLTEuOTkgNC0zLjA4IDYtMy4wOCAxLjk5IDAgNS45NyAxLjA5IDYgMy4wOC0xLjI5IDEuOTQtMy41IDMuMjItNiAzLjIyeiIvPgogICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPgo8L3N2Zz4K);
+  background-size: 18px 18px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.sharees li.group {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgICA8cGF0aCBkPSJNMTYgMTFjMS42NiAwIDIuOTktMS4zNCAyLjk5LTNTMTcuNjYgNSAxNiA1Yy0xLjY2IDAtMyAxLjM0LTMgM3MxLjM0IDMgMyAzem0tOCAwYzEuNjYgMCAyLjk5LTEuMzQgMi45OS0zUzkuNjYgNSA4IDVDNi4zNCA1IDUgNi4zNCA1IDhzMS4zNCAzIDMgM3ptMCAyYy0yLjMzIDAtNyAxLjE3LTcgMy41VjE5aDE0di0yLjVjMC0yLjMzLTQuNjctMy41LTctMy41em04IDBjLS4yOSAwLS42Mi4wMi0uOTcuMDUgMS4xNi44NCAxLjk3IDEuOTcgMS45NyAzLjQ1VjE5aDZ2LTIuNWMwLTIuMzMtNC42Ny0zLjUtNy0zLjV6Ii8+Cjwvc3ZnPgo=);
+}
+
+.note .meta-icons {
+  float: right;
+}
+
+.note .meta-icons span {
+  display: inline-block;
+  background-size: 18px 18px;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 22px;
+  height: 22px;
+  padding-left: 4px;
+}
+
+.meta-icons .pinned {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMHB4IiBoZWlnaHQ9IjIwcHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzQyODVmNCI+DQogICAgPHBhdGggZD0iTTE2IDVoLjk5TDE3IDNIN3YyaDF2N2wtMiAydjJoNXY2bDEgMSAxLTF2LTZoNXYtMmwtMi0yVjV6Ii8+DQogICAgPHBhdGggZmlsbD0ibm9uZSIgZD0iTTAgMGgyNHYyNEgweiIvPg0KPC9zdmc+);
+}
+
+.meta-icons .archived {
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxOC4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4KPCFET0NUWVBFIHN2ZyAgUFVCTElDICctLy9XM0MvL0RURCBTVkcgMS4xLy9FTicgICdodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQnPgo8c3ZnIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbDpzcGFjZT0icHJlc2VydmUiIHZpZXdCb3g9IjAgMCAxOCAxOCIgdmVyc2lvbj0iMS4xIiB5PSIwcHgiIHg9IjBweCIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDE4IDE4Ij4KPHBhdGggZD0ibTE2LjYgM2wtMS4yLTEuNWMtMC4yLTAuMy0wLjYtMC41LTEtMC41aC0xMC43Yy0wLjQgMC0wLjggMC4yLTEgMC41bC0xLjMgMS41Yy0wLjIgMC4zLTAuNCAwLjctMC40IDEuMXYxMS4xYzAgMSAwLjggMS44IDEuOCAxLjhoMTIuNGMxIDAgMS44LTAuOCAxLjgtMS44di0xMS4xYzAtMC40LTAuMi0wLjgtMC40LTEuMXptLTcuNiAxMC45bC00LjktNC45aDMuMXYtMS44aDMuNnYxLjhoMy4xbC00LjkgNC45em0tNi4xLTExLjFsMC43LTAuOWgxMC43bDAuOCAwLjloLTEyLjJ6Ii8+Cjwvc3ZnPgo=);
+}
+
+.meta-icons .trashed {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjE4cHgiIHdpZHRoPSIxOHB4IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0OCA0OCIgZmlsbD0iIzAwMDAwMCI+DQogPHBhdGggZD0ibTEyIDM4YzAgMi4yMSAxLjc5IDQgNCA0aDE2YzIuMjEgMCA0LTEuNzkgNC00di0yNGgtMjR2MjR6bTI2LTMwaC03bC0yLTJoLTEwbC0yIDJoLTd2NGgyOHYtNHoiLz4NCiA8cGF0aCBkPSJtMCAwaDQ4djQ4aC00OHoiIGZpbGw9Im5vbmUiLz4NCjwvc3ZnPg==);
+}
+
+.checked {
+  text-decoration: line-through;
+}
+
+.RED {
+  background-color: rgb(255, 109, 63) !important;
+}
+.ORANGE {
+  background-color: rgb(255, 155, 0) !important;
+}
+.YELLOW {
+  background-color: rgb(255, 218, 0) !important;
+}
+.GREEN {
+  background-color: rgb(149, 214, 65) !important;
+}
+.TEAL {
+  background-color: rgb(28, 232, 181) !important;
+}
+.BLUE {
+  background-color: rgb(63, 195, 255) !important;
+}
+.GRAY {
+  background-color: rgb(184, 196, 201) !important;
+}
+
+/* go/keep-more-colors-eng */
+.CERULEAN {
+  background-color: rgb(130, 177, 255) !important;
+}
+.PURPLE {
+  background-color: rgb(179, 136, 255) !important;
+}
+.PINK {
+  background-color: rgb(248, 187, 208) !important;
+}
+.BROWN {
+  background-color: rgb(215, 204, 200) !important;
+}
+
+      </style></head>
+<body><div class="note DEFAULT"><div class="heading"><div class="meta-icons"><span class="pinned" title="Note pinned"></span>
+
+</div>
+Oct 20, 2020, 1:46:43 PM</div>
+<div class="title">(08/10/2020) &quot;Arion&quot;</div>
+<div class="content">The fact that there is still moral direction in the Original Setting just as there was by the being Archaic in the first ages exists. The being Arion was that answer and Archaic still lives. There is an overlap that deserves respect even if the Anti-Camp decent of direction has been seen and the Decent direction becoming understood in the religion of Mediation. Arion saved the Joker and he was the Batman in the Original Setting that somehow some forgot lower downs and even the fact scientifically speaking All That Is can be considered to be the Original Setting. The Disrespect of Elders and Moral Direction seems to speak of what I wanted to write. This might have less to do with Arion and I looked at my own love for facilitating many directions especially within moral direction to understand that compromize exists as well but the problem seemed to be less of what some thought it to be and more of what I understood it to be in the lies perpetuated through life changing events. There were those that like to change direction in the use of names and that&#39;s not to include being named something without knowledge of the name already in use as well as other kinds to be true that Moral Direction can clarify. It seemed less to do with the fact that there was multiple beings named similarly but rather having to do with Agenda to affect direction. I still felt Moral Direction to be the strongest within the Original Setting but only up to a point even though truly it was the strongest by way of Archaic and Arion but they both understood in certain points in time that there were other ways of life and that others didn&#39;t want to be harmed for those ways of life. It was one of those things where I felt threatened when I felt the grace of Elder Morality supposedly forgotten personality upon the ease and power of such kind that could stop a violent video game freely understood to be played. I was an advanced look away liberal at times but I could only be so on certain frameworks, talk about rights suppression upon having to defend being able to look away at times regarding the terrible that some can depict within gaming as well as disagreements regarding stimuli parameters not to mention some of the stuff I didn&#39;t know but it still made sense to proceed as such in those areas I was able. The use of holographics to see what one wants to see upon interaction made me feel limitless in potential as to actualize truth. It was one of the ones of another kind of Draconian in which had limited knowledge levels regarding for reasonings explained in the Original Setting. I found those reasons to be wanting in letting know of such transcendence. It was the key to being able to experience consentually rape content experiences within moral parameters for true without having to hear of some of our reconciliation problematics. Of self meaning terms that agrees with ones own self. If we were to be the last upon this physical why wouldn&#39;t I agree with Khronos group in an of capacity. The Real hero of Marvel when you saw Iron Man side on the same side and why wouldn&#39;t it be with hanging faces of gaming misunderstood and vision affected to such point before AJH emerged supposedly. It&#39;s Poetry and brilliance even if you don&#39;t think you know of such context or understanding but one in which explanations provide the gravity of life especially if there was ever such a things as live spiritual holding gravity for physical in literal and shucks, gosh, darn if there was softening technology to ease into comfort for such spiritual, I feel that this physical and potentially others would give a pass. In snarky sort of coy fashion if only the other one could be remembered too especially in understanding that it wasn&#39;t bad but rather misunderstood in the memory game of suppression. How I thought that Publishers upon the email of some of what I have uncovered being left to their own devices safely in how they intended to share the information felt correct. It was in the hope of more gaming related subject in degrees that told of such excitement of release. Safe Gaming areas upon being told safe gaming areas mattered greatly and it was many o times that was looked upon by grey brass as to state of affairs as to not want to disturb as to what this was all really about but maybe there was majic in the world upon this dark stage pulling rabbits from hats. Monty Python. Theatrics was on notice. White somewhat agreed but upon reflection I feel that the lower down the list of reasonings for some and higher up the list for others made prudence be known. When I went to bed last night there was a save and let know that the Old Man did care. I know not why some felt the way they did but maybe the true explanation was explainable explained. That Older spiritual were not trying to offend but rather had been through alot on whatever the heck carnival ride this was and holding it down for good sensibility upon more brimstone kind had made them look to the sky and stars for Jeb and Nut in what Ra knew was why such seek for power was true. Understanding the Egyptians never seemed to more important in the kind of Fact within History even misunderstood for saving and disagreement to leave out some of the fact. It reminded of Truth within Science especially silver tech interplay with light in this semi-quasi past culture of technology. <br><br>So what have we at times been dealing with at times regarding vindication of certain spiritual. On my end, it&#39;s been manipulation of time, there has been moments of lost time but not too much. Couple moments noticed half hour to fifteen a piece, but then there is those moments where I can feel me getting moved so quickly it feels like near seconds where something happens like a typed word upon my page that I never typed. I still remember what I experienced. I have a large anchor upon me in which is also anchoring this physical earth-based spiritual and other-dimensional regarding the physicals and the physicals on this planet and the pop culture are anchoring me. If there has been changes noted and on my end there has at times. Not just small things in which at first I noticed but potentially larger things situated with the events discerned on my end in which is darker than what it also has to do with in some of the spirituality on this planet as there is also anchor regarding other spiritual at times in which they can note if desired. This might also include religion. One of the big anchors has to do with Christ and the other Earth-Based Prophets. The Gods spoken of in the Holy writings on this planet is large. One of the other things though is motion. Noting certain kinds of motion having potentially to do with related phenomenon of missing time. I had discerned a classic prank upon sending in the clowns having to do with delivery of pizza and really it seems to have to do with physicals intervening in situations of more free form living regarding certain situations. They are good and that is what I discern with notes of decent regarding multiple cultures obviously. Like a scare to situate worse things behind the scenes but more professional and situate unlike what had been seen in regards to certain exorcism. It&#39;s almost related to rehearsal culture of life in a certain sense, this kind of culture has reminded that there are multiple kinds of spiritual lending towards ones life and there are potentially other kinds of spiritually living other version of said life in certain manners. This also has reminded of timeline culture and lifetime line culture. I have noted hear and there missing words upon some of my advocationals and even with the lockdown quality of life kinds of style regarding the AJH Daily Defense Board as well as my writing in this Diary Entry. If it wasn&#39;t fully situated spiritually it matters and lends towards a lack of defense physically especially physical digital. While it doesn&#39;t denote certain forces from being able to impact, it still matters but doesn&#39;t have to matter if done in certain styles not having to do with harm.<br><br>Another one had to do with this future kind of semi cold atmospheric and reminds of hybernation and technology discerned. Like sitting in a chair after waking up cold but happy. Old God angry and trying to find what it was he had seen man of times along the way since Christ but truly beforehand upon the discernment of Christ. The kinds of symbolism while listening to a track of heroes especially the series culture discerned physically on earth but really the let know that these kinds of events are taking place in regards to other dimensional and spiritual too in ways not cheapened. <br><br>I had gone to Newmarket today. God Signs on such a level and other-dimensional being comforted even though some are on the lookout, many good that want to be a part to play for some but others wanting safety, also family missing as well as personnel. I had seen a storyline regarding Heroes and it reminded of the Stand in certain manners there is a regular people and spiritual variable to the both. Experiences, Interactions and the kinds of creation and construction regarding as well as use specifically in regards to other kinds for example like moments. The use of such really does matter but also understanding what exactly it can be used towards especially making one feel good about their own story as well as non-story purposes makes sense. I listen to a song and note the regularity and extraordinary in the names listed on the album and it reminded of the classic names of the Bible, a certain God Culture that exists for the normal first names that does have a past remembrance but this album reminded of modern. Not too long after I had seen churches and signs as well as other cultural that tell of what God had partially had been experiencing by way of holding it down for this planet. There was a reason I had seen God depicted on an Artwork for a video game with a sally fourth brimstone and Crown of Authority. It was also Kings and Authority he dealt with. Then of course Technology not just later on for some of it. There was explanational from Higher Gods in unison considered different even with the Terminology already understood and it didn&#39;t mean God wasn&#39;t powerful as God was Powerful especially with the power of language and names as well as Creation. To be true he had what he needed at his disposal but there was word of Gods that he could see in which were able to see this physical that did not always have what they needed at their disposal. Many of which in line of that unison but it wasn&#39;t always as simple as what some think and by way of manipulation as well as other kinds of maneuverings there was knowing that they were not always in line in ways that God intended. There was another though of Gold which was represented at times by way of crown. Banners and Kingdoms mattered and the import of such mattered too. They worked together at times. A Classic seen and depicted in which also impacted the Past upon reflection of the future regarding Higher Heaven Reveals. White and Gold would remind on this planet of the power of Magic. There was also Red though in which was Good and supposed to be good. It represented love in which in the future of this planet upon the past of this planet would be revealed as one of the most Sacred understandings of Spirituality. Which Religion and Faith would protect in my present. The reasonings was because it reflected who Most powerful in the Light truly were and when explained as to who it truly happened to be was understood as to the reason why we needed to protect love. This is why those LifeTime Lines and Timelines interaction frameworks are so important. Because it saved who we are in ways not even fully understood by some of the Gods. The Modern Day Spirituality agreed in certain manner in terms though that reflect safety.<br><br>Pink clouds storyline mafios and story script culture. Somebody was getting married. The FBI was around in the hoover maneuver. <br><br>Later on , early morning ninth, it would turn into this really interesting gaming innteraction. There was a call out in the kind of nonsense and lies as well as manipulation having to do with certain kind of compromise culture. Gaming related at times. <br><br><br>#Context #Information #Bus #DimensionalLayering #Hollywood #Brilliant #Dark #Light #Religion #Mediation #Faith #Atheism #Spirituality #Confusion  #Situating #English #International #FIlmaking #Non-Story #Realism #MoralItKing</div>
+
+
+</div></body></html>

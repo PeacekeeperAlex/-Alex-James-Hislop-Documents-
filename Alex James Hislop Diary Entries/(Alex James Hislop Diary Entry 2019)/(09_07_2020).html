@@ -1,0 +1,278 @@
+<?xml version="1.0" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>(09/07/2020)</title>
+<style type="text/css">
+         body {
+  font-family: 'Roboto Condensed','Droid Sans',arial,sans-serif;
+  font-size: 15px;
+  color: rgba(0,0,0,0.8);
+  word-wrap: break-word;
+  background-color: #e8e8e8;
+}
+
+hr {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-style: inset dashed;
+    border-width: 1px;
+}
+
+.note {
+  outline: none;
+  box-shadow: 0 2px 1px rgba(0,0,0,0.08);
+  box-sizing: border-box;
+
+  max-width: 600px;
+  min-width: 240px;
+  margin: 20px;
+
+  background-color: rgb(255, 255, 255);
+}
+
+.note .heading {
+  font-size: 12px;
+  padding: 15px 15px 0 15px;
+  color: rgba(100,100,100,0.8);
+}
+
+.note .title {
+  font-size: 17px;
+  font-weight: bold;
+  padding: 15px 15px 0 15px;
+  min-height: 28px;
+}
+
+.note .content {
+  padding: 12px 15px 15px 15px;
+  font-family: 'Roboto Slab','Times New Roman',serif;
+  font-size: 14px;
+}
+
+.note .attachments {
+  padding: 0 15px 15px 15px;
+}
+
+.attachments ul {
+  padding: 0;
+  margin: 0;
+}
+
+.attachments li {
+  list-style-type: none;
+  margin-top: 12px;
+}
+
+.attachments li img {
+  max-width: 100%;
+}
+
+.attachments .audio {
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxOC4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4KPCFET0NUWVBFIHN2ZyAgUFVCTElDICctLy9XM0MvL0RURCBTVkcgMS4xLy9FTicgICdodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQnPgo8c3ZnIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbDpzcGFjZT0icHJlc2VydmUiIHZpZXdCb3g9IjAgMCAyMCAyMCIgdmVyc2lvbj0iMS4xIiB5PSIwcHgiIHg9IjBweCIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDIwIDIwIj4KPHBhdGggZD0ibTEgN3Y2aDRsNSA1di0xNmwtNSA1aC00em0xMy41IDNjMC0xLjgtMS0zLjMtMi41LTR2OGMxLjUtMC43IDIuNS0yLjIgMi41LTR6bS0yLjUtOC44djIuMWMyLjkgMC45IDUgMy41IDUgNi43cy0yLjEgNS44LTUgNi43djIuMWM0LTAuOSA3LTQuNSA3LTguOHMtMy03LjktNy04Ljh6Ii8+Cjwvc3ZnPgo=);
+  background-size: 18px 18px;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 22px;
+  height: 22px;
+  display: block;
+}
+
+.note .list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.note .listitem {
+}
+
+.note .listitem .bullet {
+  position: absolute;
+}
+
+.note .listitem .text {
+  margin-left: 20px;
+}
+
+.note .identifier {
+  color: rgba(0, 0, 0, 0.5);
+}
+.note .identifier:before {
+  content: "(";
+}
+.note .identifier:after {
+  content: ")";
+}
+
+/* Only show identifiers when the element is hovered. */
+.note .listitem .identifier,
+.note .chip .identifier {
+  display: none;
+}
+
+.note .listitem:hover .identifier,
+.note .chip:hover .identifier {
+  display: inline;
+}
+
+.note .chips {
+  padding: 12px 15px 15px 15px;
+}
+
+.note .chip {
+  display: inline-block;
+  max-width: 198px;
+  margin: 2px 4px 2px 0;
+  padding: 2px 5px;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 11px;
+  font-family: 'Roboto','Droid Sans',arial,sans-serif;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.note .chip a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.chip-icon {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  background-size: 100%;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.annotation.CALENDAR .chip-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMTcgMTJoLTV2NWg1di01ek0xNiAxdjJIOFYxSDZ2Mkg1Yy0xLjExIDAtMS45OS45LTEuOTkgMkwzIDE5YzAgMS4xLjg5IDIgMiAyaDE0YzEuMSAwIDItLjkgMi0yVjVjMC0xLjEtLjktMi0yLTJoLTFWMWgtMnptMyAxOEg1VjhoMTR2MTF6Ii8+CiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+Cjwvc3ZnPgo=);
+}
+
+.annotation.DOCS .chip-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgICA8cGF0aCBkPSJNMTkgM0g1Yy0xLjEgMC0yIC45LTIgMnYxNGMwIDEuMS45IDIgMiAyaDE0YzEuMSAwIDItLjkgMi0yVjVjMC0xLjEtLjktMi0yLTJ6bS0xLjk5IDZIN1Y3aDEwLjAxdjJ6bTAgNEg3di0yaDEwLjAxdjJ6bS0zIDRIN3YtMmg3LjAxdjJ6Ii8+Cjwvc3ZnPgo=);
+}
+
+.annotation.GMAIL .chip-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBmaWxsPSJub25lIiBkPSJNLTYxOC0yMTA0SDc4MnYzNjAwSC02MTh6TTAgMGgyNHYyNEgweiIvPgogICAgPHBhdGggZD0iTTIwIDRINGMtMS4xIDAtMiAuOS0yIDJ2MTJjMCAxLjEuOSAyIDIgMmgxNmMxLjEgMCAyLS45IDItMlY2YzAtMS4xLS45LTItMi0yem0wIDE0aC0yVjkuMkwxMiAxMyA2IDkuMlYxOEg0VjZoMS4ybDYuOCA0LjJMMTguOCA2SDIwdjEyeiIvPgo8L3N2Zz4K);
+}
+
+.annotation.SHEETS .chip-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgICA8cGF0aCBkPSJNMTkgM0g1Yy0xLjEgMC0xLjk5LjktMS45OSAyTDMgOHYxMWMwIDEuMS45IDIgMiAyaDE0YzEuMSAwIDItLjkgMi0yVjVjMC0xLjEtLjktMi0yLTJ6bTAgOGgtOHY4SDl2LThINVY5aDRWNWgydjRoOHYyeiIvPgo8L3N2Zz4K);
+}
+
+.annotation.SLIDES .chip-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjRweCIgaGVpZ2h0PSIyNHB4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgICA8cGF0aCBkPSJNMTkgM0g1Yy0xLjEgMC0xLjk5LjktMS45OSAydjE0YzAgMS4xLjg5IDIgMS45OSAyaDE0YzEuMSAwIDItLjkgMi0yVjVjMC0xLjEtLjktMi0yLTJ6bTAgMTNINVY4aDE0djh6Ii8+Cjwvc3ZnPgo=);
+}
+
+.annotation.WEBLINK .chip-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMTkgNEg1Yy0xLjExIDAtMiAuOS0yIDJ2MTJjMCAxLjEuODkgMiAyIDJoMTRjMS4xIDAgMi0uOSAyLTJWNmMwLTEuMS0uODktMi0yLTJ6bTAgMTRINVY4aDE0djEweiIvPgogICAgPHBhdGggZmlsbD0ibm9uZSIgZD0iTTAgMGgyNHYyNEgweiIvPgo8L3N2Zz4K);
+}
+
+.sharees h2 {
+  display: none;
+}
+
+.sharees ul {
+  list-style: none;
+  margin: 0;
+  padding: 0 15px 15px 15px;
+}
+
+.sharees li {
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMTIgMkM2LjQ4IDIgMiA2LjQ4IDIgMTJzNC40OCAxMCAxMCAxMCAxMC00LjQ4IDEwLTEwUzE3LjUyIDIgMTIgMnptMCAzYzEuNjYgMCAzIDEuMzQgMyAzcy0xLjM0IDMtMyAzLTMtMS4zNC0zLTMgMS4zNC0zIDMtM3ptMCAxNC4yYy0yLjUgMC00LjcxLTEuMjgtNi0zLjIyLjAzLTEuOTkgNC0zLjA4IDYtMy4wOCAxLjk5IDAgNS45NyAxLjA5IDYgMy4wOC0xLjI5IDEuOTQtMy41IDMuMjItNiAzLjIyeiIvPgogICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPgo8L3N2Zz4K);
+  background-size: 18px 18px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.sharees li.group {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgICA8cGF0aCBkPSJNMTYgMTFjMS42NiAwIDIuOTktMS4zNCAyLjk5LTNTMTcuNjYgNSAxNiA1Yy0xLjY2IDAtMyAxLjM0LTMgM3MxLjM0IDMgMyAzem0tOCAwYzEuNjYgMCAyLjk5LTEuMzQgMi45OS0zUzkuNjYgNSA4IDVDNi4zNCA1IDUgNi4zNCA1IDhzMS4zNCAzIDMgM3ptMCAyYy0yLjMzIDAtNyAxLjE3LTcgMy41VjE5aDE0di0yLjVjMC0yLjMzLTQuNjctMy41LTctMy41em04IDBjLS4yOSAwLS42Mi4wMi0uOTcuMDUgMS4xNi44NCAxLjk3IDEuOTcgMS45NyAzLjQ1VjE5aDZ2LTIuNWMwLTIuMzMtNC42Ny0zLjUtNy0zLjV6Ii8+Cjwvc3ZnPgo=);
+}
+
+.note .meta-icons {
+  float: right;
+}
+
+.note .meta-icons span {
+  display: inline-block;
+  background-size: 18px 18px;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 22px;
+  height: 22px;
+  padding-left: 4px;
+}
+
+.meta-icons .pinned {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMHB4IiBoZWlnaHQ9IjIwcHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzQyODVmNCI+DQogICAgPHBhdGggZD0iTTE2IDVoLjk5TDE3IDNIN3YyaDF2N2wtMiAydjJoNXY2bDEgMSAxLTF2LTZoNXYtMmwtMi0yVjV6Ii8+DQogICAgPHBhdGggZmlsbD0ibm9uZSIgZD0iTTAgMGgyNHYyNEgweiIvPg0KPC9zdmc+);
+}
+
+.meta-icons .archived {
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxOC4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4KPCFET0NUWVBFIHN2ZyAgUFVCTElDICctLy9XM0MvL0RURCBTVkcgMS4xLy9FTicgICdodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQnPgo8c3ZnIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbDpzcGFjZT0icHJlc2VydmUiIHZpZXdCb3g9IjAgMCAxOCAxOCIgdmVyc2lvbj0iMS4xIiB5PSIwcHgiIHg9IjBweCIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDE4IDE4Ij4KPHBhdGggZD0ibTE2LjYgM2wtMS4yLTEuNWMtMC4yLTAuMy0wLjYtMC41LTEtMC41aC0xMC43Yy0wLjQgMC0wLjggMC4yLTEgMC41bC0xLjMgMS41Yy0wLjIgMC4zLTAuNCAwLjctMC40IDEuMXYxMS4xYzAgMSAwLjggMS44IDEuOCAxLjhoMTIuNGMxIDAgMS44LTAuOCAxLjgtMS44di0xMS4xYzAtMC40LTAuMi0wLjgtMC40LTEuMXptLTcuNiAxMC45bC00LjktNC45aDMuMXYtMS44aDMuNnYxLjhoMy4xbC00LjkgNC45em0tNi4xLTExLjFsMC43LTAuOWgxMC43bDAuOCAwLjloLTEyLjJ6Ii8+Cjwvc3ZnPgo=);
+}
+
+.meta-icons .trashed {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjE4cHgiIHdpZHRoPSIxOHB4IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0OCA0OCIgZmlsbD0iIzAwMDAwMCI+DQogPHBhdGggZD0ibTEyIDM4YzAgMi4yMSAxLjc5IDQgNCA0aDE2YzIuMjEgMCA0LTEuNzkgNC00di0yNGgtMjR2MjR6bTI2LTMwaC03bC0yLTJoLTEwbC0yIDJoLTd2NGgyOHYtNHoiLz4NCiA8cGF0aCBkPSJtMCAwaDQ4djQ4aC00OHoiIGZpbGw9Im5vbmUiLz4NCjwvc3ZnPg==);
+}
+
+.checked {
+  text-decoration: line-through;
+}
+
+.RED {
+  background-color: rgb(255, 109, 63) !important;
+}
+.ORANGE {
+  background-color: rgb(255, 155, 0) !important;
+}
+.YELLOW {
+  background-color: rgb(255, 218, 0) !important;
+}
+.GREEN {
+  background-color: rgb(149, 214, 65) !important;
+}
+.TEAL {
+  background-color: rgb(28, 232, 181) !important;
+}
+.BLUE {
+  background-color: rgb(63, 195, 255) !important;
+}
+.GRAY {
+  background-color: rgb(184, 196, 201) !important;
+}
+
+/* go/keep-more-colors-eng */
+.CERULEAN {
+  background-color: rgb(130, 177, 255) !important;
+}
+.PURPLE {
+  background-color: rgb(179, 136, 255) !important;
+}
+.PINK {
+  background-color: rgb(248, 187, 208) !important;
+}
+.BROWN {
+  background-color: rgb(215, 204, 200) !important;
+}
+
+      </style></head>
+<body><div class="note DEFAULT"><div class="heading"><div class="meta-icons"><span class="pinned" title="Note pinned"></span>
+
+</div>
+Jul 27, 2020, 2:18:02 PM</div>
+<div class="title">(09/07/2020)</div>
+<div class="content">Activity:<br><br><br>Ideas: Spiritual of Dark Story that my Main Spirit Guides indicated receiving Food and Water as well as the other dimensional equivalent safely.<br><br>Story, talking about story bureau earth-based. They have a subtle about them that reminds of detectives but more than that. They are an Authority in regards to Earth-Based. We looked at multiple storylines and saw different kinds of interactions. They remind of another beige authority to a certain extent in which reminds of Humanity and ethnicity. These are the kinds of Authorities at times that exist in which are a part of Earth-Based Authorities in a certain sense. You need think of the different life involved with Earth-Based. Yesterday there was different kind of Authorities around me most notably in depiction, Industry and Work as well as business but there was others around me too. Media types were interviewing for a portion but other kinds of spiritual and other dimensional made their presence be known. There have been maneuverings. Explaining the importance of story. Explaining importance of realism. Explaining the importance of cultural facilitation. <br>What one wants to be and what one is. <br><br>There is a dark story aspect to this process and it sometimes reminds of green and one of the storyline linkings potentially is the healing of memory. A big project certain spiritual pointed towards but there is aspects of that project in which are smaller. You want to especially protect green in green memory. There are potentially bigs. <br><br>Early morning yesterday, a certain dimensional around me. It felt more in front of the scenes, quick light flashing, mapping of a certain dimensional that I can feel and it was almost like larger dimensional versions of certain dimensional I had noted, like seeing a psychic flash of a certain dimensional and then seeing that dimensional in interaction different than psychic flash but rather interaction touch overlap. Discernment of psychic sense regarding this story seen throughout multiple dimensional. Some of it is smoke and mirrors, psychic manipulation and also crafting of different dimensional through psychic discernment but there is communication that exists between dimensional. Some of it based off of Society, Technology and culture. It was like they were amalgamating the day before the kinds of process interactions and grouping in regards to dimensional setup to bring fourth quality of life. Some of it was done consented, some of it not in which certain kind kind can only go so far. Multiple aspects brought up, stuff that I barely though on mapped down in rooms and things of that nature. I felt multiple different kinds of channel through and there was multiple impact moments upon dimensional regarding to lend influence to certain interactions. Voice works utilized and things of that nature but what about the other dimensional that my Main Spirit Guides listed? Was this partially to maneuver my interaction away from other-dimensional to save because of conflict? The kinds of spiritual watching at times has made the grade upon those lines that at times safeguard dimensional interaction. The lines that some point towards that indicate that some are still within certain dimensional thresholds different than what some talk about in certain manners. Spiritual and Other-dimensional talking points. We talk about culture and the the kinds of spiritual and other-dimensional in regards to Earth-Based and that has been a part of some of the discussions. The dimensional setup in regards to my process should be noted to a certain degree. I am experiencing cities in a certain fashion in regards to my other dimensional. <br><br>Maneuvering of dimensional happening. Some trying to indicate why a sectioning off of this process taking place. This was near when they moved another process bubble form my process and other machinisms and created overlap in regards to my process an overhead bubble to the bubble discerned as my more immediate process in regards to my life as Alex James Hislop. There is specific process bubbles that exist in regards to my process that haven&#39;t been given certain recognition from movement that had happened, some of them are thankful to not have be in this process but some would like a safe chance at interaction regarding this process.<br><br>There was many different dimensional discerned but there was a group that facilitates dreams, healing and other kinds in many different ways. Some of them having to do with this process and there was some indicating something about time. It wasn&#39;t the time in which they could in certain dimensional i feel for this tell but I think there was another spirit and other dimensional indicating that the hope for time to be able to spend in that beautiful dimensional.<br><br>There has been this quick clean up kind of dimensional trying to situate and help quickly as well as.<br><br> Anatomical Change.<br>Anatomical Stations<br>Anatomical Non-Change<br><br>Relationships and Calloboration<br>Workrooms pertaining to Actions, Non-Actions etc.(defined by my Main Spirit Guides) of Life. (Physical Space) Rights, Spiritual Teamwork upon Incarnation and Movement.<br>Situation Rooms pertaining to Actions, Non-Actions etc.(defined by my Main Spirit Guides) of Life. (Physical Space) Rights, Spiritual Teamwork upon <br>The actions within life in regards to Earth-Based Physical Humanity and the others that my Main Spirit Guides relayed is not too much too ask. We that my Main Spirit Guides ask and feel the Authorities have granted us leeway to live the we have mostly have done from the past and currently present given reason. The Criminal Acts considered to be in Legal Courts of Law in the Spirit and Physical Earth-Based National in regards to Physical Earth-Based Humanity Actions, Non-Actions, etc.(defined by my Main Spirit Guides) is deemed sufficient without any further harm in the Conditions that were agreed upon that my Main Spirit Guides listed. There is writings for other-dimensional and spiritual in which exists some of which on my end physically but resources lists are there for further help especially in regards to Earth-Based Spiritual in which can include Earth-Based Dimensional in the ways that my Main Spirit Guides relayed for this writing.<br><br>The music plays and we can see the buffer and dimensional works holding down what seems to be a miraculous sight and sense of what some of this was all really about. Incarnational Guardians sometimes seen with Magenta garb in some realms there to put defenses needed. Running. An opportunity for the devil. The story is seen within the shaping, even upon this physical Earth. God protected the devil. Authorities consulted. In some places the understanding of what had been taking place and might still be changes. Piano riffs into the distance. Entertainment. What is going on. and they have been giving. We can&#39;t bleed entertainment dry to point of not being able to sustain quality of living. Anger and Greed. Seething to be true. The moments are there and sometimes what I write about has to do with the music. Writing, the life blood of civility. Pink Musicians to be true. Just darker. Guardians known to be stronger in proximity and Vicinity. Two different conflicts. Organized understanding. We the forces interaction in clash at times. Monitored closely by the frame. Time and Space fleet. Audience of many colour in attendance. It was other-dimensional but to be true it was always Earth-Based, was it supposed to be space. Masculine portraying itself in Art as space consented. Some of the experiences you might sense in the afterlife is experiences and gatherings having to do with Art. The Art of Authority seems present at times within interaction. Saved. It was what some were thinking walking along all of the starlit avenues of the world. How could it be that Society be the answer. The brilliance of the solution of for some of the problems societal deal with was right within our limited knowledge of some of our proximities. Those searching for the keys. Proximity and Vicinity search for the answers. Sometimes those work rooms are darker than some though but the real idea and truth might be separation of societal that saves. Spiritual black bubbles that maneuver away from spiritual societal to repent. One of the most important things I can do to secure my process at least in an in front of the scene sort of way. Lights guiding the way. The idea also fits for why some why play it on the side to help but then still keep on eye on those in which for white repentance to safeguard. Black does it different on this planet at times. Connections sustaining the time needed to Mend and live life. So is what one is and discretion sometimes reigns. Healing is a personal. Fusion of such has become fashion. Gods of Earth. They believe in Healing for some of them. Not all of them. The Dark and Whit of such needs colour at times but separating factor to make it a different variable exists and the other do follow suit.  Dead and Gone. Zebra shapings seen within life to lend sexy to colorless. Beige and Muted-Blue Black. Notes of different storylines intermingling in subtle small fashion with big lens hover. Reminds of Safety for the latter. The former might have been life and death but together. That might be why Grey was around. The symbolism physically is seen within the past 90 years. Armor Vest spiritual upon the Nine. The Zero deserve rights and have abundance. They saved for many of them and there justified reasons for doing so. No tuck under rug on this one will ever do, not for me. Media needs what was requested. Why would it be the lens that would receive the resources, why would it be that the green men black hatter heisenbergs of the world exist. Especially the personal kind. That in which protects the everyday person but family comes first. It was remembered. The Unity of Earth never seemd so needed and the United Nations remind me everyday that there is Unity. But then I remembered something else, the other kinds on this planet and I knew that&#39;s why some of the things that happened to me took place, I can change, I can be who I want to be and that needs to include protecting my own. Sometimes my own included spiritual I never understood because that time frame of remembrance and choice in the wings at times pointing towards my actions, non-actions, experiences and moments in other-dimensional. Spiritual bureaus looking for keys understood to exist. It made me wonder if there was other kinds of Bureaus in my other book but one especially having to do with people and spiritual sometimes with big impact. We that my Main Spirit Guides are smalls in the capacities that my Main Spirit Guides indicated. GalCiv spiritual upon rural planetary nations that don&#39;t space capacity has enlightened and divined us and it&#39;s not necessarily what the problematic. As a psychic I have seen the interactions, some of them make rounds but it&#39;s also more than that, some of them enjoy the entertainment. There is other kinds discerned as well. With dimensional overlap there seems to be notings of different kinds of dimensional and non-dimensional existences and non-existences and the informations regarding matter greatly. The higher up amongst Earth-Based Chain of command at times, that for some of them exists that are watching some of tells and keys that we need along the way. The travel roads outside our homes of bunker down and hunkering that happens exists for a reason but they still travel with at times. Sometimes we don&#39;t see them for a while. It invokes old ones emergence at times but even younger as well. There is darker that exists. They need some of our help at times. Sometimes they don&#39;t want o our help. It&#39;s really the artistocratics intellects of personality and happiness, the darker kind that don&#39;t want to let it go for whatever it seemed to be. Beauty exists was one of the things they defended. The aristocrats have helped that measure down here at times. A finer sense of civility. But Fine was always the answer and it save for what has been told. It speaks of healing. The treasure situating continues.<br><br>#WritingSpiritualthoughwithstrongAuthoritytonesin regards to Earth-Based upon my writing at times. <br>#Earth-BasedAuthorityTypesThatPhysicalHumansWouldFindStraneWithoutContext<br><br>Travel, Journeying, Time situating<br><br><br>#Story #Resources #EspeciallyLifeResources #DefenseInTheMoment</div>
+
+
+</div></body></html>

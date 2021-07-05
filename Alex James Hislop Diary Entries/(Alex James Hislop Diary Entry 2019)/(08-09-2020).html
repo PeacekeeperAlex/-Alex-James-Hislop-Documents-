@@ -1,0 +1,278 @@
+<?xml version="1.0" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>(08-09-2020)</title>
+<style type="text/css">
+         body {
+  font-family: 'Roboto Condensed','Droid Sans',arial,sans-serif;
+  font-size: 15px;
+  color: rgba(0,0,0,0.8);
+  word-wrap: break-word;
+  background-color: #e8e8e8;
+}
+
+hr {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-style: inset dashed;
+    border-width: 1px;
+}
+
+.note {
+  outline: none;
+  box-shadow: 0 2px 1px rgba(0,0,0,0.08);
+  box-sizing: border-box;
+
+  max-width: 600px;
+  min-width: 240px;
+  margin: 20px;
+
+  background-color: rgb(255, 255, 255);
+}
+
+.note .heading {
+  font-size: 12px;
+  padding: 15px 15px 0 15px;
+  color: rgba(100,100,100,0.8);
+}
+
+.note .title {
+  font-size: 17px;
+  font-weight: bold;
+  padding: 15px 15px 0 15px;
+  min-height: 28px;
+}
+
+.note .content {
+  padding: 12px 15px 15px 15px;
+  font-family: 'Roboto Slab','Times New Roman',serif;
+  font-size: 14px;
+}
+
+.note .attachments {
+  padding: 0 15px 15px 15px;
+}
+
+.attachments ul {
+  padding: 0;
+  margin: 0;
+}
+
+.attachments li {
+  list-style-type: none;
+  margin-top: 12px;
+}
+
+.attachments li img {
+  max-width: 100%;
+}
+
+.attachments .audio {
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxOC4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4KPCFET0NUWVBFIHN2ZyAgUFVCTElDICctLy9XM0MvL0RURCBTVkcgMS4xLy9FTicgICdodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQnPgo8c3ZnIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbDpzcGFjZT0icHJlc2VydmUiIHZpZXdCb3g9IjAgMCAyMCAyMCIgdmVyc2lvbj0iMS4xIiB5PSIwcHgiIHg9IjBweCIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDIwIDIwIj4KPHBhdGggZD0ibTEgN3Y2aDRsNSA1di0xNmwtNSA1aC00em0xMy41IDNjMC0xLjgtMS0zLjMtMi41LTR2OGMxLjUtMC43IDIuNS0yLjIgMi41LTR6bS0yLjUtOC44djIuMWMyLjkgMC45IDUgMy41IDUgNi43cy0yLjEgNS44LTUgNi43djIuMWM0LTAuOSA3LTQuNSA3LTguOHMtMy03LjktNy04Ljh6Ii8+Cjwvc3ZnPgo=);
+  background-size: 18px 18px;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 22px;
+  height: 22px;
+  display: block;
+}
+
+.note .list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.note .listitem {
+}
+
+.note .listitem .bullet {
+  position: absolute;
+}
+
+.note .listitem .text {
+  margin-left: 20px;
+}
+
+.note .identifier {
+  color: rgba(0, 0, 0, 0.5);
+}
+.note .identifier:before {
+  content: "(";
+}
+.note .identifier:after {
+  content: ")";
+}
+
+/* Only show identifiers when the element is hovered. */
+.note .listitem .identifier,
+.note .chip .identifier {
+  display: none;
+}
+
+.note .listitem:hover .identifier,
+.note .chip:hover .identifier {
+  display: inline;
+}
+
+.note .chips {
+  padding: 12px 15px 15px 15px;
+}
+
+.note .chip {
+  display: inline-block;
+  max-width: 198px;
+  margin: 2px 4px 2px 0;
+  padding: 2px 5px;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 11px;
+  font-family: 'Roboto','Droid Sans',arial,sans-serif;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.note .chip a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.chip-icon {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  background-size: 100%;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.annotation.CALENDAR .chip-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMTcgMTJoLTV2NWg1di01ek0xNiAxdjJIOFYxSDZ2Mkg1Yy0xLjExIDAtMS45OS45LTEuOTkgMkwzIDE5YzAgMS4xLjg5IDIgMiAyaDE0YzEuMSAwIDItLjkgMi0yVjVjMC0xLjEtLjktMi0yLTJoLTFWMWgtMnptMyAxOEg1VjhoMTR2MTF6Ii8+CiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+Cjwvc3ZnPgo=);
+}
+
+.annotation.DOCS .chip-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgICA8cGF0aCBkPSJNMTkgM0g1Yy0xLjEgMC0yIC45LTIgMnYxNGMwIDEuMS45IDIgMiAyaDE0YzEuMSAwIDItLjkgMi0yVjVjMC0xLjEtLjktMi0yLTJ6bS0xLjk5IDZIN1Y3aDEwLjAxdjJ6bTAgNEg3di0yaDEwLjAxdjJ6bS0zIDRIN3YtMmg3LjAxdjJ6Ii8+Cjwvc3ZnPgo=);
+}
+
+.annotation.GMAIL .chip-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBmaWxsPSJub25lIiBkPSJNLTYxOC0yMTA0SDc4MnYzNjAwSC02MTh6TTAgMGgyNHYyNEgweiIvPgogICAgPHBhdGggZD0iTTIwIDRINGMtMS4xIDAtMiAuOS0yIDJ2MTJjMCAxLjEuOSAyIDIgMmgxNmMxLjEgMCAyLS45IDItMlY2YzAtMS4xLS45LTItMi0yem0wIDE0aC0yVjkuMkwxMiAxMyA2IDkuMlYxOEg0VjZoMS4ybDYuOCA0LjJMMTguOCA2SDIwdjEyeiIvPgo8L3N2Zz4K);
+}
+
+.annotation.SHEETS .chip-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgICA8cGF0aCBkPSJNMTkgM0g1Yy0xLjEgMC0xLjk5LjktMS45OSAyTDMgOHYxMWMwIDEuMS45IDIgMiAyaDE0YzEuMSAwIDItLjkgMi0yVjVjMC0xLjEtLjktMi0yLTJ6bTAgOGgtOHY4SDl2LThINVY5aDRWNWgydjRoOHYyeiIvPgo8L3N2Zz4K);
+}
+
+.annotation.SLIDES .chip-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjRweCIgaGVpZ2h0PSIyNHB4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgICA8cGF0aCBkPSJNMTkgM0g1Yy0xLjEgMC0xLjk5LjktMS45OSAydjE0YzAgMS4xLjg5IDIgMS45OSAyaDE0YzEuMSAwIDItLjkgMi0yVjVjMC0xLjEtLjktMi0yLTJ6bTAgMTNINVY4aDE0djh6Ii8+Cjwvc3ZnPgo=);
+}
+
+.annotation.WEBLINK .chip-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMTkgNEg1Yy0xLjExIDAtMiAuOS0yIDJ2MTJjMCAxLjEuODkgMiAyIDJoMTRjMS4xIDAgMi0uOSAyLTJWNmMwLTEuMS0uODktMi0yLTJ6bTAgMTRINVY4aDE0djEweiIvPgogICAgPHBhdGggZmlsbD0ibm9uZSIgZD0iTTAgMGgyNHYyNEgweiIvPgo8L3N2Zz4K);
+}
+
+.sharees h2 {
+  display: none;
+}
+
+.sharees ul {
+  list-style: none;
+  margin: 0;
+  padding: 0 15px 15px 15px;
+}
+
+.sharees li {
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMTIgMkM2LjQ4IDIgMiA2LjQ4IDIgMTJzNC40OCAxMCAxMCAxMCAxMC00LjQ4IDEwLTEwUzE3LjUyIDIgMTIgMnptMCAzYzEuNjYgMCAzIDEuMzQgMyAzcy0xLjM0IDMtMyAzLTMtMS4zNC0zLTMgMS4zNC0zIDMtM3ptMCAxNC4yYy0yLjUgMC00LjcxLTEuMjgtNi0zLjIyLjAzLTEuOTkgNC0zLjA4IDYtMy4wOCAxLjk5IDAgNS45NyAxLjA5IDYgMy4wOC0xLjI5IDEuOTQtMy41IDMuMjItNiAzLjIyeiIvPgogICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPgo8L3N2Zz4K);
+  background-size: 18px 18px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.sharees li.group {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgICA8cGF0aCBkPSJNMTYgMTFjMS42NiAwIDIuOTktMS4zNCAyLjk5LTNTMTcuNjYgNSAxNiA1Yy0xLjY2IDAtMyAxLjM0LTMgM3MxLjM0IDMgMyAzem0tOCAwYzEuNjYgMCAyLjk5LTEuMzQgMi45OS0zUzkuNjYgNSA4IDVDNi4zNCA1IDUgNi4zNCA1IDhzMS4zNCAzIDMgM3ptMCAyYy0yLjMzIDAtNyAxLjE3LTcgMy41VjE5aDE0di0yLjVjMC0yLjMzLTQuNjctMy41LTctMy41em04IDBjLS4yOSAwLS42Mi4wMi0uOTcuMDUgMS4xNi44NCAxLjk3IDEuOTcgMS45NyAzLjQ1VjE5aDZ2LTIuNWMwLTIuMzMtNC42Ny0zLjUtNy0zLjV6Ii8+Cjwvc3ZnPgo=);
+}
+
+.note .meta-icons {
+  float: right;
+}
+
+.note .meta-icons span {
+  display: inline-block;
+  background-size: 18px 18px;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 22px;
+  height: 22px;
+  padding-left: 4px;
+}
+
+.meta-icons .pinned {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMHB4IiBoZWlnaHQ9IjIwcHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzQyODVmNCI+DQogICAgPHBhdGggZD0iTTE2IDVoLjk5TDE3IDNIN3YyaDF2N2wtMiAydjJoNXY2bDEgMSAxLTF2LTZoNXYtMmwtMi0yVjV6Ii8+DQogICAgPHBhdGggZmlsbD0ibm9uZSIgZD0iTTAgMGgyNHYyNEgweiIvPg0KPC9zdmc+);
+}
+
+.meta-icons .archived {
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxOC4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4KPCFET0NUWVBFIHN2ZyAgUFVCTElDICctLy9XM0MvL0RURCBTVkcgMS4xLy9FTicgICdodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQnPgo8c3ZnIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbDpzcGFjZT0icHJlc2VydmUiIHZpZXdCb3g9IjAgMCAxOCAxOCIgdmVyc2lvbj0iMS4xIiB5PSIwcHgiIHg9IjBweCIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDE4IDE4Ij4KPHBhdGggZD0ibTE2LjYgM2wtMS4yLTEuNWMtMC4yLTAuMy0wLjYtMC41LTEtMC41aC0xMC43Yy0wLjQgMC0wLjggMC4yLTEgMC41bC0xLjMgMS41Yy0wLjIgMC4zLTAuNCAwLjctMC40IDEuMXYxMS4xYzAgMSAwLjggMS44IDEuOCAxLjhoMTIuNGMxIDAgMS44LTAuOCAxLjgtMS44di0xMS4xYzAtMC40LTAuMi0wLjgtMC40LTEuMXptLTcuNiAxMC45bC00LjktNC45aDMuMXYtMS44aDMuNnYxLjhoMy4xbC00LjkgNC45em0tNi4xLTExLjFsMC43LTAuOWgxMC43bDAuOCAwLjloLTEyLjJ6Ii8+Cjwvc3ZnPgo=);
+}
+
+.meta-icons .trashed {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjE4cHgiIHdpZHRoPSIxOHB4IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0OCA0OCIgZmlsbD0iIzAwMDAwMCI+DQogPHBhdGggZD0ibTEyIDM4YzAgMi4yMSAxLjc5IDQgNCA0aDE2YzIuMjEgMCA0LTEuNzkgNC00di0yNGgtMjR2MjR6bTI2LTMwaC03bC0yLTJoLTEwbC0yIDJoLTd2NGgyOHYtNHoiLz4NCiA8cGF0aCBkPSJtMCAwaDQ4djQ4aC00OHoiIGZpbGw9Im5vbmUiLz4NCjwvc3ZnPg==);
+}
+
+.checked {
+  text-decoration: line-through;
+}
+
+.RED {
+  background-color: rgb(255, 109, 63) !important;
+}
+.ORANGE {
+  background-color: rgb(255, 155, 0) !important;
+}
+.YELLOW {
+  background-color: rgb(255, 218, 0) !important;
+}
+.GREEN {
+  background-color: rgb(149, 214, 65) !important;
+}
+.TEAL {
+  background-color: rgb(28, 232, 181) !important;
+}
+.BLUE {
+  background-color: rgb(63, 195, 255) !important;
+}
+.GRAY {
+  background-color: rgb(184, 196, 201) !important;
+}
+
+/* go/keep-more-colors-eng */
+.CERULEAN {
+  background-color: rgb(130, 177, 255) !important;
+}
+.PURPLE {
+  background-color: rgb(179, 136, 255) !important;
+}
+.PINK {
+  background-color: rgb(248, 187, 208) !important;
+}
+.BROWN {
+  background-color: rgb(215, 204, 200) !important;
+}
+
+      </style></head>
+<body><div class="note DEFAULT"><div class="heading"><div class="meta-icons"><span class="pinned" title="Note pinned"></span>
+
+</div>
+Sep 26, 2020, 6:22:37 PM</div>
+<div class="title">(08-09-2020)</div>
+<div class="content">I woke up with this understanding of two groupings of colours and the overlap that seemed to express the contrast and similarity and one of which seemed to speak of taboo upon itself given the popular perceptions regarding but in understanding good spiritual knowing the reasons why such things exist given history, science and the magic in the universe, even given simple things in life not given to be the normality of the save and to think it could be done in line without problems beyond what some thought and even for others forgotton still standing never thoughts not possible in knowledge proceeding and simple ability disposed at hand with not even a single thought back if needed discretion advised for my kind of 007 even if not fully understood for truth and realized different based upon regular proceedings of everyday life meets abnormally not so on a tuesday and thursday with Mondays and Sundays at hand for an understanding shuffel in knowing what everyday life can actually be with abnormally so not a problem given the normality of intervention and situating beyond whatever we thought ever possible at one point until even that seemed to be the regular. For when it ever did for true beforehand and whether it be at that point through me or others kinds that seemed in point to prove there is more powerful than I, it fairly understood and if it were that it might be the end of the conversation but it was more than that at times given what one doesn&#39;t want to experience being more acceptable now than it did in the past but only up to a point and when it finally arrives it seemed prudent to save and be saved. When does the different kinds feel necessary upon proceeding to the kinds of quality of life deserved for decent. What can be achieved through Moral Parameters? What the answer is and what it needs to be transcending what needed to be transcended. Why hadn&#39;t I thought of figuring out a way to write what I wanted to write through my own writing seemed to echo as understood for when I would be able to use my words to shape realities and non-realities both interesting subjects regularly brought up and normal within many different kinds of writings and so we see in the rights kinds of ways to ending sentences through writing the point can be made in different ways and on different stages especially the kind of wispful memory daydreams of writing upon the written word with english in assembly to Language and Communication on the Golden Ushabti with beige sepia of Remembrance. What do these Guardians mean in terms of Sociology and Pop Culture especially given interaction and aesthetics of understanding such interest upon such a subject and the curiosity that keeps in measure what one wants to experience and survive upon the others meaning History was present in understanding what needed to be understood. The Angry outcry that seemed burst forward with ever ease and comfort upon direction as the normal would understand regular actions for what spice found acceptable. The reminded of flow and going in different ways found and flown beautiful relief as if he didn&#39;t screw up more often then might be necessary in rather realized irrelevant and tragic in sadness suppression sought elsewhere if could be in spun around not knowing if sally fourth true was not in my bones in no way circumstances is forgotten and not needed to be forgotten for the kind willing to be not forgotten and found at times seemed to be the answer during such times. The burnt of my beard etched where the hair intended for sweet relief upon the BBq taste of fireball if not whiskey and story smirks in hopeful nots funnies.  Jeez, walking out with a robe and slippers never seemed to close to the truth to the bullet proof vest for how some spiritual would reference. You can&#39;t imagine the kind of Good Spiritual around people such as these and I had wondered how such neighborhoods could emerge in a thing kind misunderstood to be a normality of how one operates and exists in what one experiences and I knew that if I didn&#39;t figure it out eventually then the leave might be more true. Gaming is one of those ones especially upon actions and non-action attatchment. It was one of those where in Gamingland I wondered as to what they set for this life especially for me. Was it on the days that I didn&#39;t game another Avatar maneuvering through. What would this mean for when I wasn&#39;t physically here anymore after I passed on. Of course good sensibility dictates lines in certain manner but what of the true fact that I am living in other-dimensional after I passon physically, Light is what I discern prominently and then Original Setting and what if certain spiritual will not back off, does that lend towards allowance and deployment in regards to Gaming and other kinds? The Truth exists. The lines in certain places went wild and I could see a flash of when I wasn&#39;t here anymore garnering decent interaction in shaping. It wasn&#39;t what some thought to be cried. I had wondered what the Jacksons Point meant in able ability and the blonde good living their lives with dream of motorcycle clubs and beige-tan connection fast food lounging after a long days super and the shuffle of pop culture to get a glimpse. How was I suppose to let know of the many cultures that exist in what I saw within my discernment and experiences as a Psychic-medium. The Answer was writing but it also included gaming and content creation of video entries as well as other kinds. Do not forget is what they let know the one day days previous and to not forget the lower planes, lower regions and lower areas. Anti-Camp decent whispers of evermore and understanding that I am still facilitating what need be within moral parameters. Wouldn&#39;t it be simple if it was understood that it can be within moral parameters and the hassle of having to explain explainable being explained on such matters as to why one and some are good. Why would it be? Reclaiming my Culture seemed to be a part of my Journey within my life, Cornerstones unbreakable Coast to Coast AM and Hardcore history seemed to be a top my list in remembrance as to what has been happening within paranormal and spiritual as well as history itself. Technology seemed to be on the mind as of late and the continued look towards GPU development. It segwayed from the I.T. spiritual look upon this process and then finally the family day tackle upon for some in which included more than just explaining technology but Mediation, Negotiation and Political communication clarifying for true certain stances for Authorities and Non-Authorities garnered by way of Family interaction and citizenry not to mention the other kinds being recognized at times by way of the extraordinary. Then it was settle upon the remedy in knowing the kinds of spiritual tech that is being released alongside physical tech. New GPU release footage flashing spiritual release of computing, gaming and artistic forefront not to forget the other subject of such endeavors of craft especially hardware powering software. The Digiware and Techware of the spiritual on transmission of psychic understanding with the gauge of economics put fourth upon single images of products discerned. What exactly does Arnold from Jurassic park need to do to let know that he is still around, escaped JP and that that prosthetic arm of a false tell that he didn&#39;t make it was bull crap. Maybe it was supposed to be bull crap, a Maintenance thing. A safeguard with the amount that I have seen throughout this life, it seemed it was always the answer. Memories of Fight of International scale of not war but Mayhem to be the digital warrior chosen one of the Stand with greens of known digital warriors depicted in the Anime of Earth. To be remembered by scales of guns drawn of canvas truth and knowing of clearing opposites to exist in battles for the clear headphones floating and operators of many color in jump-flow circles of paying attention on such scales unimaginable to be forgotton with spirals of spiritual dancing the dance of the wtiches circling bagpipes in clear sight of cultural down days not really to get them out of whatever the hell hole it was that somehow said that some tin can millennium was ever going to be enough for some flip of the page in some story brook wonder of warden of watch shelf careful where you go next. The onwinding continued working through whatever bigs and muscle be hiding in the maze of clear to reach some new level but wait there is more and how gamemakers even lost some of the smoke from their rooms in what be said for when they do make it to promised long promised ago and when this ninth circle of hell will finally be finished in vanquishment of the proper kind worthy of such vanquishment for no karmic dreams and fairy tale bliss was going to be put a spin on the truth of those that were trapped in those gaming nightmare of clean gaming mechanic and that in which should have been. Do note that for every physical on this physical planet earth in regards to physical digital and spiritual digital is being done with meticulous care by many physicals on this physical planet earth. They would want it done as such but sometiems it wasn&#39;t about Earth Gaming but rather something else. Tells of the Moon and warriors associated out of the fold to remind that the good watch over this place and it was the tell that for it being near the moon for why and how some of this happened in the dark rooms and poker tables holding it down in such capacities waiting for the chosen ones with scrabble swagger and chess moves understood with a side of checkers. Maybe it was one of those old tabletop games that changed it all and where would be without the fun of some of them not fully remembered like Pit. More barley please. You never could have imagined the economic power house of such a game. But it was those that wanted to colour it more than such flower fashion digital game of year kind of artistry with elemental bliss in interpretation, the real gems of the show that I would understand. The fact of review upon some gaming machinsism and life remembrance for what it might as well have been for certain thursday antics and dream never not spoken and never supposed to be spoken for my care and love, remembrance of touch in aesthetic even if isn&#39;t mine still known. The more subtle in the beige seat and the clear doing their thing to protect some of those in the darker rooms of lost and found already understood to impact certain gaming and in hope that it did save for when that tide and lense, the filter provided unfair treatment in what would always be seared and etched in spirit and why not the flip of the program not fully remembered at times that review missed but if it was so then there would be less of a problem a nd urgency for such tone and prose. See it was gaming that held our love and cherish especially those ready played one wreck it ralph situations in the waiting rooms and lobbies of Gaming in Gaming Choice. The kinds of pop cult that emerged became the famous of us all at times. Some broken friendship supposedly changed everything in some previous arcade fashion of beginners and founders that I don&#39;t buy for a second. I knew by taking the gameworld by storm that maybe it could change the world. I thought I could win. I Still do. Windows. It was the ows and os that changed the digital at times. It was also communication in letting know of soem of the good that existed out there. That there is entire overlaps potentially in the billions, maybe more overlapping some of the battle taking place. There was gaming high inquisition upon some of the scenes seen throughout real life and pictures lining upwards with candle light illuminating the scene especially for those innocent. You see the archetype of mourning at times happened to be the best and good boy natured that always wanted things to work out and it was a humanity thing to be true but it included the Cantina scene for a reason. It wasn&#39;t just a battle for some. For some it was a Non-Battle and the kinds of gaming aesthetic soul and spiritual that exists through such art and the Non-Art speaks.<br><br>I was so scared when I thought of my loves and I was scared of confronting whatever the hell happened behind the scenes spiritually. I didn&#39;t want to accept some of the insinuations regarding my own and at what point would I not reach over and end whoever the hell it was that was hurting me in such ways. It was a point that some of my own lovers and family had said regarding their own and in such a process like this with misunderstood sanctioned and yet communication really showing up in certain moments of knowing that I have a connection to those in places in which the information I know of can make great impacts. To be a physical in contact with spiritual that is near as close as speaking towards other physicals and them listening and hearing to what I am saying and understanding this process and the innocence regarding spoke volumes to me while also understanding the reach of lifetime lines and Historical points in time, timeframe facilitation maneuvering with me in the back ground shroud of the past faces seen in future contents foreshadowing the past with literal reveals upon timelines itineraries. The High points spiritually in reach through operators in interaction with me like entering some game of another life at times for portions while others maintaining sight from process interactions in other ways more classic to proximity viewing. The positive underground railroad of looks to the left and the silent ponderings to the right of darker kind. I knew there was many frameworks put into play and the continued debate upon that as well as to if it emerged from this life or not? Why was that irrelevant anyway? Or was it not irrelevant? Formworks and Formology. To be a physical and to know a physical regarding such forms and the utilization regarding other dimensional and spiritual. It was told that I wouldn&#39;t understand such things beyond reality and what one shapes upon ones own reality. At what point does other realities that colour in ways not intended by receiver until posturing maneuvered correctly and how dare labelled not what it seems to be especially upon what one wants to experience. The purity of the Red sauce strikes again. I know how to do it and I know what needs to be done, there are everones that will never be harmed that can change histories beyond and evergroups that can lead the way as to what needed to be done to achieve gaming harmony in my vision and the Visions of others for within acceptable parameterworks they exists a philosophy of clear dark on what some thought to be a stormy night with pure comfort and long dark journey safety with so much resources and supplies that work seemed to be a dream in automation happenings so in flight and so in tune that it almost seemed to not exist but the truth upon desire deemed as such for it to exist for the elders looked on and reminded themselves as to what machinsims they put into play long ago for it would be over and the current would be satisfied beyond measure in the ways they desired but understanding that the scouting and tune in which exists for up and Maintenance purposes and ways of life understood to be said for I was there at the bonfire of why..and it never seemed to ever change as to what it needed to be for some and it seems to truly be the tone setter for whatever next seemed to be for if we could just be who we wanted to be then we would be and instead we lie to ourselves into thinking that everything is ok and that somehow that the monsters out there for some of us and especially not forgotten upon the regular that haven&#39;t anything wrong because it was said that it was regular spiritual living middle regular and other kinds of life that was the problem but it was nowhere near the solution if others were to be cast aside and asunder the moon was never gonna be big enough to defeat the pale rider. The next one to enter if there ever was was not supposed to be told towards me for power might dictate fate. I always knew the Good had the most. It was fortold long ago and it would be so. Was that flash of instant bright prophecy of Emanual as well as the other suppose to be the truth for real? I felt like contemplation and conversation regarding seemed to be the regular that exists in places that never get attacked especially ones never maneuvered against. It is something that has not only been spoken of but is recreated and remeasured, replanned and maintained completely invulnerably for most and the topic of conversation became pop culture in movies and gaming understood. Saving in gaming noted psychically but also potentially in real life upon movements regarding certain kind of gaming. At knew my lines for what my Main Spirit Guides relayed for me and I knew what point was needed to be understood as to where the stop carries. It wasn&#39;t just something in which certain spiritual made worse it was ending kind of stuff, it was not supposed to be, it was supposed to transcend because of who we are and what we want to be and what we will never experience ever again for it never even existed for some before it even happened for if the could take away the pain and understand peoples lives not to be some back alley toy to throw away to pierce with a pin or burn some dining fire for higher up ggreed of always being together and loving one another to not show bad and darker intentions and leaving the blade at the bedside for that is the regularity and true within for if you crosss that crosss line spoken channel and misunderstandings for such a communication, the tell had been water and the need for such upon drinknig and the scrunched ways of desert and deserted regular dimensions standing in waiting for something to happen so we can go back to living what we wanted it to be. THe purple and pink work a reason and it&#39;s the work that some thinking in the kind of time that the rich flaunt in lower places of these water down bogs of cottage wood and grander plans of greater living for we can remember how many years it was that we already had that before upon losing to some higher desire of being different and why that was. The correct already say the best has been one for such correct ways and kung-fu with martial arts prowess in knowing that whatever wars, conflicts, battles, spars, gladitorial sand in the face of whatever wanted to stop us for being able to say freely of supporting all direction without being chastized and brought fourth civic rights issues upon such Gods of the Past being performed in gaming lands that some of us will never see. The Original Creator says supposedly near the beginning that those that lived lives that were different in the beginning need only follow the Golden Rule to thrive your own life to what one needed, wanted and desired freely without having to worry about specifying that we are not talking about harming spiritual and that it actually is far more in line than some want to admit. That these lines memorized and known on the top of your head. Treat other how you want to be treated. Treat yourself the way you want to treat others. It&#39;s a tell. <br><br>Storylines of expression and non-expression intermingled intelligently. Valentine Storylines of going to higher light and other dimensional.<br><br>When I remembered back to yesterday with the drivers of my self <br><br>In three or four years the list of publishers I am going to try for in regards to some of these Diary Entries. <br><br>Concepts:<br>Anger: To not forget Anger, do not forget Anger.<br>Life: Quality of myself facilitation within acceptable parameters of Morality.<br>Remedy: Bufferworks that the Good pointed towards.<br></div>
+
+
+</div></body></html>
