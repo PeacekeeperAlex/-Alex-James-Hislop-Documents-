@@ -1,0 +1,278 @@
+<?xml version="1.0" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>(27/07/2020)</title>
+<style type="text/css">
+         body {
+  font-family: 'Roboto Condensed','Droid Sans',arial,sans-serif;
+  font-size: 15px;
+  color: rgba(0,0,0,0.8);
+  word-wrap: break-word;
+  background-color: #e8e8e8;
+}
+
+hr {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-style: inset dashed;
+    border-width: 1px;
+}
+
+.note {
+  outline: none;
+  box-shadow: 0 2px 1px rgba(0,0,0,0.08);
+  box-sizing: border-box;
+
+  max-width: 600px;
+  min-width: 240px;
+  margin: 20px;
+
+  background-color: rgb(255, 255, 255);
+}
+
+.note .heading {
+  font-size: 12px;
+  padding: 15px 15px 0 15px;
+  color: rgba(100,100,100,0.8);
+}
+
+.note .title {
+  font-size: 17px;
+  font-weight: bold;
+  padding: 15px 15px 0 15px;
+  min-height: 28px;
+}
+
+.note .content {
+  padding: 12px 15px 15px 15px;
+  font-family: 'Roboto Slab','Times New Roman',serif;
+  font-size: 14px;
+}
+
+.note .attachments {
+  padding: 0 15px 15px 15px;
+}
+
+.attachments ul {
+  padding: 0;
+  margin: 0;
+}
+
+.attachments li {
+  list-style-type: none;
+  margin-top: 12px;
+}
+
+.attachments li img {
+  max-width: 100%;
+}
+
+.attachments .audio {
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxOC4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4KPCFET0NUWVBFIHN2ZyAgUFVCTElDICctLy9XM0MvL0RURCBTVkcgMS4xLy9FTicgICdodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQnPgo8c3ZnIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbDpzcGFjZT0icHJlc2VydmUiIHZpZXdCb3g9IjAgMCAyMCAyMCIgdmVyc2lvbj0iMS4xIiB5PSIwcHgiIHg9IjBweCIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDIwIDIwIj4KPHBhdGggZD0ibTEgN3Y2aDRsNSA1di0xNmwtNSA1aC00em0xMy41IDNjMC0xLjgtMS0zLjMtMi41LTR2OGMxLjUtMC43IDIuNS0yLjIgMi41LTR6bS0yLjUtOC44djIuMWMyLjkgMC45IDUgMy41IDUgNi43cy0yLjEgNS44LTUgNi43djIuMWM0LTAuOSA3LTQuNSA3LTguOHMtMy03LjktNy04Ljh6Ii8+Cjwvc3ZnPgo=);
+  background-size: 18px 18px;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 22px;
+  height: 22px;
+  display: block;
+}
+
+.note .list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.note .listitem {
+}
+
+.note .listitem .bullet {
+  position: absolute;
+}
+
+.note .listitem .text {
+  margin-left: 20px;
+}
+
+.note .identifier {
+  color: rgba(0, 0, 0, 0.5);
+}
+.note .identifier:before {
+  content: "(";
+}
+.note .identifier:after {
+  content: ")";
+}
+
+/* Only show identifiers when the element is hovered. */
+.note .listitem .identifier,
+.note .chip .identifier {
+  display: none;
+}
+
+.note .listitem:hover .identifier,
+.note .chip:hover .identifier {
+  display: inline;
+}
+
+.note .chips {
+  padding: 12px 15px 15px 15px;
+}
+
+.note .chip {
+  display: inline-block;
+  max-width: 198px;
+  margin: 2px 4px 2px 0;
+  padding: 2px 5px;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 11px;
+  font-family: 'Roboto','Droid Sans',arial,sans-serif;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.note .chip a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.chip-icon {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  background-size: 100%;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.annotation.CALENDAR .chip-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMTcgMTJoLTV2NWg1di01ek0xNiAxdjJIOFYxSDZ2Mkg1Yy0xLjExIDAtMS45OS45LTEuOTkgMkwzIDE5YzAgMS4xLjg5IDIgMiAyaDE0YzEuMSAwIDItLjkgMi0yVjVjMC0xLjEtLjktMi0yLTJoLTFWMWgtMnptMyAxOEg1VjhoMTR2MTF6Ii8+CiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+Cjwvc3ZnPgo=);
+}
+
+.annotation.DOCS .chip-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgICA8cGF0aCBkPSJNMTkgM0g1Yy0xLjEgMC0yIC45LTIgMnYxNGMwIDEuMS45IDIgMiAyaDE0YzEuMSAwIDItLjkgMi0yVjVjMC0xLjEtLjktMi0yLTJ6bS0xLjk5IDZIN1Y3aDEwLjAxdjJ6bTAgNEg3di0yaDEwLjAxdjJ6bS0zIDRIN3YtMmg3LjAxdjJ6Ii8+Cjwvc3ZnPgo=);
+}
+
+.annotation.GMAIL .chip-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBmaWxsPSJub25lIiBkPSJNLTYxOC0yMTA0SDc4MnYzNjAwSC02MTh6TTAgMGgyNHYyNEgweiIvPgogICAgPHBhdGggZD0iTTIwIDRINGMtMS4xIDAtMiAuOS0yIDJ2MTJjMCAxLjEuOSAyIDIgMmgxNmMxLjEgMCAyLS45IDItMlY2YzAtMS4xLS45LTItMi0yem0wIDE0aC0yVjkuMkwxMiAxMyA2IDkuMlYxOEg0VjZoMS4ybDYuOCA0LjJMMTguOCA2SDIwdjEyeiIvPgo8L3N2Zz4K);
+}
+
+.annotation.SHEETS .chip-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgICA8cGF0aCBkPSJNMTkgM0g1Yy0xLjEgMC0xLjk5LjktMS45OSAyTDMgOHYxMWMwIDEuMS45IDIgMiAyaDE0YzEuMSAwIDItLjkgMi0yVjVjMC0xLjEtLjktMi0yLTJ6bTAgOGgtOHY4SDl2LThINVY5aDRWNWgydjRoOHYyeiIvPgo8L3N2Zz4K);
+}
+
+.annotation.SLIDES .chip-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjRweCIgaGVpZ2h0PSIyNHB4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgICA8cGF0aCBkPSJNMTkgM0g1Yy0xLjEgMC0xLjk5LjktMS45OSAydjE0YzAgMS4xLjg5IDIgMS45OSAyaDE0YzEuMSAwIDItLjkgMi0yVjVjMC0xLjEtLjktMi0yLTJ6bTAgMTNINVY4aDE0djh6Ii8+Cjwvc3ZnPgo=);
+}
+
+.annotation.WEBLINK .chip-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMTkgNEg1Yy0xLjExIDAtMiAuOS0yIDJ2MTJjMCAxLjEuODkgMiAyIDJoMTRjMS4xIDAgMi0uOSAyLTJWNmMwLTEuMS0uODktMi0yLTJ6bTAgMTRINVY4aDE0djEweiIvPgogICAgPHBhdGggZmlsbD0ibm9uZSIgZD0iTTAgMGgyNHYyNEgweiIvPgo8L3N2Zz4K);
+}
+
+.sharees h2 {
+  display: none;
+}
+
+.sharees ul {
+  list-style: none;
+  margin: 0;
+  padding: 0 15px 15px 15px;
+}
+
+.sharees li {
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMTIgMkM2LjQ4IDIgMiA2LjQ4IDIgMTJzNC40OCAxMCAxMCAxMCAxMC00LjQ4IDEwLTEwUzE3LjUyIDIgMTIgMnptMCAzYzEuNjYgMCAzIDEuMzQgMyAzcy0xLjM0IDMtMyAzLTMtMS4zNC0zLTMgMS4zNC0zIDMtM3ptMCAxNC4yYy0yLjUgMC00LjcxLTEuMjgtNi0zLjIyLjAzLTEuOTkgNC0zLjA4IDYtMy4wOCAxLjk5IDAgNS45NyAxLjA5IDYgMy4wOC0xLjI5IDEuOTQtMy41IDMuMjItNiAzLjIyeiIvPgogICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPgo8L3N2Zz4K);
+  background-size: 18px 18px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.sharees li.group {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgICA8cGF0aCBkPSJNMTYgMTFjMS42NiAwIDIuOTktMS4zNCAyLjk5LTNTMTcuNjYgNSAxNiA1Yy0xLjY2IDAtMyAxLjM0LTMgM3MxLjM0IDMgMyAzem0tOCAwYzEuNjYgMCAyLjk5LTEuMzQgMi45OS0zUzkuNjYgNSA4IDVDNi4zNCA1IDUgNi4zNCA1IDhzMS4zNCAzIDMgM3ptMCAyYy0yLjMzIDAtNyAxLjE3LTcgMy41VjE5aDE0di0yLjVjMC0yLjMzLTQuNjctMy41LTctMy41em04IDBjLS4yOSAwLS42Mi4wMi0uOTcuMDUgMS4xNi44NCAxLjk3IDEuOTcgMS45NyAzLjQ1VjE5aDZ2LTIuNWMwLTIuMzMtNC42Ny0zLjUtNy0zLjV6Ii8+Cjwvc3ZnPgo=);
+}
+
+.note .meta-icons {
+  float: right;
+}
+
+.note .meta-icons span {
+  display: inline-block;
+  background-size: 18px 18px;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 22px;
+  height: 22px;
+  padding-left: 4px;
+}
+
+.meta-icons .pinned {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMHB4IiBoZWlnaHQ9IjIwcHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzQyODVmNCI+DQogICAgPHBhdGggZD0iTTE2IDVoLjk5TDE3IDNIN3YyaDF2N2wtMiAydjJoNXY2bDEgMSAxLTF2LTZoNXYtMmwtMi0yVjV6Ii8+DQogICAgPHBhdGggZmlsbD0ibm9uZSIgZD0iTTAgMGgyNHYyNEgweiIvPg0KPC9zdmc+);
+}
+
+.meta-icons .archived {
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxOC4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4KPCFET0NUWVBFIHN2ZyAgUFVCTElDICctLy9XM0MvL0RURCBTVkcgMS4xLy9FTicgICdodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQnPgo8c3ZnIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbDpzcGFjZT0icHJlc2VydmUiIHZpZXdCb3g9IjAgMCAxOCAxOCIgdmVyc2lvbj0iMS4xIiB5PSIwcHgiIHg9IjBweCIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDE4IDE4Ij4KPHBhdGggZD0ibTE2LjYgM2wtMS4yLTEuNWMtMC4yLTAuMy0wLjYtMC41LTEtMC41aC0xMC43Yy0wLjQgMC0wLjggMC4yLTEgMC41bC0xLjMgMS41Yy0wLjIgMC4zLTAuNCAwLjctMC40IDEuMXYxMS4xYzAgMSAwLjggMS44IDEuOCAxLjhoMTIuNGMxIDAgMS44LTAuOCAxLjgtMS44di0xMS4xYzAtMC40LTAuMi0wLjgtMC40LTEuMXptLTcuNiAxMC45bC00LjktNC45aDMuMXYtMS44aDMuNnYxLjhoMy4xbC00LjkgNC45em0tNi4xLTExLjFsMC43LTAuOWgxMC43bDAuOCAwLjloLTEyLjJ6Ii8+Cjwvc3ZnPgo=);
+}
+
+.meta-icons .trashed {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjE4cHgiIHdpZHRoPSIxOHB4IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0OCA0OCIgZmlsbD0iIzAwMDAwMCI+DQogPHBhdGggZD0ibTEyIDM4YzAgMi4yMSAxLjc5IDQgNCA0aDE2YzIuMjEgMCA0LTEuNzkgNC00di0yNGgtMjR2MjR6bTI2LTMwaC03bC0yLTJoLTEwbC0yIDJoLTd2NGgyOHYtNHoiLz4NCiA8cGF0aCBkPSJtMCAwaDQ4djQ4aC00OHoiIGZpbGw9Im5vbmUiLz4NCjwvc3ZnPg==);
+}
+
+.checked {
+  text-decoration: line-through;
+}
+
+.RED {
+  background-color: rgb(255, 109, 63) !important;
+}
+.ORANGE {
+  background-color: rgb(255, 155, 0) !important;
+}
+.YELLOW {
+  background-color: rgb(255, 218, 0) !important;
+}
+.GREEN {
+  background-color: rgb(149, 214, 65) !important;
+}
+.TEAL {
+  background-color: rgb(28, 232, 181) !important;
+}
+.BLUE {
+  background-color: rgb(63, 195, 255) !important;
+}
+.GRAY {
+  background-color: rgb(184, 196, 201) !important;
+}
+
+/* go/keep-more-colors-eng */
+.CERULEAN {
+  background-color: rgb(130, 177, 255) !important;
+}
+.PURPLE {
+  background-color: rgb(179, 136, 255) !important;
+}
+.PINK {
+  background-color: rgb(248, 187, 208) !important;
+}
+.BROWN {
+  background-color: rgb(215, 204, 200) !important;
+}
+
+      </style></head>
+<body><div class="note DEFAULT"><div class="heading"><div class="meta-icons"><span class="pinned" title="Note pinned"></span>
+
+</div>
+Jul 28, 2020, 2:04:14 PM</div>
+<div class="title">(27/07/2020)</div>
+<div class="content">Activity: <br>Woke up and there seems to be this flighty kind of already gone to wherever the heck it is sort of noon jargon, not knew, physical humans that sleep in that long on this planet might know feeling if described, feels a spiritual had flew the coupe earlier and there is this air of sadness and loneliness. It&#39;s an interesting staple upon some of the normality of this planet and the culture physically, spiritually especially upon seeing the kinds of dimensional setup and movement that certain spiritual can do. Still remembrance of last night and there was these moments where I was located dimensionally in which can be considered a big deal. Like the kind of stuff where when I do a clarification it might hit home more but I don&#39;t know if that was the emphasis. The kind of stuff, albeit different I feel for a decent size portion having to do with being able to correct past mistakes and help those in the past that needed defense by way of other dimensional science and the ability to maneuver footage and recordings, but also natural time frames to be able to interact, I had noted that the area that I was located did have a feeling of let know regarding that it might be different, more secluded and containment related in a certain sense, some reminded more castle related to be true. Talks of Future were taking place and a an regarding my advocations and how I could feel it to be god for doing future advocations but as I type this I felt something change regarding. Impact regarding actions and the spiritual ripple affect regarding. I kind of feel that even though the their has been situating in many different manners I can&#39;t help but still feel the kinds of feelings that had happened front lawn Friday reminding of devastation energies sometimes sleep related. <br><br>Storylines still discerned just by looking at shapes and web searches. The firing of such matters greatly and we have seen other dimensionsal movement simply upon noting story within shapings and it&#39;s the miraculous that reminds of the kindness, do spiritual move and leave from a sport when such a thought of story, shaping and other kinds take place upon markings and writings on the wall? At times I have wondered if spiritual literal had to leave certain areas and of course it&#39;s sometimes a contrast to the beauty of story machinisms in which certain spiritual of story continue to Maintain that we can still identify story in shapings without spiritual having to leave but the classic at times here has been some of the story maneuvering once identified for portions but it&#39;s been more emphasized to be story movement but I still feel there is things in which the Concept of Story dislikes. <br><br>Vibes regarding myself on the fritz at least on my end. Tried listening to a Song of Music and there was this feeling on not wanting to do vibes for certain spiritual around myself. It&#39;s understood that vibes are a spiritual and other-dimensional phenomenon that speaks of inspiration. When you listen to a song, the energies around you arm areas chest area and head area that makes you want to jam to a song or dance is for a decent size portion on this planet having to do with vibes. Music listened towards and there being understanding of the love for music. A certain spiritual group around me and others that my Main Spriit Guides indicated trying to suppress some of the majic. <br><br>There was still this impressional of soldiers and defendors out there, a reminder that there are those putting their life on the line defending this place and other places. It seemed to be Earth-Based related and I didn&#39;t think I was the only one where some of the dimensional movements were affecting. The scary fact that there is spiritual conflict. There is other-dimensional conflict. Sometimes certain physicals a part of certain conflict behind the scenes when they live their regular lives. The involvement though in how they want to proceed and what the realism of the situations translate some of that seems to be unfair at times and this extends to other dimensional and spiritual as well as. Understood that it&#39;s not just darker culture discerned but also banner and nation culture as well as dimensions and Non-Dimensions. They say that on this planet spoken through NDE Accounts and other kinds of experiences that Physicals that feel spiritually in distress should call upon Angels, Spiritual Guideships and Light in which I feel is good options for spiritual safety but at times I think to be not the only avenue that certain physicals can go. To be true I find it to be a bit unfair given the regular average person on this planet for portions. What we needed to understand at times is that Angels, Spiritual Guideship and Light have been upon physicals naturally without having to call upon. There is others at times in other-dimensional in which are protecting and defending us in certain stellar fashion. But that we need help for some of them at times and I haven&#39;t been able to fully understand what it is to be and in front of the scenes other dimensional that physicals on this planet can see and understanding that some of the physical nations that behind the scenes have fought and do fight on this planet. The same should be noted and understood in an other-dimensional way regarding this physicals planet as well as others, but just as we have seen what it is today on this physical planet, the Physical Nations are not fighting like they used too. WWII might be in the past but there is always a certain kind of rep within certain processes letting know of importance upon ways of life but also that there still is a battle in that taking place at times. The way certain dimensional work and the kind of tmeframe interactions and access to such a conflict. It still should be noted that there is other-dimensional where nations have followed suit if not before in regards to the physical nations on this physical planet earth being more unified even if understood to be different. That doesn&#39;t mean there isn&#39;t conflict at times and it should be understood there is still spiritual and other-dimensional conflict zones sometimes upon physical earth. If Physical was to put fourth conflict zones on other-dimensional land, when a live dimensional that was innocent regarding such conflict from that other-dimensional was to walk through those conflict zones, that doesn&#39;t mean physicals get to harm him. I know it&#39;s more difficult when physical are in front of the scenes and the utilization normality that has existed and exists for portions still. <br><br>The dimensional stimuli and different kinds that are happening these days speak of cleaner energy higher up while still being able to facilitate those lower down below. Of course there are those saying that movement of dimensional has been happening for a while now, in the 90s we had that talk faster chatter kind of system upon some of the news anchors and even other outlets during such timeframe, it was a spiritual that helped save societal normality during turbulent events during the 90s. Before then you can see changes happening as well in the 70s, 80s and 60s but it extends beyond that too. Remember that the internet and television, phone as well s other kinds of communications these days have streamlines a certain kind of connection and awakening. Think of Writing and Books in earlier times on this planet, the kind of spiritual along for travel regarding such letters, because it was a huge thing back then and you see contrasts of such movement from the past regarding letters to today in current post. It&#39;s different for a reason because these days most people can write and if comparing to first literature writings emergence on this planet. I wondered what the correlation and connection regarding learning pertaining to Caveman drawings and the stone tablets they would use in the past for writing. There was something about stone tablets regarding God Culture, I wondered what kind of spiritual were around first writing on tablets regarding this planet and how did impact that God Culture. <br><br>Ideas: <br>The Devil&#39;s work that my Main Spirit Guides relayed in regards to this writing. Lending the kind of support that my Main Spiritual Guideship relayed in regards to this sentence. I discern there to be works in which certain societal like him working on and we are hoping for quality of life regarding and we want to leave him some work to do because it matters. There are lesser demons employed as well in which the work helps them at times but we can still provide certain things to help them out in decent ways on our end and it might not be far enough for what some of them were pining for. <br><br>The Bark on the tree reflects the old and wise armor that Trees don. Beings of Nature, partially turned story and facilitators to certain culture they furrow their mossy eye brows towards at times. Why wouldn&#39;t it be the intelligence and memory of realms in which poses questions at times but the trees here are also living life. They are living beings breathing and providing breath, healing the planet in natural anatomical state that science coos. The brilliance of Flora for some might be the sight upon or the feeling of energy but they both lend towards something vital and literally stand for vitality for some of them. Let the rays of the sun beat down gently and caressing the Natural of Earth &#39;s surface. When did some of the tree go dark and be a classic villain of Earth-Based. Maybe it was when some of the bad guys realized and took a count on Earth. Psychological Romance. When did we start to utilize some of the elders on this planet as a hit stick. The answer for some on this planet was that they didn&#39;t know and for the physicals that hit home but it might of been when alternatives not shown and nowhere else to go. I literally saw the classic Halloween grump of the dark tree in a dreamworks film, sipping sap at the bar. Prince Charming never seemed so good. Yes there was potentially battle on this planet involving the trees. The last march of the Ents is on a weekday every month. It was those were worried that I was going to say once a week that made some laugh. Epic. Green and Black making rounds wondering where brown is.<br><br>Read Spiritualist information about Blue Light Mediation and a spiritualist that won a nobel prize regarding. <br><br>Moments of listening towards song and feeling spiritual in the wings and hearing them through the music. Portions of audio emphasized at times on my end in which letting know that some of it already but connected to moments now, past and present up to a point. Seeing people shaped on videos like people that I know physical and it&#39;s not new but when it happens it can feel like there is a certain kind of god force around me. I could feel that the meditations working really well. A karmic Lord storyline discerned and a click right at the end having to do with  It segwayed to a clarification regarding my perception pertaining to certain Hindu Gods. I had been mixing up Shiva with Kali, I thought Shiva was Kali. I want to proceed the way my Main Spirit Guides indicated. High impact, contained ensued but it was partial culmination of the spiritual information that I was researching and then researching Gods in the kinds of events and spirituality around me at times has made it to be impactful at time more so than without in a certain context. You see that at times, a spiritual leaves your process and their is impact changes sometimes. <br><br>Those that can change blooming audio but also other kinds similar in regards to Audio. (Explain Blooming Audio)<br><br>Explaining Authority emphasis in regards to shaping regarding everyday.<br><br>There was an actress brought up and I could discern impressions of God regarding her. It was like there was this God force in regards to her. It wasn&#39;t just form utilization from a powerful spirit, it felt to be related in regards to the actress herself by way of impressional discerned in regards to her, when on screen but also just when thinking about her. It was like I knew her. They were saying that one of the storylines has had to do with the kind of God Energies regular people have. I have known there to be God Energies awoken and discerned upon form utilization but there was something about this one. <br>They were talking about Eras of God. Like there is a God Force in regards to Earth-Based and other kinds, sometimes specific people, in which we see Rises happen. Some of this interplay on my end lends towards some of the events that have happened within peoples and spiritual lives. <br><br>They keep trying to say that I have been interacting with spiritual in certain manners reflecting that the some of them can see me in certain timeframes and then some of them can&#39;t see me. Interacting with past events and potentially future events with present glued to the screen in which were potentially a part of those past events but then there is those ones in which were not in the past and never made it through even though this life and others that my Main Spirit Guides indicated is playing out. Does some of the life path direction reflect this? Yeah but it&#39;s covered and how they can maneuver different kinds of interactions, events and other kinds to alter life path direction that can reflect that something never took place when it did. It&#39;s a partial safety but the utilization regarding at times has not benefited some of the life involved in multiple directions. The utilization of Past and Future to help the present with present monitoring.<br><br>The realization that the people I have met physically, the small amount in a certain context can&#39;t bear the sole burden of some of the shaping coming off of this process and then the realization of others on this planet and there story, it was just one of those moments yesterday when realized we need to continue to expand in a certain measures to include certain kind. Considering my vindication and those moving for a while now in looking towards me regarding some of the spiritual events taking place especially regarding certain turbulence. The problematic at times was that when they moved off of me, there wasn&#39;t too many physicals if any on this physical planet Earth was less innocent compared to me regarding some of these events.<br><br>There was also a certain kind of Authority around yesterday regarding the fact that there is average everyday regular people living life. It doesn&#39;t mean we don&#39;t care but to the extent of some of the things that some were trying to put fourth regarding shaping and regular people can at times be too much but there is this kind of look the other way in certain moments regarding some of the shaping because of that classic realism after mediation moment where things even out and we really see what it looks like. I do feel there is an emphasis in regards to self-defense, defense of their own and defense of others(defined by their Main Spirit Guides) regarding many physicals on this physical planet earth but also the spiritual that my Main Spriit Guides indicated in regards to this communication. <br><br>At the end of the day surreal moments when watching a vampire film. Moments of riff from my process and processes facilitating interaction regarding my process and others. There had been a dry kind of impressional regarding but it was one of those moments where I hadn&#39;t seen before too much regarding film, I mean I have seen riff from this process regarding filming before and I am not trying to have it have happen by way of saying the phenomenon that has happened but rather trying to let know of some of the wild things noted in my process. Yeah, some of it doesn&#39;t have shit to do with me in a tug of war regarding resources, some of it is on my side of the screen spiritually and psychically influenced but the we have these where we see it transcend. Mannerisms from modern and present day famous for some of it. The movements of the physicals and the spiritual regarding as well as other kind that other spiritual and other dimensionals are able to note. It was a Segway as well when I started watching this film. I could see shaping regarding actors pertaining to this film in regards to subject just previously talked about in my process, like that actress spoken of earlier in regards to God Force.<br><br>Of course one of the bigger moments might have been some sort of shout out to Vampire Origins. An Archetype seen in other Vampire films, cold and pale. Some of the gravity regarding this not fully understood by myself. It was contained and done well and had less to do with some of the turbulence. My Wonderment regarding, because there might many Origins regarding vampires, but one of my wonders was whether vampires were created through one of those immoral action safeguarding from the Original Creator. Where when he promotes the immoral action in the past first in a safe and contained manner, where then the Original Creator can control the karmic. Of course, if he did that kind of action safeguarding, he probably was able to do without harming too much and is probably able to action safeguard by way of different technologies, buffers and other kinds, while still being able to perpetuate an immoral action, this most predominately probably happened in the past. <br><br>So think of this as an example, The Original Creator consents himself truly, a portion of the Original Creator that is an immediate in a certain context, he sections that part of himself off, with only certain memory and then approaches himself and bites himself on the neck. He perpetuates this action way in some of the beginnings. Maybe it was later that he attached species creation to some of those actions safeguarding. Understand what a kind of safeguard this is, that he can keep vampires safe Karmically by way of this kind of action safeguarding. I feel that the Original Creator did do action safeguarding and it&#39;s not a new concept that I have written about but in regards to Species creation context it&#39;s an interesting lens. The Immortality of it all matters as well, if the Original Creator is the first and he did safeguard actions in certain ways similar and more expanded as to how I have explained than that potentially matters. There is many Vampire Origins I believe and this might be a part of some of it. Understand though that there is potentially dimensional and non-dimensional where some that can still manipulate in other places where the Original Creator doesn&#39;t intervene usually. It matters because Vampiric still want to be careful.<br><br>At the end of the day though there had been certain turbulence noted and this living your life kind of play happening. Some trying to emphasize a lack of care but really many do care but are living their lives. I felt a suppression upon me in regards to my emotions that I actually note might have to do with vampires. The thought that they could still have anatomical similar to what they were before if they wanted, might exist for what&#39;s acceptable. Anyhow though, on my end it looked like vibes were suppressed earlier in the day but then further suppression in regards to care infrastructure. <br><br>#Authorities #Media #Politics #Washington #DimensionalSetup #Music #Maintenance #Faith #Religion #Veterans #SpiritualMeditation #BlueLight #Hinduism #Awareness #Realism #Archetypes #Shaping #Live #DreamMakers #InspirationalNoteTakers #DoYouSeeTheMagicPeople #TimeSituating #TimeIntervals #WhatNeedsToBeSeen #Vampires<br></div>
+
+
+</div></body></html>

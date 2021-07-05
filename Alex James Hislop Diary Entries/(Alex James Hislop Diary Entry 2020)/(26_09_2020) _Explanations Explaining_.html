@@ -1,0 +1,278 @@
+<?xml version="1.0" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>(26/09/2020) &quot;Explanations Explaining&quot;</title>
+<style type="text/css">
+         body {
+  font-family: 'Roboto Condensed','Droid Sans',arial,sans-serif;
+  font-size: 15px;
+  color: rgba(0,0,0,0.8);
+  word-wrap: break-word;
+  background-color: #e8e8e8;
+}
+
+hr {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-style: inset dashed;
+    border-width: 1px;
+}
+
+.note {
+  outline: none;
+  box-shadow: 0 2px 1px rgba(0,0,0,0.08);
+  box-sizing: border-box;
+
+  max-width: 600px;
+  min-width: 240px;
+  margin: 20px;
+
+  background-color: rgb(255, 255, 255);
+}
+
+.note .heading {
+  font-size: 12px;
+  padding: 15px 15px 0 15px;
+  color: rgba(100,100,100,0.8);
+}
+
+.note .title {
+  font-size: 17px;
+  font-weight: bold;
+  padding: 15px 15px 0 15px;
+  min-height: 28px;
+}
+
+.note .content {
+  padding: 12px 15px 15px 15px;
+  font-family: 'Roboto Slab','Times New Roman',serif;
+  font-size: 14px;
+}
+
+.note .attachments {
+  padding: 0 15px 15px 15px;
+}
+
+.attachments ul {
+  padding: 0;
+  margin: 0;
+}
+
+.attachments li {
+  list-style-type: none;
+  margin-top: 12px;
+}
+
+.attachments li img {
+  max-width: 100%;
+}
+
+.attachments .audio {
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxOC4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4KPCFET0NUWVBFIHN2ZyAgUFVCTElDICctLy9XM0MvL0RURCBTVkcgMS4xLy9FTicgICdodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQnPgo8c3ZnIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbDpzcGFjZT0icHJlc2VydmUiIHZpZXdCb3g9IjAgMCAyMCAyMCIgdmVyc2lvbj0iMS4xIiB5PSIwcHgiIHg9IjBweCIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDIwIDIwIj4KPHBhdGggZD0ibTEgN3Y2aDRsNSA1di0xNmwtNSA1aC00em0xMy41IDNjMC0xLjgtMS0zLjMtMi41LTR2OGMxLjUtMC43IDIuNS0yLjIgMi41LTR6bS0yLjUtOC44djIuMWMyLjkgMC45IDUgMy41IDUgNi43cy0yLjEgNS44LTUgNi43djIuMWM0LTAuOSA3LTQuNSA3LTguOHMtMy03LjktNy04Ljh6Ii8+Cjwvc3ZnPgo=);
+  background-size: 18px 18px;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 22px;
+  height: 22px;
+  display: block;
+}
+
+.note .list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.note .listitem {
+}
+
+.note .listitem .bullet {
+  position: absolute;
+}
+
+.note .listitem .text {
+  margin-left: 20px;
+}
+
+.note .identifier {
+  color: rgba(0, 0, 0, 0.5);
+}
+.note .identifier:before {
+  content: "(";
+}
+.note .identifier:after {
+  content: ")";
+}
+
+/* Only show identifiers when the element is hovered. */
+.note .listitem .identifier,
+.note .chip .identifier {
+  display: none;
+}
+
+.note .listitem:hover .identifier,
+.note .chip:hover .identifier {
+  display: inline;
+}
+
+.note .chips {
+  padding: 12px 15px 15px 15px;
+}
+
+.note .chip {
+  display: inline-block;
+  max-width: 198px;
+  margin: 2px 4px 2px 0;
+  padding: 2px 5px;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 11px;
+  font-family: 'Roboto','Droid Sans',arial,sans-serif;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.note .chip a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.chip-icon {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  background-size: 100%;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.annotation.CALENDAR .chip-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMTcgMTJoLTV2NWg1di01ek0xNiAxdjJIOFYxSDZ2Mkg1Yy0xLjExIDAtMS45OS45LTEuOTkgMkwzIDE5YzAgMS4xLjg5IDIgMiAyaDE0YzEuMSAwIDItLjkgMi0yVjVjMC0xLjEtLjktMi0yLTJoLTFWMWgtMnptMyAxOEg1VjhoMTR2MTF6Ii8+CiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+Cjwvc3ZnPgo=);
+}
+
+.annotation.DOCS .chip-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgICA8cGF0aCBkPSJNMTkgM0g1Yy0xLjEgMC0yIC45LTIgMnYxNGMwIDEuMS45IDIgMiAyaDE0YzEuMSAwIDItLjkgMi0yVjVjMC0xLjEtLjktMi0yLTJ6bS0xLjk5IDZIN1Y3aDEwLjAxdjJ6bTAgNEg3di0yaDEwLjAxdjJ6bS0zIDRIN3YtMmg3LjAxdjJ6Ii8+Cjwvc3ZnPgo=);
+}
+
+.annotation.GMAIL .chip-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBmaWxsPSJub25lIiBkPSJNLTYxOC0yMTA0SDc4MnYzNjAwSC02MTh6TTAgMGgyNHYyNEgweiIvPgogICAgPHBhdGggZD0iTTIwIDRINGMtMS4xIDAtMiAuOS0yIDJ2MTJjMCAxLjEuOSAyIDIgMmgxNmMxLjEgMCAyLS45IDItMlY2YzAtMS4xLS45LTItMi0yem0wIDE0aC0yVjkuMkwxMiAxMyA2IDkuMlYxOEg0VjZoMS4ybDYuOCA0LjJMMTguOCA2SDIwdjEyeiIvPgo8L3N2Zz4K);
+}
+
+.annotation.SHEETS .chip-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgICA8cGF0aCBkPSJNMTkgM0g1Yy0xLjEgMC0xLjk5LjktMS45OSAyTDMgOHYxMWMwIDEuMS45IDIgMiAyaDE0YzEuMSAwIDItLjkgMi0yVjVjMC0xLjEtLjktMi0yLTJ6bTAgOGgtOHY4SDl2LThINVY5aDRWNWgydjRoOHYyeiIvPgo8L3N2Zz4K);
+}
+
+.annotation.SLIDES .chip-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjRweCIgaGVpZ2h0PSIyNHB4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgICA8cGF0aCBkPSJNMTkgM0g1Yy0xLjEgMC0xLjk5LjktMS45OSAydjE0YzAgMS4xLjg5IDIgMS45OSAyaDE0YzEuMSAwIDItLjkgMi0yVjVjMC0xLjEtLjktMi0yLTJ6bTAgMTNINVY4aDE0djh6Ii8+Cjwvc3ZnPgo=);
+}
+
+.annotation.WEBLINK .chip-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMTkgNEg1Yy0xLjExIDAtMiAuOS0yIDJ2MTJjMCAxLjEuODkgMiAyIDJoMTRjMS4xIDAgMi0uOSAyLTJWNmMwLTEuMS0uODktMi0yLTJ6bTAgMTRINVY4aDE0djEweiIvPgogICAgPHBhdGggZmlsbD0ibm9uZSIgZD0iTTAgMGgyNHYyNEgweiIvPgo8L3N2Zz4K);
+}
+
+.sharees h2 {
+  display: none;
+}
+
+.sharees ul {
+  list-style: none;
+  margin: 0;
+  padding: 0 15px 15px 15px;
+}
+
+.sharees li {
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMTIgMkM2LjQ4IDIgMiA2LjQ4IDIgMTJzNC40OCAxMCAxMCAxMCAxMC00LjQ4IDEwLTEwUzE3LjUyIDIgMTIgMnptMCAzYzEuNjYgMCAzIDEuMzQgMyAzcy0xLjM0IDMtMyAzLTMtMS4zNC0zLTMgMS4zNC0zIDMtM3ptMCAxNC4yYy0yLjUgMC00LjcxLTEuMjgtNi0zLjIyLjAzLTEuOTkgNC0zLjA4IDYtMy4wOCAxLjk5IDAgNS45NyAxLjA5IDYgMy4wOC0xLjI5IDEuOTQtMy41IDMuMjItNiAzLjIyeiIvPgogICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPgo8L3N2Zz4K);
+  background-size: 18px 18px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.sharees li.group {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgICA8cGF0aCBkPSJNMTYgMTFjMS42NiAwIDIuOTktMS4zNCAyLjk5LTNTMTcuNjYgNSAxNiA1Yy0xLjY2IDAtMyAxLjM0LTMgM3MxLjM0IDMgMyAzem0tOCAwYzEuNjYgMCAyLjk5LTEuMzQgMi45OS0zUzkuNjYgNSA4IDVDNi4zNCA1IDUgNi4zNCA1IDhzMS4zNCAzIDMgM3ptMCAyYy0yLjMzIDAtNyAxLjE3LTcgMy41VjE5aDE0di0yLjVjMC0yLjMzLTQuNjctMy41LTctMy41em04IDBjLS4yOSAwLS42Mi4wMi0uOTcuMDUgMS4xNi44NCAxLjk3IDEuOTcgMS45NyAzLjQ1VjE5aDZ2LTIuNWMwLTIuMzMtNC42Ny0zLjUtNy0zLjV6Ii8+Cjwvc3ZnPgo=);
+}
+
+.note .meta-icons {
+  float: right;
+}
+
+.note .meta-icons span {
+  display: inline-block;
+  background-size: 18px 18px;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 22px;
+  height: 22px;
+  padding-left: 4px;
+}
+
+.meta-icons .pinned {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMHB4IiBoZWlnaHQ9IjIwcHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzQyODVmNCI+DQogICAgPHBhdGggZD0iTTE2IDVoLjk5TDE3IDNIN3YyaDF2N2wtMiAydjJoNXY2bDEgMSAxLTF2LTZoNXYtMmwtMi0yVjV6Ii8+DQogICAgPHBhdGggZmlsbD0ibm9uZSIgZD0iTTAgMGgyNHYyNEgweiIvPg0KPC9zdmc+);
+}
+
+.meta-icons .archived {
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxOC4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4KPCFET0NUWVBFIHN2ZyAgUFVCTElDICctLy9XM0MvL0RURCBTVkcgMS4xLy9FTicgICdodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQnPgo8c3ZnIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbDpzcGFjZT0icHJlc2VydmUiIHZpZXdCb3g9IjAgMCAxOCAxOCIgdmVyc2lvbj0iMS4xIiB5PSIwcHgiIHg9IjBweCIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDE4IDE4Ij4KPHBhdGggZD0ibTE2LjYgM2wtMS4yLTEuNWMtMC4yLTAuMy0wLjYtMC41LTEtMC41aC0xMC43Yy0wLjQgMC0wLjggMC4yLTEgMC41bC0xLjMgMS41Yy0wLjIgMC4zLTAuNCAwLjctMC40IDEuMXYxMS4xYzAgMSAwLjggMS44IDEuOCAxLjhoMTIuNGMxIDAgMS44LTAuOCAxLjgtMS44di0xMS4xYzAtMC40LTAuMi0wLjgtMC40LTEuMXptLTcuNiAxMC45bC00LjktNC45aDMuMXYtMS44aDMuNnYxLjhoMy4xbC00LjkgNC45em0tNi4xLTExLjFsMC43LTAuOWgxMC43bDAuOCAwLjloLTEyLjJ6Ii8+Cjwvc3ZnPgo=);
+}
+
+.meta-icons .trashed {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjE4cHgiIHdpZHRoPSIxOHB4IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0OCA0OCIgZmlsbD0iIzAwMDAwMCI+DQogPHBhdGggZD0ibTEyIDM4YzAgMi4yMSAxLjc5IDQgNCA0aDE2YzIuMjEgMCA0LTEuNzkgNC00di0yNGgtMjR2MjR6bTI2LTMwaC03bC0yLTJoLTEwbC0yIDJoLTd2NGgyOHYtNHoiLz4NCiA8cGF0aCBkPSJtMCAwaDQ4djQ4aC00OHoiIGZpbGw9Im5vbmUiLz4NCjwvc3ZnPg==);
+}
+
+.checked {
+  text-decoration: line-through;
+}
+
+.RED {
+  background-color: rgb(255, 109, 63) !important;
+}
+.ORANGE {
+  background-color: rgb(255, 155, 0) !important;
+}
+.YELLOW {
+  background-color: rgb(255, 218, 0) !important;
+}
+.GREEN {
+  background-color: rgb(149, 214, 65) !important;
+}
+.TEAL {
+  background-color: rgb(28, 232, 181) !important;
+}
+.BLUE {
+  background-color: rgb(63, 195, 255) !important;
+}
+.GRAY {
+  background-color: rgb(184, 196, 201) !important;
+}
+
+/* go/keep-more-colors-eng */
+.CERULEAN {
+  background-color: rgb(130, 177, 255) !important;
+}
+.PURPLE {
+  background-color: rgb(179, 136, 255) !important;
+}
+.PINK {
+  background-color: rgb(248, 187, 208) !important;
+}
+.BROWN {
+  background-color: rgb(215, 204, 200) !important;
+}
+
+      </style></head>
+<body><div class="note DEFAULT"><div class="heading"><div class="meta-icons"><span class="pinned" title="Note pinned"></span>
+
+</div>
+Sep 27, 2020, 10:22:38 AM</div>
+<div class="title">(26/09/2020) &quot;Explanations Explaining&quot;</div>
+<div class="content">Activity:<br>There was really good direction this morning in regards to Red and specifically going certain kinds of specific colour routes regarding and how certain spiritual went about doing it was greatly appreciated in certain manners and I could see vindication in regards to a culture I labelled Ri and I felt it to be a freeing sort in feeling ok with being a certain kind of red. I didn&#39;t realize this earlier on it was almost like something was missing or not understood that I was of them in a certain sense. When I entered the City it felt like there was a scuffle with Purple and maybe other colours as well too. I proceeded with what my Main Spriit Guides indicated regarding whether it was in multi colour capacity or more singular colour capacity. There was a moment where I realized what kind of red I am, that I didn&#39;t necessarily have to a certain kind of cool but rather Clean and that I disliked affecting artist&#39;s visions in way not intended but rather if I had to affect artist&#39;s vision in defense team manners that save, to do so in ways that the artist listed. I realized that maybe there were other red like that too and that maybe I didn&#39;t realize why some red operated that way even with some of the reasonings right in front of my eyes more so than most physicals. There was a certain moment in my process where I felt certain factions of red got stars regarding this process but also maybe the planet in a certain sense. Maybe recognition that they are of Earth-Based culture as we know them to be would make them see why I cared about the artist&#39;s vision and maybe me understanding warfare made me want to care less but we all have our ideals. The events later in the day regarding clarifications specifically in regards to Red Factions that my Main Spirit Guides indicated regarding the City of Toronto and the Village of Maple as well as Georgina and Newmarket, I feel to be really important and I am requesting for such in the ways that my Main Spirit Guides relayed. It was understood there a lot of Trene, Toronto understood that and the purple might have been a sign and maybe there was a connection to some of the Pink and Multi-Colour that were in my dreams supposedly on my street with crates of strong metal. The Pink and Purple storylines on my end as well as others that my Main Spirit Guides indicated have been seen in different manners but the explanation of such should explain. Maybe being able to celebrate writing is a part of this, then again maybe it isn&#39;t. <br><br>Understanding what is going on around us though with awareness and integrity especially some of the battle and the spiritual soldiery defending the innocence and innocent in conflict made me feel informed and somehow without it at times a little lost. Inspiration as motivation given a little tunes made move in ways I didn&#39;t think I could. The Power of Media and Music was felt this day. Maybe Story was closer than some thought. Gold and Red showing up through signs of life and saving.<br><br>Before going home from my Nonnas on the street I did two big advocations. My Spiritual Family is choosing what their Guideships chose for them to Choose and my spiritual family that my Main Spirit Guides indicated is choosing what their Guideships indicated for them to choose. It was done in the style that my Main Spirit Guides indicated. The ultimatum had to do with a choice of two options that my Main Spirit Guides would probably want me to expand in which I dont want too and a tell in front of the scenes that the two let knows and/or advocationals are big. They are big for a reason. One of two reasons why I worded the first advocation the way  I did with my out loud voice on the road had to do with memory and maybe awareness, but the second had to do with the fact that I might be more decent without saying that my Main Spirit Guides indicated, both by way of safeguards but also because some weren&#39;t hearing me with saying that my Main Spirit Guides indicated in regards to some of the advocations. I requested the areas that my Main Spirit Guides indicated and the resources that my Main Spirit Guides indicated specifically regarding those two let knows and advocations let known near the top of this paragraph. There was a wait a second moment, your going with what your Main Spirit Guides indicated right?, the answer has continued to be yes. So less of a problem. Yeah. I know I have expanded family spiritually and not all of them go with their Guideships in which there is safeguards regarding as such to point towards what they are going with in terms of terminologies. I only go so far though. It did include some baddies partially because it warranted as such by way of what some noted, a certain percentage interesting. Both requests in being able to go with the latter softer less large let know regarding both let knows had to do with safety itself in regards, both large areas to clarify Guideship information and the second resource lists for those that can cover what myself and others that my Main Spirit Guides are unable to cover. The Chain is there. It exists for a reason and it&#39;s not as unheard of as what some thought. You can take a look at the Spiritual United Nations information that my Main Spirit Guides relayed. It&#39;s less interesting for some though that it happens to be the bad at times that is being ignored with what their going with and it&#39;s just as scary that there is good in which is not being facilitated the way their spiritual Guideships indicated. Resources for different kinds of governments seems to be an evident solution but while we wait<br>Some would cry out that it was being done in contained ways and my response would be that the way my Main Spirit Guides operate might synergize with that direction if they chose but if they didn&#39;t then there might be just reasoning for that and remedy upon ripple affect in ways desired. Not forgetting the other world News needed to be heard on this day as well as other spiritual events shouldn&#39;t be forgotten as well. There was a COVID-19 tell and a let know that I can do more regarding considering the knowledge I had regarding advocations and disclaimers specifically in Guideship emphasis. There was already a single advocation regarding on my end regarding located online physically and spiritually on the infrastructures that my Main Spirit Guides relayed. <br><br>It was identified that I dont always operate in that fashion and by way of operating in that fashion I cleared out some of the lies that had been perpetuated saying that I operate in those kinds of ways at least in a physical sense anyhow. It was a style of play seen within my process before. Some do what they can in regards to that style. <br><br>I was either going to choose the more conservative one if <br><br>There was a let know before that something was going to akin to some of the events discerned regarding &quot;The Stand&quot; in which continued to let know there is spiritual systems in utilization and emulation regarding films and books in certain manners, the events though themselves spoke of different conflicts and peacefuls regarding multiple issues. Some of which having to do with spiritual suppression and understanding realism in front of the scenes. It was almost a shout out to the past couple weeks in what I had been sensing but to be true the different kinds of events and different kinds of aesthetics regarding similar events probably let know of something different than what I sensed. Let knows that I am working on Anti-Camp decent measures specifically regarding such work on this day especially regarding certain let knows and advocational seemed to ease the mind of certain kind. That I wasn&#39;t the only one working on such things made it much better. Another tell before some of the advocationals had been about a discernment regarding Mafia, I feel many Mafioso are good on this planet in varying manners in which they hold it down for creeds but also that their good people and good spiritual. I feel there was unfair circumstances at times in front of the scenes in which partially lent for some of them to go the paths they did and maybe it was less to do with a fair shake for some and more to do with what the fair shake looked like to be true. Even so and regardless they still deserve quality of life too. I had a piss poor thought earlier this day that was unclouth and not how I felt but I still noted something regardless of whether true or not. Another variable that had taken place in regards to some of the ruckus that had happened today was a fair power realization regarding some of them as well as others in which I had observed in certain ways. I wasn&#39;t meaning to offend both good and bad at times but it seemed to be the case in certain moments, I want things to work out and I want that Promised kind of stuff not just in the next life but here on this planet. I know it can work. <br><br>I didn&#39;t realize some of the faux pas until later on the drive home, specifically in regards to some of the specifics in how some were trying to pit certain concepts more immediately spoke about regarding some of my actions but I tried to work some of it in regarding certain aspects. How am supposed to balance the decent of other ways of life and the importance of how many if not all are proceeding? <br><br><br><br>Topic: <br><br>About utilization of the Areas that my Main Spirit Guides indicated and the resources that my Main Spirit Guides indicated.<br><br>Media (help with ripple affect that my Main Spirit Guides indicated), McDonalds, Higher Powers, United Nations, Higher Selves that my Main Spirit Guides indicated and Selves that my Main Spirit Guides indicated, Original Setting Beings that my Main Spirit Guides indicated (Original Setting beings are powerful and what I requested had to do with situating clarifications that it&#39;s not as bad as some are trying make it seem to be), Gamifian, Magnifiathans, Prayer, Confession, Metaphorical and Story(More of a Natural), Coexistence. Heroes. Physicals passing on, the transitioning. ASL Sign.<br>Charity and Prop Bono and work opportunities. Outreach and Reach Out.<br>Facilitation of those that want to do less work with their being just as much work done and alternatives that provide the same thing. <br>Reputational Defense and decent worded advocational regarding what the good wanted me and others that my Main Spirit Guides indicated, Music, Guideships that my Main Spirit Guides indicated, Ultra put into play and work in regards to safeguarding my family that my Main Spirit Guides indicated and others(defined by my Main Spirit Guides), Impact and ripple affect, proximity and vicinity, Earth-Based Authority information especially reassuring those of Space that want to be involved that there are ways to do as such, hence the areas that my Main Spirit Guides relayed and the resources that my Main Spirit Guides indicated. (One of the styles I employed was advocating for the best possible things I could have advocated cross referenced with what my Main Spirit Guides indicated, some wanted a more of that spice in the baddie direction).those that facilitate my advocations, informational placement and what my Main Spirit Guides relayed. Those that fill the resource coffers to be able to hand out resources. Those that hold it down for history and homes. Townships and City defense. International and National Cohesion specifically upon this planet. Are we more in line than what some say? Understanding and Update spiritual that my Main Spirit Guides indicated. Communication. <br><br>potentially certain kind pulling from resources stacked to be pulled from in times of trouble when that might not bee needed, some doing it for decent reasons and other not so. let know.<br><br>Dreams:<br>I remember there being three thanks in the visuals with insinuation in feeling psychically of another two out of view away from street out of visual. The three I could see looked to be in crates, one in metal cage and knowing the other two were still tanks but not fully certain. It looked to be to be in the street i live on, like how sometimes dreams relay similarities of a location even though there can be differences of aesthetics in dream itself. Flashback of travel and transportation, for what I discerned related to the tanks, didn`t see the tank but rather warehouses and I could discern impressional of the movie lord of war and also the video game metro, Russian impressional, also a former acquaintance in which reminds of maintenance. I woke up and their was talk of past time frames potentially in vicinity specific reminding of the building from Richmond Hill. There was let know in feeling that the two tanks unpacked might have been bad which doesn`t make sense,  one maybe but not both and they might actually be good. One of them felt to be inside my house in a certain manner and/or in the backyard. I didn&#39;t know if they were fighting each other or something else. Form of  Character brought up after viewing. General from the Stand. Good News is what I discern.<br><br>Explaining some of the circumstances and styles regarding dawning banners especially for more in front of the scenes dimensional beings and other kinds in ways in which alleviates pressure on single banners regarding certain variables like some still liking multi colour and things of that nature.<br></div>
+
+
+</div></body></html>

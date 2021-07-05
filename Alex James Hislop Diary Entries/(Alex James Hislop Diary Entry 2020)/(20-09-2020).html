@@ -1,0 +1,278 @@
+<?xml version="1.0" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>(20-09-2020)</title>
+<style type="text/css">
+         body {
+  font-family: 'Roboto Condensed','Droid Sans',arial,sans-serif;
+  font-size: 15px;
+  color: rgba(0,0,0,0.8);
+  word-wrap: break-word;
+  background-color: #e8e8e8;
+}
+
+hr {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-style: inset dashed;
+    border-width: 1px;
+}
+
+.note {
+  outline: none;
+  box-shadow: 0 2px 1px rgba(0,0,0,0.08);
+  box-sizing: border-box;
+
+  max-width: 600px;
+  min-width: 240px;
+  margin: 20px;
+
+  background-color: rgb(255, 255, 255);
+}
+
+.note .heading {
+  font-size: 12px;
+  padding: 15px 15px 0 15px;
+  color: rgba(100,100,100,0.8);
+}
+
+.note .title {
+  font-size: 17px;
+  font-weight: bold;
+  padding: 15px 15px 0 15px;
+  min-height: 28px;
+}
+
+.note .content {
+  padding: 12px 15px 15px 15px;
+  font-family: 'Roboto Slab','Times New Roman',serif;
+  font-size: 14px;
+}
+
+.note .attachments {
+  padding: 0 15px 15px 15px;
+}
+
+.attachments ul {
+  padding: 0;
+  margin: 0;
+}
+
+.attachments li {
+  list-style-type: none;
+  margin-top: 12px;
+}
+
+.attachments li img {
+  max-width: 100%;
+}
+
+.attachments .audio {
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxOC4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4KPCFET0NUWVBFIHN2ZyAgUFVCTElDICctLy9XM0MvL0RURCBTVkcgMS4xLy9FTicgICdodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQnPgo8c3ZnIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbDpzcGFjZT0icHJlc2VydmUiIHZpZXdCb3g9IjAgMCAyMCAyMCIgdmVyc2lvbj0iMS4xIiB5PSIwcHgiIHg9IjBweCIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDIwIDIwIj4KPHBhdGggZD0ibTEgN3Y2aDRsNSA1di0xNmwtNSA1aC00em0xMy41IDNjMC0xLjgtMS0zLjMtMi41LTR2OGMxLjUtMC43IDIuNS0yLjIgMi41LTR6bS0yLjUtOC44djIuMWMyLjkgMC45IDUgMy41IDUgNi43cy0yLjEgNS44LTUgNi43djIuMWM0LTAuOSA3LTQuNSA3LTguOHMtMy03LjktNy04Ljh6Ii8+Cjwvc3ZnPgo=);
+  background-size: 18px 18px;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 22px;
+  height: 22px;
+  display: block;
+}
+
+.note .list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.note .listitem {
+}
+
+.note .listitem .bullet {
+  position: absolute;
+}
+
+.note .listitem .text {
+  margin-left: 20px;
+}
+
+.note .identifier {
+  color: rgba(0, 0, 0, 0.5);
+}
+.note .identifier:before {
+  content: "(";
+}
+.note .identifier:after {
+  content: ")";
+}
+
+/* Only show identifiers when the element is hovered. */
+.note .listitem .identifier,
+.note .chip .identifier {
+  display: none;
+}
+
+.note .listitem:hover .identifier,
+.note .chip:hover .identifier {
+  display: inline;
+}
+
+.note .chips {
+  padding: 12px 15px 15px 15px;
+}
+
+.note .chip {
+  display: inline-block;
+  max-width: 198px;
+  margin: 2px 4px 2px 0;
+  padding: 2px 5px;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 11px;
+  font-family: 'Roboto','Droid Sans',arial,sans-serif;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.note .chip a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.chip-icon {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  background-size: 100%;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.annotation.CALENDAR .chip-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMTcgMTJoLTV2NWg1di01ek0xNiAxdjJIOFYxSDZ2Mkg1Yy0xLjExIDAtMS45OS45LTEuOTkgMkwzIDE5YzAgMS4xLjg5IDIgMiAyaDE0YzEuMSAwIDItLjkgMi0yVjVjMC0xLjEtLjktMi0yLTJoLTFWMWgtMnptMyAxOEg1VjhoMTR2MTF6Ii8+CiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+Cjwvc3ZnPgo=);
+}
+
+.annotation.DOCS .chip-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgICA8cGF0aCBkPSJNMTkgM0g1Yy0xLjEgMC0yIC45LTIgMnYxNGMwIDEuMS45IDIgMiAyaDE0YzEuMSAwIDItLjkgMi0yVjVjMC0xLjEtLjktMi0yLTJ6bS0xLjk5IDZIN1Y3aDEwLjAxdjJ6bTAgNEg3di0yaDEwLjAxdjJ6bS0zIDRIN3YtMmg3LjAxdjJ6Ii8+Cjwvc3ZnPgo=);
+}
+
+.annotation.GMAIL .chip-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBmaWxsPSJub25lIiBkPSJNLTYxOC0yMTA0SDc4MnYzNjAwSC02MTh6TTAgMGgyNHYyNEgweiIvPgogICAgPHBhdGggZD0iTTIwIDRINGMtMS4xIDAtMiAuOS0yIDJ2MTJjMCAxLjEuOSAyIDIgMmgxNmMxLjEgMCAyLS45IDItMlY2YzAtMS4xLS45LTItMi0yem0wIDE0aC0yVjkuMkwxMiAxMyA2IDkuMlYxOEg0VjZoMS4ybDYuOCA0LjJMMTguOCA2SDIwdjEyeiIvPgo8L3N2Zz4K);
+}
+
+.annotation.SHEETS .chip-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgICA8cGF0aCBkPSJNMTkgM0g1Yy0xLjEgMC0xLjk5LjktMS45OSAyTDMgOHYxMWMwIDEuMS45IDIgMiAyaDE0YzEuMSAwIDItLjkgMi0yVjVjMC0xLjEtLjktMi0yLTJ6bTAgOGgtOHY4SDl2LThINVY5aDRWNWgydjRoOHYyeiIvPgo8L3N2Zz4K);
+}
+
+.annotation.SLIDES .chip-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjRweCIgaGVpZ2h0PSIyNHB4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgICA8cGF0aCBkPSJNMTkgM0g1Yy0xLjEgMC0xLjk5LjktMS45OSAydjE0YzAgMS4xLjg5IDIgMS45OSAyaDE0YzEuMSAwIDItLjkgMi0yVjVjMC0xLjEtLjktMi0yLTJ6bTAgMTNINVY4aDE0djh6Ii8+Cjwvc3ZnPgo=);
+}
+
+.annotation.WEBLINK .chip-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMTkgNEg1Yy0xLjExIDAtMiAuOS0yIDJ2MTJjMCAxLjEuODkgMiAyIDJoMTRjMS4xIDAgMi0uOSAyLTJWNmMwLTEuMS0uODktMi0yLTJ6bTAgMTRINVY4aDE0djEweiIvPgogICAgPHBhdGggZmlsbD0ibm9uZSIgZD0iTTAgMGgyNHYyNEgweiIvPgo8L3N2Zz4K);
+}
+
+.sharees h2 {
+  display: none;
+}
+
+.sharees ul {
+  list-style: none;
+  margin: 0;
+  padding: 0 15px 15px 15px;
+}
+
+.sharees li {
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMTIgMkM2LjQ4IDIgMiA2LjQ4IDIgMTJzNC40OCAxMCAxMCAxMCAxMC00LjQ4IDEwLTEwUzE3LjUyIDIgMTIgMnptMCAzYzEuNjYgMCAzIDEuMzQgMyAzcy0xLjM0IDMtMyAzLTMtMS4zNC0zLTMgMS4zNC0zIDMtM3ptMCAxNC4yYy0yLjUgMC00LjcxLTEuMjgtNi0zLjIyLjAzLTEuOTkgNC0zLjA4IDYtMy4wOCAxLjk5IDAgNS45NyAxLjA5IDYgMy4wOC0xLjI5IDEuOTQtMy41IDMuMjItNiAzLjIyeiIvPgogICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPgo8L3N2Zz4K);
+  background-size: 18px 18px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.sharees li.group {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgICA8cGF0aCBkPSJNMTYgMTFjMS42NiAwIDIuOTktMS4zNCAyLjk5LTNTMTcuNjYgNSAxNiA1Yy0xLjY2IDAtMyAxLjM0LTMgM3MxLjM0IDMgMyAzem0tOCAwYzEuNjYgMCAyLjk5LTEuMzQgMi45OS0zUzkuNjYgNSA4IDVDNi4zNCA1IDUgNi4zNCA1IDhzMS4zNCAzIDMgM3ptMCAyYy0yLjMzIDAtNyAxLjE3LTcgMy41VjE5aDE0di0yLjVjMC0yLjMzLTQuNjctMy41LTctMy41em04IDBjLS4yOSAwLS42Mi4wMi0uOTcuMDUgMS4xNi44NCAxLjk3IDEuOTcgMS45NyAzLjQ1VjE5aDZ2LTIuNWMwLTIuMzMtNC42Ny0zLjUtNy0zLjV6Ii8+Cjwvc3ZnPgo=);
+}
+
+.note .meta-icons {
+  float: right;
+}
+
+.note .meta-icons span {
+  display: inline-block;
+  background-size: 18px 18px;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 22px;
+  height: 22px;
+  padding-left: 4px;
+}
+
+.meta-icons .pinned {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMHB4IiBoZWlnaHQ9IjIwcHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzQyODVmNCI+DQogICAgPHBhdGggZD0iTTE2IDVoLjk5TDE3IDNIN3YyaDF2N2wtMiAydjJoNXY2bDEgMSAxLTF2LTZoNXYtMmwtMi0yVjV6Ii8+DQogICAgPHBhdGggZmlsbD0ibm9uZSIgZD0iTTAgMGgyNHYyNEgweiIvPg0KPC9zdmc+);
+}
+
+.meta-icons .archived {
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxOC4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4KPCFET0NUWVBFIHN2ZyAgUFVCTElDICctLy9XM0MvL0RURCBTVkcgMS4xLy9FTicgICdodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQnPgo8c3ZnIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbDpzcGFjZT0icHJlc2VydmUiIHZpZXdCb3g9IjAgMCAxOCAxOCIgdmVyc2lvbj0iMS4xIiB5PSIwcHgiIHg9IjBweCIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDE4IDE4Ij4KPHBhdGggZD0ibTE2LjYgM2wtMS4yLTEuNWMtMC4yLTAuMy0wLjYtMC41LTEtMC41aC0xMC43Yy0wLjQgMC0wLjggMC4yLTEgMC41bC0xLjMgMS41Yy0wLjIgMC4zLTAuNCAwLjctMC40IDEuMXYxMS4xYzAgMSAwLjggMS44IDEuOCAxLjhoMTIuNGMxIDAgMS44LTAuOCAxLjgtMS44di0xMS4xYzAtMC40LTAuMi0wLjgtMC40LTEuMXptLTcuNiAxMC45bC00LjktNC45aDMuMXYtMS44aDMuNnYxLjhoMy4xbC00LjkgNC45em0tNi4xLTExLjFsMC43LTAuOWgxMC43bDAuOCAwLjloLTEyLjJ6Ii8+Cjwvc3ZnPgo=);
+}
+
+.meta-icons .trashed {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjE4cHgiIHdpZHRoPSIxOHB4IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0OCA0OCIgZmlsbD0iIzAwMDAwMCI+DQogPHBhdGggZD0ibTEyIDM4YzAgMi4yMSAxLjc5IDQgNCA0aDE2YzIuMjEgMCA0LTEuNzkgNC00di0yNGgtMjR2MjR6bTI2LTMwaC03bC0yLTJoLTEwbC0yIDJoLTd2NGgyOHYtNHoiLz4NCiA8cGF0aCBkPSJtMCAwaDQ4djQ4aC00OHoiIGZpbGw9Im5vbmUiLz4NCjwvc3ZnPg==);
+}
+
+.checked {
+  text-decoration: line-through;
+}
+
+.RED {
+  background-color: rgb(255, 109, 63) !important;
+}
+.ORANGE {
+  background-color: rgb(255, 155, 0) !important;
+}
+.YELLOW {
+  background-color: rgb(255, 218, 0) !important;
+}
+.GREEN {
+  background-color: rgb(149, 214, 65) !important;
+}
+.TEAL {
+  background-color: rgb(28, 232, 181) !important;
+}
+.BLUE {
+  background-color: rgb(63, 195, 255) !important;
+}
+.GRAY {
+  background-color: rgb(184, 196, 201) !important;
+}
+
+/* go/keep-more-colors-eng */
+.CERULEAN {
+  background-color: rgb(130, 177, 255) !important;
+}
+.PURPLE {
+  background-color: rgb(179, 136, 255) !important;
+}
+.PINK {
+  background-color: rgb(248, 187, 208) !important;
+}
+.BROWN {
+  background-color: rgb(215, 204, 200) !important;
+}
+
+      </style></head>
+<body><div class="note DEFAULT"><div class="heading"><div class="meta-icons"><span class="pinned" title="Note pinned"></span>
+
+</div>
+Sep 26, 2020, 9:26:47 PM</div>
+<div class="title">(20-09-2020)</div>
+<div class="content">Today has been a bit of a lens from certain kind judges and detectives in a what it turned to be when I when through my diary entries. It has been a bit of a negotiation day but also a lot of clarifications in certain manner. Yesterday I watched cloud atlas and it did change my life again. The film is beautiful and it&#39;s one of my favorite. I had watched the stand the day previous. It was a strange sort of societal fresh morning gathering and some hated me going to sleep during such spiritual gatherings and I dont mean to be upsetting. <br><br>Vent areas stuff today, Movement of spiritual via vent areas but the vent stuff upon me like almost a suit of armor. I didn&#39;t feel too much presence from of the spiritual that I would normally note, business kind to be ture, it looked like a certain kind of filter and safety against spiritual influencing and manipulation in vent jerryrigged stellar.<br><br>Write about The Stand and <br><br>still disagreements and arguments especially about my direction in the chatter regarding the voiceworks but maybe it was also a discussion about direction itself. I feel that spiritual for some are trying to get me to be a certain kind and somehow holding stances that are regular normalities in many different under duress which somehow linked to that good spiritual having to do with working together.<br>Strange that it was after such a boom at times.<br>Facilitation of Audiences and crowds as well ls spiritual and other dimensional and the ability to do so safely. <br>This kind of environment where it&#39;s calloboration style and chill upon writings endeavors.<br>Wrestling yesterday in the segway. Really cool to watch wrestlemania 1.<br>Kind of feels like some are trying to irritate that kind of thing for some in certain kind of inner point of view direction as well as for some of those kind who wear inner point of view directions upon sleeve and proceed and choose as such for portions in the normality of where I come from in being able to talk about those directions and even choose those directions.<br>Anti-Camp decent is still here and remember when in this process where certain spiritual felt they weren&#39;t in vicinity when they were for portions well i discern something similar in regards to some of the bad and some of the good. We do note suppression of certain kind of culture and it comes off of major discussion from what I discern especially regarding suppression of spiritual. <br>It was a strange day today and I had been a of a plan to create some informational placement, diary entries and content creation even some gaming in which got sidetracked by way of this strange sort of machinism and let knows of different on this earth in certain capacity. Someone who only gets angry a bit for some of them might be due to certain of demeanor and personality but also spiritual interaction technology. <br>When I was going to sleep last night a lot of good spiritual around me but the kinds of things at times that had happened within lower down areas and do note that I do feel that i have transported to certain spiritual out of harms away within the couple days didn&#39;t note as much conflict even though I felt taken place. I felt like some of the good were angry regarding and some of the bad regarding some of the things that had happened, less angry with the good spiritual that was trying to help for some. Hollywood teams around me emphasized past 3 days to be true. Starting understanding in a psychic and other dimensional way some of things regarding certain fame level in a weird turn of events kind of things today. Hollywood around in a big way at times, some safeguarding the movies, mediation especially regarding collaboration, filmaking happening around me when I am watching the films and I feel that some want less of an emphasis regarding this in certain manners. I had wondered how the experience frameworks are fairing regarding filmaking and films on this planet especially regarding other dimensional experiences being lived by other selves of physicals while watching films. You watch a film and you like one of the actors in which is partially because of living certain other dimensional experiences through past films with spiritual not only in similar form in certain instances but other kinds too as well as potentially other connections spiritual especially past life activity and on this film experiences being able to be experienced while watching film lending towards emotions and reactions regarding the film itself especially regarding likes and dislikes and even more specifics some would say regarding picking sides within films. You have two gangs and you feel at times when watching scenes in regards liking one of the gangs or even both and this even lends towards RPG style interactions regarding certain films.<br><br>Two days previous also talks of moving backwards through lifetime lines and in my life reviews they say there might be spiritually walking me through certain things<br><br>Then a maneuver through my diary entries and the thought of the kind of synchronicity and life changes that can happen regarding such an endeavour. I discerned those kinds of actions every once and a while to be beneficial but I still am hoping for my process and others that my Main Spirit Guides to be safe about such actions.<br><br>I can still be decent to other directions while going a certain direction, remembrance regarding this and how I can still lend towards other directions and the correlation that I can still help someone of a different direction.<br><br>Facilitation of Desire, Yearning, want and choice for true for what the spiritual that want to want to be here and obviously understanding immunity from ill will and other kinds from my actions and non-actions, etc.(defined by my Main Spirit Guides) and certain process machinsisms and other kinds that my Main Spirit Guides indicated. Quality of Life facilitation. <br><br>Strange happening this night with certain confusion taking place regarding some in which I feel a shoutout in regards to those teams trying to help situate from the Good if possible. 10:00 PM onwards my process but also others that my Main Spirit Guides indicated. Anti-Camp decent if possible too for what the Good and moral can do for what&#39;s acceptable. I am asking for what the Good that my Main Spirit Guides indicated requested regarding this paragraph. I feel there is a bit of a spiritual culture clash happening at times and a management resource would be beneficial.<br><br>There was a spiritual around me yesterday that situated emotional infrastructure and other kinds in a direction having less to do with speaking and more to do with loving. They somehow say that if I was to shut up and love all day that my process would change. no shit. we take a look at some of the others that my Main Spirit Guides indicated so said to have utilized for some of them lifetime lines in which have gone good direction regarding and have flourished in many manners by way of utilization of love and other kinds of machinisms. <br><br>Prompting regarding what my Main Spirit Guides indicated in regards to this sentence regarding Freaks and Geeks.<br><br>Heart feng shui on early morning 20th of September 2020, rubber tubing upon my heart, like a mold of my heart form certain other dimensional overlapping, a certain kind of tech replaced and taken away from heart area with subtle silent energies overlapping. They tried to create a murmur that  I discerned was fixed, breathing rhythm affected and also fixed as well as the lungs situated from discomfort.I thank the doctors and medics this day most assuredly, I think I wasn&#39;t the only one regarding medical tech and anatomical in which has been other-dimensionally installed within some of the physicals in this physicals planet earth in which I discern I might not have been the only situated. It might have been a healing device upon me that could be removed or it might not have needed to be installed, I am not certain why it was moved but it looked to be almost that the dimensional regarding needed to be moved during other-dimensional anatomical situating. I feel there have been reasoning for moving some of the anatomical and tech in which might have to do for less of a need regarding than previously thought, it should be understood though if that isnt the case for some of it as there is life and death situations regarding.<br><br>Early morning there was a lot of different psychic mechanics and spirituality discerned and I did note multiple conflict taking place. There was this moment where some were trying to let know and others rather trying to have happen this intense look at certain aspects of culture. It was like there was this let know that Star Wars is being the new could have ever imagined and yet maybe not what some were trying to insinuate. That moment where MIB songs really spoke about the fact that were going to be ok through understanding some of the darker before the light flashed. It was one of those that reminded that there are everyday machinsims protecting us even through songs and even movies. There was this moment where I was confused and scared. There was tells that certain kind of transportation feng shuied as the millennium falcon around me and even my physical sight reminded of the the beloved grainy in Star Wars and older films. There was this look like I was on hologram on other ends and that others were on Hologram on my end. There was this thought of filming in regards to Star Wars and I dont fully know if that is the case of it. Though there was also a tell of flickering eye sight being records flipped through and the idea that that kind of phenomenon was happening throughout certain movies to protect earth-based was evident as well. Another though had been a tell earlier of somehow before the 80s less safe compared to after but the real truth is that the much of the good that existed today existed in the past. What changed to make some of the maneuver in this day and age as well as rememberance that they did maneuver in the past which might be a tell of the future. There was this look of a kind of spiritual around as well, a certain kind that is at peace and ok in which some were trying to say somehow meant that they had to be what some wanted them to be but rather I discerned it to be of reassurance. The light of the millennium falcon interior was one of those that reminded of a biege light or a soft light transportation sought after has been the tell. Another tell in the mix some filmmakers might have to deal with at times too was that in which had to do with real life being lived regarding some of the movies. Similar to gameworlds being created on such scale from some of Earth-Based Gaming and similarly Space- Based Gaming as well to a point where upon afterlife for some of the life located to see that some of the idea might have emerged from regular societal pop culture in certain kind of fascination in what some of their response might be in which they might equate to say that maybe the idea emerged from their pwn existence in how spiritual can influence the emergence of idea. It&#39;s an interesting debate in which might hold both true in certain contexts depending on what&#39;s spoken on. I feel filmmakers have advanced ways to be able to block out footage not wanted spiritually and in other dimensional which is why we see clean films at times in multiple kinds of manners but also that there are films out there that have scrappy backgrounds in which ultimately lends towards some of the movie for potions in ever thanks to Story. The other discussions has been contact. Whether it be physical and/or spiritual, and I do feel there is a spiritual and other-dimensional emphasis regarding where spiritual cultures sometimes more advanced than our own for certain percentages reveal on screen often times within the Artist&#39;s vision. Star Wars might have been one of those films. This night scared me though especially in regards to what was insinuated regarding some of the darker of film. There is an emphasis that the spiritual do at times upon conspiracies in which emphasis a certain kind of incoherence and fantastical upon discerning certain events that might be less so and might not have been by way of certain reactions. I have felt it before and it was around me yesterday but it doesn&#39;t denote some of the theories and proof that exists regarding. The kinds of things that we create and the spirituality regarding. One ray of sunshine in the morning changes the entire physical atmosphere and so too does it affect the spiritual atmosphere regarding in manners that can seem manifesto. I mean what would say if you knew and could psychically with clear sight overlapping the physical there existing spiritual and other-dimensional technology in which lends towards shaping of clouds. It would be surreal and maybe that&#39;s a tell for clouds at times can be of surreal culture. I know my experience and there has been where I had been talking about a subject in which manifested within the sky in the shape of clouds. I mean I have seen understanding within the sun itself in which this explanation towards understanding the safety of Space, which at times has had to do with process mechanics as a psychic medium, where I have noted an intelligence to do with conversations that I am having sometimes about the sun where I discern spiritual psychically tinkering with the luminosity of the sun itself where a natural phenomenon potentially by way of many different means but where I do note a spark of life in interaction sometimes not having anything to do with me ant yet still corresponding with the intelligence of the conversation and at times it was about me where I would towards the sun and feel there was an interaction taking place that noted an intelligence not only within the Sun but also around the sun and in vicinity of the Sun in ways where it could seem to be connected with other beings and through other beings. Like a spiritual traversing to my process spiritually and entering a certain doorway leading to an area where when I looked in the sky I noticed more of galacticus size kind of character in which can modify the sun in positive manners. The dimensional machinisms exist I feel and the reasoning has to do with the experiences I have experienced as a physical psychic medium but also spiritually experiences from other selves. So life within Space becomes more clear when understanding Life within the planets themselves and the stars themselves in manners in which is probably story related. A sight of soothsaying in good manner for peace of Heart. <br><br>*Explain darker things within film at times and how it exists for some in certain capacities while for others not so. The coexistence in how some have proceeded in manner higher up above dictating the kinds of coming together that has happened and took place as well as taking place especially for the Anti-Camps and Pro-Camps of the world.*<br><br>*Explaining that there is a top secret regarding certain film culture*<br> <br>*Energies within film especially how one layer of energy could be thousands and hundreds of thousands if not more so of spiritual. What does that mean if that is the case especially with discernment regarding such kinds of energies within film. healing taking place on such measure where you could have one frame peripheral in which has multiple spiritual interactions take place upon mass healing. One frame of a film healing the entire audience.*<br><br>There was a reminded of certain spiritual that show up that have been studying longer on certain topics and reveal in regards to being able to take over certain aspects of certain working through problems.<br><br>#Memory #Afterlife #Judges #Nature #Good #Societal #Clouds #Atlas #Spirituality #Flourish #Suppression #BattleFacilitation #MemoryManipulation #&lt;Why? #GoodTurnedThoughtToBeBad #OneReason #CertainKindNeedingUpdatesToBeAbleToOperateWithoutLargerChanceOfIncident #Story #Realism #Films #Gaming #OfAgeAndConsentIntimacyOverlaps #Transportation #Retrieval #Writing #Deployment #InformationalPlacementSafety #InformationalPlacementAlternatives #Viability #ProcessHappeningsPast2Days #SituatingRegardingMySpiritualActionsAndNon-ActionsEtc.(definedbymymainspiritguides) #LifeUtilizationPast2Days </div>
+
+
+</div></body></html>
