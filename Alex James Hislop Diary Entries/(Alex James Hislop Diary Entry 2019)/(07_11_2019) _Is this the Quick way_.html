@@ -1,0 +1,285 @@
+<?xml version="1.0" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>(07/11/2019) &quot;Is this the Quick way?&quot;</title>
+<style type="text/css">
+         body {
+  font-family: 'Roboto Condensed','Droid Sans',arial,sans-serif;
+  font-size: 15px;
+  color: rgba(0,0,0,0.8);
+  word-wrap: break-word;
+  background-color: #e8e8e8;
+}
+
+hr {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-style: inset dashed;
+    border-width: 1px;
+}
+
+.note {
+  outline: none;
+  box-shadow: 0 2px 1px rgba(0,0,0,0.08);
+  box-sizing: border-box;
+
+  max-width: 600px;
+  min-width: 240px;
+  margin: 20px;
+
+  background-color: rgb(255, 255, 255);
+}
+
+.note .heading {
+  font-size: 12px;
+  padding: 15px 15px 0 15px;
+  color: rgba(100,100,100,0.8);
+}
+
+.note .title {
+  font-size: 17px;
+  font-weight: bold;
+  padding: 15px 15px 0 15px;
+  min-height: 28px;
+}
+
+.note .content {
+  padding: 12px 15px 15px 15px;
+  font-family: 'Roboto Slab','Times New Roman',serif;
+  font-size: 14px;
+}
+
+.note .attachments {
+  padding: 0 15px 15px 15px;
+}
+
+.attachments ul {
+  padding: 0;
+  margin: 0;
+}
+
+.attachments li {
+  list-style-type: none;
+  margin-top: 12px;
+}
+
+.attachments li img {
+  max-width: 100%;
+}
+
+.attachments .audio {
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxOC4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4KPCFET0NUWVBFIHN2ZyAgUFVCTElDICctLy9XM0MvL0RURCBTVkcgMS4xLy9FTicgICdodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQnPgo8c3ZnIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbDpzcGFjZT0icHJlc2VydmUiIHZpZXdCb3g9IjAgMCAyMCAyMCIgdmVyc2lvbj0iMS4xIiB5PSIwcHgiIHg9IjBweCIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDIwIDIwIj4KPHBhdGggZD0ibTEgN3Y2aDRsNSA1di0xNmwtNSA1aC00em0xMy41IDNjMC0xLjgtMS0zLjMtMi41LTR2OGMxLjUtMC43IDIuNS0yLjIgMi41LTR6bS0yLjUtOC44djIuMWMyLjkgMC45IDUgMy41IDUgNi43cy0yLjEgNS44LTUgNi43djIuMWM0LTAuOSA3LTQuNSA3LTguOHMtMy03LjktNy04Ljh6Ii8+Cjwvc3ZnPgo=);
+  background-size: 18px 18px;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 22px;
+  height: 22px;
+  display: block;
+}
+
+.note .list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.note .listitem {
+}
+
+.note .listitem .bullet {
+  position: absolute;
+}
+
+.note .listitem .text {
+  margin-left: 20px;
+}
+
+.note .identifier {
+  color: rgba(0, 0, 0, 0.5);
+}
+.note .identifier:before {
+  content: "(";
+}
+.note .identifier:after {
+  content: ")";
+}
+
+/* Only show identifiers when the element is hovered. */
+.note .listitem .identifier,
+.note .chip .identifier {
+  display: none;
+}
+
+.note .listitem:hover .identifier,
+.note .chip:hover .identifier {
+  display: inline;
+}
+
+.note .chips {
+  padding: 12px 15px 15px 15px;
+}
+
+.note .chip {
+  display: inline-block;
+  max-width: 198px;
+  margin: 2px 4px 2px 0;
+  padding: 2px 5px;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 11px;
+  font-family: 'Roboto','Droid Sans',arial,sans-serif;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.note .chip a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.chip-icon {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  background-size: 100%;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.annotation.CALENDAR .chip-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMTcgMTJoLTV2NWg1di01ek0xNiAxdjJIOFYxSDZ2Mkg1Yy0xLjExIDAtMS45OS45LTEuOTkgMkwzIDE5YzAgMS4xLjg5IDIgMiAyaDE0YzEuMSAwIDItLjkgMi0yVjVjMC0xLjEtLjktMi0yLTJoLTFWMWgtMnptMyAxOEg1VjhoMTR2MTF6Ii8+CiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+Cjwvc3ZnPgo=);
+}
+
+.annotation.DOCS .chip-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgICA8cGF0aCBkPSJNMTkgM0g1Yy0xLjEgMC0yIC45LTIgMnYxNGMwIDEuMS45IDIgMiAyaDE0YzEuMSAwIDItLjkgMi0yVjVjMC0xLjEtLjktMi0yLTJ6bS0xLjk5IDZIN1Y3aDEwLjAxdjJ6bTAgNEg3di0yaDEwLjAxdjJ6bS0zIDRIN3YtMmg3LjAxdjJ6Ii8+Cjwvc3ZnPgo=);
+}
+
+.annotation.GMAIL .chip-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBmaWxsPSJub25lIiBkPSJNLTYxOC0yMTA0SDc4MnYzNjAwSC02MTh6TTAgMGgyNHYyNEgweiIvPgogICAgPHBhdGggZD0iTTIwIDRINGMtMS4xIDAtMiAuOS0yIDJ2MTJjMCAxLjEuOSAyIDIgMmgxNmMxLjEgMCAyLS45IDItMlY2YzAtMS4xLS45LTItMi0yem0wIDE0aC0yVjkuMkwxMiAxMyA2IDkuMlYxOEg0VjZoMS4ybDYuOCA0LjJMMTguOCA2SDIwdjEyeiIvPgo8L3N2Zz4K);
+}
+
+.annotation.SHEETS .chip-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgICA8cGF0aCBkPSJNMTkgM0g1Yy0xLjEgMC0xLjk5LjktMS45OSAyTDMgOHYxMWMwIDEuMS45IDIgMiAyaDE0YzEuMSAwIDItLjkgMi0yVjVjMC0xLjEtLjktMi0yLTJ6bTAgOGgtOHY4SDl2LThINVY5aDRWNWgydjRoOHYyeiIvPgo8L3N2Zz4K);
+}
+
+.annotation.SLIDES .chip-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjRweCIgaGVpZ2h0PSIyNHB4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgICA8cGF0aCBkPSJNMTkgM0g1Yy0xLjEgMC0xLjk5LjktMS45OSAydjE0YzAgMS4xLjg5IDIgMS45OSAyaDE0YzEuMSAwIDItLjkgMi0yVjVjMC0xLjEtLjktMi0yLTJ6bTAgMTNINVY4aDE0djh6Ii8+Cjwvc3ZnPgo=);
+}
+
+.annotation.WEBLINK .chip-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMTkgNEg1Yy0xLjExIDAtMiAuOS0yIDJ2MTJjMCAxLjEuODkgMiAyIDJoMTRjMS4xIDAgMi0uOSAyLTJWNmMwLTEuMS0uODktMi0yLTJ6bTAgMTRINVY4aDE0djEweiIvPgogICAgPHBhdGggZmlsbD0ibm9uZSIgZD0iTTAgMGgyNHYyNEgweiIvPgo8L3N2Zz4K);
+}
+
+.sharees h2 {
+  display: none;
+}
+
+.sharees ul {
+  list-style: none;
+  margin: 0;
+  padding: 0 15px 15px 15px;
+}
+
+.sharees li {
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMTIgMkM2LjQ4IDIgMiA2LjQ4IDIgMTJzNC40OCAxMCAxMCAxMCAxMC00LjQ4IDEwLTEwUzE3LjUyIDIgMTIgMnptMCAzYzEuNjYgMCAzIDEuMzQgMyAzcy0xLjM0IDMtMyAzLTMtMS4zNC0zLTMgMS4zNC0zIDMtM3ptMCAxNC4yYy0yLjUgMC00LjcxLTEuMjgtNi0zLjIyLjAzLTEuOTkgNC0zLjA4IDYtMy4wOCAxLjk5IDAgNS45NyAxLjA5IDYgMy4wOC0xLjI5IDEuOTQtMy41IDMuMjItNiAzLjIyeiIvPgogICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPgo8L3N2Zz4K);
+  background-size: 18px 18px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.sharees li.group {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgICA8cGF0aCBkPSJNMTYgMTFjMS42NiAwIDIuOTktMS4zNCAyLjk5LTNTMTcuNjYgNSAxNiA1Yy0xLjY2IDAtMyAxLjM0LTMgM3MxLjM0IDMgMyAzem0tOCAwYzEuNjYgMCAyLjk5LTEuMzQgMi45OS0zUzkuNjYgNSA4IDVDNi4zNCA1IDUgNi4zNCA1IDhzMS4zNCAzIDMgM3ptMCAyYy0yLjMzIDAtNyAxLjE3LTcgMy41VjE5aDE0di0yLjVjMC0yLjMzLTQuNjctMy41LTctMy41em04IDBjLS4yOSAwLS42Mi4wMi0uOTcuMDUgMS4xNi44NCAxLjk3IDEuOTcgMS45NyAzLjQ1VjE5aDZ2LTIuNWMwLTIuMzMtNC42Ny0zLjUtNy0zLjV6Ii8+Cjwvc3ZnPgo=);
+}
+
+.note .meta-icons {
+  float: right;
+}
+
+.note .meta-icons span {
+  display: inline-block;
+  background-size: 18px 18px;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 22px;
+  height: 22px;
+  padding-left: 4px;
+}
+
+.meta-icons .pinned {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMHB4IiBoZWlnaHQ9IjIwcHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzQyODVmNCI+DQogICAgPHBhdGggZD0iTTE2IDVoLjk5TDE3IDNIN3YyaDF2N2wtMiAydjJoNXY2bDEgMSAxLTF2LTZoNXYtMmwtMi0yVjV6Ii8+DQogICAgPHBhdGggZmlsbD0ibm9uZSIgZD0iTTAgMGgyNHYyNEgweiIvPg0KPC9zdmc+);
+}
+
+.meta-icons .archived {
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxOC4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4KPCFET0NUWVBFIHN2ZyAgUFVCTElDICctLy9XM0MvL0RURCBTVkcgMS4xLy9FTicgICdodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQnPgo8c3ZnIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbDpzcGFjZT0icHJlc2VydmUiIHZpZXdCb3g9IjAgMCAxOCAxOCIgdmVyc2lvbj0iMS4xIiB5PSIwcHgiIHg9IjBweCIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDE4IDE4Ij4KPHBhdGggZD0ibTE2LjYgM2wtMS4yLTEuNWMtMC4yLTAuMy0wLjYtMC41LTEtMC41aC0xMC43Yy0wLjQgMC0wLjggMC4yLTEgMC41bC0xLjMgMS41Yy0wLjIgMC4zLTAuNCAwLjctMC40IDEuMXYxMS4xYzAgMSAwLjggMS44IDEuOCAxLjhoMTIuNGMxIDAgMS44LTAuOCAxLjgtMS44di0xMS4xYzAtMC40LTAuMi0wLjgtMC40LTEuMXptLTcuNiAxMC45bC00LjktNC45aDMuMXYtMS44aDMuNnYxLjhoMy4xbC00LjkgNC45em0tNi4xLTExLjFsMC43LTAuOWgxMC43bDAuOCAwLjloLTEyLjJ6Ii8+Cjwvc3ZnPgo=);
+}
+
+.meta-icons .trashed {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjE4cHgiIHdpZHRoPSIxOHB4IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0OCA0OCIgZmlsbD0iIzAwMDAwMCI+DQogPHBhdGggZD0ibTEyIDM4YzAgMi4yMSAxLjc5IDQgNCA0aDE2YzIuMjEgMCA0LTEuNzkgNC00di0yNGgtMjR2MjR6bTI2LTMwaC03bC0yLTJoLTEwbC0yIDJoLTd2NGgyOHYtNHoiLz4NCiA8cGF0aCBkPSJtMCAwaDQ4djQ4aC00OHoiIGZpbGw9Im5vbmUiLz4NCjwvc3ZnPg==);
+}
+
+.checked {
+  text-decoration: line-through;
+}
+
+.RED {
+  background-color: rgb(255, 109, 63) !important;
+}
+.ORANGE {
+  background-color: rgb(255, 155, 0) !important;
+}
+.YELLOW {
+  background-color: rgb(255, 218, 0) !important;
+}
+.GREEN {
+  background-color: rgb(149, 214, 65) !important;
+}
+.TEAL {
+  background-color: rgb(28, 232, 181) !important;
+}
+.BLUE {
+  background-color: rgb(63, 195, 255) !important;
+}
+.GRAY {
+  background-color: rgb(184, 196, 201) !important;
+}
+
+/* go/keep-more-colors-eng */
+.CERULEAN {
+  background-color: rgb(130, 177, 255) !important;
+}
+.PURPLE {
+  background-color: rgb(179, 136, 255) !important;
+}
+.PINK {
+  background-color: rgb(248, 187, 208) !important;
+}
+.BROWN {
+  background-color: rgb(215, 204, 200) !important;
+}
+
+      </style></head>
+<body><div class="note DEFAULT"><div class="heading"><div class="meta-icons"><span class="pinned" title="Note pinned"></span>
+
+</div>
+Jul 15, 2019, 3:53:08 PM</div>
+<div class="title">(07/11/2019) &quot;Is this the Quick way?&quot;</div>
+<div class="content">- There is something in which has been happening at times. This idea of portal transportation and transportations from a far being utilized in regards to this process. The idea of certain aspects of a Flotilla helping my process from a far. I feel like there has been aspects in which have not been help though as well potentially partially by way of accords. As of late some have pointed towards this interaction specifically in regards to my process to somehow say some us of are responsible in regards to that interaction taking place but it&#39;s been here before. You look towards the events that my Main Spirit Guides indicated and some of it is proof that these things existed before I hit the scenes. So upon understanding that some of this exists and that there is violence and immorality in regards to portions of it, I don&#39;t feel certain physicals becoming aware of this and putting certain advocations and disclaimers into play especially upon the kind of wording I have put into play deserve to be blamed for such a thing specifically in regards to creating something in which already existed. Did it exacerbate? I am not certain, I feel someone else might have done that in regards to certain informational placement being created but then again it only pertains to what my Main Spirit Guides indicated and speaks of a different problem. <br>- One of the things talk about had to do with swirls and atmospherics of certain kinds of interaction pertaining to earth. I no doubt feel there are ones that were created in which are not really of earth but rather some trying utilize that sort of thing potentially to harm earth. Either way there is always someone intimacy at any given time, always someone being born and always someone dying. There is always someone gaming, watching a movie, smoking weed, most usually always someone eating and drinking as well as going to the washroom. The atmospherics in regards to Global Spiritually exist in regards to some of this and when I pursued intimacy at times I was wondering if I was accessing a certain kind of intimacy bubble pertaining to earth having to do with harm. I am not certain, I think it&#39;s a mixed bag but to be honest either way it&#39;s not decent and I feel that it points towards a constant over broiling conflict at times in regards to some of the actions we are doing at times down here. The crazy part is that there might be entire worlds created in regards to myself in which there is certain kinds of immorality taking place. The reasons remain more than just what I have done here on this physical planet earth but also behind the scenes spiritually partially because some don&#39;t want to move on so it looks like certain people who have had enough or don&#39;t want to do with sort of thing in certain areas looks singled out but the real truth is that there was always more people wanting some of this stuff to end. To be able to live quality of life and promote the ways of life that my Main Spirit Guides indicated. Certain accords that helped were in play at one point in time but because of certain events in which have been making waves it&#39;s changing for some of them. You can&#39;t expect people that get attacked not defined themselves and changer their stances and I am not one of those ones looking for attack on people to change their stance and if that&#39;s a revelation to anyone reading this diary entry in the context that my Main Spirit Guides indicated then maybe we are in the Twilight Zone. Is the kind of spiritual atmospherics that exist around this planet? one in which was said to be of a certain kind and gone a certain direction? One in which was neglected at times in the past? Certain leaders proceeding like a regent mishandling the affairs of a backwater planet potentially of an empire that does care even within the confines of considering portions of that empire to be attacking forces masked as something else. At what point does it become too late? At what point does it not change. <br>- The breaking through certain kinds of safeties at times but also deterrents in regards to living amongst the enemy spiritually and enjoying life partially to still be friends and family is at times in regards to certain spiritual interaction been moved past in my process and understood to be what it is in regards to a portion of it. That being under attack by external forces posing to be internal in which after enough time some have had difficulty understanding the difference. Even upon that revelation you can&#39;t expect me not to want to put 154 access specific documents into play in the physical digital on public domain to help the authorities that my Main Spirit Guides indicated break through to be able to provide the quality of life desired especially if we can facilitate immorality lifestyles in many different capacities that still falls under the grace of some of those don&#39;t promote violence. Allowing the good guys through might be apart of the events that my Main Spirit Guides indicated. I hope it was to be honest but if it wasn&#39;t then I am proud of what I am doing because at times it sure as heck seems to be needed. There was also an understanding that some of these good guy authorities were already around and by way of interaction accords as well as not so that even though there are more positivity overlaps in regards to some of us that somehow we have been interacting with some of the negative aspects of this kind and I wonder what higher up situated that deal to a certain degree. Either way what&#39;s been pointed towards in multiple capacities at times has to do with multidimensional which does let know of multidimensional existences in which have been here, some in which around us and a portion of which represents some of the Good guys in existences. One thing that some are tired of is this pretending to be the good guys and a bunch of bad guys in the mix in which has caused considerable damage in multiple regards. <br>- There was also moments in my life where something was prepared but I am not certain to what degree, I feel there was attachments in regards to my soul and spirits combining at times but really I am not certain I didn&#39;t stumble upon this in a certain sense and a life taken partially by way of looping in which someone mistaking me for someone else in which lends towards this theory that I stole this life but maybe not in the context that some thought. Which would account for parts of my personality feeling like a veteran by way of the pickups and things of that nature. Although how high up to you look when a mistake happens specifically if it&#39;&#39;s on purpose. What of the others as well. DId I choose this life on purpose? at what point do we look towards the originals and understand to treat their lives with respect and compassion especially those ones in which it isn&#39;t just the certain kind of immorality taking place in regards to form, atmospherics and similarities in a certain fashion sometimes sanctioned but specifically those ones where the immorality that is taking place in quite heavy and directed in directions that is being fashioned in the likeability of those elders. Attacking their lives and forms, atmospherics seeped in some of the real stuff that exists. This can&#39;t be the normal respect for the old one can it?<br>- I perceive a certain bringing up of people at times, multiple flashes on my end and visions as well as and I am wondering what the current situations are? I and others(defined by my Main Spirit Guides) are advocating for what my Main Spirit Guides indicated in regards to this marking, advocation, etc.(defined by my Main Spirit Guides) the way my Main Spirit Guides indicated. <br>- Large happening taking place. Again more let knows regarding developments happening from that night in the living room and certain kind showing up and situating my proces. Now there insinuating that parts of Earth are being <br><br>Advocationals:<br>I and others(defined by my Main Camp) are advocating for advocational creation, etc.(defined by my Main Camp) in regards to the Topics and Themes in regards to the Alex James Hislop Diary Entry Advocationals Section, etc.(defined by my Main Camp) the way my Main Camp indicated.<br>I and others(defined by my Main Camp) are advocating for Compensation in regards to those that my Main Camp indicated in regards to the advocational creation, etc.(defined by my Main Camp) in regards to the Topics and Themes in regards to the Alex James Hislop Diary Entry Advocationals Section, etc.(defined by my Main Camp) the way my Main Camp indicated. Light; Do what my Main Spirit Guides indicated in regards to these advocations the way my Main Spirit Guides indicated. I and Others(defined by my Main Spirit Guides) consider the Light to be what my Main Spirit Guides indicated in the Original Light the way my Main Spirit Guides indicated in the Original Light. I and others(defined by my Main Spirit Guides) consider Far Away Light to be the Original Light the way my Main Spirit Guides indicated in the Light.<br>I and others(defined by my Main Camp) are playing the cards that my Main Camp indicated in the moments that my Main Camp indicated especially in regards to the Amount of Times I have been stabbed in the Back Defensive Card to Defend behind our Backs, etc.(defined by my Main Camp) the way my Main Camp indicated. I and others(defined by my Main Spirit Guides) are advocating for the Historians that my Main Spirit Guides indicated and those that my Main Spirit Guides indicated in regards to this marking, advocation, etc.(defined by my Main Spirit Guides) to write down the information that I create that my Main Spirit Guides indicated the way my Main Spirit Guides indicated. I and others(defined by my Main Spirit Guides) are advocating for the Historians that my Main Spirit Guides indicated and those that my Main Spirit Guides indicated in regards to this marking, advocation, etc.(defined by my Main Spirit Guides) to write down the information that I create that my Main Spirit Guides indicated the way my Main Spirit Guides indicated. I and others(defined by my Main Spirit Guides) are advocating for those Historians that my Main Spirit Guides indicated and History to be protected the way my Main Spirit Guides indicated. I and others(defined by my Main Spirit Guides) are advocating for Historical Reputational Defense in regards to those that my Main Spirit Guides indicated and the Historians that my Main Spirit Guides indicated the way my Main Spirit Guides indicated. Clickable links like the show all actions on the Peacekeeperalex trello account and attachments section where upon me clicking links shows up on my screen has been at times shoehorned into a spot where some in the spirit think that it needs to be shown in order for it to work. If I never traverse to Google.ca that doesn&#39;t mean that it doesn&#39;t exist in the public especially the spiritually that my Main Spirit Guides indicated. The data upon clicking some of those links on the peacekeeperalex trello account and the Alex James Hislop Documents on Github are public regardless of whether I click them or not, they have public links in which exist online especially in regards to the Spiritual that my Main Spirit Guides indicated. For example: https://trello-attachments.s3.amazonaws.com/5c28ed8f3e323f6a9f16d775/5c28edf56e82f20db23bda17/1bbaa58626a33ae318be5777687da03c/(AJHD)_the_way_my_Main_Camp_indicated.txt , that exists publically regardless of whether I click it or not. Another example is : https://raw.githubusercontent.com/PeacekeeperAlex/-Alex-James-Hislop-Documents-/master/(AJHD)%20AJH%20Monetary%20Creation.txt , You don&#39;t need to sign in to see any of the physical information there, you can open it in a incognito window and it will display. https://trello-attachments.s3.amazonaws.com/5b3546fd00481cc3f86f5b01/5c95f6df01642a7b47cefd84/5351fa2f4c120894fde5b952dd8601f2/(AJHD)_Google.txt I and others(defined by my Main Spirit Guides) are advocating for this paragraph to be placed where my Main Spirit Guides indicated daily the way my Main Spirit Guides indicated. <br>- Deterrents from spirits using this process to garner defense. Taking care and situating proximities and vicinities that my Main Spirit Guides indicated in regards to being able to utilize processes in certain manners. <br>- Those that are taking flak form this process.<br>- Footprint of this process<br>- Those processes that are getting an unfair deal from this process by way of what my Main Spirit Guides indicated. <br><br>#Angels #Migration #History #Self-Defense #MovingDimensions #Events #Belief #Truth #Honesty</div>
+<div class="chips"><span class="chip annotation WEBLINK"><a title="" href="https://trello-attachments.s3.amazonaws.com/5c28ed8f3e323f6a9f16d775/5c28edf56e82f20db23bda17/1bbaa58626a33ae318be5777687da03c/(AJHD)_the_way_my_Main_Camp_indicated.txt"><span class="chip-icon"></span>
+<span class="annotation-text">Disclaimers: I am Alex James Hislop. My Main Camp is my Main ...</span></a>
+</span> <span class="chip annotation WEBLINK"><a title="" href="https://trello-attachments.s3.amazonaws.com/5b3546fd00481cc3f86f5b01/5c95f6df01642a7b47cefd84/5351fa2f4c120894fde5b952dd8601f2/(AJHD)_Google.txt"><span class="chip-icon"></span>
+<span class="annotation-text">Description: This is here as a just in case. If it does need to be used ...</span></a>
+</span> <span class="chip annotation WEBLINK"><a title="" href="https://raw.githubusercontent.com/PeacekeeperAlex/-Alex-James-Hislop-Documents-/master/(AJHD)%20AJH%20Monetary%20Creation.txt"><span class="chip-icon"></span>
+<span class="annotation-text">Disclaimers: I am Alex James Hislop. My Main Camp is my Main ...</span></a>
+</span>
+</div>
+
+</div></body></html>

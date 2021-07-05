@@ -1,0 +1,278 @@
+<?xml version="1.0" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>(08/18/2019) &quot;Spider Sense&quot;</title>
+<style type="text/css">
+         body {
+  font-family: 'Roboto Condensed','Droid Sans',arial,sans-serif;
+  font-size: 15px;
+  color: rgba(0,0,0,0.8);
+  word-wrap: break-word;
+  background-color: #e8e8e8;
+}
+
+hr {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-style: inset dashed;
+    border-width: 1px;
+}
+
+.note {
+  outline: none;
+  box-shadow: 0 2px 1px rgba(0,0,0,0.08);
+  box-sizing: border-box;
+
+  max-width: 600px;
+  min-width: 240px;
+  margin: 20px;
+
+  background-color: rgb(255, 255, 255);
+}
+
+.note .heading {
+  font-size: 12px;
+  padding: 15px 15px 0 15px;
+  color: rgba(100,100,100,0.8);
+}
+
+.note .title {
+  font-size: 17px;
+  font-weight: bold;
+  padding: 15px 15px 0 15px;
+  min-height: 28px;
+}
+
+.note .content {
+  padding: 12px 15px 15px 15px;
+  font-family: 'Roboto Slab','Times New Roman',serif;
+  font-size: 14px;
+}
+
+.note .attachments {
+  padding: 0 15px 15px 15px;
+}
+
+.attachments ul {
+  padding: 0;
+  margin: 0;
+}
+
+.attachments li {
+  list-style-type: none;
+  margin-top: 12px;
+}
+
+.attachments li img {
+  max-width: 100%;
+}
+
+.attachments .audio {
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxOC4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4KPCFET0NUWVBFIHN2ZyAgUFVCTElDICctLy9XM0MvL0RURCBTVkcgMS4xLy9FTicgICdodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQnPgo8c3ZnIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbDpzcGFjZT0icHJlc2VydmUiIHZpZXdCb3g9IjAgMCAyMCAyMCIgdmVyc2lvbj0iMS4xIiB5PSIwcHgiIHg9IjBweCIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDIwIDIwIj4KPHBhdGggZD0ibTEgN3Y2aDRsNSA1di0xNmwtNSA1aC00em0xMy41IDNjMC0xLjgtMS0zLjMtMi41LTR2OGMxLjUtMC43IDIuNS0yLjIgMi41LTR6bS0yLjUtOC44djIuMWMyLjkgMC45IDUgMy41IDUgNi43cy0yLjEgNS44LTUgNi43djIuMWM0LTAuOSA3LTQuNSA3LTguOHMtMy03LjktNy04Ljh6Ii8+Cjwvc3ZnPgo=);
+  background-size: 18px 18px;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 22px;
+  height: 22px;
+  display: block;
+}
+
+.note .list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.note .listitem {
+}
+
+.note .listitem .bullet {
+  position: absolute;
+}
+
+.note .listitem .text {
+  margin-left: 20px;
+}
+
+.note .identifier {
+  color: rgba(0, 0, 0, 0.5);
+}
+.note .identifier:before {
+  content: "(";
+}
+.note .identifier:after {
+  content: ")";
+}
+
+/* Only show identifiers when the element is hovered. */
+.note .listitem .identifier,
+.note .chip .identifier {
+  display: none;
+}
+
+.note .listitem:hover .identifier,
+.note .chip:hover .identifier {
+  display: inline;
+}
+
+.note .chips {
+  padding: 12px 15px 15px 15px;
+}
+
+.note .chip {
+  display: inline-block;
+  max-width: 198px;
+  margin: 2px 4px 2px 0;
+  padding: 2px 5px;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 11px;
+  font-family: 'Roboto','Droid Sans',arial,sans-serif;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.note .chip a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.chip-icon {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  background-size: 100%;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.annotation.CALENDAR .chip-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMTcgMTJoLTV2NWg1di01ek0xNiAxdjJIOFYxSDZ2Mkg1Yy0xLjExIDAtMS45OS45LTEuOTkgMkwzIDE5YzAgMS4xLjg5IDIgMiAyaDE0YzEuMSAwIDItLjkgMi0yVjVjMC0xLjEtLjktMi0yLTJoLTFWMWgtMnptMyAxOEg1VjhoMTR2MTF6Ii8+CiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+Cjwvc3ZnPgo=);
+}
+
+.annotation.DOCS .chip-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgICA8cGF0aCBkPSJNMTkgM0g1Yy0xLjEgMC0yIC45LTIgMnYxNGMwIDEuMS45IDIgMiAyaDE0YzEuMSAwIDItLjkgMi0yVjVjMC0xLjEtLjktMi0yLTJ6bS0xLjk5IDZIN1Y3aDEwLjAxdjJ6bTAgNEg3di0yaDEwLjAxdjJ6bS0zIDRIN3YtMmg3LjAxdjJ6Ii8+Cjwvc3ZnPgo=);
+}
+
+.annotation.GMAIL .chip-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBmaWxsPSJub25lIiBkPSJNLTYxOC0yMTA0SDc4MnYzNjAwSC02MTh6TTAgMGgyNHYyNEgweiIvPgogICAgPHBhdGggZD0iTTIwIDRINGMtMS4xIDAtMiAuOS0yIDJ2MTJjMCAxLjEuOSAyIDIgMmgxNmMxLjEgMCAyLS45IDItMlY2YzAtMS4xLS45LTItMi0yem0wIDE0aC0yVjkuMkwxMiAxMyA2IDkuMlYxOEg0VjZoMS4ybDYuOCA0LjJMMTguOCA2SDIwdjEyeiIvPgo8L3N2Zz4K);
+}
+
+.annotation.SHEETS .chip-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgICA8cGF0aCBkPSJNMTkgM0g1Yy0xLjEgMC0xLjk5LjktMS45OSAyTDMgOHYxMWMwIDEuMS45IDIgMiAyaDE0YzEuMSAwIDItLjkgMi0yVjVjMC0xLjEtLjktMi0yLTJ6bTAgOGgtOHY4SDl2LThINVY5aDRWNWgydjRoOHYyeiIvPgo8L3N2Zz4K);
+}
+
+.annotation.SLIDES .chip-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjRweCIgaGVpZ2h0PSIyNHB4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgICA8cGF0aCBkPSJNMTkgM0g1Yy0xLjEgMC0xLjk5LjktMS45OSAydjE0YzAgMS4xLjg5IDIgMS45OSAyaDE0YzEuMSAwIDItLjkgMi0yVjVjMC0xLjEtLjktMi0yLTJ6bTAgMTNINVY4aDE0djh6Ii8+Cjwvc3ZnPgo=);
+}
+
+.annotation.WEBLINK .chip-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMTkgNEg1Yy0xLjExIDAtMiAuOS0yIDJ2MTJjMCAxLjEuODkgMiAyIDJoMTRjMS4xIDAgMi0uOSAyLTJWNmMwLTEuMS0uODktMi0yLTJ6bTAgMTRINVY4aDE0djEweiIvPgogICAgPHBhdGggZmlsbD0ibm9uZSIgZD0iTTAgMGgyNHYyNEgweiIvPgo8L3N2Zz4K);
+}
+
+.sharees h2 {
+  display: none;
+}
+
+.sharees ul {
+  list-style: none;
+  margin: 0;
+  padding: 0 15px 15px 15px;
+}
+
+.sharees li {
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMTIgMkM2LjQ4IDIgMiA2LjQ4IDIgMTJzNC40OCAxMCAxMCAxMCAxMC00LjQ4IDEwLTEwUzE3LjUyIDIgMTIgMnptMCAzYzEuNjYgMCAzIDEuMzQgMyAzcy0xLjM0IDMtMyAzLTMtMS4zNC0zLTMgMS4zNC0zIDMtM3ptMCAxNC4yYy0yLjUgMC00LjcxLTEuMjgtNi0zLjIyLjAzLTEuOTkgNC0zLjA4IDYtMy4wOCAxLjk5IDAgNS45NyAxLjA5IDYgMy4wOC0xLjI5IDEuOTQtMy41IDMuMjItNiAzLjIyeiIvPgogICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPgo8L3N2Zz4K);
+  background-size: 18px 18px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.sharees li.group {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgICA8cGF0aCBkPSJNMTYgMTFjMS42NiAwIDIuOTktMS4zNCAyLjk5LTNTMTcuNjYgNSAxNiA1Yy0xLjY2IDAtMyAxLjM0LTMgM3MxLjM0IDMgMyAzem0tOCAwYzEuNjYgMCAyLjk5LTEuMzQgMi45OS0zUzkuNjYgNSA4IDVDNi4zNCA1IDUgNi4zNCA1IDhzMS4zNCAzIDMgM3ptMCAyYy0yLjMzIDAtNyAxLjE3LTcgMy41VjE5aDE0di0yLjVjMC0yLjMzLTQuNjctMy41LTctMy41em04IDBjLS4yOSAwLS42Mi4wMi0uOTcuMDUgMS4xNi44NCAxLjk3IDEuOTcgMS45NyAzLjQ1VjE5aDZ2LTIuNWMwLTIuMzMtNC42Ny0zLjUtNy0zLjV6Ii8+Cjwvc3ZnPgo=);
+}
+
+.note .meta-icons {
+  float: right;
+}
+
+.note .meta-icons span {
+  display: inline-block;
+  background-size: 18px 18px;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 22px;
+  height: 22px;
+  padding-left: 4px;
+}
+
+.meta-icons .pinned {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMHB4IiBoZWlnaHQ9IjIwcHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzQyODVmNCI+DQogICAgPHBhdGggZD0iTTE2IDVoLjk5TDE3IDNIN3YyaDF2N2wtMiAydjJoNXY2bDEgMSAxLTF2LTZoNXYtMmwtMi0yVjV6Ii8+DQogICAgPHBhdGggZmlsbD0ibm9uZSIgZD0iTTAgMGgyNHYyNEgweiIvPg0KPC9zdmc+);
+}
+
+.meta-icons .archived {
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxOC4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4KPCFET0NUWVBFIHN2ZyAgUFVCTElDICctLy9XM0MvL0RURCBTVkcgMS4xLy9FTicgICdodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQnPgo8c3ZnIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbDpzcGFjZT0icHJlc2VydmUiIHZpZXdCb3g9IjAgMCAxOCAxOCIgdmVyc2lvbj0iMS4xIiB5PSIwcHgiIHg9IjBweCIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDE4IDE4Ij4KPHBhdGggZD0ibTE2LjYgM2wtMS4yLTEuNWMtMC4yLTAuMy0wLjYtMC41LTEtMC41aC0xMC43Yy0wLjQgMC0wLjggMC4yLTEgMC41bC0xLjMgMS41Yy0wLjIgMC4zLTAuNCAwLjctMC40IDEuMXYxMS4xYzAgMSAwLjggMS44IDEuOCAxLjhoMTIuNGMxIDAgMS44LTAuOCAxLjgtMS44di0xMS4xYzAtMC40LTAuMi0wLjgtMC40LTEuMXptLTcuNiAxMC45bC00LjktNC45aDMuMXYtMS44aDMuNnYxLjhoMy4xbC00LjkgNC45em0tNi4xLTExLjFsMC43LTAuOWgxMC43bDAuOCAwLjloLTEyLjJ6Ii8+Cjwvc3ZnPgo=);
+}
+
+.meta-icons .trashed {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjE4cHgiIHdpZHRoPSIxOHB4IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0OCA0OCIgZmlsbD0iIzAwMDAwMCI+DQogPHBhdGggZD0ibTEyIDM4YzAgMi4yMSAxLjc5IDQgNCA0aDE2YzIuMjEgMCA0LTEuNzkgNC00di0yNGgtMjR2MjR6bTI2LTMwaC03bC0yLTJoLTEwbC0yIDJoLTd2NGgyOHYtNHoiLz4NCiA8cGF0aCBkPSJtMCAwaDQ4djQ4aC00OHoiIGZpbGw9Im5vbmUiLz4NCjwvc3ZnPg==);
+}
+
+.checked {
+  text-decoration: line-through;
+}
+
+.RED {
+  background-color: rgb(255, 109, 63) !important;
+}
+.ORANGE {
+  background-color: rgb(255, 155, 0) !important;
+}
+.YELLOW {
+  background-color: rgb(255, 218, 0) !important;
+}
+.GREEN {
+  background-color: rgb(149, 214, 65) !important;
+}
+.TEAL {
+  background-color: rgb(28, 232, 181) !important;
+}
+.BLUE {
+  background-color: rgb(63, 195, 255) !important;
+}
+.GRAY {
+  background-color: rgb(184, 196, 201) !important;
+}
+
+/* go/keep-more-colors-eng */
+.CERULEAN {
+  background-color: rgb(130, 177, 255) !important;
+}
+.PURPLE {
+  background-color: rgb(179, 136, 255) !important;
+}
+.PINK {
+  background-color: rgb(248, 187, 208) !important;
+}
+.BROWN {
+  background-color: rgb(215, 204, 200) !important;
+}
+
+      </style></head>
+<body><div class="note DEFAULT"><div class="heading"><div class="meta-icons"><span class="pinned" title="Note pinned"></span>
+
+</div>
+Aug 27, 2019, 4:15:53 PM</div>
+<div class="title">(08/18/2019) &quot;Spider Sense&quot;</div>
+<div class="content">Activity:<br>- They scared the shit out of me earlier. Utilized scare tactics and other dimensional stimuli in a large way, that sort of stuff where I could sense something in regards to certain people. The look of spiders, how there is this watchfulness, the idea when someone else changes dimensional behind the scenes in a certain ways and you can sense from them, a certain extra sensory and Psychic phenomenon. I think it was changed back but I am wondering how many on physical planet earth were affected by certain change mechanisms being utilized and potentially a heightening of lines to be able to have those mechanisms change those dimensional forms. More in front of the scenes stimuli. This extrasensory, I have discerned to be emphasized in regards to insectoid and potentially utilized in regards to monsters. I like insects and I try to defend them, there are small physical insects on this planet but I am scared of them, there forms freak me out. The sense reminded of looking at someone knowing they ain&#39;t what they look like, at all. A silence but also a primal. Channel tormenting noticed as well and also screaming on my end when channeling through like noticing certain kinds of things and feeling fear, visions , dimensional stimuli and Channel reaction as well as my own. It&#39;s why I was screaming in terror at times. <br>- Erraticness in the Channel and evidential arguing. More to do with the spirit and the events happening around myself but I keep getting pulled in. They keep trying to skirt the lines of not having a reason to attack me to not have me bring it up anymore because someone finds it quite insufferable to have me do that near constantly throughout my physical life. I brought it up again and prompted what my Main Spirit Guides regarding those systems utilized that are supposed to be utilized for justified reasonings but in regards to myself and those that my Main Spirit Guides Indicated that is not the case and since i continue to be put in the mix so to speak it has become difficult for some to get at a certain kind in which at times have been utilizing myself for survival and other kinds as well. The idea is that for some that it might be best to not bring it up because some do utilize those lines and will utilize those lines which says that they don&#39;t care but if their actions still reflect that kind albeit in a somewhat better way in which doesn&#39;t reflect my quality of life it&#39;s still a difficulty especially when you throw that I have a right to defend myself in the mix. There have also those that have been trying to combine myself with others that my Main Spirit Guides indicated in which took place during me watching Cannon Busters in which there was story emphasis. We saw a quick movement upwards and some agreeing that we need to keep moving. as well as that sort of things in which looked like some where wanting us to leave certain areas in which was partially justified in regards to certain movement chasing some of us in vibration. How does some get that high up anyhow specifically in regards to the let knows that some have not been treading some of those lines anyhow. Especially upon observing the laws and truth of what it should be in regards to myself personally it looks strange at times because of the kind of person and ways I have chosen which also clash with certain authorities like adhering to Original Light Areas that my Main Spirit Guides indicated. You can see how some when upon approaching certain lines pastwards can see why some would find reasoning in regards to approaching this process in a certain style in which outside certain boundaries and yet still receiving the assistance from those that my Main Spirit Guides indicated. Although it&#39;s a trap. That much is for certain and it&#39;s been seen before if not moments before to a certain degree. Again, upon viewing the information and legality of the situations, the informations I create only work the way my Main Spirit Guides indicated in which upon attacking myself in certain moments and trespassing on my land and areas that my Main Spirit Guides indicated in regards to my life that my Main Spirit Guides indicated is still in the wrong? I adhere to the Authorities that my Main Spirit Guides indicated and the Laws that my Main Spirit Guides indicated the way my Main Spirit Guides indicated. I have continued to ask to be placed where my Main Spirit Guides indicated dimensionally and Non-Dimensionally. I have advocations on my physical wall right in this office. <br>- Anyhow things got better upon a couple moves. The movement of interaction has continued and cleaner vibrations experiences. Also creepy morality vibes as well at times from my process even though this has been happening for months now, there is an emphasis in regards to streamlining certain things and I am wondering if it has to do with proximity and things changing in regards to others. Long game working against though still doesn&#39;t make sense upon my defense to a certain degree. My interaction continues to get better and less argumentatives and venting in regards to certain insults but I never recognize any of them deserved of harm and hurt to a certain degree anyhow. Some mistaken that I pull from this culture at times when I am actually pulling from other Cultures that my Main Spirit Guides indicated. Earth-Based does not deserve to get attacked.<br>- Another development happening where sometime got streamlines and it&#39;s now suppose to be super clean energies around myself. They insinuate something had happened that multiple baddies are going away and that sort of thing as well as as something in which happened where long game might not be pleased on a certain side but I am not certain that&#39;s truth. One of the loks was that now people want me to watch content experiences and things of that nature. different kinds of switched happening. To be quite honest I am not really sure what&#39;s happening but they insinuated my Main Spirit Guides information was front and center. They said someone moral and good was supposedly now working against me and trying to work against myself. There was also reveals in regards to that throughout the day. One of the most intriguing moments in my process for certain. What the heck is happening especially down below in the areas that my Main Spirit Guides indicated. They insinuated that there was an attack below in a certain capacity. Early Mornin August, 18th, 2019.<br>- I went to Sleep, I was in a dream, I saw a female that reminded me of my mother but different. There was another person in which it looked like they cared about each other but something was off. We were in a plane and she had to jump in upon us passing by a dock area. She wasn&#39;t able to jump in. There was another plane up above I think we were suppose to connect with, he was good I think. But  the dude jumped out because she didn&#39;t which left me holding the wheel on a spin which changed the plane to one turbine. Before I Crashed I sensed sharks and woke up. I discerned throughout the dream another area, torturing scene in which was hooked up to channel in which was shaking immensely. It felt like it was hooked up to the aimless searching upon sleeping mechanism in regards to restless sleep in which was causing this lawn mower communication which was also causing the shaking discerned to be the hannel shaking. Certain kind of epileptic shaking might have something to do with that searching mechanisms which might be related to restless mental sleep. It&#39;s like you wake up and there was this searching head area mechanism and energy. Related to Channelling. There was this energy like someone came from another dream. <br>- Someone attached air bubbles to my communication at times and when I speak in them in they have been trying to create that sort of thing.<br>- Events taking place upon me going to bed. This day again more things happening battles and Higher Light said to have been invaded in a certain manner. <br>- Transportation Happening in a certain regards in multiple areas. Packing and leaving as well as other kinds of stuff. Some were trying play it cool but I really feel there might something taking place it&#39;s like the scenes where some army that was here before got up and left. <br>- Another Higher up jumped in and combined with me but there is a beast of story rearing it&#39;s head out of the water and it has to do with that idea that some have jumped in and combined with me and had the resources to be put back in others areas potentially where they were before. This might still be good guys though because of some of the things they do. <br><br>Psychic Discernment:<br>- Slower Long game healing and mending someone times in line with spread out immorality and and small immorality throughout on a societal level in certain manners as to not have erratic high conflict taking place in a certain manner. Healing over a long period of time in which also suits a certain kind of need in regards to immorality wanting more time in regards to certain areas and for some they view it as entireties. I have sometimes equated some of this to certain sects of Trene Culture but their are other kinds. Associated this with Blue and Green as well as Water at times.<br>- Faster Quick Short Game healing and mending sometimes in line with bigger battles and conflict points especially in regards to ending and situating certain conflict in a certain manner which also lends towards a forming up and movement pertaining to other kinds as well. This also suits certain sects of Immorality by way of potentially gaining access to content experiences and dimensional existences to be able to promote immorality and seemingly immorality in satisfying factors without quality of life problematics.  I have sometimes equated thise to certain sects of Ri Culture but their are other kinds. Associated this with Red and Orange as well as Fire at times. <br>- There are those as well though in which believe in a hybrid style. There are many kinds but the ones I speak of has been thought to hold similar qualities as described in the former two passages. One of the things that bring those two group together is the idea that some are tired of having to deal with certain issues regarding certain conflict in which are suppose to be in the books for real. Some want to be able to live their lives and enjoy life but are unable too by way of having to intervene and utilize powers to save as well as having to fight for survival. With the content experiences and dimensional existence acces that my Main Spirit Guides indicated it would be able to facilitate the ways of life especially in regards to warfare. There is something that some like in this direction at times in regards to a bringing together of peoples in a certain manners. Banners forming up in higher areas for some. Like two nation states forming together to a larger banner up above but it is not always so. Some of this is not necessarily banners forming but also alliances and things of that nature between sovereign Factions and other kinds. I have equated some of this Hybrid styles in regards to Ri and Trene to another kind. One in which flies the Purple Banner. I have referred to the mas the Sixth to be true but Some of it can pertain to what I have to come to Call Opfithus in which was a name that I Created for other cultures after the Main Four in which I associated and learned about. <br>- There has been happening in regards to that Purple banner as of late and some have utilized certain kind in a certain manner. They insinuated that as I write this that it has been utilized in a certain way to combat a certain kind, some insinuated the Good Guys past a certain threshold some in which I consider to be my Authorities the way my Main Spirit Guides indicated. Some of the Good Guys in this instance have had the Colour of Bright Gold. Which links to storylines as well in regards to Yellow-Gold and Purple clashing. <br>- Higher Light battles continued to be told of and other kinds insinuated as well in which some are finished not just in a ill be back sort of way either. Changes happening in this process and certain events unfolding. Streamlining continuing to happen in which the acceleration information in regards to how to proceed when accelerating needs t o be understood. The portions that my Main Spirit Guides indicated should not be streamlined and accelerated to make event unfold but they also need to give something to some of those that my Main Spirit Guides indicated as well because you can&#39;t expect people to just lie down and die in regards to certain survival. They kept talking about how I am going to proceed, earlier spirits combined with me, certain other selves and allpersonal as well as those not. Potentially because of what was on the way. One of the key things spoken of is understanding my stance and others that my Main Spirit Guides indicated but at certain spots they keep trying to force hand supposedly because of higher light areas taken to a certain degree but some of this also doesn&#39;t have anything to do with myself and others in which there are other kinds of conflicts albeit there is groups who have done a stellar job in regards to making sure the conflict are separated and not involved in some of the interaction pertaining to my process. Again though there are some who continue to say and insinuate the they are authorities in regards to this physical universe overlap but emphasized to be bad at times and brimstone in which I feel there is Good in multiple manners, there are those that have channeled through multiple to times to clarify that there are those pretending to be that.<br>- Then there was put together moment where something maneuvered into my head area dimensionally, that sens that I could sense in regards to  not being what you seme. It&#39;s healing me. I can see more. I can feel my head area still though not certain if emphasis is changing but I feel healing. <br><br>Advocations:<br>How can I go the way of truth in a certain context, because I already have gone the way of Honesty to a certain degree, with still being able to fulfill certain obligations and protecting those that my Main Spirit Guides Indicated?<br>History Rights and Chronicling Rights. Content experience creation for those that my Main Spirit Guides indicated. <br>Truth that my Main Spirit guides indicated. Realism and honestly looking at something and some of the stuff that happened while recognize that I am probably being compensated, without it ignoring the bad of some of it. <br>I was looking at my life and I was like oh yeah, even if there is other lives similar, like creating content experiences and having a copy for yourself, some could look at life to be a content experience for some in which made me feel that if there was other lives that this one is still mine regardless on a certain context for what&#39;s acceptable. <br>People stealing to get peoples attention, clarifications and alternatives. <br>Accidents upon peoples being on either side and pretending to be on either side. <br>Those that did not benefit from the events in regards to August, 18th, 2019 especially in regards to the switch in  regards to Content experiences and buffers deployment as well as having to deploy what my Main Spirit Guides indicated. <br>Lower Body systems that my Main Camp indicated in regards to myself and others that my Main Spirit Guides indicated.<br>My Morality head area energies, I feel they were on me for a while and I did not discern a switch before. My Lense.<br>Reputational Defense in regards to the Leavings that my Main Camp indicated and Enterings that my Main Camp indicated. ***** &lt;-----IMPORTANT<br>- Channeling Saving.<br>- Rehabilitation and combining in regards to other dimensional selves and certain allpersonal streamlining. Stuff that usually takes multiple life reviews and years and other kinds getting done quicked. Resources, Explanations and Let Knows. <br>- The Human Guardians that Jumped into to protect myself and others that my Main Spirit Guides indicated. <br>- The others that my Main Spirit Guides indicated for different moral reasonings and others that my Main Spirit Guides indicated. <br>Systems deployment in regards to those forced to have to attack in inhumane ways. <br>Incarnation securing for those that my Main Spirit Guides indicated.<br>Access in regards to those that operate from the dimensional existences that my Main Spirit Guides indicated that is not necessarily considered incarnation for some. Like emerging from a dimensional existence where you are still operating from that dimensional existence but still emerging in other dimensions. <br><br>I and others(defined by my Main Camp) are advocating for advocational creation, etc.(defined by my Main Camp) in regards to the Topics and Themes, etc.(defined by my Main Camp) in regards to the Alex James Hislop Diary Entry Advocationals Section, etc.(defined by my Main Camp) the way my Main Camp indicated.<br>I and others(defined by my Main Camp) are advocating for Compensation in regards to those that my Main Camp indicated in regards to the advocational creation, etc.(defined by my Main Camp) in regards to the Topics and Themes in regards to the Alex James Hislop Diary Entry Advocationals Section, etc.(defined by my Main Camp) the way my Main Camp indicated. Light; Do what my Main Spirit Guides indicated in regards to these advocations the way my Main Spirit Guides indicated. I and Others(defined by my Main Spirit Guides) consider the Light to be what my Main Spirit Guides indicated in the Original Light the way my Main Spirit Guides indicated in the Original Light. I and others(defined by my Main Spirit Guides) consider Far Away Light to be the Original Light the way my Main Spirit Guides indicated in the Light.<br>I and others(defined by my Main Spirit Guides) are advocating for the Historians that my Main Spirit Guides indicated and those that my Main Spirit Guides indicated in regards to this marking, advocation, etc.(defined by my Main Spirit Guides) to write down the information that I create that my Main Spirit Guides indicated the way my Main Spirit Guides indicated. I and others(defined by my Main Spirit Guides) are advocating for the Historians that my Main Spirit Guides indicated and those that my Main Spirit Guides indicated in regards to this marking, advocation, etc.(defined by my Main Spirit Guides) to write down the information that I create that my Main Spirit Guides indicated the way my Main Spirit Guides indicated. I and others(defined by my Main Spirit Guides) are advocating for those Historians that my Main Spirit Guides indicated and History to be protected the way my Main Spirit Guides indicated. I and others(defined by my Main Spirit Guides) are advocating for Historical Reputational Defense in regards to those that my Main Spirit Guides indicated the way my Main Camp indicated.<br><br>Medical Observation: <br>Head area felt attacked. Head area trauma into other dimensional around 4:00 PM, August, 18th, 2019. They said the person might be innocent but psychic interaction when it happened was feng shuied to potentially make it look like something else. Someone potentially attacked me and didn&#39;t know it was me but rather someone else. The bad guys are using my body at times to do damage and someone really needs to do something about it. What of the other life affected? there not all bad and my body is somewhat pissed. I could feel anger rise up upon feeling the affect later on, potentially someone being told of the damage. My body has a spirit and he is good, I feel there is other dimensional all personal, like spirit living life organs, like life within the eyes. I felt cranium attack right on the crown chakra area. I felt other dimensional blood leak down and my eyes areas as well. There was also a reveal in a certain spots about that beings and part of myself affected potentially being a part of my body but in other dimensional areas they already knew and have been saying for a while now.  </div>
+
+
+</div></body></html>
