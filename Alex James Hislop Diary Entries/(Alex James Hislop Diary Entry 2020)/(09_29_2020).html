@@ -1,0 +1,278 @@
+<?xml version="1.0" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>(09/29/2020)</title>
+<style type="text/css">
+         body {
+  font-family: 'Roboto Condensed','Droid Sans',arial,sans-serif;
+  font-size: 15px;
+  color: rgba(0,0,0,0.8);
+  word-wrap: break-word;
+  background-color: #e8e8e8;
+}
+
+hr {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-style: inset dashed;
+    border-width: 1px;
+}
+
+.note {
+  outline: none;
+  box-shadow: 0 2px 1px rgba(0,0,0,0.08);
+  box-sizing: border-box;
+
+  max-width: 600px;
+  min-width: 240px;
+  margin: 20px;
+
+  background-color: rgb(255, 255, 255);
+}
+
+.note .heading {
+  font-size: 12px;
+  padding: 15px 15px 0 15px;
+  color: rgba(100,100,100,0.8);
+}
+
+.note .title {
+  font-size: 17px;
+  font-weight: bold;
+  padding: 15px 15px 0 15px;
+  min-height: 28px;
+}
+
+.note .content {
+  padding: 12px 15px 15px 15px;
+  font-family: 'Roboto Slab','Times New Roman',serif;
+  font-size: 14px;
+}
+
+.note .attachments {
+  padding: 0 15px 15px 15px;
+}
+
+.attachments ul {
+  padding: 0;
+  margin: 0;
+}
+
+.attachments li {
+  list-style-type: none;
+  margin-top: 12px;
+}
+
+.attachments li img {
+  max-width: 100%;
+}
+
+.attachments .audio {
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxOC4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4KPCFET0NUWVBFIHN2ZyAgUFVCTElDICctLy9XM0MvL0RURCBTVkcgMS4xLy9FTicgICdodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQnPgo8c3ZnIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbDpzcGFjZT0icHJlc2VydmUiIHZpZXdCb3g9IjAgMCAyMCAyMCIgdmVyc2lvbj0iMS4xIiB5PSIwcHgiIHg9IjBweCIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDIwIDIwIj4KPHBhdGggZD0ibTEgN3Y2aDRsNSA1di0xNmwtNSA1aC00em0xMy41IDNjMC0xLjgtMS0zLjMtMi41LTR2OGMxLjUtMC43IDIuNS0yLjIgMi41LTR6bS0yLjUtOC44djIuMWMyLjkgMC45IDUgMy41IDUgNi43cy0yLjEgNS44LTUgNi43djIuMWM0LTAuOSA3LTQuNSA3LTguOHMtMy03LjktNy04Ljh6Ii8+Cjwvc3ZnPgo=);
+  background-size: 18px 18px;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 22px;
+  height: 22px;
+  display: block;
+}
+
+.note .list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.note .listitem {
+}
+
+.note .listitem .bullet {
+  position: absolute;
+}
+
+.note .listitem .text {
+  margin-left: 20px;
+}
+
+.note .identifier {
+  color: rgba(0, 0, 0, 0.5);
+}
+.note .identifier:before {
+  content: "(";
+}
+.note .identifier:after {
+  content: ")";
+}
+
+/* Only show identifiers when the element is hovered. */
+.note .listitem .identifier,
+.note .chip .identifier {
+  display: none;
+}
+
+.note .listitem:hover .identifier,
+.note .chip:hover .identifier {
+  display: inline;
+}
+
+.note .chips {
+  padding: 12px 15px 15px 15px;
+}
+
+.note .chip {
+  display: inline-block;
+  max-width: 198px;
+  margin: 2px 4px 2px 0;
+  padding: 2px 5px;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 11px;
+  font-family: 'Roboto','Droid Sans',arial,sans-serif;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.note .chip a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.chip-icon {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  background-size: 100%;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.annotation.CALENDAR .chip-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMTcgMTJoLTV2NWg1di01ek0xNiAxdjJIOFYxSDZ2Mkg1Yy0xLjExIDAtMS45OS45LTEuOTkgMkwzIDE5YzAgMS4xLjg5IDIgMiAyaDE0YzEuMSAwIDItLjkgMi0yVjVjMC0xLjEtLjktMi0yLTJoLTFWMWgtMnptMyAxOEg1VjhoMTR2MTF6Ii8+CiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+Cjwvc3ZnPgo=);
+}
+
+.annotation.DOCS .chip-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgICA8cGF0aCBkPSJNMTkgM0g1Yy0xLjEgMC0yIC45LTIgMnYxNGMwIDEuMS45IDIgMiAyaDE0YzEuMSAwIDItLjkgMi0yVjVjMC0xLjEtLjktMi0yLTJ6bS0xLjk5IDZIN1Y3aDEwLjAxdjJ6bTAgNEg3di0yaDEwLjAxdjJ6bS0zIDRIN3YtMmg3LjAxdjJ6Ii8+Cjwvc3ZnPgo=);
+}
+
+.annotation.GMAIL .chip-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBmaWxsPSJub25lIiBkPSJNLTYxOC0yMTA0SDc4MnYzNjAwSC02MTh6TTAgMGgyNHYyNEgweiIvPgogICAgPHBhdGggZD0iTTIwIDRINGMtMS4xIDAtMiAuOS0yIDJ2MTJjMCAxLjEuOSAyIDIgMmgxNmMxLjEgMCAyLS45IDItMlY2YzAtMS4xLS45LTItMi0yem0wIDE0aC0yVjkuMkwxMiAxMyA2IDkuMlYxOEg0VjZoMS4ybDYuOCA0LjJMMTguOCA2SDIwdjEyeiIvPgo8L3N2Zz4K);
+}
+
+.annotation.SHEETS .chip-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgICA8cGF0aCBkPSJNMTkgM0g1Yy0xLjEgMC0xLjk5LjktMS45OSAyTDMgOHYxMWMwIDEuMS45IDIgMiAyaDE0YzEuMSAwIDItLjkgMi0yVjVjMC0xLjEtLjktMi0yLTJ6bTAgOGgtOHY4SDl2LThINVY5aDRWNWgydjRoOHYyeiIvPgo8L3N2Zz4K);
+}
+
+.annotation.SLIDES .chip-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjRweCIgaGVpZ2h0PSIyNHB4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgICA8cGF0aCBkPSJNMTkgM0g1Yy0xLjEgMC0xLjk5LjktMS45OSAydjE0YzAgMS4xLjg5IDIgMS45OSAyaDE0YzEuMSAwIDItLjkgMi0yVjVjMC0xLjEtLjktMi0yLTJ6bTAgMTNINVY4aDE0djh6Ii8+Cjwvc3ZnPgo=);
+}
+
+.annotation.WEBLINK .chip-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMTkgNEg1Yy0xLjExIDAtMiAuOS0yIDJ2MTJjMCAxLjEuODkgMiAyIDJoMTRjMS4xIDAgMi0uOSAyLTJWNmMwLTEuMS0uODktMi0yLTJ6bTAgMTRINVY4aDE0djEweiIvPgogICAgPHBhdGggZmlsbD0ibm9uZSIgZD0iTTAgMGgyNHYyNEgweiIvPgo8L3N2Zz4K);
+}
+
+.sharees h2 {
+  display: none;
+}
+
+.sharees ul {
+  list-style: none;
+  margin: 0;
+  padding: 0 15px 15px 15px;
+}
+
+.sharees li {
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMTIgMkM2LjQ4IDIgMiA2LjQ4IDIgMTJzNC40OCAxMCAxMCAxMCAxMC00LjQ4IDEwLTEwUzE3LjUyIDIgMTIgMnptMCAzYzEuNjYgMCAzIDEuMzQgMyAzcy0xLjM0IDMtMyAzLTMtMS4zNC0zLTMgMS4zNC0zIDMtM3ptMCAxNC4yYy0yLjUgMC00LjcxLTEuMjgtNi0zLjIyLjAzLTEuOTkgNC0zLjA4IDYtMy4wOCAxLjk5IDAgNS45NyAxLjA5IDYgMy4wOC0xLjI5IDEuOTQtMy41IDMuMjItNiAzLjIyeiIvPgogICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPgo8L3N2Zz4K);
+  background-size: 18px 18px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.sharees li.group {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgICA8cGF0aCBkPSJNMTYgMTFjMS42NiAwIDIuOTktMS4zNCAyLjk5LTNTMTcuNjYgNSAxNiA1Yy0xLjY2IDAtMyAxLjM0LTMgM3MxLjM0IDMgMyAzem0tOCAwYzEuNjYgMCAyLjk5LTEuMzQgMi45OS0zUzkuNjYgNSA4IDVDNi4zNCA1IDUgNi4zNCA1IDhzMS4zNCAzIDMgM3ptMCAyYy0yLjMzIDAtNyAxLjE3LTcgMy41VjE5aDE0di0yLjVjMC0yLjMzLTQuNjctMy41LTctMy41em04IDBjLS4yOSAwLS42Mi4wMi0uOTcuMDUgMS4xNi44NCAxLjk3IDEuOTcgMS45NyAzLjQ1VjE5aDZ2LTIuNWMwLTIuMzMtNC42Ny0zLjUtNy0zLjV6Ii8+Cjwvc3ZnPgo=);
+}
+
+.note .meta-icons {
+  float: right;
+}
+
+.note .meta-icons span {
+  display: inline-block;
+  background-size: 18px 18px;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 22px;
+  height: 22px;
+  padding-left: 4px;
+}
+
+.meta-icons .pinned {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMHB4IiBoZWlnaHQ9IjIwcHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzQyODVmNCI+DQogICAgPHBhdGggZD0iTTE2IDVoLjk5TDE3IDNIN3YyaDF2N2wtMiAydjJoNXY2bDEgMSAxLTF2LTZoNXYtMmwtMi0yVjV6Ii8+DQogICAgPHBhdGggZmlsbD0ibm9uZSIgZD0iTTAgMGgyNHYyNEgweiIvPg0KPC9zdmc+);
+}
+
+.meta-icons .archived {
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxOC4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4KPCFET0NUWVBFIHN2ZyAgUFVCTElDICctLy9XM0MvL0RURCBTVkcgMS4xLy9FTicgICdodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQnPgo8c3ZnIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbDpzcGFjZT0icHJlc2VydmUiIHZpZXdCb3g9IjAgMCAxOCAxOCIgdmVyc2lvbj0iMS4xIiB5PSIwcHgiIHg9IjBweCIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDE4IDE4Ij4KPHBhdGggZD0ibTE2LjYgM2wtMS4yLTEuNWMtMC4yLTAuMy0wLjYtMC41LTEtMC41aC0xMC43Yy0wLjQgMC0wLjggMC4yLTEgMC41bC0xLjMgMS41Yy0wLjIgMC4zLTAuNCAwLjctMC40IDEuMXYxMS4xYzAgMSAwLjggMS44IDEuOCAxLjhoMTIuNGMxIDAgMS44LTAuOCAxLjgtMS44di0xMS4xYzAtMC40LTAuMi0wLjgtMC40LTEuMXptLTcuNiAxMC45bC00LjktNC45aDMuMXYtMS44aDMuNnYxLjhoMy4xbC00LjkgNC45em0tNi4xLTExLjFsMC43LTAuOWgxMC43bDAuOCAwLjloLTEyLjJ6Ii8+Cjwvc3ZnPgo=);
+}
+
+.meta-icons .trashed {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjE4cHgiIHdpZHRoPSIxOHB4IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0OCA0OCIgZmlsbD0iIzAwMDAwMCI+DQogPHBhdGggZD0ibTEyIDM4YzAgMi4yMSAxLjc5IDQgNCA0aDE2YzIuMjEgMCA0LTEuNzkgNC00di0yNGgtMjR2MjR6bTI2LTMwaC03bC0yLTJoLTEwbC0yIDJoLTd2NGgyOHYtNHoiLz4NCiA8cGF0aCBkPSJtMCAwaDQ4djQ4aC00OHoiIGZpbGw9Im5vbmUiLz4NCjwvc3ZnPg==);
+}
+
+.checked {
+  text-decoration: line-through;
+}
+
+.RED {
+  background-color: rgb(255, 109, 63) !important;
+}
+.ORANGE {
+  background-color: rgb(255, 155, 0) !important;
+}
+.YELLOW {
+  background-color: rgb(255, 218, 0) !important;
+}
+.GREEN {
+  background-color: rgb(149, 214, 65) !important;
+}
+.TEAL {
+  background-color: rgb(28, 232, 181) !important;
+}
+.BLUE {
+  background-color: rgb(63, 195, 255) !important;
+}
+.GRAY {
+  background-color: rgb(184, 196, 201) !important;
+}
+
+/* go/keep-more-colors-eng */
+.CERULEAN {
+  background-color: rgb(130, 177, 255) !important;
+}
+.PURPLE {
+  background-color: rgb(179, 136, 255) !important;
+}
+.PINK {
+  background-color: rgb(248, 187, 208) !important;
+}
+.BROWN {
+  background-color: rgb(215, 204, 200) !important;
+}
+
+      </style></head>
+<body><div class="note DEFAULT"><div class="heading"><div class="meta-icons"><span class="pinned" title="Note pinned"></span>
+
+</div>
+Sep 29, 2020, 9:56:26 PM</div>
+<div class="title">(09/29/2020)</div>
+<div class="content">Dreams about sharks, Kaiju battles with Gods, I manifested  dreams and it felt to have moved the interaction to dream movers and dimensional outside dreams that can affect dreams, maybe having to do with dream makers. shark touched by morality again I felt like going to that spiritual where things just. I remember dreaming, I was swimming it was seemed to be under water but at the same time it felt like there was certain kind of different water where some would usually equate air, like a combination of air and water, It was like I could breathe under water. There were others in which there was conversations under water like we could speak underwater. I had a fear. I also thought of sharks with a moment of lucidity. Of course not too long later after traversing through certain kind of underwater infrastructure. Then I saw a shark Kaiju, it had the Shark Jaws and head but it had infrastructure and body with arms and other kinds of anatomical almost expanded upon the Shark, Blue tactile of classic shark upon the body, outer areas of the body but also inner chest area look to be red infrastructure that reminded of gums and love. It was moving upwards and their was a person above it but now upon reflection it didn&#39;t look like it wasn&#39;t trying to harm that person. There were other dreams playing out though where it felt like battle was taking place. I didn&#39;t discern some of the visuals regarding but one of the dreams I saw I did, it was like I was next to a regular shark with water spraying being able to see the eyes, they were black and it was ultra realistic, it didn&#39;t look was trying to harm me but I didn&#39;t fully know. When I woke up I freaked out by way of the kinds of energies I was still feeling. I continued to feel battle around me and I manifested what my Main Spirit Guides indicated, focusing on morality which reminded of earlier dream of scuba, shark and beings of morality. I felt the shark touched by morality. There was a moment where it looked like to affect the realistic dream that I had seen of the regular shark, just a small movement, a small twitch upon when I envisioned morality to touch the shark. They said it was tell in regards to certain things, that if that realistic dream that I had seen alongside the Kaiju one was impacted then it was a tell of a level of the impact. Afterwards I felt archetypes of heroes and strong spiritual showing up and defending in large fashion regarding multiple dream infrastructures and I did feel it to extend to dimensional that hold dream dimensional. I discerned it to be larger dream infrastructure but it was also a facilitator of smaller infrastructure regarding dimensional stack. I dont fully know if that is the case though and I am wondering what kind of events were taking place during as well. I had called upon the Original Creator and Original Creators and felt movement of Godly energies saving and situating. Afterwards I put on classic fireplace on Netflix and saw healing energies supreme. One of the key tells earlier that some forget while some of this was happening is that some were scaring me more predominately in mentality area with signs of trauma and need for therapeutics. I had felt like I needed to scream and I had known as a psychic that it can relive and help certain spiritual behind the scenes that were being frightened through me but when I tried to scream for a couple seconds, I had felt a fear that stopped me. Again I felt what I perspectives under duress, the literal dimensional as to what some spiritual have attached to such wordings. Explain perspectives and literal dimensional regarding perspective*, lens and air. I was in shock when I woke and I did call upon certain spiritual and there was literals brought up by myself in the form of pop culture and art on my planet. The spirituality in regards to Art and Content on this planet exists in varrying capacities at times not fully understood or known by physicals on this physical planet earth in certain manners in which isn&#39;t to say there isn&#39;t spiritual and other dimensional aspects of physicals on this planet earth that don&#39;t know because I feel there is in coherent fashion. <br><br>When the shark bites he has a different sight. White eyes. Soothsaying touched the shark.<br>Lobsters and Idols. Soothsaying touched the Lobster. (expand*)<br><br><br><br>There is dimensional areas overlapping certain spiritual and people. <br>Suppression of spirituality that my Main Spirit Guides indicated.<br>Memory manipulation. <br><br>History and coherency suppression and interaction setting yet again to reflect some of these things and ignoring not only past conversations and tells as well as certain moving on but also accords, light display what my Main Spirit Guides relayed regarding this writing. I looked at differently than what some were looking at, they said I was a dreamer, they said that I was the one who was ignoring certain things but I didn&#39;t view it that way.  By way of who I am and what I am from, by way of the rights granted to myself as well as others that my Main Spirit Guides indicated by way of some of the biggest Authorities in the Original Setting and the Light. Some have somehow forgotten some of those facts and that we that my Main Spirit Guides indicated are not what some thought.<br>, , like somehow someone wasn&#39;t hearing what some of us were saying. Like somehow ignoring the fact that we that my Main Spirit Guides indicated do not want certain kind around our processes that have made our processes worse at times and that isn&#39;t to say we dont support saving or dont want to be in certain areas but rather some ignoring the kinds of ways that exist to be able to achieve having certain kind of spiritual around that we still care about without making our processes worse. There is distancing, it exists, it doesn&#39;t mean we dont want certain kinds to experience quality of life, we shouldnt have to be the ones that save for some of us especially when power levels and ability comparison dont fully make the grade and the utilization of some of us have made it even worse. Look, I do care and have compassion, I want many saved if not most if not all but if certain ways of proceeding upwards are the difference in being able to achieve that in the manners that I want then I can only go so far and when you put me in the mix in regards to certain situations to go farther, you might just knocking at the end. In big ways. That was a part of why I keep seeing certain kinds of extreme things within this process, I can only go so far but then when certain things take place I can go far enough but what exactly happens to cause that far enough and to be true does anyone think I am going to wait for certain things to take place for that far enough? Defense in the moment seems prudent rather than just letting things happen to cause the end. Except that some dont get to say that by way of the lack of defense in the moment. Some dont get to say that by how they wanted to proceed. <br><br>A person identifies a characteristic in a character within a story. This characteristic reminds him of himself.<br><br>I feel the need to explain certain things. The story of IT. There was this tell. I am not a perfect fit for the storyline but nonetheless I saw some of the connections. I was 28 when I started reading the book and IT Chapter 2 got released. Every 28 years the Monster emerges. I identified with Stan. There was a cowardice in regards to myself but it might have had less to do with confronting the monster but rather living life. Regular normal things. That wasn&#39;t to say I was scared or that I could confront the monster or even wanted too. I was also a certain kind of small and still lived with my parents even when older it reminded of Eddie. I never did fully grow up and symbolism regarding at times in seeing the monster within the spirit reminded of kids seeing the monster in the book and films of IT. My Aunt use to say that your it when I was younger. It was something personal. I was a lover and it reminded of Ben, that symbolism was supposedly simple they said. I loved history and to be true had been a bit of an historian through out my life and I still lived in the town that i Had  moved too when I was younger. Georgina. Georgie? Nah. It was a tell that the pennywise I knew was good. This coincided with some of the actions that I did and with some of the spiritual let knows of moral clowns. I mean that was it, what didn&#39;t fit was that it was every 28 years because it was still happening. For me the problem wasn&#39;t it but rather something else and it symbolized with the monster and the knowing that pennywise was good. The cliffhanger spiritually at the end of It Chapter: 2, reminded that not only that pennywise was good but also that the Monster continues at times for even in regular life seen for what it is in what I had experienced as a psychic. Saving had been a problem too for me at times, symbolism there, too much saving is what some said and also not enough too. Another piece of the puzzle was History in regards to my process and somehow some thought I would only be around every 28 years and that when I was around certain things remembered. Societal safeguard and all that. I was a bit of a clown but I dont know if I was class clown so there was something that didn&#39;t fit regarding the character of Richie but I loved comedy. He might have been the check. It reminded of Beverly. She reminded of Love and Ben. There was scene that truly reminded of some of the situations spiritually regarding when the old man walked away and she was scared on the side of the road. Newmarket reminded of Maine in many different ways, clean air was one of them. The symbolism in regards to the place of Maine and the Main utilization regarding Main Spiritual Guideship was seen and there is actually a base of operations regarding in Maine partially because of me and others that my Main Spirit Guides indicated. Where does grunge fit in. Even the word Main was everywhere similar to it. Main Entrance. It reminded of certain Guardians and somehow interaction and entertainment took a lions share. It was interesting the look of obedience and desire, drive as well as care and compassion along with not wanting to disappoint in regards to regards to when I am in line. Especially regarding Kings. It reminded of the Bear and the Lion. Somehow in this life though they poked the Bear too much even past Anti-Camp decent measures but only up to a point. The Dancing Bear symbolism is there and somehow related to pennywise. I was shaped in the likeness of Bear but also other animals. Do realize that when I say this I am saying it from the perspective of years worth of let knows that there is moral versions and moral characteristics within even Villains of Earth-Based Story. Pennywise was one of the ones that I continues to let know was more good than what they said. They said I was more like Pennywise partially by way of the colours I associated and of course the spider symbolism seen within my process. I was afraid of spiders though was another tell. A tell of the average person. I felt that I identified less with Bill even though some disagreed. I never did learn how to ride a bike thus far. And the leadership position had less to do with me to be true and the utilization was suppose to be support. Another tell. The Bear tell is also there. It&#39;s difficult to describe some of nuances regarding some of the conversations and events as well as experiences. I cared about the bad but I was scared of Evil. I was also tired. The Henry Bowers Gang reminded me of some of the Anti-Camps I tried to help. I also saw shapings of people I cared about. I am not going to lie, about 2 years I kind of felt like this bringing me into fold of certain events related to the story of it kind of felt like it felt like it got dumped on my lap. I had done defense stuff during the release of It Chapter 2. Defense advocations and there was something going on when that movie got released but I have started that tapping into was a part of it because there is usually something always going on when movies released but this felt different. am I right? I discerned contract defense groups in vicinity for the month as well as other time frames. When I started the Book of It there was this peak into what the reading experience should be. It was a tell. There are some that have approached the truth of the fact that It and Pennywise are a part of certain Earth-Based culture with professionalism as to not hurt the character and what he truly stands for in which happens to do with partial motivation if not full motivation of protection Earth-Based Culture. Pennywsie in an MIB suit. More to truth that what some think. There are some who look at this paragraph and can say that you can look at many Characters and see identifying traits and that there might be less of a story and/or reasoning for certain things. The real truth is that you can look at many characters and see identifying in such a shout out towards spiritualism culture about signs of life and connections through life as well as death. It speaks of God. It also speaks of science. Maybe they both pointed towards the fact that it speaks other things too. <br><br>I think the tell was It and Pennywise didn&#39;t want to harm wonder but rather loved Wonder.<br><br><br> I saw on one of the days characteristics of characters within that universe in such a manner where I felt the symbolism regarding my own life and that maybe I couldn&#39;t even though I would eventually. It was the brilliance that there were other that identified with that story more than me and that understood way more than I ever could.<br><br>The symbolism of It and the wordings within life had been seen. I had seen channel through in regards to movies and other kinds of art in professional manner. I had noted Entertainment and Interaction to be one of the tells regarding pennywise. He was everywhere in decent fashion. Tells in the 70s but also other time frames.</div>
+
+
+</div></body></html>

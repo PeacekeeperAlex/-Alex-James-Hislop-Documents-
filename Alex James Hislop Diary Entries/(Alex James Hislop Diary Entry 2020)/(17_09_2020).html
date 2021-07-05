@@ -1,0 +1,278 @@
+<?xml version="1.0" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>(17/09/2020)</title>
+<style type="text/css">
+         body {
+  font-family: 'Roboto Condensed','Droid Sans',arial,sans-serif;
+  font-size: 15px;
+  color: rgba(0,0,0,0.8);
+  word-wrap: break-word;
+  background-color: #e8e8e8;
+}
+
+hr {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-style: inset dashed;
+    border-width: 1px;
+}
+
+.note {
+  outline: none;
+  box-shadow: 0 2px 1px rgba(0,0,0,0.08);
+  box-sizing: border-box;
+
+  max-width: 600px;
+  min-width: 240px;
+  margin: 20px;
+
+  background-color: rgb(255, 255, 255);
+}
+
+.note .heading {
+  font-size: 12px;
+  padding: 15px 15px 0 15px;
+  color: rgba(100,100,100,0.8);
+}
+
+.note .title {
+  font-size: 17px;
+  font-weight: bold;
+  padding: 15px 15px 0 15px;
+  min-height: 28px;
+}
+
+.note .content {
+  padding: 12px 15px 15px 15px;
+  font-family: 'Roboto Slab','Times New Roman',serif;
+  font-size: 14px;
+}
+
+.note .attachments {
+  padding: 0 15px 15px 15px;
+}
+
+.attachments ul {
+  padding: 0;
+  margin: 0;
+}
+
+.attachments li {
+  list-style-type: none;
+  margin-top: 12px;
+}
+
+.attachments li img {
+  max-width: 100%;
+}
+
+.attachments .audio {
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxOC4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4KPCFET0NUWVBFIHN2ZyAgUFVCTElDICctLy9XM0MvL0RURCBTVkcgMS4xLy9FTicgICdodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQnPgo8c3ZnIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbDpzcGFjZT0icHJlc2VydmUiIHZpZXdCb3g9IjAgMCAyMCAyMCIgdmVyc2lvbj0iMS4xIiB5PSIwcHgiIHg9IjBweCIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDIwIDIwIj4KPHBhdGggZD0ibTEgN3Y2aDRsNSA1di0xNmwtNSA1aC00em0xMy41IDNjMC0xLjgtMS0zLjMtMi41LTR2OGMxLjUtMC43IDIuNS0yLjIgMi41LTR6bS0yLjUtOC44djIuMWMyLjkgMC45IDUgMy41IDUgNi43cy0yLjEgNS44LTUgNi43djIuMWM0LTAuOSA3LTQuNSA3LTguOHMtMy03LjktNy04Ljh6Ii8+Cjwvc3ZnPgo=);
+  background-size: 18px 18px;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 22px;
+  height: 22px;
+  display: block;
+}
+
+.note .list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.note .listitem {
+}
+
+.note .listitem .bullet {
+  position: absolute;
+}
+
+.note .listitem .text {
+  margin-left: 20px;
+}
+
+.note .identifier {
+  color: rgba(0, 0, 0, 0.5);
+}
+.note .identifier:before {
+  content: "(";
+}
+.note .identifier:after {
+  content: ")";
+}
+
+/* Only show identifiers when the element is hovered. */
+.note .listitem .identifier,
+.note .chip .identifier {
+  display: none;
+}
+
+.note .listitem:hover .identifier,
+.note .chip:hover .identifier {
+  display: inline;
+}
+
+.note .chips {
+  padding: 12px 15px 15px 15px;
+}
+
+.note .chip {
+  display: inline-block;
+  max-width: 198px;
+  margin: 2px 4px 2px 0;
+  padding: 2px 5px;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 11px;
+  font-family: 'Roboto','Droid Sans',arial,sans-serif;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.note .chip a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.chip-icon {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  background-size: 100%;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.annotation.CALENDAR .chip-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMTcgMTJoLTV2NWg1di01ek0xNiAxdjJIOFYxSDZ2Mkg1Yy0xLjExIDAtMS45OS45LTEuOTkgMkwzIDE5YzAgMS4xLjg5IDIgMiAyaDE0YzEuMSAwIDItLjkgMi0yVjVjMC0xLjEtLjktMi0yLTJoLTFWMWgtMnptMyAxOEg1VjhoMTR2MTF6Ii8+CiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+Cjwvc3ZnPgo=);
+}
+
+.annotation.DOCS .chip-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgICA8cGF0aCBkPSJNMTkgM0g1Yy0xLjEgMC0yIC45LTIgMnYxNGMwIDEuMS45IDIgMiAyaDE0YzEuMSAwIDItLjkgMi0yVjVjMC0xLjEtLjktMi0yLTJ6bS0xLjk5IDZIN1Y3aDEwLjAxdjJ6bTAgNEg3di0yaDEwLjAxdjJ6bS0zIDRIN3YtMmg3LjAxdjJ6Ii8+Cjwvc3ZnPgo=);
+}
+
+.annotation.GMAIL .chip-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBmaWxsPSJub25lIiBkPSJNLTYxOC0yMTA0SDc4MnYzNjAwSC02MTh6TTAgMGgyNHYyNEgweiIvPgogICAgPHBhdGggZD0iTTIwIDRINGMtMS4xIDAtMiAuOS0yIDJ2MTJjMCAxLjEuOSAyIDIgMmgxNmMxLjEgMCAyLS45IDItMlY2YzAtMS4xLS45LTItMi0yem0wIDE0aC0yVjkuMkwxMiAxMyA2IDkuMlYxOEg0VjZoMS4ybDYuOCA0LjJMMTguOCA2SDIwdjEyeiIvPgo8L3N2Zz4K);
+}
+
+.annotation.SHEETS .chip-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgICA8cGF0aCBkPSJNMTkgM0g1Yy0xLjEgMC0xLjk5LjktMS45OSAyTDMgOHYxMWMwIDEuMS45IDIgMiAyaDE0YzEuMSAwIDItLjkgMi0yVjVjMC0xLjEtLjktMi0yLTJ6bTAgOGgtOHY4SDl2LThINVY5aDRWNWgydjRoOHYyeiIvPgo8L3N2Zz4K);
+}
+
+.annotation.SLIDES .chip-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjRweCIgaGVpZ2h0PSIyNHB4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgICA8cGF0aCBkPSJNMTkgM0g1Yy0xLjEgMC0xLjk5LjktMS45OSAydjE0YzAgMS4xLjg5IDIgMS45OSAyaDE0YzEuMSAwIDItLjkgMi0yVjVjMC0xLjEtLjktMi0yLTJ6bTAgMTNINVY4aDE0djh6Ii8+Cjwvc3ZnPgo=);
+}
+
+.annotation.WEBLINK .chip-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMTkgNEg1Yy0xLjExIDAtMiAuOS0yIDJ2MTJjMCAxLjEuODkgMiAyIDJoMTRjMS4xIDAgMi0uOSAyLTJWNmMwLTEuMS0uODktMi0yLTJ6bTAgMTRINVY4aDE0djEweiIvPgogICAgPHBhdGggZmlsbD0ibm9uZSIgZD0iTTAgMGgyNHYyNEgweiIvPgo8L3N2Zz4K);
+}
+
+.sharees h2 {
+  display: none;
+}
+
+.sharees ul {
+  list-style: none;
+  margin: 0;
+  padding: 0 15px 15px 15px;
+}
+
+.sharees li {
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMTIgMkM2LjQ4IDIgMiA2LjQ4IDIgMTJzNC40OCAxMCAxMCAxMCAxMC00LjQ4IDEwLTEwUzE3LjUyIDIgMTIgMnptMCAzYzEuNjYgMCAzIDEuMzQgMyAzcy0xLjM0IDMtMyAzLTMtMS4zNC0zLTMgMS4zNC0zIDMtM3ptMCAxNC4yYy0yLjUgMC00LjcxLTEuMjgtNi0zLjIyLjAzLTEuOTkgNC0zLjA4IDYtMy4wOCAxLjk5IDAgNS45NyAxLjA5IDYgMy4wOC0xLjI5IDEuOTQtMy41IDMuMjItNiAzLjIyeiIvPgogICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPgo8L3N2Zz4K);
+  background-size: 18px 18px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.sharees li.group {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgICA8cGF0aCBkPSJNMTYgMTFjMS42NiAwIDIuOTktMS4zNCAyLjk5LTNTMTcuNjYgNSAxNiA1Yy0xLjY2IDAtMyAxLjM0LTMgM3MxLjM0IDMgMyAzem0tOCAwYzEuNjYgMCAyLjk5LTEuMzQgMi45OS0zUzkuNjYgNSA4IDVDNi4zNCA1IDUgNi4zNCA1IDhzMS4zNCAzIDMgM3ptMCAyYy0yLjMzIDAtNyAxLjE3LTcgMy41VjE5aDE0di0yLjVjMC0yLjMzLTQuNjctMy41LTctMy41em04IDBjLS4yOSAwLS42Mi4wMi0uOTcuMDUgMS4xNi44NCAxLjk3IDEuOTcgMS45NyAzLjQ1VjE5aDZ2LTIuNWMwLTIuMzMtNC42Ny0zLjUtNy0zLjV6Ii8+Cjwvc3ZnPgo=);
+}
+
+.note .meta-icons {
+  float: right;
+}
+
+.note .meta-icons span {
+  display: inline-block;
+  background-size: 18px 18px;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 22px;
+  height: 22px;
+  padding-left: 4px;
+}
+
+.meta-icons .pinned {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMHB4IiBoZWlnaHQ9IjIwcHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzQyODVmNCI+DQogICAgPHBhdGggZD0iTTE2IDVoLjk5TDE3IDNIN3YyaDF2N2wtMiAydjJoNXY2bDEgMSAxLTF2LTZoNXYtMmwtMi0yVjV6Ii8+DQogICAgPHBhdGggZmlsbD0ibm9uZSIgZD0iTTAgMGgyNHYyNEgweiIvPg0KPC9zdmc+);
+}
+
+.meta-icons .archived {
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxOC4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4KPCFET0NUWVBFIHN2ZyAgUFVCTElDICctLy9XM0MvL0RURCBTVkcgMS4xLy9FTicgICdodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQnPgo8c3ZnIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbDpzcGFjZT0icHJlc2VydmUiIHZpZXdCb3g9IjAgMCAxOCAxOCIgdmVyc2lvbj0iMS4xIiB5PSIwcHgiIHg9IjBweCIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDE4IDE4Ij4KPHBhdGggZD0ibTE2LjYgM2wtMS4yLTEuNWMtMC4yLTAuMy0wLjYtMC41LTEtMC41aC0xMC43Yy0wLjQgMC0wLjggMC4yLTEgMC41bC0xLjMgMS41Yy0wLjIgMC4zLTAuNCAwLjctMC40IDEuMXYxMS4xYzAgMSAwLjggMS44IDEuOCAxLjhoMTIuNGMxIDAgMS44LTAuOCAxLjgtMS44di0xMS4xYzAtMC40LTAuMi0wLjgtMC40LTEuMXptLTcuNiAxMC45bC00LjktNC45aDMuMXYtMS44aDMuNnYxLjhoMy4xbC00LjkgNC45em0tNi4xLTExLjFsMC43LTAuOWgxMC43bDAuOCAwLjloLTEyLjJ6Ii8+Cjwvc3ZnPgo=);
+}
+
+.meta-icons .trashed {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjE4cHgiIHdpZHRoPSIxOHB4IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0OCA0OCIgZmlsbD0iIzAwMDAwMCI+DQogPHBhdGggZD0ibTEyIDM4YzAgMi4yMSAxLjc5IDQgNCA0aDE2YzIuMjEgMCA0LTEuNzkgNC00di0yNGgtMjR2MjR6bTI2LTMwaC03bC0yLTJoLTEwbC0yIDJoLTd2NGgyOHYtNHoiLz4NCiA8cGF0aCBkPSJtMCAwaDQ4djQ4aC00OHoiIGZpbGw9Im5vbmUiLz4NCjwvc3ZnPg==);
+}
+
+.checked {
+  text-decoration: line-through;
+}
+
+.RED {
+  background-color: rgb(255, 109, 63) !important;
+}
+.ORANGE {
+  background-color: rgb(255, 155, 0) !important;
+}
+.YELLOW {
+  background-color: rgb(255, 218, 0) !important;
+}
+.GREEN {
+  background-color: rgb(149, 214, 65) !important;
+}
+.TEAL {
+  background-color: rgb(28, 232, 181) !important;
+}
+.BLUE {
+  background-color: rgb(63, 195, 255) !important;
+}
+.GRAY {
+  background-color: rgb(184, 196, 201) !important;
+}
+
+/* go/keep-more-colors-eng */
+.CERULEAN {
+  background-color: rgb(130, 177, 255) !important;
+}
+.PURPLE {
+  background-color: rgb(179, 136, 255) !important;
+}
+.PINK {
+  background-color: rgb(248, 187, 208) !important;
+}
+.BROWN {
+  background-color: rgb(215, 204, 200) !important;
+}
+
+      </style></head>
+<body><div class="note DEFAULT"><div class="heading"><div class="meta-icons"><span class="pinned" title="Note pinned"></span>
+
+</div>
+Sep 18, 2020, 4:34:35 PM</div>
+<div class="title">(17/09/2020)</div>
+<div class="content">Activity:<br>I am not going to be the last man holding the bag was the sentiment cried out by the spirit. There was more discussion about the energies in certain likeness of certain people and it had been said why can&#39;t you leave be certain discretion almost a mirror upon what others were to descript the ascribe of what I wasn&#39;t trying to fully be in passion and tone even decibel of what I was trying to achieve seemed to be regular shot to the kind of Non-Lethal approach that had been described within the spirit too me as a psychic medium through coherent conversations and story tell line on process of my life which at times has involved channeling with the spirit. I am a psychic and it doesn&#39;t have to be scary and given enough resources from early process tell creates an easy let know that given enough resources and the other variables situated nobody had to get harmed if there ever something like that that existed in the past and upon let know further relays that there is battle and conflict even in societal manner that has been happening and the Janky Cousin for me upon the scare of my ever giving life whatever hell that be especially given recent developments of the spiritual that had happened through my physical actions and whatever the hell it might have been during my sleep has made me wonder about certain things. So when I see something so real and unimaginably deadly tieing to the story emergence of interaction and peoples lives as well as spiritual life in contrast at times has been one of the interest points of renewal. Two choice upon vagabond approach at times and it has had to do with both what my Main Spirit Guides relayed for if not reliance on proxy especially upon learning some of the secrets in regards to this and others that are taking place and the kinds of maneuvering and changes happening reflected in how it needed to be than at what point takes distance again. They thought at times that I was more aggressive and disruptive than what actually was in which was partially true but the real truth was that I could be disruptive at times just not to degrees without coherency to the degree that some thought and dimensional and non-dimensional interaction has existed for a long time, the kinds of things that had happening so there was this where I feel this moment where I looked upwards in downwards response as to my highest and pulled from inner strengths even of others but also others were involved that saved and helped those that needed as such in certain manners. No Shit was in response and how could I blame myself for knowing more than me and at what point did I not feel like whatever luster it was for certain things be change given tell that not all can be and why I wouldn&#39;t be one more done than thought in ways that some needed to understand but also saved by way of that understanding being understood for the sands of the world even if in my own way in which was always more pink and given salmon and the healing power regarding in why restoration from animism observed for in sacred rituals of what we truly are in appreciation but what they never understood is that sands was more spiritual than what recognized and might have been more mellow than I in certain moments pushing contrast when I talk about that being done kind of character who has looked at the board for what it is even if in my own way and when cross referenced with what I truly am in that good spiritual in the light and the Original Setting tells of a different character sometimes different scary but related in a certain sense for some. There is multiple kinds that exist and someone thought it was about stealing the show and for other it might have been but rather I was noting observer and still in feeling like somehow saving reigned free because dimensionally and non-dimensionally gone towards in manners where it feels like spiritual showing up for whatever the heck cause it was in need grouping together and forming up in a show of dealing with the not acceptables of the day. They said the way I respond at times for clarifying certain measures if need be. It was clarifications and cover to be true but always ways of operating and forming up. There is a certain kind tired of having to work on certain things they dont want to work on but what it really stems from is not being able to experience what one wants to experience for what one chose for true and what one would choose as well as what one doesn&#39;t want to experience. There is many other variations and terminologies regarding in which one that has been seen is not wanting to experience pain, suffer and death in a certain context as well as the other kinds too if considered different. The Rights that exist within the Light and Original Setting for me in this physical chill off to the side matters greatly and the given rights to be true for what my Main Spirit Guides indicated for myself and others that my Main Spirit Guides indicated have been understood on societal levels and Media levels especially safe understanding and knowledge that protects as well as natural history to be true in many aesthetics for beings to sense in ways similar to understanding in certain senses included in such a terminology. It felt like I had been yelling throughout the night for a portion of my voice infrastructure and the channeling felt to have been moved to a familiar energy of channeling regarding regular smoking. Cleaner tones and more personal. I think there was dimensional movement signalling something from earlier previous. Why wouldn&#39;t the convo of being to the point of what you can literally stand and being the area that where you are with scrunching up chest heaves and willful curdle upon ones own manipulated destruction as to what one would do at the end of their limit and under pressure. Why wouldn&#39;t one tell of harm to a group of spiritual as that would be ender kind of stuff and at what point did it matter again to understand why it mattered and how could we have been this stupid to not have thought that would be the case for small actions ending swathes of vagabond movement. I would say solve to another kind if not many kind to be true in the metaphorical that it was for who I am but also for who others actually are in the sense of what considered most important to understand and desirable direction from Guideship but at what point did I still hold my bonds to Guideship at the end of it all and at what point was that for others whoever they might be. Why wouldn&#39;t I choose good and just in the moment needed and with aim true with just reason and the just reasons not enough was always classically labeled bad but in a world turnside up at times in ways not intended have disrupted a direction and stance of many different kinds to point to no end but solve the problems needed are ever going to be able to in the face of not able to do as such even with everyone still going sneaky whatever some wanted it to be besides what was needed going for and the direction that was chosen, forgetting in front of the scenes and the limiting of memory within normal everyday life upon machinisms such as that and when did it have to deal with dark side stuff to be true especially for when some of it started being normality. These barriers created and the natural for what it might be considered be seemed to be daunted last night in the kind of disturbance in the force and the kind of knowing in the eyes of the supposedly didn&#39;t know in some sort of twist and turn of fate and destiny with the realism jive and the dimensional setup with tune factors and spoken trues for when the Green and the Brown as well as the Clear saved what might have been to be. I looked at my process and I loved it, I think it was one of the best and that might have been partly why. I could pull from forces spiritual behind the scenes in other dimensional self capacity, I could live multiple lives overlapping good infrastructure and good lives I wanted to live with experiences that heavenly do not do justice in such ways that reminds of what kings in higher setting always had in the taste, fashion and things to do especially with technology because it reminded for some of the old days huddled around technology in which saved by way of the spiritual regarding and the kinds of things created as well as lives lived and retrieved that had real and honest communication that told why it needed to be that way. When we spoke of social justice within societal, I had wondered if the step wasn&#39;t lost at all and to be true the answers are their for the worlds to see but I think it might have been the kinds of interaction and communication that could be created here especially regarding physical digital gaming on this Planet as well as the Spiritual regarding in how they deserve the rights they have been granted by higher spiritual authorities but also the style identified in the kind of gaming I was still referring to as the singular and group entity style with classic forms even if I was unable to fully see the picture as would extend to other dimensional in which thought that it didn&#39;t when it actually very much was more understand by other means of selves and infrastructure of know and even Guardianship gargoyle kind of stuff in that similar forms as guideships relay that a part of some of the experience that I had noted and loved greatly for some but I was also scared at what I saw in gamingland of that kind even so for some more in this process but more camradre seen too with the X arm cross in a fashion that reminds of somehow always existing in the sense of justice, you couldnt imagine a gazillion tweets even if in one day for some but its understood in more ways than one and the kinds that exist beyond in that measure especially Alien that I can understand in ways intended with even beings of amount recompense response for he anyone is would it all else be cleared and what one wanted. I knew I was still part regular human even through some of the adventure that had been happening within the world and it might not have been as cozy as one remembered but it was getting even if just a small off to the side. Settling I.T. bets and the movement of culture of Digital even throughout all these old digital walls crumbling with direction understood as just in case especially given earlier comp problematics and the kinds of spiritual regarding that makes one wonder about Digital Gods. For there was a darker kind of gaming that existed that seemed to remind of south africa machinism kind of stuff. This life and the things that could be like spiritual and other dimensional contact through web browser experiences crafted in the manners of everyday software and the conspiracy regarding that if the spiritual got to such a point where it could look like that even without it fully being that with the God currents naturally passing through maybe always. it was like google was trying to speak about something when my tablet froze up at times. Some of the ventures in digital and browser land letting know of trusted sources even with back and rabble upon what one trusts. The call was made though and going to certain physical digital on this planet earth has garnered similar responses as going to 911 in normal societal and what was seen was digital acts in the happening where repair tool software and spiritual and other dimensional tools alongside for something that works how it is supposed especially in dealing with digital interaction and the kinds of Spiritual Safeguards built in and how smooth it all works. I feel they are good. They said it might have been an aspects of digital alien seen on certain infrastructure and communicating in certain manners through sings of life kind of Psychic phenomenon seen. How would it be that some of our governments see activity from other dimensional communicating through the internet and I have had my experiences with the Digital. The real true was that I was sensing high digital upon installation of certain programs and it wasn&#39;t knew in comparison to some of the gaming infrastructures that I noted and how they felt dimensionally different and yeah they feng shueid some of the psychictivity on my end at times not fully note the infrastructure and confuse in certain moments but the real truth is I was still able to sense and note the gaming infrastructure in a certain way. You will see this on film as well too not only gaming but some of the feel regarding films in how that extends to the digital at times and how you would probably come up with hundreds of ways that future aesthetic and have good idea of what some it might look like just based upon imagination alone. There is more advanced things at times and it is observed kind of physical on this planet with the digital infrastructural emergence that has taken place in which the digital in how you would equate has emerged on other planet in this physical space before in variations you might be familiar with except in different languages but also other kinds of wonders in the digital. It&#39;s the beauty of it all with higher light technology and Original Setting technology for some it makes for a really good time and the fact that some of the programs showed up in the nick of time to catch some of the crash multiple times in working through an it problem on my parents laptop. What in the hell is this all about? Signs of Good things happening in higher spiritual as well as a connecting piece regarding certain movements lower down and maybe this topic point of saving everyone has been utilized against to upset before. Something was understood yesterday more in line with the direction i have been going so said and I am wondering what had happened with my other selves especially regarding their direction this day as well too. One of the things it had to do with though I think regarding some of the bigger topics in how exactly are some proceeding from the top downwards of what they consider themselves to be in which Guideship has many covered that dont fully detail in certain dimensional. One of the Guess works was that things went really well and some had used and utilized interaction to say certain kind were going a direction to lift and lighten in stolen fashion but it might have less to do with it and really to be true it felt like the days previous there was a hard core lockdown in certain areas, I had mentioned trust and belief as well as imagination but that doesn&#39;t denote that I didn&#39;t call upon other-dimensional and spiritual involved in which emotions and karmic reminded in a certain manner. There was turbulence and fighting that i felt upon myself like i had somehow screamed and had a yelling match in the middle of the night but it was rather other aspects of self. Even self realms around more by a certain archetype voice that reminds of such with purple reddish pink connotations. Emphasized in Self-Defense is what reminded me of this archetype to a certain degree. Thought there was something also about the digital regarding potentially. Even my dreams the next day reminded of digital sharks on the side of a large ship with me supposedly in the water the last few frames of the dream before waking up. I had felt certain kind of therapeutic energies and something to do with those labelled crazy and then segwayed to the realization that a certain amount labelled crazy on this planet saved. There was also a flipping of the script moment where it looked to be that the truths I have been saying are the normality and there is a look from those labeling spiritual like that crazy where they look less to be crazy and a lot of us aren&#39;t looking for the other side to be labelled crazy either especially for a having different beliefs whether it be conflictual to truth or not. How does that affect mediation? It&#39;s one of the best questions. Certain truths coming to the surface like there being more good than bad understood to exist. It was one of them but another had to do with direction being chosen and in certain areas barebones infrastructure in blocking out the obvious in which is leaving certain spiritual behind. Somehow if it had a barrier put fourth form some higher behemoth then it is forgotten to be the forgotten and if such a look as someone could just traverse but also opportunity in being able to do so without having a barrier causing no opportunity for such proving the pragmatics to be.<br><br>Some trying to label like somehow I am crazy spiritually to protect me regarding certain things but utilized in manners at times too far and now beneficial compared especially with the kind of suppression of baselines that have happened from this place.<br><br>Work was saving in regards to sectioning of good things to do so said by way of time regarding certain beings in how they can experience things. This was one of the tie ins to meaning discerned in regards to a film reminding of calls, the good and standing.</div>
+
+
+</div></body></html>

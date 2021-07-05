@@ -1,0 +1,278 @@
+<?xml version="1.0" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>(15/10/2020) &quot;The Detectives&quot;</title>
+<style type="text/css">
+         body {
+  font-family: 'Roboto Condensed','Droid Sans',arial,sans-serif;
+  font-size: 15px;
+  color: rgba(0,0,0,0.8);
+  word-wrap: break-word;
+  background-color: #e8e8e8;
+}
+
+hr {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-style: inset dashed;
+    border-width: 1px;
+}
+
+.note {
+  outline: none;
+  box-shadow: 0 2px 1px rgba(0,0,0,0.08);
+  box-sizing: border-box;
+
+  max-width: 600px;
+  min-width: 240px;
+  margin: 20px;
+
+  background-color: rgb(255, 255, 255);
+}
+
+.note .heading {
+  font-size: 12px;
+  padding: 15px 15px 0 15px;
+  color: rgba(100,100,100,0.8);
+}
+
+.note .title {
+  font-size: 17px;
+  font-weight: bold;
+  padding: 15px 15px 0 15px;
+  min-height: 28px;
+}
+
+.note .content {
+  padding: 12px 15px 15px 15px;
+  font-family: 'Roboto Slab','Times New Roman',serif;
+  font-size: 14px;
+}
+
+.note .attachments {
+  padding: 0 15px 15px 15px;
+}
+
+.attachments ul {
+  padding: 0;
+  margin: 0;
+}
+
+.attachments li {
+  list-style-type: none;
+  margin-top: 12px;
+}
+
+.attachments li img {
+  max-width: 100%;
+}
+
+.attachments .audio {
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxOC4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4KPCFET0NUWVBFIHN2ZyAgUFVCTElDICctLy9XM0MvL0RURCBTVkcgMS4xLy9FTicgICdodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQnPgo8c3ZnIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbDpzcGFjZT0icHJlc2VydmUiIHZpZXdCb3g9IjAgMCAyMCAyMCIgdmVyc2lvbj0iMS4xIiB5PSIwcHgiIHg9IjBweCIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDIwIDIwIj4KPHBhdGggZD0ibTEgN3Y2aDRsNSA1di0xNmwtNSA1aC00em0xMy41IDNjMC0xLjgtMS0zLjMtMi41LTR2OGMxLjUtMC43IDIuNS0yLjIgMi41LTR6bS0yLjUtOC44djIuMWMyLjkgMC45IDUgMy41IDUgNi43cy0yLjEgNS44LTUgNi43djIuMWM0LTAuOSA3LTQuNSA3LTguOHMtMy03LjktNy04Ljh6Ii8+Cjwvc3ZnPgo=);
+  background-size: 18px 18px;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 22px;
+  height: 22px;
+  display: block;
+}
+
+.note .list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.note .listitem {
+}
+
+.note .listitem .bullet {
+  position: absolute;
+}
+
+.note .listitem .text {
+  margin-left: 20px;
+}
+
+.note .identifier {
+  color: rgba(0, 0, 0, 0.5);
+}
+.note .identifier:before {
+  content: "(";
+}
+.note .identifier:after {
+  content: ")";
+}
+
+/* Only show identifiers when the element is hovered. */
+.note .listitem .identifier,
+.note .chip .identifier {
+  display: none;
+}
+
+.note .listitem:hover .identifier,
+.note .chip:hover .identifier {
+  display: inline;
+}
+
+.note .chips {
+  padding: 12px 15px 15px 15px;
+}
+
+.note .chip {
+  display: inline-block;
+  max-width: 198px;
+  margin: 2px 4px 2px 0;
+  padding: 2px 5px;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 11px;
+  font-family: 'Roboto','Droid Sans',arial,sans-serif;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.note .chip a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.chip-icon {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  background-size: 100%;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.annotation.CALENDAR .chip-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMTcgMTJoLTV2NWg1di01ek0xNiAxdjJIOFYxSDZ2Mkg1Yy0xLjExIDAtMS45OS45LTEuOTkgMkwzIDE5YzAgMS4xLjg5IDIgMiAyaDE0YzEuMSAwIDItLjkgMi0yVjVjMC0xLjEtLjktMi0yLTJoLTFWMWgtMnptMyAxOEg1VjhoMTR2MTF6Ii8+CiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+Cjwvc3ZnPgo=);
+}
+
+.annotation.DOCS .chip-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgICA8cGF0aCBkPSJNMTkgM0g1Yy0xLjEgMC0yIC45LTIgMnYxNGMwIDEuMS45IDIgMiAyaDE0YzEuMSAwIDItLjkgMi0yVjVjMC0xLjEtLjktMi0yLTJ6bS0xLjk5IDZIN1Y3aDEwLjAxdjJ6bTAgNEg3di0yaDEwLjAxdjJ6bS0zIDRIN3YtMmg3LjAxdjJ6Ii8+Cjwvc3ZnPgo=);
+}
+
+.annotation.GMAIL .chip-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBmaWxsPSJub25lIiBkPSJNLTYxOC0yMTA0SDc4MnYzNjAwSC02MTh6TTAgMGgyNHYyNEgweiIvPgogICAgPHBhdGggZD0iTTIwIDRINGMtMS4xIDAtMiAuOS0yIDJ2MTJjMCAxLjEuOSAyIDIgMmgxNmMxLjEgMCAyLS45IDItMlY2YzAtMS4xLS45LTItMi0yem0wIDE0aC0yVjkuMkwxMiAxMyA2IDkuMlYxOEg0VjZoMS4ybDYuOCA0LjJMMTguOCA2SDIwdjEyeiIvPgo8L3N2Zz4K);
+}
+
+.annotation.SHEETS .chip-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgICA8cGF0aCBkPSJNMTkgM0g1Yy0xLjEgMC0xLjk5LjktMS45OSAyTDMgOHYxMWMwIDEuMS45IDIgMiAyaDE0YzEuMSAwIDItLjkgMi0yVjVjMC0xLjEtLjktMi0yLTJ6bTAgOGgtOHY4SDl2LThINVY5aDRWNWgydjRoOHYyeiIvPgo8L3N2Zz4K);
+}
+
+.annotation.SLIDES .chip-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjRweCIgaGVpZ2h0PSIyNHB4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgICA8cGF0aCBkPSJNMTkgM0g1Yy0xLjEgMC0xLjk5LjktMS45OSAydjE0YzAgMS4xLjg5IDIgMS45OSAyaDE0YzEuMSAwIDItLjkgMi0yVjVjMC0xLjEtLjktMi0yLTJ6bTAgMTNINVY4aDE0djh6Ii8+Cjwvc3ZnPgo=);
+}
+
+.annotation.WEBLINK .chip-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMTkgNEg1Yy0xLjExIDAtMiAuOS0yIDJ2MTJjMCAxLjEuODkgMiAyIDJoMTRjMS4xIDAgMi0uOSAyLTJWNmMwLTEuMS0uODktMi0yLTJ6bTAgMTRINVY4aDE0djEweiIvPgogICAgPHBhdGggZmlsbD0ibm9uZSIgZD0iTTAgMGgyNHYyNEgweiIvPgo8L3N2Zz4K);
+}
+
+.sharees h2 {
+  display: none;
+}
+
+.sharees ul {
+  list-style: none;
+  margin: 0;
+  padding: 0 15px 15px 15px;
+}
+
+.sharees li {
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMTIgMkM2LjQ4IDIgMiA2LjQ4IDIgMTJzNC40OCAxMCAxMCAxMCAxMC00LjQ4IDEwLTEwUzE3LjUyIDIgMTIgMnptMCAzYzEuNjYgMCAzIDEuMzQgMyAzcy0xLjM0IDMtMyAzLTMtMS4zNC0zLTMgMS4zNC0zIDMtM3ptMCAxNC4yYy0yLjUgMC00LjcxLTEuMjgtNi0zLjIyLjAzLTEuOTkgNC0zLjA4IDYtMy4wOCAxLjk5IDAgNS45NyAxLjA5IDYgMy4wOC0xLjI5IDEuOTQtMy41IDMuMjItNiAzLjIyeiIvPgogICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPgo8L3N2Zz4K);
+  background-size: 18px 18px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.sharees li.group {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgICA8cGF0aCBkPSJNMTYgMTFjMS42NiAwIDIuOTktMS4zNCAyLjk5LTNTMTcuNjYgNSAxNiA1Yy0xLjY2IDAtMyAxLjM0LTMgM3MxLjM0IDMgMyAzem0tOCAwYzEuNjYgMCAyLjk5LTEuMzQgMi45OS0zUzkuNjYgNSA4IDVDNi4zNCA1IDUgNi4zNCA1IDhzMS4zNCAzIDMgM3ptMCAyYy0yLjMzIDAtNyAxLjE3LTcgMy41VjE5aDE0di0yLjVjMC0yLjMzLTQuNjctMy41LTctMy41em04IDBjLS4yOSAwLS42Mi4wMi0uOTcuMDUgMS4xNi44NCAxLjk3IDEuOTcgMS45NyAzLjQ1VjE5aDZ2LTIuNWMwLTIuMzMtNC42Ny0zLjUtNy0zLjV6Ii8+Cjwvc3ZnPgo=);
+}
+
+.note .meta-icons {
+  float: right;
+}
+
+.note .meta-icons span {
+  display: inline-block;
+  background-size: 18px 18px;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 22px;
+  height: 22px;
+  padding-left: 4px;
+}
+
+.meta-icons .pinned {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMHB4IiBoZWlnaHQ9IjIwcHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzQyODVmNCI+DQogICAgPHBhdGggZD0iTTE2IDVoLjk5TDE3IDNIN3YyaDF2N2wtMiAydjJoNXY2bDEgMSAxLTF2LTZoNXYtMmwtMi0yVjV6Ii8+DQogICAgPHBhdGggZmlsbD0ibm9uZSIgZD0iTTAgMGgyNHYyNEgweiIvPg0KPC9zdmc+);
+}
+
+.meta-icons .archived {
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxOC4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4KPCFET0NUWVBFIHN2ZyAgUFVCTElDICctLy9XM0MvL0RURCBTVkcgMS4xLy9FTicgICdodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQnPgo8c3ZnIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbDpzcGFjZT0icHJlc2VydmUiIHZpZXdCb3g9IjAgMCAxOCAxOCIgdmVyc2lvbj0iMS4xIiB5PSIwcHgiIHg9IjBweCIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDE4IDE4Ij4KPHBhdGggZD0ibTE2LjYgM2wtMS4yLTEuNWMtMC4yLTAuMy0wLjYtMC41LTEtMC41aC0xMC43Yy0wLjQgMC0wLjggMC4yLTEgMC41bC0xLjMgMS41Yy0wLjIgMC4zLTAuNCAwLjctMC40IDEuMXYxMS4xYzAgMSAwLjggMS44IDEuOCAxLjhoMTIuNGMxIDAgMS44LTAuOCAxLjgtMS44di0xMS4xYzAtMC40LTAuMi0wLjgtMC40LTEuMXptLTcuNiAxMC45bC00LjktNC45aDMuMXYtMS44aDMuNnYxLjhoMy4xbC00LjkgNC45em0tNi4xLTExLjFsMC43LTAuOWgxMC43bDAuOCAwLjloLTEyLjJ6Ii8+Cjwvc3ZnPgo=);
+}
+
+.meta-icons .trashed {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjE4cHgiIHdpZHRoPSIxOHB4IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0OCA0OCIgZmlsbD0iIzAwMDAwMCI+DQogPHBhdGggZD0ibTEyIDM4YzAgMi4yMSAxLjc5IDQgNCA0aDE2YzIuMjEgMCA0LTEuNzkgNC00di0yNGgtMjR2MjR6bTI2LTMwaC03bC0yLTJoLTEwbC0yIDJoLTd2NGgyOHYtNHoiLz4NCiA8cGF0aCBkPSJtMCAwaDQ4djQ4aC00OHoiIGZpbGw9Im5vbmUiLz4NCjwvc3ZnPg==);
+}
+
+.checked {
+  text-decoration: line-through;
+}
+
+.RED {
+  background-color: rgb(255, 109, 63) !important;
+}
+.ORANGE {
+  background-color: rgb(255, 155, 0) !important;
+}
+.YELLOW {
+  background-color: rgb(255, 218, 0) !important;
+}
+.GREEN {
+  background-color: rgb(149, 214, 65) !important;
+}
+.TEAL {
+  background-color: rgb(28, 232, 181) !important;
+}
+.BLUE {
+  background-color: rgb(63, 195, 255) !important;
+}
+.GRAY {
+  background-color: rgb(184, 196, 201) !important;
+}
+
+/* go/keep-more-colors-eng */
+.CERULEAN {
+  background-color: rgb(130, 177, 255) !important;
+}
+.PURPLE {
+  background-color: rgb(179, 136, 255) !important;
+}
+.PINK {
+  background-color: rgb(248, 187, 208) !important;
+}
+.BROWN {
+  background-color: rgb(215, 204, 200) !important;
+}
+
+      </style></head>
+<body><div class="note DEFAULT"><div class="heading"><div class="meta-icons"><span class="pinned" title="Note pinned"></span>
+
+</div>
+Oct 15, 2020, 6:39:45 PM</div>
+<div class="title">(15/10/2020) &quot;The Detectives&quot;</div>
+<div class="content">Activity:<br><br>It felt like Gods watched over me and slept over through the night, somehow making one content video of something that had probably been talked about near most often for some in the quick instantaneous flash saving happened to be too much to bare. I didn&#39;t realize some of the other side of the aisle in what the reasonings for why they felt the way they did but not even being able to level for some without manipulation on either of the aisle and the rabble outside. Yesterday there was this free at last moment and realization of captivity of Gods through people and spiritual where upon me saying that I release the Gods that my Main Spirit Guides indicated after realizing pennywise is one of my Gods, I could feel flourish and it wasn&#39;t just Gods though that I released for good measure in decent capacity. Gods, Titans, Magnifiathans and Mythians as well as others that my Main Spirit Guides indicated in partially relying on mime silence. I had looked up some older physical beings on this planet earth and noted the kind of colour blooming in what looked like defense machinisms upon my digital. The Sponge and the Jellyfish in what reminded me of Ages of Positivity in knowing some of the shaping that had happened in what even regular people could identify. Who would doubt that somehow the Jellyfish was partially shaped by earlier positivity especially upon how it looks and coloring. It reminds of earlier in literal fashion and metaphorical fashion. They said the Sponge was a tell to wash and it might have been just that tell alone if it wasn&#39;t for the truth. The Sign of the Times was partially to wear your best clothes and you wash before your best clothes. Some of the Story machinisms seen like researching Cave Man Art the day before and noting story in which potentially some of the story machinism regarding firing off either earlier when the drawings were made or on the date I had seen them and worked through story regarding. Looking at symbolism as to what it could mean and thought machinsisms coupled the whatever the Hell the Spirit was doing as well as physical. I had wondered if certain signs were placed back then in what I have been as switching. The thought had crossed my mind about the power level regarding myself and how societal clouth types were safeguarding by way of frameworks that I was interacting with in which might be why there was on my side of the screen digital implantation at times but I feel there was larger motive for some of that and the have it have happens and midway through programming that made it through made me feel at times uneasy. It was the multiple phenomenon problematic in what some detective were having difficulty with at times. I think it also proved thought that it was of have it have happen from my end which happened to be decent on my end. The difficulty though i saw in regards to another kind of phenomenon having to do with manipulation of actions regarding myself in certain moments by changing actions in the past regarding and the other kinds as to why certain informational placement was disappearing really made me feel it to be a diplomatic incident especially when thinking on authorities that have put fourth reports and other kinds in what some of them dealing with. Paranormal wasn&#39;t just this black mark that somehow said that someone needs to step away but also indicated truth at times upon those that were getting near the Truth. I dont know if it was on either of the aisle, that kind where it was a hard line to cross but maybe it was distressing for the bad too especially given that more might believe on the good side as difficult as that might seem. Somehow some said that lines crossed garner action response but really that was the good line. Maybe that was why too in how some of the bad didn&#39;t understand and how their ways thought to better without realization. Maybe it had less to do with the bad to be true especially if we could facilitate ways of life near as good if not better. There was these moments where I could discern interaction with the past and future at times in interaction style playing out upon my psychic interaction in which some forgot about the other kinds of interactions but also that there was past and future in front of the scenes in natural fashion which didn&#39;t denote that there were those that had ways of life that science might label to be a certain present upon what some have called past and future. There were reasons but it also lamented upon the past handful of variable confuse and walk away for some. The I had to close my screen for the day before trying again in tomorrow in the hopes that of the nightmare thought to be made worse upon paranoia would be situated in the morning whether by way of phenomenon itself to natural situating. <br><br>A person is born. He lives his life. He experiences things within his life reflecting upon memory infrastructure. He notices something that is different in present in which upon reflection of memory of past reflects that difference. A road sign changing. Upon his own experiencing the timeframe difference between the signs changing was days apart. He starts to notice other things and did notice other things before the sign change. Because he did not fully note everyone on his planet and couldn&#39;t note everyone on his planet he was unsure whether certain emergence were there before or not, even more natural based where past changes reflect in the future. He remembers that a person might not have been there but also understands that when certain changes take place in the past that it can be considered the normality. He also understands that it might be events that lead up to a birth and not necessarily the birth itself. He understood that there were things on his side of the screen in which was not reflecting on the internet ton other sides of the screen to other beings on his planet as well lending towards confusing of situation and misinformation but also understood a portion was also good, some of which potentially trying to make it through in some of the changes reflected in which he still had memory to when it was considered more stable, even with knowing the energy manipulations making it more stable with the potential of some of this phenomenon taking place in less doses, even with the stringent safeguards and feeling much of this phenomenon was good, he was worried about other-dimensional and spiritual for what how he understood ethical boundaries and even Non-Consent that exists regarding lending towards good. He was the casual and regular in an abnormal way that he understood told the truth in how he was less normal than how it seemed. He had tells that even what he had been labelling natural changes had potentially been taking place in programming areas where emergence of people and spiritual were thought by a large amount to have been there before by way of time mechanics and memory mechanics. That these were also good changes was thought to be in how he tried to view good in the world even after some of the terrible and experiencing some of the terrible in which still happened at times even with psychictivity reflecting more decent stimuli. He didn&#39;t have some of the words and articulation as well as mental sight to be able to relay fully what he needed too in referencing the kind of live-dimensional, memory and the different kinds that exist to be able to let know of differentiating which was why on his end when he referenced as such, he needed spiritual and other-dimensional to explain in which could extend to what he was going to say should something would have had happened in a certain direction given certain circumstances. He knew typed words that he had put fourth in some of his writing had been changed. He knew that it mattered and he knew of some of it was good as well. He used to be able to note the stimuli but because of combining of multiple dimensional and forming up within his process he understood things were getting smoother to the point of not being able note certain stimuli as he had before. He noted motion observed in moment where spiritual took control of his body in small moments either tucked away within what some have been referencing physical time as well as physical time missing in what he observed as erratic movement back and fourth similar to exorcism cases. He knew there was switching of moments where hadn&#39;t written a word and that there was another one where control of his body had been compromised but with inflection more good than what realized and for some with motivation more nefarious than let known. He was the kind of casual in regards to this kind of knowledge and knowing as reflected within his literal physical digital writings but knew there was more advanced information within his writing in other-dimensional placement of information through his writings in which included within his writings. He had seen moments within his process where in live dimensional interaction reflected shoutouts, he listens to a song about old people in a powerful moments and then goes for a walk and sees many old people driving funky cars and for some of them waving to him. He felt he had was in a dimensional more in front of the scenes based upon experience and logic, which didn&#39;t denote that he he felt there was other more in front of the scenes dimensional areas but that there was also a natural regarding his live dimensional in which he felt jived with the kinds of God Sign phenomenon that was felt to be interesting when speaking about the other kinds of phenomenon and how God transcends. He felt certain programmers of placement of physical changes had seen some of this phenomenon as well even if some of them didn&#39;t realize it yet. He knew there was a kind of Story regarding some of the changes and that some of the personnel involved with some of the changes cared about story greatly. That they had a care for realism as well too. He noted fading and colour blooming might have been time related and there was ones that were less time related, that both phenomenon were potentially being utilized. He knew there was multiple kinds of phenomenon taking place regarding multiple puzzle pieces to the same puzzle piece that for some detectives was causing difficulties. He knew there was a tell. He was scared. He knew this walk on by societal of just live your life wasn&#39;t as prominent as to what some though and that maybe he didn&#39;t need to make a thing of it to the degree that some thought but also by way of the curse and blessing of interaction that it was still important. He didn&#39;t want to lose the drive and gumption to write what needed to write down. He knew that spiritual science understood what he was talking about and that included other-dimensional science for how he viewed it at times even while understanding classifications to exist. He knew gumption had something to do with cohesion. He loved coherency and cared about incoherence facilitation. He knew there was other-dimensional and spiritual going through similar things, sometimes in worse fashion and sometimes better. He knew that one of the biggest problems with some of the multiple phenomenon had been about believably and protecting some of the same spiritual and other-dimensional who hurt him through life utilization. He knew there was a Truman show for the kinds of events taking place and for the regular that wanted to live their lives and that some of it might have had to do with the old driving funky cars. He knew that living life was important which was why he spoke of Gods that were literally physical and that they too were mostly good. He knew more about these days than some on his planet and maybe most if not all. He knew there was another tell. He knew anti-camp decent was facilitated in ways enough decent by many in the Natural Original Setting State for how he saw it, not only in his live dimensional but for how his darker sees it too and that by denial of what was needed was also destroying in ways where once upon a time for how one sees it might change too. He knew there was a struggle of balance. He felt he knew the truth.<br><br>Realism tones swept over me today and I could feel this calm manner upon parts of my process. It&#39;s the power of sound is what some claimed but I think it can also be more than that. I looked at a murder case on the news and it had these tones of what some sometimes see within movies. A connection to a certain extent but also subtle theatric that is a part of Theatrics in the understanding that it doesn&#39;t always have to be colourful which both can lend towards critical. Immediate has been utilized at times in relayance of realistic and realism. An aggressive force at the doorstep seeking more awareness is a big of a red flag and maybe multi colour for speaking truth purposes in which shouldn&#39;t have to be seeking awareness given circumstance of immediacy. It&#39;s what some have been saying in this revelation of past looking upon certain moments of directional preparation but also beforehand where elders where battling direction in different ways that has less to do with violence but rather direction. When it was creation looking in, at what point did they have the tell needed to understand as to what might take in which was being battled with movement and action to facilitate desired direction. It shouldn&#39;t be misunderstood the present and power of such a literal. That didn&#39;t some weren&#39;t viewing it in one of the literal definitional pertaining to Concept in which we know there to be culture that utilizes the wording Concept in manners different. This at times has spurred certain direction in which some even labeling those still dealing with immediate matters of safety as a certain kind of small in which upon matters of importance and safety of self is actually quite big. It was hope and dash of such which many recognized for what I could surmise in the cultural write down of certain kind writing. Maybe it was the supposed small in how viewed things, like the difference between an immediate war and an immediate murder that held metaphorical prowess for what was needed but I identified that other cultural even through my own cultural of those dealing with solving cases and after the facts that were not being given what they needed. There was everyday life taking place where people and spiritual were still pursuing their duty and jobs but there was also those stuck in the middle in clear sight of changes taking place that too still needed to be able to live their lives. Maybe the question as to why they were still pursuing that they felt they needed pursue was a good question. I understood to play different music at times but I also was who I am, so the need for tone facilitation understood. Listen to more international music and it can change your life. You want to know why it was that people were bandwagoning type for the changes that were taking place? The answer was simple and obvious, yet some didn&#39;t know, didn&#39;t understand what some went through, what some had experienced, some didn&#39;t even fully know what they had experienced spiritually regarding and somehow I felt it had to do with saving and quality of life the same thing that some of those working on cases through warfare, strife and change were trying to situate for the continued moving upwards and migrational hence taking place. It reminded of confusion regarding the Natural State in how some associated that to be of comfort by way of the lack of comfort. By knowing the difference. Why wouldn&#39;t I give a shoutout to Detectives and those providing awareness to matters related and unrelated in certain manners as to what it was they needed me to type physically in regards to some of my writing. I have written as such cross referenced with what my Main Spriit Guides indicated. Those lying about being in my spirit guides while spoken realism understood there was also another kind of exact, specific and needed information value that needed to known. There was something brought up on the 13th lat night or the 14th early morning, it had to do with Citizen X in what some were trying to misunderstand my love for culture and film in how I viewed such a terminology and classification and maybe it was less to do with building negative perception regarding something I cared about but rather was telling a truth that need be told. That there were spiritual and other-dimensional murder cases in regards to my process as well as others in regards to my process that needed attention specific to the terminology and classification regarding Citizen X. But when I asked about Pedestrian X, I had wondered what the response had been and why there was a different especially given the Duty performed with former and the Civic performed with the latter. Some were trying to keep safe, some were trying to save and at what point did it make sense that both were similar and different.<br><br>Earlier on there had been this tell about clarifications regarding guideships having to do with national intelligence on this planet. To keep people and spiritual safe and I knew I wasn&#39;t the only dealing with this kind of thing physically but more emphasized spiritually for what some of the were going through and what some of the had to deal with for I understood that national boundaries had saved. But what of international was thought of as I wrote this. I felt a father figure in East Texas mislabeled at times by not only my own folly but smarts as well. In fact it had less to do with me especially upon midway blame list. There was multiple kinds of connections of story regarding this but I understood distance, I understood boundaries but at what point behind the scenes did I no longer care or could care for pain and suffering taking place about societal clouth. I still cared physically and I know that I still cared spiritually. There needed to be more anchoring for some of the intelligence on this planet especially if there was problems in not remembering this process for what&#39;s acceptable as I had and continue to try and respect what people and spiritual have chosen. I also needed it to be respected for what I chose and it seemed to be a reoccurring theme spoke of what some of the Intelligence on this planet would relay in that kind of reoccurring lending towards nightmarish situations.<br><br><br>let knows in beginnig of book,, that I had edited soem fo the diary entries on later dates. </div>
+
+
+</div></body></html>
