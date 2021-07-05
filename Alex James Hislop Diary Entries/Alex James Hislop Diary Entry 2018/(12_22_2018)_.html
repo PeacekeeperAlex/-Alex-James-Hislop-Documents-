@@ -1,0 +1,285 @@
+<?xml version="1.0" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>(12/22/2018) </title>
+<style type="text/css">
+         body {
+  font-family: 'Roboto Condensed','Droid Sans',arial,sans-serif;
+  font-size: 15px;
+  color: rgba(0,0,0,0.8);
+  word-wrap: break-word;
+  background-color: #e8e8e8;
+}
+
+hr {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-style: inset dashed;
+    border-width: 1px;
+}
+
+.note {
+  outline: none;
+  box-shadow: 0 2px 1px rgba(0,0,0,0.08);
+  box-sizing: border-box;
+
+  max-width: 600px;
+  min-width: 240px;
+  margin: 20px;
+
+  background-color: rgb(255, 255, 255);
+}
+
+.note .heading {
+  font-size: 12px;
+  padding: 15px 15px 0 15px;
+  color: rgba(100,100,100,0.8);
+}
+
+.note .title {
+  font-size: 17px;
+  font-weight: bold;
+  padding: 15px 15px 0 15px;
+  min-height: 28px;
+}
+
+.note .content {
+  padding: 12px 15px 15px 15px;
+  font-family: 'Roboto Slab','Times New Roman',serif;
+  font-size: 14px;
+}
+
+.note .attachments {
+  padding: 0 15px 15px 15px;
+}
+
+.attachments ul {
+  padding: 0;
+  margin: 0;
+}
+
+.attachments li {
+  list-style-type: none;
+  margin-top: 12px;
+}
+
+.attachments li img {
+  max-width: 100%;
+}
+
+.attachments .audio {
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxOC4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4KPCFET0NUWVBFIHN2ZyAgUFVCTElDICctLy9XM0MvL0RURCBTVkcgMS4xLy9FTicgICdodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQnPgo8c3ZnIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbDpzcGFjZT0icHJlc2VydmUiIHZpZXdCb3g9IjAgMCAyMCAyMCIgdmVyc2lvbj0iMS4xIiB5PSIwcHgiIHg9IjBweCIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDIwIDIwIj4KPHBhdGggZD0ibTEgN3Y2aDRsNSA1di0xNmwtNSA1aC00em0xMy41IDNjMC0xLjgtMS0zLjMtMi41LTR2OGMxLjUtMC43IDIuNS0yLjIgMi41LTR6bS0yLjUtOC44djIuMWMyLjkgMC45IDUgMy41IDUgNi43cy0yLjEgNS44LTUgNi43djIuMWM0LTAuOSA3LTQuNSA3LTguOHMtMy03LjktNy04Ljh6Ii8+Cjwvc3ZnPgo=);
+  background-size: 18px 18px;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 22px;
+  height: 22px;
+  display: block;
+}
+
+.note .list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.note .listitem {
+}
+
+.note .listitem .bullet {
+  position: absolute;
+}
+
+.note .listitem .text {
+  margin-left: 20px;
+}
+
+.note .identifier {
+  color: rgba(0, 0, 0, 0.5);
+}
+.note .identifier:before {
+  content: "(";
+}
+.note .identifier:after {
+  content: ")";
+}
+
+/* Only show identifiers when the element is hovered. */
+.note .listitem .identifier,
+.note .chip .identifier {
+  display: none;
+}
+
+.note .listitem:hover .identifier,
+.note .chip:hover .identifier {
+  display: inline;
+}
+
+.note .chips {
+  padding: 12px 15px 15px 15px;
+}
+
+.note .chip {
+  display: inline-block;
+  max-width: 198px;
+  margin: 2px 4px 2px 0;
+  padding: 2px 5px;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 11px;
+  font-family: 'Roboto','Droid Sans',arial,sans-serif;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.note .chip a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.chip-icon {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  background-size: 100%;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.annotation.CALENDAR .chip-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMTcgMTJoLTV2NWg1di01ek0xNiAxdjJIOFYxSDZ2Mkg1Yy0xLjExIDAtMS45OS45LTEuOTkgMkwzIDE5YzAgMS4xLjg5IDIgMiAyaDE0YzEuMSAwIDItLjkgMi0yVjVjMC0xLjEtLjktMi0yLTJoLTFWMWgtMnptMyAxOEg1VjhoMTR2MTF6Ii8+CiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+Cjwvc3ZnPgo=);
+}
+
+.annotation.DOCS .chip-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgICA8cGF0aCBkPSJNMTkgM0g1Yy0xLjEgMC0yIC45LTIgMnYxNGMwIDEuMS45IDIgMiAyaDE0YzEuMSAwIDItLjkgMi0yVjVjMC0xLjEtLjktMi0yLTJ6bS0xLjk5IDZIN1Y3aDEwLjAxdjJ6bTAgNEg3di0yaDEwLjAxdjJ6bS0zIDRIN3YtMmg3LjAxdjJ6Ii8+Cjwvc3ZnPgo=);
+}
+
+.annotation.GMAIL .chip-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBmaWxsPSJub25lIiBkPSJNLTYxOC0yMTA0SDc4MnYzNjAwSC02MTh6TTAgMGgyNHYyNEgweiIvPgogICAgPHBhdGggZD0iTTIwIDRINGMtMS4xIDAtMiAuOS0yIDJ2MTJjMCAxLjEuOSAyIDIgMmgxNmMxLjEgMCAyLS45IDItMlY2YzAtMS4xLS45LTItMi0yem0wIDE0aC0yVjkuMkwxMiAxMyA2IDkuMlYxOEg0VjZoMS4ybDYuOCA0LjJMMTguOCA2SDIwdjEyeiIvPgo8L3N2Zz4K);
+}
+
+.annotation.SHEETS .chip-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgICA8cGF0aCBkPSJNMTkgM0g1Yy0xLjEgMC0xLjk5LjktMS45OSAyTDMgOHYxMWMwIDEuMS45IDIgMiAyaDE0YzEuMSAwIDItLjkgMi0yVjVjMC0xLjEtLjktMi0yLTJ6bTAgOGgtOHY4SDl2LThINVY5aDRWNWgydjRoOHYyeiIvPgo8L3N2Zz4K);
+}
+
+.annotation.SLIDES .chip-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjRweCIgaGVpZ2h0PSIyNHB4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgICA8cGF0aCBkPSJNMTkgM0g1Yy0xLjEgMC0xLjk5LjktMS45OSAydjE0YzAgMS4xLjg5IDIgMS45OSAyaDE0YzEuMSAwIDItLjkgMi0yVjVjMC0xLjEtLjktMi0yLTJ6bTAgMTNINVY4aDE0djh6Ii8+Cjwvc3ZnPgo=);
+}
+
+.annotation.WEBLINK .chip-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMTkgNEg1Yy0xLjExIDAtMiAuOS0yIDJ2MTJjMCAxLjEuODkgMiAyIDJoMTRjMS4xIDAgMi0uOSAyLTJWNmMwLTEuMS0uODktMi0yLTJ6bTAgMTRINVY4aDE0djEweiIvPgogICAgPHBhdGggZmlsbD0ibm9uZSIgZD0iTTAgMGgyNHYyNEgweiIvPgo8L3N2Zz4K);
+}
+
+.sharees h2 {
+  display: none;
+}
+
+.sharees ul {
+  list-style: none;
+  margin: 0;
+  padding: 0 15px 15px 15px;
+}
+
+.sharees li {
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMTIgMkM2LjQ4IDIgMiA2LjQ4IDIgMTJzNC40OCAxMCAxMCAxMCAxMC00LjQ4IDEwLTEwUzE3LjUyIDIgMTIgMnptMCAzYzEuNjYgMCAzIDEuMzQgMyAzcy0xLjM0IDMtMyAzLTMtMS4zNC0zLTMgMS4zNC0zIDMtM3ptMCAxNC4yYy0yLjUgMC00LjcxLTEuMjgtNi0zLjIyLjAzLTEuOTkgNC0zLjA4IDYtMy4wOCAxLjk5IDAgNS45NyAxLjA5IDYgMy4wOC0xLjI5IDEuOTQtMy41IDMuMjItNiAzLjIyeiIvPgogICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPgo8L3N2Zz4K);
+  background-size: 18px 18px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.sharees li.group {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgICA8cGF0aCBkPSJNMTYgMTFjMS42NiAwIDIuOTktMS4zNCAyLjk5LTNTMTcuNjYgNSAxNiA1Yy0xLjY2IDAtMyAxLjM0LTMgM3MxLjM0IDMgMyAzem0tOCAwYzEuNjYgMCAyLjk5LTEuMzQgMi45OS0zUzkuNjYgNSA4IDVDNi4zNCA1IDUgNi4zNCA1IDhzMS4zNCAzIDMgM3ptMCAyYy0yLjMzIDAtNyAxLjE3LTcgMy41VjE5aDE0di0yLjVjMC0yLjMzLTQuNjctMy41LTctMy41em04IDBjLS4yOSAwLS42Mi4wMi0uOTcuMDUgMS4xNi44NCAxLjk3IDEuOTcgMS45NyAzLjQ1VjE5aDZ2LTIuNWMwLTIuMzMtNC42Ny0zLjUtNy0zLjV6Ii8+Cjwvc3ZnPgo=);
+}
+
+.note .meta-icons {
+  float: right;
+}
+
+.note .meta-icons span {
+  display: inline-block;
+  background-size: 18px 18px;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 22px;
+  height: 22px;
+  padding-left: 4px;
+}
+
+.meta-icons .pinned {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMHB4IiBoZWlnaHQ9IjIwcHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzQyODVmNCI+DQogICAgPHBhdGggZD0iTTE2IDVoLjk5TDE3IDNIN3YyaDF2N2wtMiAydjJoNXY2bDEgMSAxLTF2LTZoNXYtMmwtMi0yVjV6Ii8+DQogICAgPHBhdGggZmlsbD0ibm9uZSIgZD0iTTAgMGgyNHYyNEgweiIvPg0KPC9zdmc+);
+}
+
+.meta-icons .archived {
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxOC4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4KPCFET0NUWVBFIHN2ZyAgUFVCTElDICctLy9XM0MvL0RURCBTVkcgMS4xLy9FTicgICdodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQnPgo8c3ZnIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbDpzcGFjZT0icHJlc2VydmUiIHZpZXdCb3g9IjAgMCAxOCAxOCIgdmVyc2lvbj0iMS4xIiB5PSIwcHgiIHg9IjBweCIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDE4IDE4Ij4KPHBhdGggZD0ibTE2LjYgM2wtMS4yLTEuNWMtMC4yLTAuMy0wLjYtMC41LTEtMC41aC0xMC43Yy0wLjQgMC0wLjggMC4yLTEgMC41bC0xLjMgMS41Yy0wLjIgMC4zLTAuNCAwLjctMC40IDEuMXYxMS4xYzAgMSAwLjggMS44IDEuOCAxLjhoMTIuNGMxIDAgMS44LTAuOCAxLjgtMS44di0xMS4xYzAtMC40LTAuMi0wLjgtMC40LTEuMXptLTcuNiAxMC45bC00LjktNC45aDMuMXYtMS44aDMuNnYxLjhoMy4xbC00LjkgNC45em0tNi4xLTExLjFsMC43LTAuOWgxMC43bDAuOCAwLjloLTEyLjJ6Ii8+Cjwvc3ZnPgo=);
+}
+
+.meta-icons .trashed {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjE4cHgiIHdpZHRoPSIxOHB4IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0OCA0OCIgZmlsbD0iIzAwMDAwMCI+DQogPHBhdGggZD0ibTEyIDM4YzAgMi4yMSAxLjc5IDQgNCA0aDE2YzIuMjEgMCA0LTEuNzkgNC00di0yNGgtMjR2MjR6bTI2LTMwaC03bC0yLTJoLTEwbC0yIDJoLTd2NGgyOHYtNHoiLz4NCiA8cGF0aCBkPSJtMCAwaDQ4djQ4aC00OHoiIGZpbGw9Im5vbmUiLz4NCjwvc3ZnPg==);
+}
+
+.checked {
+  text-decoration: line-through;
+}
+
+.RED {
+  background-color: rgb(255, 109, 63) !important;
+}
+.ORANGE {
+  background-color: rgb(255, 155, 0) !important;
+}
+.YELLOW {
+  background-color: rgb(255, 218, 0) !important;
+}
+.GREEN {
+  background-color: rgb(149, 214, 65) !important;
+}
+.TEAL {
+  background-color: rgb(28, 232, 181) !important;
+}
+.BLUE {
+  background-color: rgb(63, 195, 255) !important;
+}
+.GRAY {
+  background-color: rgb(184, 196, 201) !important;
+}
+
+/* go/keep-more-colors-eng */
+.CERULEAN {
+  background-color: rgb(130, 177, 255) !important;
+}
+.PURPLE {
+  background-color: rgb(179, 136, 255) !important;
+}
+.PINK {
+  background-color: rgb(248, 187, 208) !important;
+}
+.BROWN {
+  background-color: rgb(215, 204, 200) !important;
+}
+
+      </style></head>
+<body><div class="note DEFAULT"><div class="heading"><div class="meta-icons"><span class="pinned" title="Note pinned"></span>
+
+</div>
+Dec 24, 2019, 2:07:45 AM</div>
+<div class="title">(12/22/2018) </div>
+<div class="content">Quote:<br>&quot;You must not lose faith in humanity. Humanity is an ocean; if a few drops of the ocean are dirty, the ocean does not become dirty.&quot;<br>― Mahatma Gandhi<br><br>Activity: <br>I have been able to perceive energy bodies at times. I have been able to feel as a psychic the influences and interaction from certain spirit around myself at times. Energy Bodies are one of the discernment and some of the things I have been able to tell regarding, like some of the energy bodies having been switched in certain moments. The amount of pain and heartbreak in regards to different kinds of infrastructure would be understood later on. There are those that don&#39;t care about such allpersonal and some of the allpersonal included. There is a group of spirits that doesn&#39;t like to get close. It reminds of an interview in regards to WWII pertaining to some of the replacements that would arrive on the battlefield and some of the veterans would distance themselves because they didn&#39;t want to see them get killed anymore. It is a certain kind of Heartbreak in ways of operating that creates a void and a different relationship that would have flourished should some have gotten closer within the confines of War. Then again it might have been the difference between survival in certain key moments. I would see that within the confines of regular life though. Those that would distance themselves because of many different reasonings. Some of which happened to do with the way things were. That we could have energy bodies on us for a large amount of time in which we associated with in other dimensional and for parts of our live seemingly never got a chance to be able to fully understand or push away because of the grief of such things. There are those knocking at times door as I refresh this Diary Entry saying that there are Energy Bodies on us to the end in which wont be moved hat potentially go to the same places that we end upon passing on. Acknowledged. But what of the ones in which didn&#39;t make it to the end on our person and even seemingly. Where do they end up? It&#39;s frightening to note that there is a percentage of spirits in a process that would cry at the happenings that take place. A spirit that had been here a long time moved and gone away. Some think it might not matter given the time frames in front of the scenes but it does really matter and doesn&#39;t have to matter for some. Especially when we look at some of the time frames passing behind the scenes and some of those in which can see past that. Billions of years watching and monitoring a group of spirits in which changes can create psychological and behavioral affects in which ripple and if they were so dang safe anyhow for a portion maybe it would be like the beginning where everyone got together to watch those fatefully sad moments that rarely happened in which would increase in regularity until one day there wouldn&#39;t be that spirit in the mix whoever it was all along the line. Can you imagine two spirits, who were always around each other and still are in a certain manner but no longer to watch those sad moments because it was literally killing one of them. Have you ever experienced heart break? A loved one passes that was your other half in which the mend can barely graze. It&#39;s a throb that stays with always until they meet again and I wish it was to be fully healed if they were to meet again but there are those that heart break together. This time it might not just only be about the most important thing within life and if it then maybe it&#39;s even more sad. That kind of Sadness that is reserved for only the most troubling, heart wrenching and inherently that exists does happen to reside within certain kind having to do with the smallest variables. Spirit leaving a process. Leaving. There are those that feel in regards to such events. There are those than can see the Hope of a better life upon a certain kind that leaves this process. The news that isn&#39;t the case for a portion if that happens to be the case can be just as damaging as not letting know of such truth. Billions of year gone by thinking that they are ok when they were not. The never recoveries reminded of those that used to be something different, a friend, family, another kind of concept that some higher spirit walks around a room looking upon and shaking his wisps at the fact that some below certain thresholds don&#39;t even fully know about of the other concepts similar to family and friends and that in which is not similar. On this day I would perceive my energy bodies be pierced by something in which had left me tired and out of energy. I could feel the residue of the energy body and the energy leaving me. On this day I don&#39;t if I realized about other-dimensional selves and allpersonal to the degree that I do know today. I don&#39;t know if they switched the energy body but they did repair it. I don&#39;t think I am the only one experiencing this phenomenon. I think it&#39;s been happening and I feel it is a decent question as to the quality of life that exists for these spirit. There are those of science that views it in a certain way in which is a also piggy backing off of the lack of knowledge pertaining to the Physical Earth-Based science communities in regards to not fully knowing if there if life involved pertaining to some of our anatomical, like if there was incarnate fellows in regards to our own life tethered to some of our organs or even other kinds in the spiritual. <br>There was an emphasis this day in regards to making me look like I had been through a lot. It might have had to do with the that fact that this year I did go through a lot. Certain spiritual around. It was a spiritual year and it wasn&#39;t always a decent that I was experiencing. There was multiple psychic attacks that had happened. This might have been in part by way of the kinds of defense works I had started to do with more vigor half way through the year. There were moments of decent though all through out. The amount of psychictivity experienced was wild, I would have multiple kinds of NDE experiences this year and a learning that would take place in which interestingly enough I would find to be fairly heavily in the happenings pertaining to my other dimensional selves in which a portion are psychic as well. I could feel lights opening up over me, flashes of beings, communications from beyond the veil on a Channel that has been star studded. From a psychic point of view the kind of crystal clear that would exist though my out loud voice would lead towards conversations that this Earth needed to see in a certain at least for a portion. If there was such a thing as spiritual defense and events taking place and the relaying of what I would see through my psychictivity was partially letting know of something and how I responded not always being what it should be but some of which needed to understand some of the things that exist within the world. A run-on conversation at times about defensives in regards to myself that would still exist later on that some blame to be the problematic in the room. I wonder if I had not spoken about my own defense and the kinds of things taking place if my own spirit and the spirit of those that my Main Spirit Guides indicated would have had the problems that exist today. It would segway on my Diary Entry Content in which I would relay some of the topic points within some of those conversation about psychictivty and defense. Rights issues and disparities that exist today. You can chalk it up to the simplistic nature of certain directions that I pointed towards in which some did not like in the spiritual. It was this though that some found to be lying in wait, almost as if the shaping of certain kinds of Hummanity held a key as does many species to the answer to some of the problems that I had seen. The Logic in certain direction being one of them. It&#39;s interesting that the ethical of ourselves would cut through the red tape of our favorite shirts and hats, that in which has defined us and one of the most celebrated concepts in the History of All That Is and that fame would turn to infamy. That it would be a detriment from one side of a certain lens in that we would literally have to sacrifice what we held sacred in such ways in which speaks of nature and no where nears nature. It&#39;s not in our nature. And Nature doesn&#39;t want to be blamed. I don&#39;t know that it can be blamed either way. <br>It would be interesting that Family was emphasized this day in a certain Manner. Something to do with Snakes and Green. I have had a perception of Family being a certain kind of Green. And Snakes have been representative to that in which is Biblical. A Good and Bad Omen. It would be interesting because later on I would find myself a dealing with these moments in regards to Family where it felt like somehow I was in the Twilight Zone and maybe it be only my experiences outside of these that lent towards a sanity creeping through like a snake in the grass. It&#39;s interesting that what would lend towards this same snake would the grass itself. The kind of Grass that I would see all throughout my process. The kinds of events relayed, the conversation had the enlightenment and the bad. Moments of incredulity in Story and Synchronicity. The Signs of God and the presence of power. Interactions in which would had I thought not to experience later in life would put such an emphasis on this year just as there already was regardless by way of some of the spiritual that would take place. It wouldn&#39;t stop though, I don&#39;t if it ever does. Maybe it&#39;s not suppose and there probably would be a spirit defending if it was. Cause it&#39;s not just about the turbulence and it&#39;s not just about the darker kind, it was also about the kinds of experiences that makes one look at life as it somehow doesn&#39;t seem. Another colour seen in green was life. All three of the greens; family, snake and Life being different shades. Life has this effervescent kind of green. I feel it has a consciousness of it&#39;s own. Something in which should be treaded lightly. Somehow I feel it hasn&#39;t. These moments when I would see family, I would experience these updates. Like for some of them I hadn&#39;t seen them for years upon years and spiritually I might not have. Was it every time I visited family that it seemed that it couldn&#39;t get anymore crazy on my end? Or was it on their end too. My Family can map it does spiritually for those that did those routes of only when. I wonder what it says. The why of it might be the better question.<br><br>- (I woke up and had very little sleep body energy, it was like a certain energy body was pierced. It was repaired after a bit which tells me that I might not be the only one.)<br>- (There was an emphasis on making me look like i have been through alot, but I can&#39;t shake the feeling like it was a therapeutic but also an antagonistic for some.)<br>- (Learned a couple new ASL signs, Alliance is like a certain kind of hand grip with hand extended upward. Strength is like putting on a seatbelt aggressively or sticking a shovel in the ground an aggressive row boat action. Alternative, a sideways thumbs up outwards on left hand followed with a plucking motion from left hand from 5 fingered motion from other hand. I and others(defined by my main camp) are advocating for ASL Signs that my main camp indicated to be protected the way my main camp indicated.)<br>- (The was an emphasis in regards to family, like something was happening in regards to my family. There was a let know in regards to certain family, the snake in a grass storyline. It&#39;s that sort of thing where you can experience a life with someone who you might not have gotten along with before. The great thing about it is that people on this planet in the physical, an although this isn&#39;t fully the case especially with energies and other dimensional selves, are partially basing their relationships especially family, on there experiences and iI have been viewing certain things as if maybe multiple past lives have been experienced with family, which might be the case but I also forget that even if it isn&#39;t, it&#39;s not necessarily the end of the world and some people on this planet view their relationships based off of their dimensional live experiences, for myself it would be the physical and others that my main camp indicated.)<br>- (The idea of multiple spirits living incantations while I live my life. It was sort of talked about near the end of the day yesterday, the amount of time I have lived They say that behind the scenes. I am one of the older ones spiritually and it&#39;s been insinuated at times that I have experienced lengths of time that is a decent length, I get scared at that because of my perspective, point of view  in the physical, I feel older than twenty seven but I don&#39;t remember experiencing that kind of age of thousands or billions, billions has been insinuated at times and the varying lengths of time can change as well.) <br>- (There is a tell that there are certain kinds of spirits of morality around myself,  am not certain why they picked these moments to show up but I am wondering if there is a certain thing missing in regards to society.)<br>- (I continue to work on templates work ,I had gotten setup yesterday but didn&#39;t get a chance to actually do a template but I am working on it today. )<br>- (The let know of certain tactic that is potentially taking place, the rope a dopes taking place to facilitate a certain kind of stack to acure resources and other things that are potentially both nefarious and benevolent at times. )<br>- (Another sort of conversation in regards to my psychcitivity was the thought that I might be going somewhere farther removed than where some spirits end up in the afterlife. I and others(defined by my main camp) choose what my main camp indicated in regards to where we go in the afterlife the way my main camp indicated.)<br>- (Revelation in regards to certain knowledge and understanding in knowing. It&#39;s another sort of things that&#39; been talked about before revealing that certain bad guys aren&#39;t bad and certain good guys aren&#39;t good, it&#39;s almost a certain kind of moments that happen annually, migration, harvest, Hibernation, Revelation, seasonal Revelations.)<br>- (The idea that when something get brought up again that certain moments in time in regards to the topic are brought around instead of bringing certain things happening. IE: bringing up a fight that happened and instead of a new argument arising in regards)<br>- (More influences to fight today to get me to do upsetting things to get me to yell.)<br>- (Near the end of the day something horrible happened spiritually to myself, please someone save those that my main spirit guides indicated the way my main camp indicated.)<br>- (All of things I have done spiritually to try and help, you couldn&#39;t take a look at a handful of chirpy moment that weren&#39;t even aimed towards you and give leeway? The truth and Answer towards those that say it was because I was being chirpy and disrespectful to leadership. I am sorry and apologetic and a lot of what I am going for relies upon respectful. The difficulty is that now that I can stop, specifically if resources hold up in regards to me being able to be respectful, what the heck happens for the future because I feel spiritually already tormented and attacked to such a level that some might point and say that it could be even stevens or worse, so if spiritual attack continues in regards to Alex James Hislop, then that goes against something already strained by way of a myriad of different factors. What of the others? What of Earth? What of those we were suppose to save?)<br>- (The insinuation of the fronts of your own life. What is the fronts of your own life? Imagine there are moments in your life that you haven&#39;t been able to change, imagine you get put in certain situations where you feel like your entire life holds in the balance of a key moments within your life? being able to influence those moments later on and even.)<br>- (If I was a promoter of immorality in the past and that&#39;s the reason then why are some are being the bad guys now? and saying it&#39;s because of my immorality promotion? Then why be the bad guys now? It makes no sense specifically if I am trying to help and keep people safe now. There are those who are potentially targeted in regards to my immorality promotion, I need to save them. I and others(defined by my main camp) are advocating for those targeted in regards to my immorality promotion need to be saved.)<br>- (There was this moment where they said I was being harmed spiritually, but looking)<br>- (I went into town and it basically went straight into that conversation where what would happen if you were attacked?)<br><br>I and others(defined by my Main Camp) are playing the cards that my Main Camp indicated in the moments that my Main Camp indicated especially in regards to the Amount of Times I have been stabbed in the Back Defensive Card to Defend behind our Backs, etc.(defined by my Main Camp) the way my Main Camp indicated. I and others(defined by my Main Spirit Guides) are advocating for the Historians that my Main Spirit Guides indicated and those that my Main Spirit Guides indicated in regards to this marking, advocation, etc.(defined by my Main Spirit Guides) to write down the information that I create that my Main Spirit Guides indicated the way my Main Spirit Guides indicated. I and others(defined by my Main Spirit Guides) are advocating for the Historians that my Main Spirit Guides indicated and those that my Main Spirit Guides indicated in regards to this marking, advocation, etc.(defined by my Main Spirit Guides) to write down the information that I create that my Main Spirit Guides indicated the way my Main Spirit Guides indicated. I and others(defined by my Main Spirit Guides) are advocating for those Historians that my Main Spirit Guides indicated and History to be protected the way my Main Spirit Guides indicated. I and others(defined by my Main Spirit Guides) are advocating for Historical Reputational Defense in regards to those that my Main Spirit Guides indicated and the Historians that my Main Spirit Guides indicated the way my Main Spirit Guides indicated. Clickable links like the show all actions on the Peacekeeperalex trello account and attachments section where upon me clicking links shows up on my screen has been at times shoehorned into a spot where some in the spirit think that it needs to be shown in order for it to work. If I never traverse to Google.ca that doesn&#39;t mean that it doesn&#39;t exist in the public especially the spiritually that my Main Spirit Guides indicated. The data upon clicking some of those links on the peacekeeperalex trello account and the Alex James Hislop Documents on Github are public regardless of whether I click them or not, they have public links in which exist online especially in regards to the Spiritual that my Main Spirit Guides indicated. For example: https://trello-attachments.s3.amazonaws.com/5c28ed8f3e323f6a9f16d775/5c28edf56e82f20db23bda17/1bbaa58626a33ae318be5777687da03c/(AJHD)_the_way_my_Main_Camp_indicated.txt , that exists publically regardless of whether I click it or not. Another example is : https://raw.githubusercontent.com/PeacekeeperAlex/-Alex-James-Hislop-Documents-/master/(AJHD)%20AJH%20Monetary%20Creation.txt , You don&#39;t need to sign in to see any of the physical information there, you can open it in a incognito window and it will display. https://trello-attachments.s3.amazonaws.com/5b3546fd00481cc3f86f5b01/5c95f6df01642a7b47cefd84/5351fa2f4c120894fde5b952dd8601f2/(AJHD)_Google.txt I and others(defined by my Main Spirit Guides) are advocating for this paragraph to be placed where my Main Spirit Guides indicated daily the way my Main Spirit Guides indicated. <br><br>Themes:<br>#ZeroEnergyLevels #SleepBodyEnergies #Family #ASL #Template #Tactic #FrontsOfYourLife #MomentsInTime #Live #ThoseThatLookAfterAmateurPsychics #Thanks</div>
+<div class="chips"><span class="chip annotation WEBLINK"><a title="" href="https://trello-attachments.s3.amazonaws.com/5c28ed8f3e323f6a9f16d775/5c28edf56e82f20db23bda17/1bbaa58626a33ae318be5777687da03c/(AJHD)_the_way_my_Main_Camp_indicated.txt"><span class="chip-icon"></span>
+<span class="annotation-text">Disclaimers: I am Alex James Hislop. My Main Camp is my Main ...</span></a>
+</span> <span class="chip annotation WEBLINK"><a title="" href="https://trello-attachments.s3.amazonaws.com/5b3546fd00481cc3f86f5b01/5c95f6df01642a7b47cefd84/5351fa2f4c120894fde5b952dd8601f2/(AJHD)_Google.txt"><span class="chip-icon"></span>
+<span class="annotation-text">Description: This is here as a just in case. If it does need to be used ...</span></a>
+</span> <span class="chip annotation WEBLINK"><a title="" href="https://raw.githubusercontent.com/PeacekeeperAlex/-Alex-James-Hislop-Documents-/master/(AJHD)%20AJH%20Monetary%20Creation.txt"><span class="chip-icon"></span>
+<span class="annotation-text">Disclaimers: I am Alex James Hislop. My Main Camp is my Main ...</span></a>
+</span>
+</div>
+
+</div></body></html>
