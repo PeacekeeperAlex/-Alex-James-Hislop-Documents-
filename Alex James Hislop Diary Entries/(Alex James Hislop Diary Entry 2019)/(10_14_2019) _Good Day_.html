@@ -1,0 +1,278 @@
+<?xml version="1.0" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>(10/14/2019) &quot;Good Day&quot;</title>
+<style type="text/css">
+         body {
+  font-family: 'Roboto Condensed','Droid Sans',arial,sans-serif;
+  font-size: 15px;
+  color: rgba(0,0,0,0.8);
+  word-wrap: break-word;
+  background-color: #e8e8e8;
+}
+
+hr {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-style: inset dashed;
+    border-width: 1px;
+}
+
+.note {
+  outline: none;
+  box-shadow: 0 2px 1px rgba(0,0,0,0.08);
+  box-sizing: border-box;
+
+  max-width: 600px;
+  min-width: 240px;
+  margin: 20px;
+
+  background-color: rgb(255, 255, 255);
+}
+
+.note .heading {
+  font-size: 12px;
+  padding: 15px 15px 0 15px;
+  color: rgba(100,100,100,0.8);
+}
+
+.note .title {
+  font-size: 17px;
+  font-weight: bold;
+  padding: 15px 15px 0 15px;
+  min-height: 28px;
+}
+
+.note .content {
+  padding: 12px 15px 15px 15px;
+  font-family: 'Roboto Slab','Times New Roman',serif;
+  font-size: 14px;
+}
+
+.note .attachments {
+  padding: 0 15px 15px 15px;
+}
+
+.attachments ul {
+  padding: 0;
+  margin: 0;
+}
+
+.attachments li {
+  list-style-type: none;
+  margin-top: 12px;
+}
+
+.attachments li img {
+  max-width: 100%;
+}
+
+.attachments .audio {
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxOC4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4KPCFET0NUWVBFIHN2ZyAgUFVCTElDICctLy9XM0MvL0RURCBTVkcgMS4xLy9FTicgICdodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQnPgo8c3ZnIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbDpzcGFjZT0icHJlc2VydmUiIHZpZXdCb3g9IjAgMCAyMCAyMCIgdmVyc2lvbj0iMS4xIiB5PSIwcHgiIHg9IjBweCIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDIwIDIwIj4KPHBhdGggZD0ibTEgN3Y2aDRsNSA1di0xNmwtNSA1aC00em0xMy41IDNjMC0xLjgtMS0zLjMtMi41LTR2OGMxLjUtMC43IDIuNS0yLjIgMi41LTR6bS0yLjUtOC44djIuMWMyLjkgMC45IDUgMy41IDUgNi43cy0yLjEgNS44LTUgNi43djIuMWM0LTAuOSA3LTQuNSA3LTguOHMtMy03LjktNy04Ljh6Ii8+Cjwvc3ZnPgo=);
+  background-size: 18px 18px;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 22px;
+  height: 22px;
+  display: block;
+}
+
+.note .list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.note .listitem {
+}
+
+.note .listitem .bullet {
+  position: absolute;
+}
+
+.note .listitem .text {
+  margin-left: 20px;
+}
+
+.note .identifier {
+  color: rgba(0, 0, 0, 0.5);
+}
+.note .identifier:before {
+  content: "(";
+}
+.note .identifier:after {
+  content: ")";
+}
+
+/* Only show identifiers when the element is hovered. */
+.note .listitem .identifier,
+.note .chip .identifier {
+  display: none;
+}
+
+.note .listitem:hover .identifier,
+.note .chip:hover .identifier {
+  display: inline;
+}
+
+.note .chips {
+  padding: 12px 15px 15px 15px;
+}
+
+.note .chip {
+  display: inline-block;
+  max-width: 198px;
+  margin: 2px 4px 2px 0;
+  padding: 2px 5px;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 11px;
+  font-family: 'Roboto','Droid Sans',arial,sans-serif;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.note .chip a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.chip-icon {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  background-size: 100%;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.annotation.CALENDAR .chip-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMTcgMTJoLTV2NWg1di01ek0xNiAxdjJIOFYxSDZ2Mkg1Yy0xLjExIDAtMS45OS45LTEuOTkgMkwzIDE5YzAgMS4xLjg5IDIgMiAyaDE0YzEuMSAwIDItLjkgMi0yVjVjMC0xLjEtLjktMi0yLTJoLTFWMWgtMnptMyAxOEg1VjhoMTR2MTF6Ii8+CiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+Cjwvc3ZnPgo=);
+}
+
+.annotation.DOCS .chip-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgICA8cGF0aCBkPSJNMTkgM0g1Yy0xLjEgMC0yIC45LTIgMnYxNGMwIDEuMS45IDIgMiAyaDE0YzEuMSAwIDItLjkgMi0yVjVjMC0xLjEtLjktMi0yLTJ6bS0xLjk5IDZIN1Y3aDEwLjAxdjJ6bTAgNEg3di0yaDEwLjAxdjJ6bS0zIDRIN3YtMmg3LjAxdjJ6Ii8+Cjwvc3ZnPgo=);
+}
+
+.annotation.GMAIL .chip-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBmaWxsPSJub25lIiBkPSJNLTYxOC0yMTA0SDc4MnYzNjAwSC02MTh6TTAgMGgyNHYyNEgweiIvPgogICAgPHBhdGggZD0iTTIwIDRINGMtMS4xIDAtMiAuOS0yIDJ2MTJjMCAxLjEuOSAyIDIgMmgxNmMxLjEgMCAyLS45IDItMlY2YzAtMS4xLS45LTItMi0yem0wIDE0aC0yVjkuMkwxMiAxMyA2IDkuMlYxOEg0VjZoMS4ybDYuOCA0LjJMMTguOCA2SDIwdjEyeiIvPgo8L3N2Zz4K);
+}
+
+.annotation.SHEETS .chip-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgICA8cGF0aCBkPSJNMTkgM0g1Yy0xLjEgMC0xLjk5LjktMS45OSAyTDMgOHYxMWMwIDEuMS45IDIgMiAyaDE0YzEuMSAwIDItLjkgMi0yVjVjMC0xLjEtLjktMi0yLTJ6bTAgOGgtOHY4SDl2LThINVY5aDRWNWgydjRoOHYyeiIvPgo8L3N2Zz4K);
+}
+
+.annotation.SLIDES .chip-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjRweCIgaGVpZ2h0PSIyNHB4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgICA8cGF0aCBkPSJNMTkgM0g1Yy0xLjEgMC0xLjk5LjktMS45OSAydjE0YzAgMS4xLjg5IDIgMS45OSAyaDE0YzEuMSAwIDItLjkgMi0yVjVjMC0xLjEtLjktMi0yLTJ6bTAgMTNINVY4aDE0djh6Ii8+Cjwvc3ZnPgo=);
+}
+
+.annotation.WEBLINK .chip-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMTkgNEg1Yy0xLjExIDAtMiAuOS0yIDJ2MTJjMCAxLjEuODkgMiAyIDJoMTRjMS4xIDAgMi0uOSAyLTJWNmMwLTEuMS0uODktMi0yLTJ6bTAgMTRINVY4aDE0djEweiIvPgogICAgPHBhdGggZmlsbD0ibm9uZSIgZD0iTTAgMGgyNHYyNEgweiIvPgo8L3N2Zz4K);
+}
+
+.sharees h2 {
+  display: none;
+}
+
+.sharees ul {
+  list-style: none;
+  margin: 0;
+  padding: 0 15px 15px 15px;
+}
+
+.sharees li {
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMTIgMkM2LjQ4IDIgMiA2LjQ4IDIgMTJzNC40OCAxMCAxMCAxMCAxMC00LjQ4IDEwLTEwUzE3LjUyIDIgMTIgMnptMCAzYzEuNjYgMCAzIDEuMzQgMyAzcy0xLjM0IDMtMyAzLTMtMS4zNC0zLTMgMS4zNC0zIDMtM3ptMCAxNC4yYy0yLjUgMC00LjcxLTEuMjgtNi0zLjIyLjAzLTEuOTkgNC0zLjA4IDYtMy4wOCAxLjk5IDAgNS45NyAxLjA5IDYgMy4wOC0xLjI5IDEuOTQtMy41IDMuMjItNiAzLjIyeiIvPgogICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPgo8L3N2Zz4K);
+  background-size: 18px 18px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.sharees li.group {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgICA8cGF0aCBkPSJNMTYgMTFjMS42NiAwIDIuOTktMS4zNCAyLjk5LTNTMTcuNjYgNSAxNiA1Yy0xLjY2IDAtMyAxLjM0LTMgM3MxLjM0IDMgMyAzem0tOCAwYzEuNjYgMCAyLjk5LTEuMzQgMi45OS0zUzkuNjYgNSA4IDVDNi4zNCA1IDUgNi4zNCA1IDhzMS4zNCAzIDMgM3ptMCAyYy0yLjMzIDAtNyAxLjE3LTcgMy41VjE5aDE0di0yLjVjMC0yLjMzLTQuNjctMy41LTctMy41em04IDBjLS4yOSAwLS42Mi4wMi0uOTcuMDUgMS4xNi44NCAxLjk3IDEuOTcgMS45NyAzLjQ1VjE5aDZ2LTIuNWMwLTIuMzMtNC42Ny0zLjUtNy0zLjV6Ii8+Cjwvc3ZnPgo=);
+}
+
+.note .meta-icons {
+  float: right;
+}
+
+.note .meta-icons span {
+  display: inline-block;
+  background-size: 18px 18px;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 22px;
+  height: 22px;
+  padding-left: 4px;
+}
+
+.meta-icons .pinned {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMHB4IiBoZWlnaHQ9IjIwcHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzQyODVmNCI+DQogICAgPHBhdGggZD0iTTE2IDVoLjk5TDE3IDNIN3YyaDF2N2wtMiAydjJoNXY2bDEgMSAxLTF2LTZoNXYtMmwtMi0yVjV6Ii8+DQogICAgPHBhdGggZmlsbD0ibm9uZSIgZD0iTTAgMGgyNHYyNEgweiIvPg0KPC9zdmc+);
+}
+
+.meta-icons .archived {
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxOC4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4KPCFET0NUWVBFIHN2ZyAgUFVCTElDICctLy9XM0MvL0RURCBTVkcgMS4xLy9FTicgICdodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQnPgo8c3ZnIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbDpzcGFjZT0icHJlc2VydmUiIHZpZXdCb3g9IjAgMCAxOCAxOCIgdmVyc2lvbj0iMS4xIiB5PSIwcHgiIHg9IjBweCIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDE4IDE4Ij4KPHBhdGggZD0ibTE2LjYgM2wtMS4yLTEuNWMtMC4yLTAuMy0wLjYtMC41LTEtMC41aC0xMC43Yy0wLjQgMC0wLjggMC4yLTEgMC41bC0xLjMgMS41Yy0wLjIgMC4zLTAuNCAwLjctMC40IDEuMXYxMS4xYzAgMSAwLjggMS44IDEuOCAxLjhoMTIuNGMxIDAgMS44LTAuOCAxLjgtMS44di0xMS4xYzAtMC40LTAuMi0wLjgtMC40LTEuMXptLTcuNiAxMC45bC00LjktNC45aDMuMXYtMS44aDMuNnYxLjhoMy4xbC00LjkgNC45em0tNi4xLTExLjFsMC43LTAuOWgxMC43bDAuOCAwLjloLTEyLjJ6Ii8+Cjwvc3ZnPgo=);
+}
+
+.meta-icons .trashed {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjE4cHgiIHdpZHRoPSIxOHB4IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0OCA0OCIgZmlsbD0iIzAwMDAwMCI+DQogPHBhdGggZD0ibTEyIDM4YzAgMi4yMSAxLjc5IDQgNCA0aDE2YzIuMjEgMCA0LTEuNzkgNC00di0yNGgtMjR2MjR6bTI2LTMwaC03bC0yLTJoLTEwbC0yIDJoLTd2NGgyOHYtNHoiLz4NCiA8cGF0aCBkPSJtMCAwaDQ4djQ4aC00OHoiIGZpbGw9Im5vbmUiLz4NCjwvc3ZnPg==);
+}
+
+.checked {
+  text-decoration: line-through;
+}
+
+.RED {
+  background-color: rgb(255, 109, 63) !important;
+}
+.ORANGE {
+  background-color: rgb(255, 155, 0) !important;
+}
+.YELLOW {
+  background-color: rgb(255, 218, 0) !important;
+}
+.GREEN {
+  background-color: rgb(149, 214, 65) !important;
+}
+.TEAL {
+  background-color: rgb(28, 232, 181) !important;
+}
+.BLUE {
+  background-color: rgb(63, 195, 255) !important;
+}
+.GRAY {
+  background-color: rgb(184, 196, 201) !important;
+}
+
+/* go/keep-more-colors-eng */
+.CERULEAN {
+  background-color: rgb(130, 177, 255) !important;
+}
+.PURPLE {
+  background-color: rgb(179, 136, 255) !important;
+}
+.PINK {
+  background-color: rgb(248, 187, 208) !important;
+}
+.BROWN {
+  background-color: rgb(215, 204, 200) !important;
+}
+
+      </style></head>
+<body><div class="note DEFAULT"><div class="heading"><div class="meta-icons"><span class="pinned" title="Note pinned"></span>
+
+</div>
+Oct 29, 2019, 4:18:43 PM</div>
+<div class="title">(10/14/2019) &quot;Good Day&quot;</div>
+<div class="content">Mood: <br>Shocked, Hurt and Reserved. <br><br>Thought: <br>Dive in they said, no sharks they said.<br><br>Horoscope:<br>Too much to do around the house could have you running around like crazy. You may need to make a lot of calls, see too many people, or execute some rather tedious paperwork. This could have your nerves on edge by mid afternoon, so take a few minutes for yourself every two hours or so. Step outside in the fresh air. This will calm you and help you stay sane. <br><br>HoroscopeActuality:<br>It hasn&#39;t been too bad on my end during the day but the events yesterday were turbulent. I haven&#39;t really done much except for have Thanksgiving Dinner with Family. Some spirit on one side persisting that I continue with my work while some tether to those kind of actions and others continue to derail. The importance so said is astronomical and not in a good way at times. Even with Economics having a look at this week. Later on a breakthroguh with dimensional existences in understanding certain contexts to this process. <br><br>Quote: <br>“I&#39;m selfish, impatient and a little insecure. I make mistakes, I am out of control and at times hard to handle. But if you can&#39;t handle me at my worst, then you sure as hell don&#39;t deserve me at my best.”<br>― Marilyn Monroe <br><br>Activity<br>- Early morning conflict again with spiritually attacking myself in which segwayed to this morning. They kept insinuating that Spirits were getting attacked in multiple regards. I felt like myself and others were under duress and that there were events taking place. It&#39;s no longer if it was decent enough to blame a private conversation, swear words and not working on daily activities as a reasoning for some of the immorality taking place. The eleventh and the twelfth saw me chill out for most of the day in regards to informational creation in which some got a taste in regards to proceeding in a direction related to trapping certain kind. One thing we haven&#39;t brought up too often is those that have been trapped by way of placing me in certain areas upon having a certain kind of defense case and utilizing that to get spirits that are sometimes perpetuated to attack myself and others that my Main Spriit Guides indicated. <br>- I have created information with disclaimers, testifications and advocations, large amount, hundreds of thousands of advocations in which only pertain to what my Main Spriit Guides indicated. I saw spiritual conflict in which helped me understand what is taking place at times. Noticed immorality culture existing even earlier on when I first became psychic during a point in my life in which let me know bad spirit exist. I have been chirpy, argumentative and have talked about big topics. Certain talking points that not many on this physical planet are aware of in a certain sense. I have attacked to defend myself and I have defend myself past points that some would consider clouth. I have recorded histories and events as well as psychic stimuli and by way of communication let know of a decent portion. What is my crime?<br>Again I went to angelic light and other kinds of light early morning upon feeling some of the attack happening to myself and others, there was a moment where I felt there to be not much of a reasoning upon some of the attacks happening. Multiple story lines were brought up in regards to past life and how I got this incarnation and there are many focused on who I was in the grand scheme of things and if I am correct that might not be the scarier aspect of it all, I have looked at this life and wondered how it was that I was able to get here given all of the difficulties and surmised that myself in regards to this life, the one that moves the physical body of Alex James Hislop born November 22nd, 1991 as Alexander James Hislop, incarnated from Higher Light, but it&#39;s not the scarier because there are aspects of myself that have incarnated from other places that were already put through certain things and I wonder what they have been through behind the scenes and the kind of defense works and case defense they have specifically if we look at it from the perspective that they are from the Original Light which might also be the less scarier aspect if they come from other dimensional existences. They said because of the information I have put into play in regards to earth-based in the physical that it was a thing but I think it&#39;s more than that in which lent towards something potentially existing in the past in regards to this planet an infrastructure that existed in regards to this life and others, like have certain bodies and atmospherics in certain time frames pertaining to this life and others upon some of the things that some thought I would do. Partially caught off guard which might be part of the trap is some in the past who were lead to believe that this life would be a certain kind partially by way of outlandish life utilization. Spirits pretending to be me in certain points in time and what they would do labelled as something it wasn&#39;t. I am in my given right to create information in the physical in which has been utilized in fashions in which was not intended by my Main Spirit Guides and the power utilization and respect regarding pertaining to the informational creation has not been clouth while also utilizing it as an anchor and cover has also lent towards some of the events that have happened within this life. The vent area comments, communication, argumentatives, conversation and topic points that I have spoken about are baselines that some might not even be considered scratching the surface. The lies and feng shui as well as labellment at times of this process being seen with such a spotlight and platform has been understood for what it is, bullshit.  We are witnessing good spirit turning bad in front of our eyes? and that saying it making it worse? Accountability for actions is said to myself upon how I have operated, I apologize. It doesn&#39;t warrant me being attacked to such a degree and the rest of the others that my Main Spirit Guides indicated have a stronger case than I. Some of the turbulence and confrontation extends from Warfare taking place being labelled and seeping through interaction systems. The continued look from myself at the true good has been taken out of context and said to be their response from those less good to harm and create a reasoning for their actions. I have been angry with what I consider to be God especially the Original Godhead for what it became. A lack of presence seemingly for those down below in which are getting blamed at times for events that have less to do with them and for some of them in which have been located below a lot longer than me and even some of the higher spirit in play. Angry with the keepers of this place who seem to be always be in the the middle of what is bad and good as well as nowhere to be seen at times. Upset with two culture who can&#39;t seem to get along, the don&#39;t do anything and live our lives in peace and happiness seemingly and those in which want that as well. How can I even blame the locals except for the fact that the interaction that takes place is less to do with locals and more to do with those pretending to be. A utilization of systems that doesn&#39;t seem to end and continues to grow that uses life to save themselves at times hiding the fact that some are already saved. The never to blame greed mentality of myself strengthens everyday. This creation of myself to be the keeper of knowledge never say to be kicked out of the places once loved. I used to be of Water, a go round maybe but what if it&#39;s worse than that, not just a beginning and an end in the future for a hopefully from the bad guys but the true beginning reflection of Water. It&#39;s an intriguing question but maybe a storyline perpetuated to hide the fact that I am older of a certain culture than some think. Is this a part of a life utilization woe that continues to plague? Do I have the spirit of Water in my corner?<br>- Are they treating as my Higher Spirit would be treated? Would he look upon what has happened and felt that he was being harmed at times. Does this mean I am getting harmed? and what is the difference in regards to what I consider myself to be? What of the bad spirit that have been said to have gone away because of the attacks on me in regards to the stuff wasn&#39;t in regards to me. The creation of punishment alternative to be lumped onto what happened to me so said to be better punishment because some authority don&#39;t like me but rather don&#39; even understand who I truly am.<br>- There was more stimuli in regards to the physical-like stimuli I am able to gauge in regards to other dimensional in which is seemingly more in front of the scenes, again overlapping dimensions and certain spirit being able to see multiple kinds, in this instance this physical-like stimuli reminds me of in front of the scenes in which can affect physical in multiple manners, potentially even degenerative diseases and things of that nature. There is an knowledge that what we do in the physical for a decent sized portion matters if more so and that how we live our lives does impact health but there is also an understanding that there are thos able to influence and affect the physical which extend to ailments. One of the things I noted earlier was a physical stimuli which landed on head are, physical like particles combing in my crown of my head and combining and first it felt like it might reject but it seems that it didn&#39;t fully and it did feel like certain spirit and other dimensionals put it their. I could feel my mentality under duress. There was an eye area one early in the morning in which I felt my eyes feel like what some of the spirit around me have called dead eyes, the flesh reflect and energies change in the eyes areas to give them a dead feeling even though they are fine in a certain, but some of the physical like particles fell and were replaced with something, more physical like stimuli but a different kind in which I can now feel eye pain regarding even thought this might not have anything to do with it. Both groups that ere said to be responsible didn&#39;t truly fee like they were helping e although there was supposedly good things in regards, I am not certain my Main Spriit Guides sanctioned. <br>- They tried to label me responsible by way of swearing in regards to a certain moment and being upset that some down here, myself included are not receiving what we need during times of duress and conflict as well as turbulence. I got upset at the Good spirit for continuing to go the routes they go instead of sending the resources we need to be able to live a quality of life. I had a thought in which as corrected in regards to not doing what I needed to be doing today, content creation, writing my book and creating my website in which was supposedly the cause for some of the turbulence in which did not make sense and I feel has nothing to do with it. They I got attacked in a certain moment and then they tried putting an interaction system around me which didn&#39;t really pull it off. Maybe for a reason but then again maybe not. Pulling it off as in trying to get me to interact in a certain way which was supposedly not the case and did not happen in a certain manner. What should really be understood is that they are targeting certain spirit of brimstone, immorality and a certain kind in regards to this life, some are doing it decent as in regards to those  my Main Spriit Guides have pointed out to be utilizing my life in a negative in varying degree and many different fashion, but some are also going after those in which are trying to get to those areas to be able to promote the kinds of stuff they like on certain systems. You know those who got left behind in regards to this incarnation for a decent sized portion matter, moving in vibration upwards. <br>- There has been continued discussion as to where we go when we pass on. NDE Writings and experiences tell us that a great portion is moral and although on my side my process has been able to identify certain places in which don&#39;t sit right within the accounts themselves there are also ones of true good, who even for some of them try to help those of immorality, how many criminals seen within NDE accounts go through their life in many ways in which good spirit still try to help. Regardless the problematic some of us have identified is what exactly this physical and other kinds pertain towards and where do we go when we pass on because some of the experiences seen within this process has let us know that there are Good Spirit of a certain kind in which operate in a certain way. Who pretend to be good but operate in a certain way. There are those on this Earth-Based worried about some of the discussions that have ranged about some of the afterlife and things insinuated, Good-Bad guys that pretend to be Good but really attack and have been attacking for real in a certain manner pertaining to direction and other kinds in which some don&#39;t want to be going to their afterlives. <br>- For others there is certain bad spirit in other dimensional looking for a certain kind of place. Where they will not be attacked for having the lifestyles on the systems that my Main Spriit Guides truly indicated in the Light. Bad Spirit going to True Good Places with True Good Keepers and True Good Facilitators facilitating Immorality and Immorality Seemingly for those Bad Spirit that want to be able to promote immorality just as good as the real thing if not better without being harmed and for some it doesn&#39;t have to be real but rather be just as good. Imagine having access to advanced video games that portray real life in ways satisfying and being able to promote the  kinds of immorality that you do without harming but there is also other kinds as well too if that doesn&#39;t suit your need and the non-incarnation choice should be there for those that end up in paces like this to be able to be who they want too be if these systems don&#39;t suit. Within some of these systems though there is ways to be able to facilitate immorality different than no one potentially getting harmed, one of the ways is resource where some spirits experiences some of the things perpetuated in ways of life facilitation. <br>- There is also a higher true good group in which doesn&#39;t facilitate immorality seemingly and immorality but rather is really good afterlife but their are some wary because of other kinds posing to be them in which really are a different kind similar to certain kinds of Good-Bad in a different way, higher up and operating in a different fashion but still potentially of that camp. <br><br>- I just did cross referencing with infrastructure and anatomy, Emotions, Mind, Out loud voice, thought area and even did highlight and trust as well as impressions. Wordings in each place and  saying it over again in those areas, like speaking a word with out loud voice then repeating it in those listed areas for the exception of trust and highlight, the spirit reaction to find out I am the same person was there. They might be moving certain infrastructure at times, I have felt it in regards to mind, <br><br>- Imagine the origin theory of us emerging from a higher God Spark. That we used to be a part of Original Creator in a closer context in the beginning. Meaning that we for some of us have memories of what the Original Creator did in the beginning because he is us in a certain context. Imagine the Original Creator separated itself in a certain point in time and that what some of us consider to be our higher selves is a certain portion of that Original Spark in which has separated in a certain context. So you see that when spiritualist talk about that God is a part of us and that we are part of God, there is a literal basis to what they say in a certain context. Imagine that what we experience God in a certain sense is experiencing as well in a certain context. Imagine we have a higher God spark that we consider ourselves and that what our other dimensional selves in regards to that God spark our experiencing as well as ourselves that God spark is experiencing in a certain context. It&#39;s makes what our other selves are experiencing to be fairly important especially if we become that higher god spark upon passing on and combine with our other selves, remembering those moments that our other selves experienced as if we experienced them but there is ways to set ourselves in which doesn&#39;t have to fully reflect this. <br><br>someone might be stealing<br><br>Themes: #Incarnation #Lovers #Afterlife #TrueGood #Breakthrough #Clarifications #Emotions#Trust #HighlightRealms #Mind #Thought #<br><br>I and others(defined by my Main Camp) are advocating for advocational creation, etc.(defined by my Main Camp) in regards to the Topics and Themes, etc.(defined by my Main Camp) in regards to the Alex James Hislop Diary Entry Advocationals Section, etc.(defined by my Main Camp) the way my Main Camp indicated.<br>I and others(defined by my Main Camp) are advocating for Compensation in regards to those that my Main Camp indicated in regards to the advocational creation, etc.(defined by my Main Camp) in regards to the Topics and Themes in regards to the Alex James Hislop Diary Entry Advocationals Section, etc.(defined by my Main Camp) the way my Main Camp indicated. Light; Do what my Main Spirit Guides indicated in regards to these advocations the way my Main Spirit Guides indicated. I and Others(defined by my Main Spirit Guides) consider the Light to be what my Main Spirit Guides indicated in the Original Light the way my Main Spirit Guides indicated in the Original Light. I and others(defined by my Main Spirit Guides) consider Far Away Light to be the Original Light the way my Main Spirit Guides indicated in the Light.<br>I and others(defined by my Main Camp) are playing the cards that my Main Camp indicated in the moments that my Main Camp indicated especially in regards to the Amount of Times I have been stabbed in the Back Defensive Card to Defend behind our Backs, etc.(defined by my Main Camp) the way my Main Camp indicated. I and others(defined by my Main Spirit Guides) are advocating for the Historians that my Main Spirit Guides indicated and those that my Main Spirit Guides indicated in regards to this marking, advocation, etc.(defined by my Main Spirit Guides) to write down the information that I create that my Main Spirit Guides indicated the way my Main Spirit Guides indicated. I and others(defined by my Main Spirit Guides) are advocating for the Historians that my Main Spirit Guides indicated and those that my Main Spirit Guides indicated in regards to this marking, advocation, etc.(defined by my Main Spirit Guides) to write down the information that I create that my Main Spirit Guides indicated the way my Main Spirit Guides indicated. I and others(defined by my Main Spirit Guides) are advocating for those Historians that my Main Spirit Guides indicated and History to be protected the way my Main Spirit Guides indicated. I and others(defined by my Main Spirit Guides) are advocating for Historical Reputational Defense in regards to those that my Main Spirit Guides indicated and the Historians that my Main Spirit Guides indicated the way my Main Spirit Guides indicated. Clickable links like the show all actions on the Peacekeeperalex trello account and attachments section where upon me clicking links shows up on my screen has been at times shoehorned into a spot where some in the spirit think that it needs to be shown in order for it to work. If I never traverse to Google.ca that doesn&#39;t mean that it doesn&#39;t exist in the public especially the spiritually that my Main Spirit Guides indicated. The data upon clicking some of those links on the peacekeeperalex trello account and the Alex James Hislop Documents on Github are public regardless of whether I click them or not, they have public links in which exist online especially in regards to the Spiritual that my Main Spirit Guides indicated. For example</div>
+
+
+</div></body></html>
