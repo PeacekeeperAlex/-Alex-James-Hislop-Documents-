@@ -1,0 +1,278 @@
+<?xml version="1.0" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>(03/22/2020)</title>
+<style type="text/css">
+         body {
+  font-family: 'Roboto Condensed','Droid Sans',arial,sans-serif;
+  font-size: 15px;
+  color: rgba(0,0,0,0.8);
+  word-wrap: break-word;
+  background-color: #e8e8e8;
+}
+
+hr {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-style: inset dashed;
+    border-width: 1px;
+}
+
+.note {
+  outline: none;
+  box-shadow: 0 2px 1px rgba(0,0,0,0.08);
+  box-sizing: border-box;
+
+  max-width: 600px;
+  min-width: 240px;
+  margin: 20px;
+
+  background-color: rgb(255, 255, 255);
+}
+
+.note .heading {
+  font-size: 12px;
+  padding: 15px 15px 0 15px;
+  color: rgba(100,100,100,0.8);
+}
+
+.note .title {
+  font-size: 17px;
+  font-weight: bold;
+  padding: 15px 15px 0 15px;
+  min-height: 28px;
+}
+
+.note .content {
+  padding: 12px 15px 15px 15px;
+  font-family: 'Roboto Slab','Times New Roman',serif;
+  font-size: 14px;
+}
+
+.note .attachments {
+  padding: 0 15px 15px 15px;
+}
+
+.attachments ul {
+  padding: 0;
+  margin: 0;
+}
+
+.attachments li {
+  list-style-type: none;
+  margin-top: 12px;
+}
+
+.attachments li img {
+  max-width: 100%;
+}
+
+.attachments .audio {
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxOC4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4KPCFET0NUWVBFIHN2ZyAgUFVCTElDICctLy9XM0MvL0RURCBTVkcgMS4xLy9FTicgICdodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQnPgo8c3ZnIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbDpzcGFjZT0icHJlc2VydmUiIHZpZXdCb3g9IjAgMCAyMCAyMCIgdmVyc2lvbj0iMS4xIiB5PSIwcHgiIHg9IjBweCIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDIwIDIwIj4KPHBhdGggZD0ibTEgN3Y2aDRsNSA1di0xNmwtNSA1aC00em0xMy41IDNjMC0xLjgtMS0zLjMtMi41LTR2OGMxLjUtMC43IDIuNS0yLjIgMi41LTR6bS0yLjUtOC44djIuMWMyLjkgMC45IDUgMy41IDUgNi43cy0yLjEgNS44LTUgNi43djIuMWM0LTAuOSA3LTQuNSA3LTguOHMtMy03LjktNy04Ljh6Ii8+Cjwvc3ZnPgo=);
+  background-size: 18px 18px;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 22px;
+  height: 22px;
+  display: block;
+}
+
+.note .list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.note .listitem {
+}
+
+.note .listitem .bullet {
+  position: absolute;
+}
+
+.note .listitem .text {
+  margin-left: 20px;
+}
+
+.note .identifier {
+  color: rgba(0, 0, 0, 0.5);
+}
+.note .identifier:before {
+  content: "(";
+}
+.note .identifier:after {
+  content: ")";
+}
+
+/* Only show identifiers when the element is hovered. */
+.note .listitem .identifier,
+.note .chip .identifier {
+  display: none;
+}
+
+.note .listitem:hover .identifier,
+.note .chip:hover .identifier {
+  display: inline;
+}
+
+.note .chips {
+  padding: 12px 15px 15px 15px;
+}
+
+.note .chip {
+  display: inline-block;
+  max-width: 198px;
+  margin: 2px 4px 2px 0;
+  padding: 2px 5px;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 11px;
+  font-family: 'Roboto','Droid Sans',arial,sans-serif;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.note .chip a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.chip-icon {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  background-size: 100%;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.annotation.CALENDAR .chip-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMTcgMTJoLTV2NWg1di01ek0xNiAxdjJIOFYxSDZ2Mkg1Yy0xLjExIDAtMS45OS45LTEuOTkgMkwzIDE5YzAgMS4xLjg5IDIgMiAyaDE0YzEuMSAwIDItLjkgMi0yVjVjMC0xLjEtLjktMi0yLTJoLTFWMWgtMnptMyAxOEg1VjhoMTR2MTF6Ii8+CiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+Cjwvc3ZnPgo=);
+}
+
+.annotation.DOCS .chip-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgICA8cGF0aCBkPSJNMTkgM0g1Yy0xLjEgMC0yIC45LTIgMnYxNGMwIDEuMS45IDIgMiAyaDE0YzEuMSAwIDItLjkgMi0yVjVjMC0xLjEtLjktMi0yLTJ6bS0xLjk5IDZIN1Y3aDEwLjAxdjJ6bTAgNEg3di0yaDEwLjAxdjJ6bS0zIDRIN3YtMmg3LjAxdjJ6Ii8+Cjwvc3ZnPgo=);
+}
+
+.annotation.GMAIL .chip-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBmaWxsPSJub25lIiBkPSJNLTYxOC0yMTA0SDc4MnYzNjAwSC02MTh6TTAgMGgyNHYyNEgweiIvPgogICAgPHBhdGggZD0iTTIwIDRINGMtMS4xIDAtMiAuOS0yIDJ2MTJjMCAxLjEuOSAyIDIgMmgxNmMxLjEgMCAyLS45IDItMlY2YzAtMS4xLS45LTItMi0yem0wIDE0aC0yVjkuMkwxMiAxMyA2IDkuMlYxOEg0VjZoMS4ybDYuOCA0LjJMMTguOCA2SDIwdjEyeiIvPgo8L3N2Zz4K);
+}
+
+.annotation.SHEETS .chip-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgICA8cGF0aCBkPSJNMTkgM0g1Yy0xLjEgMC0xLjk5LjktMS45OSAyTDMgOHYxMWMwIDEuMS45IDIgMiAyaDE0YzEuMSAwIDItLjkgMi0yVjVjMC0xLjEtLjktMi0yLTJ6bTAgOGgtOHY4SDl2LThINVY5aDRWNWgydjRoOHYyeiIvPgo8L3N2Zz4K);
+}
+
+.annotation.SLIDES .chip-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjRweCIgaGVpZ2h0PSIyNHB4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgICA8cGF0aCBkPSJNMTkgM0g1Yy0xLjEgMC0xLjk5LjktMS45OSAydjE0YzAgMS4xLjg5IDIgMS45OSAyaDE0YzEuMSAwIDItLjkgMi0yVjVjMC0xLjEtLjktMi0yLTJ6bTAgMTNINVY4aDE0djh6Ii8+Cjwvc3ZnPgo=);
+}
+
+.annotation.WEBLINK .chip-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMTkgNEg1Yy0xLjExIDAtMiAuOS0yIDJ2MTJjMCAxLjEuODkgMiAyIDJoMTRjMS4xIDAgMi0uOSAyLTJWNmMwLTEuMS0uODktMi0yLTJ6bTAgMTRINVY4aDE0djEweiIvPgogICAgPHBhdGggZmlsbD0ibm9uZSIgZD0iTTAgMGgyNHYyNEgweiIvPgo8L3N2Zz4K);
+}
+
+.sharees h2 {
+  display: none;
+}
+
+.sharees ul {
+  list-style: none;
+  margin: 0;
+  padding: 0 15px 15px 15px;
+}
+
+.sharees li {
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMTIgMkM2LjQ4IDIgMiA2LjQ4IDIgMTJzNC40OCAxMCAxMCAxMCAxMC00LjQ4IDEwLTEwUzE3LjUyIDIgMTIgMnptMCAzYzEuNjYgMCAzIDEuMzQgMyAzcy0xLjM0IDMtMyAzLTMtMS4zNC0zLTMgMS4zNC0zIDMtM3ptMCAxNC4yYy0yLjUgMC00LjcxLTEuMjgtNi0zLjIyLjAzLTEuOTkgNC0zLjA4IDYtMy4wOCAxLjk5IDAgNS45NyAxLjA5IDYgMy4wOC0xLjI5IDEuOTQtMy41IDMuMjItNiAzLjIyeiIvPgogICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPgo8L3N2Zz4K);
+  background-size: 18px 18px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.sharees li.group {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgICA8cGF0aCBkPSJNMTYgMTFjMS42NiAwIDIuOTktMS4zNCAyLjk5LTNTMTcuNjYgNSAxNiA1Yy0xLjY2IDAtMyAxLjM0LTMgM3MxLjM0IDMgMyAzem0tOCAwYzEuNjYgMCAyLjk5LTEuMzQgMi45OS0zUzkuNjYgNSA4IDVDNi4zNCA1IDUgNi4zNCA1IDhzMS4zNCAzIDMgM3ptMCAyYy0yLjMzIDAtNyAxLjE3LTcgMy41VjE5aDE0di0yLjVjMC0yLjMzLTQuNjctMy41LTctMy41em04IDBjLS4yOSAwLS42Mi4wMi0uOTcuMDUgMS4xNi44NCAxLjk3IDEuOTcgMS45NyAzLjQ1VjE5aDZ2LTIuNWMwLTIuMzMtNC42Ny0zLjUtNy0zLjV6Ii8+Cjwvc3ZnPgo=);
+}
+
+.note .meta-icons {
+  float: right;
+}
+
+.note .meta-icons span {
+  display: inline-block;
+  background-size: 18px 18px;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 22px;
+  height: 22px;
+  padding-left: 4px;
+}
+
+.meta-icons .pinned {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMHB4IiBoZWlnaHQ9IjIwcHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzQyODVmNCI+DQogICAgPHBhdGggZD0iTTE2IDVoLjk5TDE3IDNIN3YyaDF2N2wtMiAydjJoNXY2bDEgMSAxLTF2LTZoNXYtMmwtMi0yVjV6Ii8+DQogICAgPHBhdGggZmlsbD0ibm9uZSIgZD0iTTAgMGgyNHYyNEgweiIvPg0KPC9zdmc+);
+}
+
+.meta-icons .archived {
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxOC4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4KPCFET0NUWVBFIHN2ZyAgUFVCTElDICctLy9XM0MvL0RURCBTVkcgMS4xLy9FTicgICdodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQnPgo8c3ZnIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbDpzcGFjZT0icHJlc2VydmUiIHZpZXdCb3g9IjAgMCAxOCAxOCIgdmVyc2lvbj0iMS4xIiB5PSIwcHgiIHg9IjBweCIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDE4IDE4Ij4KPHBhdGggZD0ibTE2LjYgM2wtMS4yLTEuNWMtMC4yLTAuMy0wLjYtMC41LTEtMC41aC0xMC43Yy0wLjQgMC0wLjggMC4yLTEgMC41bC0xLjMgMS41Yy0wLjIgMC4zLTAuNCAwLjctMC40IDEuMXYxMS4xYzAgMSAwLjggMS44IDEuOCAxLjhoMTIuNGMxIDAgMS44LTAuOCAxLjgtMS44di0xMS4xYzAtMC40LTAuMi0wLjgtMC40LTEuMXptLTcuNiAxMC45bC00LjktNC45aDMuMXYtMS44aDMuNnYxLjhoMy4xbC00LjkgNC45em0tNi4xLTExLjFsMC43LTAuOWgxMC43bDAuOCAwLjloLTEyLjJ6Ii8+Cjwvc3ZnPgo=);
+}
+
+.meta-icons .trashed {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjE4cHgiIHdpZHRoPSIxOHB4IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0OCA0OCIgZmlsbD0iIzAwMDAwMCI+DQogPHBhdGggZD0ibTEyIDM4YzAgMi4yMSAxLjc5IDQgNCA0aDE2YzIuMjEgMCA0LTEuNzkgNC00di0yNGgtMjR2MjR6bTI2LTMwaC03bC0yLTJoLTEwbC0yIDJoLTd2NGgyOHYtNHoiLz4NCiA8cGF0aCBkPSJtMCAwaDQ4djQ4aC00OHoiIGZpbGw9Im5vbmUiLz4NCjwvc3ZnPg==);
+}
+
+.checked {
+  text-decoration: line-through;
+}
+
+.RED {
+  background-color: rgb(255, 109, 63) !important;
+}
+.ORANGE {
+  background-color: rgb(255, 155, 0) !important;
+}
+.YELLOW {
+  background-color: rgb(255, 218, 0) !important;
+}
+.GREEN {
+  background-color: rgb(149, 214, 65) !important;
+}
+.TEAL {
+  background-color: rgb(28, 232, 181) !important;
+}
+.BLUE {
+  background-color: rgb(63, 195, 255) !important;
+}
+.GRAY {
+  background-color: rgb(184, 196, 201) !important;
+}
+
+/* go/keep-more-colors-eng */
+.CERULEAN {
+  background-color: rgb(130, 177, 255) !important;
+}
+.PURPLE {
+  background-color: rgb(179, 136, 255) !important;
+}
+.PINK {
+  background-color: rgb(248, 187, 208) !important;
+}
+.BROWN {
+  background-color: rgb(215, 204, 200) !important;
+}
+
+      </style></head>
+<body><div class="note DEFAULT"><div class="heading"><div class="meta-icons"><span class="pinned" title="Note pinned"></span>
+
+</div>
+Mar 30, 2020, 3:27:54 PM</div>
+<div class="title">(03/22/2020)</div>
+<div class="content">I watched silence of the lambs and there had been connotation regarding multiple different interplay, i feel less to do with the content though in the end of it. I could spot some of the different interplays and some of which was on my side of the screen. There had been personal as well in which partially in regards to my birth year, I don&#39;t know if Ill ever fully understand what was taking place for certain kind in regards to these supposedly personal relaying, one thing that should be understood is that there was a large portion of what they said was me being attacked and certain family in the mix as well in which was not what some had initial  said and labelled such events but rather certain kind of life utilization and form utilization, spiritual defending for a portion and others.How can I know what is the truth in such places where lies are the normality and the Truth hides, the Hermit in the room, retired only until he returns to see the light. Every day a battle for truth and lies and it&#39;s been since when the heck it was and yet it still can seem like you can&#39;t go for a walk and if you do you only see what they want you to see. Understand that this is certain dimensional areas but when interaction reflects such and experiences prove the existence of such a reality then the truth regarding the good having more power than bad can seem to be the lies they peddle. The previously described interacting with some of to such degrees maybe to get a slice of the good life proven by way of the experiences from those other places, the lions share of the experience and maybe that&#39;s why they say interaction in certain dimensional reflection of our movements, communication and other kinds should reflect such intermingling with a kind trying to survive and thrive sometimes off of the hatred of their own brother. It&#39;s changing though. It continues to change and God it would be less of a fear upon myself if it wasn&#39;t for the past, the current and the future of what it can sometimes reflect. There is these moments in the things I see, that others can see in which I am able to identify upon my psychictivity that tell me things that they don&#39;t want to know. If it wasn&#39;t so tantalizing maybe I would stay away from such outlook and shut things out but how can you experience such things without what made it be for what it is. I know the truth though. They can make it look good, the kinds of spiritual discerned on screen, in the books of writing and musical notes passing through our ears and they will at times say those things that were noted and understood throughout societies and culture are not true, a pigment of our imagination, a falsehood, lack of evidence upon experience and the kind that really did those things on screen for a portion cry because for a certain amount they didn&#39;t mean to do it and a select amount of the others lied about it being true. That those scary things they taunted, warned and spread malice about, that they weren&#39;t just in nightmares of fiction but rather dreams of fact unraveled and fulfilled and some didn&#39;t even get paid for it, put on their clean uniform and went to work, the other side of themselves that did cry, the duality of self if there ever was one. What is this? Has been asked throughout my process for a while now and certain immortals laugh for how long it&#39;s been for them but in my process it seems to be coming to a front. I have seen glimpses of Angels and Demons battling and it seems to be a subtle extension that exists, and beyond this extension the bigs in the mix. Within the confines of cultural normality you see the battle between good and evil taking place everyday through earth-based humanity, a great many of us ever grateful for the nature that stands watch for flora and fauna, the animals do take solace. It reaches them at times though, a different beast and a different storm but sometimes one and the same. When it gets to that there are those employed to bring it back home in the ways understood. Sometimes it&#39;s not the normality though because this extension of Good vs Evil exists and it&#39;s beyond, it was beyond the stars before the stars even formed in this physical. How did this ever happen? If the surmization that God exists and that in the beginning he was always good and that we for most were all good, then how have some fallen. How have they fallen and been able to pass as the good at times. For me it was Good vs Bad, and the banners in the mix, the lines on the map that got in the way of the quality of life and saving while claiming to be the saviors and of course when I look to the good with all of the power to be able stop them, not poet nothing in which would be a pitiless despair worse but rather a something not enough. The something not enough seen from some makes them so close to saying that it might as well been nothing. The good council and leadership of the entirety might as well be irrelevant at times. Why the hell is that the marked where some say, good sir, too much, an insult that makes us stave our civic duty of family, friends and what we were in the beginning when the kinds of attack, rap, harm and pillaging existing at times, hidden behind the veil of decent, a switch up of need be without would not be able and a far cry not far from the truth and not so at the same time. How is it that these battle and conflict of the spirit have brought us together in such ways that weren&#39;t present and what does the correct say about what points have already been won that would have been seen in the beginning. Are we past that time. When I look at my life after I pass on will it reflect the horror of insinuation that has been in this process and will I understand all the why of how it didn&#39;t need to be if is? Will that why show up in the moments who have to clean up for this life? Will it be present in reality that exists for those who have to be me in the future? Will it be the same the fight down here but rather in the higher lights and Higher dimensions of the world? I became a psychic medium through i life i didn&#39;t fully understand. When i became a psychic, i realized i understood it less than i realized. Two months of spiritual guideship discussions turned sideways into a process where certain spiritual tried to label as mentally. The dragons and magic of the world revealed. A terrible sight and side of something I made mistake in labeling storybrook, a truthsaying relayed if there ever was one. Hidden away in the dark corners of the world at times but not really, not truly because it was ever present in the moments of such conflict while walking down the street to go to work, while cleaning the house, while driving on the freeway and when the dimensionally needed that reaction from the physical, it was nowhere to be found, not to the degree needed and story was their. I won, but not really, I may have walked out of that place of nightmare tales and spiritual twilightzone but It was still present at times. A year to gather my bearing in 2016 and started writing psychictivity already understood that there was spiritual conflicts and opposition from years previously told from my teacher who taught love but also vigilance. As I would continue on I would note different kinds of versions of Spiritual Turmoil. I would come to understand that I was also shaping my process with the mentality that such foes exist but it wasn&#39;t really my shaping at times upon the experiences that presented themselves at my door step. How am I suppose to combat the Truth and Realization that bad in the spirit realm does exist, how am I suppose to combat when those experiences shaped from some of the spirit around me prove in and of itself the lack of attention to detail that a small like myself could be attacked in such years and then receive such needed support these days. If was about me doing informational placement then why didn&#39;t they just shape this process like the other psychics. In 2017 I would argue with them about it, that I don&#39;t deserve to be spiritual abused and I could feel stimuli as such more so in 2018 and 2019, of course in those years that&#39;s when I started the information placement. Words that supposedly were needed. The kinds of events noted within those timeframes from some might think it to be the kinds of processes described when certain spiritual were trying to label the process as mental illness. Far too many red flags in the mix though, everyday it was something for those two years and it has continued in 2020. Events and storylines discerned and although i do feel turning of the corners in many capacities, life style and ways of operating, truth revealed and revelation understood. That it wasn&#39;t just me, where there were times when i flipped on the television and certain spiritual events playing out through expression and inflection as I know the spiritual to speak through. I can feel it as a psychic on my own self in regards to expression and I can discern it on upon others as well. They say the best I could ever do is stop what I have been doing but what I have been hasn&#39;t been anything wrong, sure I have made some pot shot comments, argued and made some spelling mistakes in regards to certain disclaimer works, I have talked about big lines and topics of discussion about defense, I have continued to defend but I have also gotten better. It might not be the best but even if I hadn&#39;t gotten better, I don&#39;t deserve what I had received in regards to harm and hurt and I don&#39;t deserve to be attacked anymore. The rest that my Main Spirit Guides indicated didn&#39;t deserve to be attacked at all upon being innocent in conflicts.<br>- (events and storylines discerned upon the content watched, brought back an old school 1991 vibe and one in which was said to have something to do personally.  all the presidents men, Mississippi burning, silence of the lambs. It tells a story.)<br>- (Some trying to talk about big lines on their end, like different capacities in regards to this process. Things unraveled, I could feel fluidity energies from the house maneuver into the doors of self and attack certain emotional infrastructure. Dragons are good. A storyline discerned was that Smaug was good, he remembered the old code and created the treasure heap to fall asleep to save. )<br>- ( More battle taking place at times, been here and there, certainly movement of myself dimensionally. Some of the biggest energies clarity conflict I have seen near thus far. Dimensional deployment from the sun and weather. It&#39;s maneuvering. )<br>- Channel infrastructure changed, large channel energies maneuvering from house area towards me inside me, center chest area movement inwards. House has been getting hit hard and I am not certain what that fully means. <br>- Still have big impact but utilization regarding is still a worry at times even though there was a switch and a power going towards artists vision in which has been situated. <br>- Interaction bubbles still popping up but clear energy skies and open area discernment still happening. Hell at times I don&#39;t have to do too much but watch a movie, go in my backyard and even laying down to sleep.<br>- interplay with head area energies. inner machinisms revealed on the road and belief energies bumping into feeling energies. <br>- (yesterday there was spiritualist conference attended in which I had met the spiritualist in person at Toronto Iands Conference, there was a large amount of happenings taking place at times as well, shaping events, spirit animal discernment, a lot of good coming into vicinity in which there was already a large amount of good anyhow. information about the tunnel, black discerned then blue discerned after afterlife review. I started healing throughout the conference with light, mouth area and then other energy areas. Vindication in regards to certain imagination and visualization infrastructures, someone helped me upon me thinking the tunnel was white and potentially changing something regarding but i don&#39;t know if my impact has that large at times, i didn&#39;t want to think the tunnel was somehow karmic related for some reason, something about black and disparities regarding those in the black of the tunnel. There was a moment where I felt a perspective get put off to the side looking towards the office door of a powerful thought and there was other happenings as well but for the most part decent kind and not as bad as it has been in the past with erratic defenseworks. Tunnel Discerned, information)<br>-  (The amount of vindication I have on me from playing certain content in public as well as scroll down of certain document augmented and has been continuing to snowball in a certain manner. You take into consideration )<br>-  (There was a clean room situation again said that there was a certain kind of thing dirty in which needed to hit certain protocols again, it was said if i take shower things get better and i did, don&#39;t think it was thought this time, the last time might have been though. I live my life. Might have been a false positive.)<br>- (Digital Happening after watching certain kind of content early morning.)<br>- (More discussions about the Original Creator saving. Currently my day off and took day off yesterday upon certain events manifesting as well. Again sleep being decent invoked, and staying being decent in a certain manner save for the natural and some of the augmentation on going for that trip but my parents went to Toronto.)<br>- (Yesterday I had admitted some past wrongs in regards to certain family and then there was this slamming home that somehow just because people love one another, pursue intimacy relationships as well as other actions not as decent perpetuated doesn&#39;t mean they deserve to be attacked and it&#39;s not a good enough reason for certain things to take place. Just because someone was obsessed with someone at one point in time doesn&#39;t mean that person deserves harm. There was attachment regarding and a release of energies in regards to chest area energies leaving upon admitting certain wrongs and apologizing and It was a hit home regarding previous points. Some tried to utilize to excuse certain actions in which doesn&#39;t excuse certain kind of actions of perversion, stalking or attacking n a certain context but I don&#39;t feel they themselves should be attacked either. There had been some using the excuse and perpetuating the excuse of the formerly explained to try and cause disruption at one point in time.)<br>- (The Spirit that has been holding it down in saskatchewan in regards to my family and others that my Main Spirit Guides indicated, myself and others(defined by my Main Camp) are advocating for what my Main Spirit Guides indicated in regards to this communication the way my Main Spirit Guides indicated.)<br>- ( pinging of panic and fright, a signal sent spiritually from body. )<br><br>Themes:<br></div>
+
+
+</div></body></html>
