@@ -1,0 +1,278 @@
+<?xml version="1.0" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>(01/02/2021) </title>
+<style type="text/css">
+         body {
+  font-family: 'Roboto Condensed','Droid Sans',arial,sans-serif;
+  font-size: 15px;
+  color: rgba(0,0,0,0.8);
+  word-wrap: break-word;
+  background-color: #e8e8e8;
+}
+
+hr {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-style: inset dashed;
+    border-width: 1px;
+}
+
+.note {
+  outline: none;
+  box-shadow: 0 2px 1px rgba(0,0,0,0.08);
+  box-sizing: border-box;
+
+  max-width: 600px;
+  min-width: 240px;
+  margin: 20px;
+
+  background-color: rgb(255, 255, 255);
+}
+
+.note .heading {
+  font-size: 12px;
+  padding: 15px 15px 0 15px;
+  color: rgba(100,100,100,0.8);
+}
+
+.note .title {
+  font-size: 17px;
+  font-weight: bold;
+  padding: 15px 15px 0 15px;
+  min-height: 28px;
+}
+
+.note .content {
+  padding: 12px 15px 15px 15px;
+  font-family: 'Roboto Slab','Times New Roman',serif;
+  font-size: 14px;
+}
+
+.note .attachments {
+  padding: 0 15px 15px 15px;
+}
+
+.attachments ul {
+  padding: 0;
+  margin: 0;
+}
+
+.attachments li {
+  list-style-type: none;
+  margin-top: 12px;
+}
+
+.attachments li img {
+  max-width: 100%;
+}
+
+.attachments .audio {
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxOC4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4KPCFET0NUWVBFIHN2ZyAgUFVCTElDICctLy9XM0MvL0RURCBTVkcgMS4xLy9FTicgICdodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQnPgo8c3ZnIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbDpzcGFjZT0icHJlc2VydmUiIHZpZXdCb3g9IjAgMCAyMCAyMCIgdmVyc2lvbj0iMS4xIiB5PSIwcHgiIHg9IjBweCIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDIwIDIwIj4KPHBhdGggZD0ibTEgN3Y2aDRsNSA1di0xNmwtNSA1aC00em0xMy41IDNjMC0xLjgtMS0zLjMtMi41LTR2OGMxLjUtMC43IDIuNS0yLjIgMi41LTR6bS0yLjUtOC44djIuMWMyLjkgMC45IDUgMy41IDUgNi43cy0yLjEgNS44LTUgNi43djIuMWM0LTAuOSA3LTQuNSA3LTguOHMtMy03LjktNy04Ljh6Ii8+Cjwvc3ZnPgo=);
+  background-size: 18px 18px;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 22px;
+  height: 22px;
+  display: block;
+}
+
+.note .list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.note .listitem {
+}
+
+.note .listitem .bullet {
+  position: absolute;
+}
+
+.note .listitem .text {
+  margin-left: 20px;
+}
+
+.note .identifier {
+  color: rgba(0, 0, 0, 0.5);
+}
+.note .identifier:before {
+  content: "(";
+}
+.note .identifier:after {
+  content: ")";
+}
+
+/* Only show identifiers when the element is hovered. */
+.note .listitem .identifier,
+.note .chip .identifier {
+  display: none;
+}
+
+.note .listitem:hover .identifier,
+.note .chip:hover .identifier {
+  display: inline;
+}
+
+.note .chips {
+  padding: 12px 15px 15px 15px;
+}
+
+.note .chip {
+  display: inline-block;
+  max-width: 198px;
+  margin: 2px 4px 2px 0;
+  padding: 2px 5px;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 11px;
+  font-family: 'Roboto','Droid Sans',arial,sans-serif;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.note .chip a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.chip-icon {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  background-size: 100%;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.annotation.CALENDAR .chip-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMTcgMTJoLTV2NWg1di01ek0xNiAxdjJIOFYxSDZ2Mkg1Yy0xLjExIDAtMS45OS45LTEuOTkgMkwzIDE5YzAgMS4xLjg5IDIgMiAyaDE0YzEuMSAwIDItLjkgMi0yVjVjMC0xLjEtLjktMi0yLTJoLTFWMWgtMnptMyAxOEg1VjhoMTR2MTF6Ii8+CiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+Cjwvc3ZnPgo=);
+}
+
+.annotation.DOCS .chip-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgICA8cGF0aCBkPSJNMTkgM0g1Yy0xLjEgMC0yIC45LTIgMnYxNGMwIDEuMS45IDIgMiAyaDE0YzEuMSAwIDItLjkgMi0yVjVjMC0xLjEtLjktMi0yLTJ6bS0xLjk5IDZIN1Y3aDEwLjAxdjJ6bTAgNEg3di0yaDEwLjAxdjJ6bS0zIDRIN3YtMmg3LjAxdjJ6Ii8+Cjwvc3ZnPgo=);
+}
+
+.annotation.GMAIL .chip-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBmaWxsPSJub25lIiBkPSJNLTYxOC0yMTA0SDc4MnYzNjAwSC02MTh6TTAgMGgyNHYyNEgweiIvPgogICAgPHBhdGggZD0iTTIwIDRINGMtMS4xIDAtMiAuOS0yIDJ2MTJjMCAxLjEuOSAyIDIgMmgxNmMxLjEgMCAyLS45IDItMlY2YzAtMS4xLS45LTItMi0yem0wIDE0aC0yVjkuMkwxMiAxMyA2IDkuMlYxOEg0VjZoMS4ybDYuOCA0LjJMMTguOCA2SDIwdjEyeiIvPgo8L3N2Zz4K);
+}
+
+.annotation.SHEETS .chip-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgICA8cGF0aCBkPSJNMTkgM0g1Yy0xLjEgMC0xLjk5LjktMS45OSAyTDMgOHYxMWMwIDEuMS45IDIgMiAyaDE0YzEuMSAwIDItLjkgMi0yVjVjMC0xLjEtLjktMi0yLTJ6bTAgOGgtOHY4SDl2LThINVY5aDRWNWgydjRoOHYyeiIvPgo8L3N2Zz4K);
+}
+
+.annotation.SLIDES .chip-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjRweCIgaGVpZ2h0PSIyNHB4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgICA8cGF0aCBkPSJNMTkgM0g1Yy0xLjEgMC0xLjk5LjktMS45OSAydjE0YzAgMS4xLjg5IDIgMS45OSAyaDE0YzEuMSAwIDItLjkgMi0yVjVjMC0xLjEtLjktMi0yLTJ6bTAgMTNINVY4aDE0djh6Ii8+Cjwvc3ZnPgo=);
+}
+
+.annotation.WEBLINK .chip-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMTkgNEg1Yy0xLjExIDAtMiAuOS0yIDJ2MTJjMCAxLjEuODkgMiAyIDJoMTRjMS4xIDAgMi0uOSAyLTJWNmMwLTEuMS0uODktMi0yLTJ6bTAgMTRINVY4aDE0djEweiIvPgogICAgPHBhdGggZmlsbD0ibm9uZSIgZD0iTTAgMGgyNHYyNEgweiIvPgo8L3N2Zz4K);
+}
+
+.sharees h2 {
+  display: none;
+}
+
+.sharees ul {
+  list-style: none;
+  margin: 0;
+  padding: 0 15px 15px 15px;
+}
+
+.sharees li {
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMTIgMkM2LjQ4IDIgMiA2LjQ4IDIgMTJzNC40OCAxMCAxMCAxMCAxMC00LjQ4IDEwLTEwUzE3LjUyIDIgMTIgMnptMCAzYzEuNjYgMCAzIDEuMzQgMyAzcy0xLjM0IDMtMyAzLTMtMS4zNC0zLTMgMS4zNC0zIDMtM3ptMCAxNC4yYy0yLjUgMC00LjcxLTEuMjgtNi0zLjIyLjAzLTEuOTkgNC0zLjA4IDYtMy4wOCAxLjk5IDAgNS45NyAxLjA5IDYgMy4wOC0xLjI5IDEuOTQtMy41IDMuMjItNiAzLjIyeiIvPgogICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPgo8L3N2Zz4K);
+  background-size: 18px 18px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.sharees li.group {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgICA8cGF0aCBkPSJNMTYgMTFjMS42NiAwIDIuOTktMS4zNCAyLjk5LTNTMTcuNjYgNSAxNiA1Yy0xLjY2IDAtMyAxLjM0LTMgM3MxLjM0IDMgMyAzem0tOCAwYzEuNjYgMCAyLjk5LTEuMzQgMi45OS0zUzkuNjYgNSA4IDVDNi4zNCA1IDUgNi4zNCA1IDhzMS4zNCAzIDMgM3ptMCAyYy0yLjMzIDAtNyAxLjE3LTcgMy41VjE5aDE0di0yLjVjMC0yLjMzLTQuNjctMy41LTctMy41em04IDBjLS4yOSAwLS42Mi4wMi0uOTcuMDUgMS4xNi44NCAxLjk3IDEuOTcgMS45NyAzLjQ1VjE5aDZ2LTIuNWMwLTIuMzMtNC42Ny0zLjUtNy0zLjV6Ii8+Cjwvc3ZnPgo=);
+}
+
+.note .meta-icons {
+  float: right;
+}
+
+.note .meta-icons span {
+  display: inline-block;
+  background-size: 18px 18px;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 22px;
+  height: 22px;
+  padding-left: 4px;
+}
+
+.meta-icons .pinned {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMHB4IiBoZWlnaHQ9IjIwcHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzQyODVmNCI+DQogICAgPHBhdGggZD0iTTE2IDVoLjk5TDE3IDNIN3YyaDF2N2wtMiAydjJoNXY2bDEgMSAxLTF2LTZoNXYtMmwtMi0yVjV6Ii8+DQogICAgPHBhdGggZmlsbD0ibm9uZSIgZD0iTTAgMGgyNHYyNEgweiIvPg0KPC9zdmc+);
+}
+
+.meta-icons .archived {
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxOC4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4KPCFET0NUWVBFIHN2ZyAgUFVCTElDICctLy9XM0MvL0RURCBTVkcgMS4xLy9FTicgICdodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQnPgo8c3ZnIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbDpzcGFjZT0icHJlc2VydmUiIHZpZXdCb3g9IjAgMCAxOCAxOCIgdmVyc2lvbj0iMS4xIiB5PSIwcHgiIHg9IjBweCIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDE4IDE4Ij4KPHBhdGggZD0ibTE2LjYgM2wtMS4yLTEuNWMtMC4yLTAuMy0wLjYtMC41LTEtMC41aC0xMC43Yy0wLjQgMC0wLjggMC4yLTEgMC41bC0xLjMgMS41Yy0wLjIgMC4zLTAuNCAwLjctMC40IDEuMXYxMS4xYzAgMSAwLjggMS44IDEuOCAxLjhoMTIuNGMxIDAgMS44LTAuOCAxLjgtMS44di0xMS4xYzAtMC40LTAuMi0wLjgtMC40LTEuMXptLTcuNiAxMC45bC00LjktNC45aDMuMXYtMS44aDMuNnYxLjhoMy4xbC00LjkgNC45em0tNi4xLTExLjFsMC43LTAuOWgxMC43bDAuOCAwLjloLTEyLjJ6Ii8+Cjwvc3ZnPgo=);
+}
+
+.meta-icons .trashed {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjE4cHgiIHdpZHRoPSIxOHB4IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0OCA0OCIgZmlsbD0iIzAwMDAwMCI+DQogPHBhdGggZD0ibTEyIDM4YzAgMi4yMSAxLjc5IDQgNCA0aDE2YzIuMjEgMCA0LTEuNzkgNC00di0yNGgtMjR2MjR6bTI2LTMwaC03bC0yLTJoLTEwbC0yIDJoLTd2NGgyOHYtNHoiLz4NCiA8cGF0aCBkPSJtMCAwaDQ4djQ4aC00OHoiIGZpbGw9Im5vbmUiLz4NCjwvc3ZnPg==);
+}
+
+.checked {
+  text-decoration: line-through;
+}
+
+.RED {
+  background-color: rgb(255, 109, 63) !important;
+}
+.ORANGE {
+  background-color: rgb(255, 155, 0) !important;
+}
+.YELLOW {
+  background-color: rgb(255, 218, 0) !important;
+}
+.GREEN {
+  background-color: rgb(149, 214, 65) !important;
+}
+.TEAL {
+  background-color: rgb(28, 232, 181) !important;
+}
+.BLUE {
+  background-color: rgb(63, 195, 255) !important;
+}
+.GRAY {
+  background-color: rgb(184, 196, 201) !important;
+}
+
+/* go/keep-more-colors-eng */
+.CERULEAN {
+  background-color: rgb(130, 177, 255) !important;
+}
+.PURPLE {
+  background-color: rgb(179, 136, 255) !important;
+}
+.PINK {
+  background-color: rgb(248, 187, 208) !important;
+}
+.BROWN {
+  background-color: rgb(215, 204, 200) !important;
+}
+
+      </style></head>
+<body><div class="note DEFAULT"><div class="heading"><div class="meta-icons"><span class="pinned" title="Note pinned"></span>
+
+</div>
+Jan 5, 2021, 5:56:57 PM</div>
+<div class="title">(01/02/2021) </div>
+<div class="content">Activity:<br>I had noted a scene of hope in one of the films watched today in the AM. I had noted that there was a difference sine the last time I had seen the film and one of the tones of desperation and despair had changed to hope. A story flourish potentially in which I have seen happen within multiple films but there was also a flipside of looking at certain scenes. There was a focus of shadow last times maybe coloured by music as well too. Like this look of hope had been their the entire time emphasized by light in the interplay of new Kaiju films.<br><br>I thought a really good topic brought up early morning had to do with teaching others how to teach good Spirituality. Some were actually looking to be able to even talk about the subject and discuss the subject as there has been a suppression of the ability to do so.<br><br>Baseline knowledge level that most Spirit have within the heavens that my Main Spirit Guides indicated. This baseline knowledge is important. There are certain kinds changing at times to encapsulate spiritual more in front of the scenes and in fact this has been happening for a long time now in which knowledge level facilitation extending towards certain kind makes sense. It made me think of morality and the installment regarding on the physicals on this physical planet earth. I had noticed a certain kind of morality upon this planet physically as well. A certain kind of healing morality. The green plant aesthetic and green healing light, a certain kind of natural colour of green regarding spiritually reminds of such.<br><br>Kind of felt like legal around me today in a certain manner. Certain kinds of tells of proceedings happening but also a certain docu style upon in what I could discern psychically. This one reminded of clear air impressionals in a certain manner but it might also be a tell of certain kind of other dimensional as well too. I had asked a question upon waking up and it seemed that there was an Iron man industrial kind of tone. Some thought of the Concept and Non-Concept of war and it was interesting that in early morning another kind of sadness and peace to be present. To be true the shaping of my diary entries from spiritual exists and I feel that to be a fairy big topic on my end as of later given the new year and direction some want to go. Maybe the bigger observation had been that it did actually shape at times not only upon my life but others as well and given the kind of the look at times on this process I felt it understood and known as well as provided remedy. That was the awareness at times some noted but I didn&#39;t have expanded awareness to fully understand some of the things taking place other than baselines tells. Where I was from, it was a simple look upon the map and quick wiki search in the correct context that provided information that for some in regards to in front of the scenes styles of play fought battle to obtain. There was also the fact of understanding in large measure both found societally and spiritually as well as at mission controls for good. From the light, I had wondered if there was a look upon situations where an overlapping bubble of awareness that only knew a certain portion of what was happening surrounded by many bubbles that understood more clearly to be the prominently viewpoint. Why was it that Space interactions put upon those when there was actually a maneuvering more earth-based and what was correlation as to that above viewpoint. How important was it to some to have an understanding to the situation and that look of when understood to be the difference of then at ease with certain styles of play. To be in on the joke seemed to be the answer and even some just wanted to understand the punchline. What exactly did it look like as to why and how those bubbles could interact especially within the context of passing informational. Information, that from my viewpoint would make sense to be understood but also with the choice of understanding or not up to a point. The ability to look up a historical and Historical that should be prominently understood. Where was the line of forcing information to be understood and not understanding claimed reasoning for certain distress taking place. The way I had been looking at it had been highlighting and calling upon that kind of dimensional that understood moral boundaries. I was a physical in front of the scenes that had multiple interactions that I was technically speaking experiencing in certain manners and I had let know on numerous occasions that I had wanted a certain kind of dimensional around me, obviously that in which would not cause duress or harm. I had wondered how many other physicals on this planet were saying the same thing. If there happened to be other physicals beyond the stars, I had wondered what they chose. I didn&#39;t have to wonder to have a good surmising ability, but it helped. <br><br>I knew I wanted to write and move away from having scary psychic experiences. I didn&#39;t want to experience some of the terribleness that I had written about in past diary entries and books. I wanted good and enlightened spiritual experiences and I did want there to be 420 inclinations. The kind of thing of viewing and noting Angels smoking. That that existed. That it wasn&#39;t just what the Near Death experiences were indicating even with hints amongst. That we could experience the same things within what some would classify as regular life, without causing harm upon others, for example being able to eat meat without animal slaughter. Think of the food replicators from star trek. The ability to manifest food existed in many different forms. I had even seen past to understand that there might be impact upon other dimensional and spiritual through other kinds of actions like drinking water or smoking weed. The understanding of drug crafting and the kinds that exist within heaven obviously with a certain regulation given context for there was such a thing as anarchism areas within heaven done with safety. Why wouldn&#39;t there be Angels in such areas. Of course I imagined there was many other kinds of areas too facilitating ways of life without anyone getting harmed. Life Near as good if not better. But I also wanted some of that pure enlightened spiritualist kind of look as well too. I liked both. Why wouldn&#39;t I want that around me especially given the past couple years even with noting myriads of good in the mix. <br><br>I want to enjoy life more. For the past month I had been feeling like I didn&#39;t want to be here and I did find it incredible that some still had put fourth an energy upon me that I should need to be productive. It was an interesting contrast between some that had been speaking about the fact that one can be productive without having to work or do certain kind of societal normalities to be considered being productive compared to those that were trying use the former in ways not agreeable. When you interject that there might conflict taking place, I don&#39;t that it changes those two contrasting looks as it to be considered and factored by the first contrasting variable. I wanted to be able to have fun with the spirit and some of the contrasting storylines today in regards to gaming was quite interesting given the kind of game I had been playing. Long live the Steward! There had been a thing about enjoying and playing video games in what has been a part of my life prominently but specifically seeing the difference at times between creating gaming content and playing the game itself. I find to enjoy both and wish the latter to be more a part of the former. There was almost a need to record and capture gaming moments because of love for beauty. There was a joke about a previous content I had watched early morning today in one of the characters obsessed in the look upon myself and others in the pursuit of capturing gaming moments in the correct light. Someone had been trying to speak at times gaming in the mix with less privacy at times that was being remedies as a typed this that some were experiencing discomfort in regards to others actions in which an unacceptability had taken form. It wasn&#39;t just impacting certain kind in disagreeable ways but was also hurting a way of life. Speak of gaming and how it plays upon reality, it speaks of life in a certain sense and there are those that spoke to such degrees that lamented upon what I was trying to say but maybe even more importantly were those that were ill benefiting so said because of certain actions that had less to do with it. At what point reason for a line. I appreciated the way spiritual viewed this process at times in the kind of shout out understanding of what I was typing was being observed, there was an aspect I cared about in the safeguarding and situating but also in the comfort for portions of my own spirituality taking note and maybe there was an understanding that I still felt the way I did when I was younger. In how I didn&#39;t want to be here at times and felt to be a bit lost. Sometimes understanding the word of the last sentence in experiencing another inflection within gaming can be bitter sweet savoring in the kind of story saviour that exists. It was the Game and Story synergize that appreciated there experience. I think understanding luster for life in what I have labelled in healing energies located throughout popular past times on earth based to be a good indicator of direction to be able to heal and enjoy life. <br><br>Daily Question to the Spirit Content:<br>What is it about story that transcends what we know about story physically on this planet?<br>You know more than you let on for the kinds of knowledge levels spiritually does pertain even if at times for some they fell that it doesn&#39;t. You can have many different kinds of experiences and not note certain story taking part in such activities and be illuminated and enlightened upon realization and recognization that such partaking does exist. You play a video game, and the kind of story taking place at times recreationally could pertain to each action in movement not only because it is interesting and that many do care for the kind story happening of that style but also because of spiritual maneuvering that takes place through your own actions, most of which good if not all of it. You watch a movie and experience a spiritual overlap behind the scenes having to do with the characters you are seeing on screen and why wouldn&#39;t it be that the care for story emerges through connections and relationships obviously in decent manner. A big part of Story and observation on your planet has had to do with connection and synchronicity. There is a love for that kind of story. You can see the myriads of connection even without fully observing the connection maps that exist in the spirit and it relays the brilliance of story at times especially upon revealing some of those connection maps for the kinds of other story existed not just alongside but also a part created an awe inspiring that transcended. People like synchronicity because like to be inspired or at least it&#39;s a prime in that direction. The Older spiritual and Younger agreed upon many different things in the kind of luster for life they wanted view upon themselves. Merriment continuance. You can see why some wanted many to be happy and sometimes it needed to be understood that a certain kind of happiness obtained was through sadness. Story healed and it saved more than just literal but also in other senses having to do with sanctity and experience. The literal explanations that there are beings of story that spoke in pop culture lingo, like an expression relayed in pop culture quote and sometimes depending on the story being exists. There were actions only based on story that would be enacted and actualized in directions from if you viewed it from a certain reality perspective without the knowledge that they were doing so for story purposes would relay a strangeness of character in which really the uniqueness of such character wouldn&#39;t be diminished upon understanding the factual that certain beings maneuvered in such ways. Why would it be that more revered story sometimes more than any other religion. There was a faith the existed in the direction of healing the God Spark. Why wouldn&#39;t such a light need healing even given some of the regular darker actions observed even on planet earth. Maybe it was the Godspark itself that made story inspired upon the eclectic but also chemistry and contrast along with interaction. <br><br>The Good providing people and spiritual who are set upon certain leeway systems just as good if not better. Some who go with styles of covering certain spiritual whether different spiritual culture or not while they live life given what they need to continuing covering who need be. What is the viability regarding this. It&#39;s another part of what had been said earlier having to do with the Good providing better. That&#39;s Authorities working together. Nations and banners that are good regardless of 420 inclinations working with the true good. <br><br>Stick to the plan, what is being said for the year and other timeframes and it doesn&#39;t mean we can&#39;t respond with compassion. Resource management for true though with the greed coverage style plans that my Main Spirit Guides indicated. Resource coverage for what need be as per what those Sponsors that my Main Spirit Guides indicated relayed with styles that protect from taking advantage in ways not agreeable or fair. <br><br>Emphasization in regards to what my Main Spiritual Guideships in the natural Original Setting State have chosen for me to choose. As well as continued sight and updates regarding the situations of the past couple days on my end. I feel there is a drifting of certain kinds of works and personell. <br><br>What is the baseline information regarding Physical Earth-Based Direction that Physical Earth-Based unified in the light agreed upon. What is the baseline information regarding Earth-Based Direction that Earth-Based unified in the light agree upon. What is the difference? What is the disagreeing factor between Physical Earth-Based and Earth-Based and what are ways to proceed advised by the true good and neutrals that my Main Spirit Guides relayed. <br><br>Leaving certain people and spiritual in certain situations upon lending resources and help upon activity and association, what is the good protocol regarding this. What is the safety needed for good and nations that do lend resources regarding.<br><br>Being able to withstand the quick fix, what are best methods that the good employ in spacing out resources fairly and decently especially for what one is choosing while maintaining a lack of need to choose the quick fix. Like saving resources throughout the year and being able to choose that instead of choosing something that gives you a lot of resources at once even if needed. Why would the good say in regards to the importance of non-stealing and what is the remedy regarding those pretending to need to steal when really it is a form of attack sometimes chosen out of necessarily.what is the most powerful moral and good is what I am asking. I think the original creator in the natural original setting state is one of the most powerful good. He is on a top 10 most good list and a top 10 most powerful list. Legal relay what the handlers of the Original Creator that my Main Spirit Guides indicated in the light indicated in regards to this sentence.<br><br>Themes:<br>#Spirituality #love #Music <br>#KingKong #Gangsters #Stationary #Earth #HadEnough #ClassicArchetypesOfGoodThatHadEnough #Local <br>#Guardians #GoodSpirituality #Rehabilitation #RehabilitationOfSelf #Music #HeartSong #ConnectingWithTheSpirit #Communion #Gaming #Content #TheChosneOneInTheMix #FacilitationOfGoodExperiencesThatGetsWorkDoneBetter #Hence #</div>
+
+
+</div></body></html>
