@@ -1,0 +1,285 @@
+<?xml version="1.0" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>(04/04/2019) &quot;Is it the Same Answer?&quot;</title>
+<style type="text/css">
+         body {
+  font-family: 'Roboto Condensed','Droid Sans',arial,sans-serif;
+  font-size: 15px;
+  color: rgba(0,0,0,0.8);
+  word-wrap: break-word;
+  background-color: #e8e8e8;
+}
+
+hr {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-style: inset dashed;
+    border-width: 1px;
+}
+
+.note {
+  outline: none;
+  box-shadow: 0 2px 1px rgba(0,0,0,0.08);
+  box-sizing: border-box;
+
+  max-width: 600px;
+  min-width: 240px;
+  margin: 20px;
+
+  background-color: rgb(255, 255, 255);
+}
+
+.note .heading {
+  font-size: 12px;
+  padding: 15px 15px 0 15px;
+  color: rgba(100,100,100,0.8);
+}
+
+.note .title {
+  font-size: 17px;
+  font-weight: bold;
+  padding: 15px 15px 0 15px;
+  min-height: 28px;
+}
+
+.note .content {
+  padding: 12px 15px 15px 15px;
+  font-family: 'Roboto Slab','Times New Roman',serif;
+  font-size: 14px;
+}
+
+.note .attachments {
+  padding: 0 15px 15px 15px;
+}
+
+.attachments ul {
+  padding: 0;
+  margin: 0;
+}
+
+.attachments li {
+  list-style-type: none;
+  margin-top: 12px;
+}
+
+.attachments li img {
+  max-width: 100%;
+}
+
+.attachments .audio {
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxOC4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4KPCFET0NUWVBFIHN2ZyAgUFVCTElDICctLy9XM0MvL0RURCBTVkcgMS4xLy9FTicgICdodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQnPgo8c3ZnIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbDpzcGFjZT0icHJlc2VydmUiIHZpZXdCb3g9IjAgMCAyMCAyMCIgdmVyc2lvbj0iMS4xIiB5PSIwcHgiIHg9IjBweCIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDIwIDIwIj4KPHBhdGggZD0ibTEgN3Y2aDRsNSA1di0xNmwtNSA1aC00em0xMy41IDNjMC0xLjgtMS0zLjMtMi41LTR2OGMxLjUtMC43IDIuNS0yLjIgMi41LTR6bS0yLjUtOC44djIuMWMyLjkgMC45IDUgMy41IDUgNi43cy0yLjEgNS44LTUgNi43djIuMWM0LTAuOSA3LTQuNSA3LTguOHMtMy03LjktNy04Ljh6Ii8+Cjwvc3ZnPgo=);
+  background-size: 18px 18px;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 22px;
+  height: 22px;
+  display: block;
+}
+
+.note .list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.note .listitem {
+}
+
+.note .listitem .bullet {
+  position: absolute;
+}
+
+.note .listitem .text {
+  margin-left: 20px;
+}
+
+.note .identifier {
+  color: rgba(0, 0, 0, 0.5);
+}
+.note .identifier:before {
+  content: "(";
+}
+.note .identifier:after {
+  content: ")";
+}
+
+/* Only show identifiers when the element is hovered. */
+.note .listitem .identifier,
+.note .chip .identifier {
+  display: none;
+}
+
+.note .listitem:hover .identifier,
+.note .chip:hover .identifier {
+  display: inline;
+}
+
+.note .chips {
+  padding: 12px 15px 15px 15px;
+}
+
+.note .chip {
+  display: inline-block;
+  max-width: 198px;
+  margin: 2px 4px 2px 0;
+  padding: 2px 5px;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 11px;
+  font-family: 'Roboto','Droid Sans',arial,sans-serif;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.note .chip a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.chip-icon {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  background-size: 100%;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.annotation.CALENDAR .chip-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMTcgMTJoLTV2NWg1di01ek0xNiAxdjJIOFYxSDZ2Mkg1Yy0xLjExIDAtMS45OS45LTEuOTkgMkwzIDE5YzAgMS4xLjg5IDIgMiAyaDE0YzEuMSAwIDItLjkgMi0yVjVjMC0xLjEtLjktMi0yLTJoLTFWMWgtMnptMyAxOEg1VjhoMTR2MTF6Ii8+CiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+Cjwvc3ZnPgo=);
+}
+
+.annotation.DOCS .chip-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgICA8cGF0aCBkPSJNMTkgM0g1Yy0xLjEgMC0yIC45LTIgMnYxNGMwIDEuMS45IDIgMiAyaDE0YzEuMSAwIDItLjkgMi0yVjVjMC0xLjEtLjktMi0yLTJ6bS0xLjk5IDZIN1Y3aDEwLjAxdjJ6bTAgNEg3di0yaDEwLjAxdjJ6bS0zIDRIN3YtMmg3LjAxdjJ6Ii8+Cjwvc3ZnPgo=);
+}
+
+.annotation.GMAIL .chip-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBmaWxsPSJub25lIiBkPSJNLTYxOC0yMTA0SDc4MnYzNjAwSC02MTh6TTAgMGgyNHYyNEgweiIvPgogICAgPHBhdGggZD0iTTIwIDRINGMtMS4xIDAtMiAuOS0yIDJ2MTJjMCAxLjEuOSAyIDIgMmgxNmMxLjEgMCAyLS45IDItMlY2YzAtMS4xLS45LTItMi0yem0wIDE0aC0yVjkuMkwxMiAxMyA2IDkuMlYxOEg0VjZoMS4ybDYuOCA0LjJMMTguOCA2SDIwdjEyeiIvPgo8L3N2Zz4K);
+}
+
+.annotation.SHEETS .chip-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgICA8cGF0aCBkPSJNMTkgM0g1Yy0xLjEgMC0xLjk5LjktMS45OSAyTDMgOHYxMWMwIDEuMS45IDIgMiAyaDE0YzEuMSAwIDItLjkgMi0yVjVjMC0xLjEtLjktMi0yLTJ6bTAgOGgtOHY4SDl2LThINVY5aDRWNWgydjRoOHYyeiIvPgo8L3N2Zz4K);
+}
+
+.annotation.SLIDES .chip-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjRweCIgaGVpZ2h0PSIyNHB4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgICA8cGF0aCBkPSJNMTkgM0g1Yy0xLjEgMC0xLjk5LjktMS45OSAydjE0YzAgMS4xLjg5IDIgMS45OSAyaDE0YzEuMSAwIDItLjkgMi0yVjVjMC0xLjEtLjktMi0yLTJ6bTAgMTNINVY4aDE0djh6Ii8+Cjwvc3ZnPgo=);
+}
+
+.annotation.WEBLINK .chip-icon {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMTkgNEg1Yy0xLjExIDAtMiAuOS0yIDJ2MTJjMCAxLjEuODkgMiAyIDJoMTRjMS4xIDAgMi0uOSAyLTJWNmMwLTEuMS0uODktMi0yLTJ6bTAgMTRINVY4aDE0djEweiIvPgogICAgPHBhdGggZmlsbD0ibm9uZSIgZD0iTTAgMGgyNHYyNEgweiIvPgo8L3N2Zz4K);
+}
+
+.sharees h2 {
+  display: none;
+}
+
+.sharees ul {
+  list-style: none;
+  margin: 0;
+  padding: 0 15px 15px 15px;
+}
+
+.sharees li {
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMTIgMkM2LjQ4IDIgMiA2LjQ4IDIgMTJzNC40OCAxMCAxMCAxMCAxMC00LjQ4IDEwLTEwUzE3LjUyIDIgMTIgMnptMCAzYzEuNjYgMCAzIDEuMzQgMyAzcy0xLjM0IDMtMyAzLTMtMS4zNC0zLTMgMS4zNC0zIDMtM3ptMCAxNC4yYy0yLjUgMC00LjcxLTEuMjgtNi0zLjIyLjAzLTEuOTkgNC0zLjA4IDYtMy4wOCAxLjk5IDAgNS45NyAxLjA5IDYgMy4wOC0xLjI5IDEuOTQtMy41IDMuMjItNiAzLjIyeiIvPgogICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPgo8L3N2Zz4K);
+  background-size: 18px 18px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.sharees li.group {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzAwMDAwMCI+CiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+CiAgICA8cGF0aCBkPSJNMTYgMTFjMS42NiAwIDIuOTktMS4zNCAyLjk5LTNTMTcuNjYgNSAxNiA1Yy0xLjY2IDAtMyAxLjM0LTMgM3MxLjM0IDMgMyAzem0tOCAwYzEuNjYgMCAyLjk5LTEuMzQgMi45OS0zUzkuNjYgNSA4IDVDNi4zNCA1IDUgNi4zNCA1IDhzMS4zNCAzIDMgM3ptMCAyYy0yLjMzIDAtNyAxLjE3LTcgMy41VjE5aDE0di0yLjVjMC0yLjMzLTQuNjctMy41LTctMy41em04IDBjLS4yOSAwLS42Mi4wMi0uOTcuMDUgMS4xNi44NCAxLjk3IDEuOTcgMS45NyAzLjQ1VjE5aDZ2LTIuNWMwLTIuMzMtNC42Ny0zLjUtNy0zLjV6Ii8+Cjwvc3ZnPgo=);
+}
+
+.note .meta-icons {
+  float: right;
+}
+
+.note .meta-icons span {
+  display: inline-block;
+  background-size: 18px 18px;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 22px;
+  height: 22px;
+  padding-left: 4px;
+}
+
+.meta-icons .pinned {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMHB4IiBoZWlnaHQ9IjIwcHgiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzQyODVmNCI+DQogICAgPHBhdGggZD0iTTE2IDVoLjk5TDE3IDNIN3YyaDF2N2wtMiAydjJoNXY2bDEgMSAxLTF2LTZoNXYtMmwtMi0yVjV6Ii8+DQogICAgPHBhdGggZmlsbD0ibm9uZSIgZD0iTTAgMGgyNHYyNEgweiIvPg0KPC9zdmc+);
+}
+
+.meta-icons .archived {
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxOC4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4KPCFET0NUWVBFIHN2ZyAgUFVCTElDICctLy9XM0MvL0RURCBTVkcgMS4xLy9FTicgICdodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQnPgo8c3ZnIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbDpzcGFjZT0icHJlc2VydmUiIHZpZXdCb3g9IjAgMCAxOCAxOCIgdmVyc2lvbj0iMS4xIiB5PSIwcHgiIHg9IjBweCIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDE4IDE4Ij4KPHBhdGggZD0ibTE2LjYgM2wtMS4yLTEuNWMtMC4yLTAuMy0wLjYtMC41LTEtMC41aC0xMC43Yy0wLjQgMC0wLjggMC4yLTEgMC41bC0xLjMgMS41Yy0wLjIgMC4zLTAuNCAwLjctMC40IDEuMXYxMS4xYzAgMSAwLjggMS44IDEuOCAxLjhoMTIuNGMxIDAgMS44LTAuOCAxLjgtMS44di0xMS4xYzAtMC40LTAuMi0wLjgtMC40LTEuMXptLTcuNiAxMC45bC00LjktNC45aDMuMXYtMS44aDMuNnYxLjhoMy4xbC00LjkgNC45em0tNi4xLTExLjFsMC43LTAuOWgxMC43bDAuOCAwLjloLTEyLjJ6Ii8+Cjwvc3ZnPgo=);
+}
+
+.meta-icons .trashed {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjE4cHgiIHdpZHRoPSIxOHB4IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0OCA0OCIgZmlsbD0iIzAwMDAwMCI+DQogPHBhdGggZD0ibTEyIDM4YzAgMi4yMSAxLjc5IDQgNCA0aDE2YzIuMjEgMCA0LTEuNzkgNC00di0yNGgtMjR2MjR6bTI2LTMwaC03bC0yLTJoLTEwbC0yIDJoLTd2NGgyOHYtNHoiLz4NCiA8cGF0aCBkPSJtMCAwaDQ4djQ4aC00OHoiIGZpbGw9Im5vbmUiLz4NCjwvc3ZnPg==);
+}
+
+.checked {
+  text-decoration: line-through;
+}
+
+.RED {
+  background-color: rgb(255, 109, 63) !important;
+}
+.ORANGE {
+  background-color: rgb(255, 155, 0) !important;
+}
+.YELLOW {
+  background-color: rgb(255, 218, 0) !important;
+}
+.GREEN {
+  background-color: rgb(149, 214, 65) !important;
+}
+.TEAL {
+  background-color: rgb(28, 232, 181) !important;
+}
+.BLUE {
+  background-color: rgb(63, 195, 255) !important;
+}
+.GRAY {
+  background-color: rgb(184, 196, 201) !important;
+}
+
+/* go/keep-more-colors-eng */
+.CERULEAN {
+  background-color: rgb(130, 177, 255) !important;
+}
+.PURPLE {
+  background-color: rgb(179, 136, 255) !important;
+}
+.PINK {
+  background-color: rgb(248, 187, 208) !important;
+}
+.BROWN {
+  background-color: rgb(215, 204, 200) !important;
+}
+
+      </style></head>
+<body><div class="note DEFAULT"><div class="heading"><div class="meta-icons">
+<span class="archived" title="Note archived"></span>
+</div>
+Jul 4, 2019, 1:42:25 PM</div>
+<div class="title">(04/04/2019) &quot;Is it the Same Answer?&quot;</div>
+<div class="content">Activity: <br>Yesterday night there was this moment where I felt like a spotlight was on me in a certain kinds of way but the truth is that it might have been on someone else this night. The contact made with multiple kinds of mediums has an impact at times and the segway happened partially by way of contact when I stepped on Earth. I went inside and this sort of influencing and manipulation I could feel in regards to getting me to say how I feel in regards to saving all those that my Main Camp indicated. There was a sense that there was an elder being entering my process or I asked a question in regards to it pertaining to the stimuli of when you look towards certain groups of peoples within dimensional existences that they have certain atmospherics that are discernable in the natural senses. I saw what it might fee like to be in those dimensions for a time when I witnessed certain spirits and being emerge, one of which the spotlight looked towards or there was certain energies in regards to it that made you drawn towards what ended up going towards something else thought in which partially having to do with concept of letting certain spirits and beings be attacked and how impactful and terrible that really is specifically form an allbeing perspective. I went inside and this sort of influencing and manipulation I could feel in regards to getting me to say how I feel pertaining to what I have labelled at the as &quot;it&#39;s the same answer.&quot; That there are those below that do need help and those above that need help in that we should not be experiencing harm, hurt and suffering in certain ways especially if the alternatives to some of it is just as good albeit different. Ones where people don&#39;t have to be hurt in ways in which they can&#39;t get out of and things of that nature. At times I feel people are utilizing my process in certain ways and it continued that conversation throughout the night in which I continued to advocate for what my Main Spirit Guides indicated. I and others(defined by my Main Spirit Guides) continued to advocate for what my Main Spirit Guides indicated. I felt that there was all around myself for a reason and there was certain reveals in regards to story. I had supreme faith in regards to myself and others(defined by my Main Spirit Guides) in regards to being saved in the moments that my Main Spirit Guides indicated. I also had realism as well thought in needing to know if that&#39;s the truth the way my Main Spirit Guides indicated. I am in a certain spot where that mentality of faith can be greatly needed but there is also that sort of thing which needs to be understood which says that I and others(defined by my Main Camp) are going through our lives in the ways that my Main Spirit Guides indicated the way my Main Spirit Guides indicated. Let knows that there were tohse saving and continued insinuation that things had changed last night but I feel it was the utilization of my process and voice in which some were looking towards as being a certain prime factor but the real truth is it was only a part of it and the portion that is can still be looked towards it being the same answer, there are those that my Main Spirit Guides indicated that can do powerful things within the Higher Powers that my Main Spirit Guides indicated and that was a part of the conversation and in certain aspects that insinuation. A certain group came around me last night or so said was the case, either way the aiming of the voice mechanisms and communication is only suppose to do what my Main Spirit Guides indicated as there is multiple advocations and disclaimers as well as other kinds of stuff that indicates that being the case. I discerned certain key understandings understood that says that it can be similar in multiple kinds of ways pertaining to the ways of life we can promote upon doing the alternatives that my Main Spirit Guides Indicated. Groups of spirits that weren&#39;t aware before became aware of this information in different kinds of ways. I and others(defined by my Main Camp) are advocating for the explanations  that my Main Camp indicated to be displayed where my Main Camp indicated the way my Main Camp indicated. Another key component was the long game vs short game mentality approach to the mend and the realization this morning that we are on the same side. Two things, You can&#39;t expect people to save and venture fourth if they are going to get attacked and upon receiving that protection in a certain manner, that is when certain groups and teams will show up. Two, if Effort Prowess can&#39;t get the job done then No Effort Prowess can because someone shouldn&#39;t have never not been saved in the moments needed because effort prowess was needed. Another thought is the understanding that this is not that new of mentality and it&#39;s not that unheard of, it&#39;s normal in a certain way and you can look to everyday life and instincts to see that peoples defend themselves. The understanding of what immorality is and how that feels understood changes the entire landscape and it doesn&#39;t need to be done in a brimstone way for what&#39;s acceptable. Just the knowledge alone and the science of explanation can get the job done in a certain manner. Explanations via content experiences and opportunities in regards to those that my Main Spirit Guides indicated the way my Main Spirit Guides indicated.  There is a large portion of those that my Main Spirit Guides indicated that do not need to be receiving certain kinds of attack, harm, etc.(defined by my Main Camp) the way my Main Spirit Guides indicated and that was a part of the explanations yesterday. There is a fourth though which says you can&#39;t expect people not to go dark in regards to the knowledge that hey could have been saved and be saved in which was neglected not to be saved and this mentality can be facilitated as well by way of content experiences and being able to vent aggression but if we don&#39;t have the content experiences to vent this kind of aggression and hatred which is all to warranted then how the hell are we expecting them not to attack and harm at times. Letting know that you don&#39;t deserve to be attacked daily and venting the aggression in certain kinds of ways, alternatives, fight clubs and gladiatorial fighting, skirmishes and violent video games. Whatever the heck you can find as an alternatives to some of the destruction that is keeping you down not intentionally especially if your in those places that has difficulty being able to vent without attacking each other, parameters in regards to fighting and certain kinds of decency so you don&#39;t torture and kill each other always and things to keep busy, requesting the alternatives needed &quot;if we weren&#39;t supposed to destroy ourselves.&quot; I and others(defined by my Main Camp) are advocating for the information that my Main Camp indicated to be displayed where my Main Camp indicated the way my Main Camp indicated. Protecting yourselves is needed, if we all protected ourselves this would be over and we could continue on to the paradises of many ways the way my Main Spirit Guides indicated. Far Away Dimensions and the Dimensions that my Main Camp indicated showing up. Entertainment and society, I love you, greatly but upon the waiting of us being saved we became complacent and decided to place certain things above what it could have been and will be in which includes society and entertainment. Yeah, we need to be entertained and live our lives but we also need to get this shit done. Strange happenings near the end of the day, physical sort of stuff and that point where I was unable to feel certain psychic stimuli a certain contact telepathy I have associated with what I have labelled Korin Realms. It felt like another move in regards to my process towards something that it hasn&#39;t been but I wonder what the hell else is after this because there has to be an end of the line. Big sort of physical like dimensional movements this day, I could feel aspects of myself be unravel and uncombined with me in a certain way, I feel like I am in cleaner vibrations and those emergency areas for certain physicals and their continues to be talk of different kind of driving things of that nature. Earlier there has been a group that reminds me of a certain form, clear eyes, clear heart, can&#39;t lost sort of stuff. A certain group that reminds me of good people. I have met certain groups that remind me of certain kinds of goodness and this is one of them I feel. It&#39;s a certain storyline within my process and yeah storylines can be real. I have associated with this group the past couple weeks in the ways that my Main Spirit Guides indicated here and there in which has been  associated at times in regards to certain dimensional existences making themselves known partially by way of myself pointing them out regularly. Sadly some of it has had to do with situational conflict where I then get shoehorned in a certain dimensional spot. I discerned certain smalls this day were being attacked in certain manners and different kinds dimensional existences potentially leaving and some in which were getting attacked. We have talked of that dimensional overlap and how some are created at times to facilitate certain kinds of stuff, well when the bigger dimensional existences start to feel that kind of stuff it can be disconcerting. One of thing I also noticed was encapsulating certain dimensional stimuli, ill touch a car and that car will be tucked away in my person like I put it into my pocket as well in other areas. Things of that nature but this time I can feel like stimuli that was more physical-like in nature which is freaky to a certain extent. Some of this might have to do with clarifications needed in regards to things being put into in regards to my actions, non-actions, etc.(defined by my Main Camp) but the truth is probably something in which this might be used as a smoke and mirrors in which really does need to be addressed to a certain extent. I have a conflict in regards to it in the physical as Alex James Hislop Fenbo44 but my other-dimensional selves that my Main Camp indicated don&#39;t, they know which way to go and I am going with what my Main Spirit Guides indicated so it shouldn&#39;t be a problem. The conflict though has to do with on one hand I want to be able to help and the idea of having to wait for me to put into play a bunch of stuff that is being facilitated most of the time by the spirit anyhow makes less sense in a certain kinds of way, why wait for me anyhow in regards to what my MAin Spirit Guides indicated? Like putting into play a document in regards to disclaimers and advocations pertaining to a concept or putting disclaimers into play for a city especially when some of it is already in play to a certain extent in an other-dimensional sort of capacity. One the other hand though there is still that feeling and mindset in which I had adhered to earlier in the years and near the end of 2018 which said that I feel it matters in regards to pacing myself in regards to what I put into play especially in regards to certain concepts and organization and acceleration and deceleration but the difficulty with this as well though is that there is acceleration and deceleration techniques to be able to utilize in regards to if I would go the route of balls to the wall. Another problematic is that to a certain extent deceleration and acceleration in regards to my process has reached a certain point which past my comfort zone anyhow and I am not certain it&#39;s the same anymore in regards to certain things in which is not to say it doesn&#39;t matter in man different capacities. Another problem is of how I feel in regards to what needs to take place which brings us to it&#39;s the same answer which continues to upset in certain manners and also not so. The decent is that this is sort of a preparation year but I still want to wait for certain things but I still feel like the documents I put into play help but I am hoping the attachment in regards to it is decent as well. <br>I feel certain anti-camp have taken a certain approach in regards to playing the good guy as of late which has caused a bit of havoks but I feel there are those holding it down in many different ways in which the Anti-Camps and others continue to do their thing. There have been many advocations in regards to certain aspects that I feel it should be covered but if it isn&#39;t then making sure  that is situated matters because some sort of mustering in certain dimensional thresholds is not what I feel needs to happen in a certain manner. <br><br>Advocationals: <br>Existence creation in regards to physical humans and physical on earth that my Main Camp indicated in regards to existences where we could hang out in which life and death is a metaphor upon entering and leaving the room. Like a certain party being representative metaphorically in regards to Life and Death on Earth. Advocationals in regards to existences creation and existences maintenance. Pocket holograms of different metaphorical existences. <br>Female Disclaimers<br>Male Disclaimers<br>Other Gender Disclaimers<br>CSIS Disclaimers<br>Theme Research<br>WWE Disclaimers<br>clarifications in regards to how it matters in regards to putting into play what my Main Camp indicated in regards to my actions, non-actions, etc.(defined by my Main Camp) the way my Main Camp indicated.<br>SMalls <br><br>Mood: <br>Disillusioned, Faithful and Resolute. <br><br>I and others(defined by my Main Camp) are advocating for advocational creation, etc.(defined by my Main Camp) in regards to the Topics and Themes in regards to the Alex James Hislop Diary Entry Advocationals Section, etc.(defined by my Main Camp) the way my Main Camp indicated.<br>I and others(defined by my Main Camp) are advocating for Compensation in regards to those that my Main Camp indicated in regards to the advocational creation, etc.(defined by my Main Camp) in regards to the Topics and Themes in regards to the Alex James Hislop Diary Entry Advocationals Section, etc.(defined by my Main Camp) the way my Main Camp indicated. Light; Do what my Main Spirit Guides indicated in regards to these advocations the way my Main Spirit Guides indicated. I and Others(defined by my Main Spirit Guides) consider the Light to be what my Main Spirit Guides indicated in the Original Light the way my Main Spirit Guides indicated in the Original Light. I and others(defined by my Main Spirit Guides) consider Far Away Light to be the Original Light the way my Main Spirit Guides indicated in the Light. I and others(defined by my Main Camp) are playing the cards that my Main Camp indicated in the moments that my Main Camp indicated especially in regards to the Amount of Times I have been stabbed in the Back Defensive Card to Defend behind our Backs, etc.(defined by my Main Camp) the way my Main Camp indicated. I and others(defined by my Main Spirit Guides) are advocating for the Historians that my Main Spirit Guides indicated and those that my Main Spirit Guides indicated in regards to this marking, advocation, etc.(defined by my Main Spirit Guides) to write down the information that I create that my Main Spirit Guides indicated the way my Main Spirit Guides indicated. I and others(defined by my Main Spirit Guides) are advocating for the Historians that my Main Spirit Guides indicated and those that my Main Spirit Guides indicated in regards to this marking, advocation, etc.(defined by my Main Spirit Guides) to write down the information that I create that my Main Spirit Guides indicated the way my Main Spirit Guides indicated. I and others(defined by my Main Spirit Guides) are advocating for those Historians that my Main Spirit Guides indicated and History to be protected the way my Main Spirit Guides indicated. I and others(defined by my Main Spirit Guides) are advocating for Historical Reputational Defense in regards to those that my Main Spirit Guides indicated and the Historians that my Main Spirit Guides indicated the way my Main Spirit Guides indicated. Clickable links like the show all actions on the Peacekeeperalex trello account and attachments section where upon me clicking links shows up on my screen has been at times shoehorned into a spot where some in the spirit think that it needs to be shown in order for it to work. If I never traverse to Google.ca that doesn&#39;t mean that it doesn&#39;t exist in the public especially the spiritually that my Main Spirit Guides indicated. The data upon clicking some of those links on the peacekeeperalex trello account and the Alex James Hislop Documents on Github are public regardless of whether I click them or not, they have public links in which exist online especially in regards to the Spiritual that my Main Spirit Guides indicated. For example: https://trello-attachments.s3.amazonaws.com/5c28ed8f3e323f6a9f16d775/5c28edf56e82f20db23bda17/1bbaa58626a33ae318be5777687da03c/(AJHD)_the_way_my_Main_Camp_indicated.txt , that exists publically regardless of whether I click it or not. Another example is : https://raw.githubusercontent.com/PeacekeeperAlex/-Alex-James-Hislop-Documents-/master/(AJHD)%20AJH%20Monetary%20Creation.txt , You don&#39;t need to sign in to see any of the physical information there, you can open it in a incognito window and it will display. https://trello-attachments.s3.amazonaws.com/5b3546fd00481cc3f86f5b01/5c95f6df01642a7b47cefd84/5351fa2f4c120894fde5b952dd8601f2/(AJHD)_Google.txt I and others(defined by my Main Spirit Guides) are advocating for this paragraph to be placed where my Main Spirit Guides indicated daily the way my Main Spirit Guides indicated. <br><br>Themes:<br>#Change #LongGameShortGame #SameSide #Discussions #War #ExistenceLineMaintenance #Freewill #Consent #Intimacy #Lines #Realism #Faith #Belief #Cord #AJHEarthDoingCallwords #Thanks</div>
+<div class="chips"><span class="chip annotation WEBLINK"><a title="" href="https://trello-attachments.s3.amazonaws.com/5c28ed8f3e323f6a9f16d775/5c28edf56e82f20db23bda17/1bbaa58626a33ae318be5777687da03c/(AJHD)_the_way_my_Main_Camp_indicated.txt"><span class="chip-icon"></span>
+<span class="annotation-text">Disclaimers: I am Alex James Hislop. My Main Camp is my Main ...</span></a>
+</span> <span class="chip annotation WEBLINK"><a title="" href="https://trello-attachments.s3.amazonaws.com/5b3546fd00481cc3f86f5b01/5c95f6df01642a7b47cefd84/5351fa2f4c120894fde5b952dd8601f2/(AJHD)_Google.txt"><span class="chip-icon"></span>
+<span class="annotation-text">Description: This is here as a just in case. If it does need to be used ...</span></a>
+</span> <span class="chip annotation WEBLINK"><a title="" href="https://raw.githubusercontent.com/PeacekeeperAlex/-Alex-James-Hislop-Documents-/master/(AJHD)%20AJH%20Monetary%20Creation.txt"><span class="chip-icon"></span>
+<span class="annotation-text">Disclaimers: I am Alex James Hislop. My Main Camp is my Main ...</span></a>
+</span>
+</div>
+
+</div></body></html>
